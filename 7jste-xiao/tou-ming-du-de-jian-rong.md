@@ -1,11 +1,3 @@
-#既能获取又能赋值（行内样式）
-- div.style.width                       	单个赋值
-- div.style[“width”]    			变量赋值
-
-
-
-#缓动框架封装（回调函数）
-
 ```javascript
 
 function animate(ele,json,fn){
@@ -20,14 +12,28 @@ function animate(ele,json,fn){
                 //attr == k(键)    target == json[k](值)
                 for(var k in json){
                     //四部
-                    var leader = parseInt(getStyle(ele,k)) || 0;
+                    var leader;
+                    //判断如果属性为opacity的时候特殊获取值
+                    if(k === "opacity"){
+                        leader = getStyle(ele,k)*100 || 1;
+                    }else{
+                        leader = parseInt(getStyle(ele,k)) || 0;
+                    }
+
                     //1.获取步长
                     var step = (json[k] - leader)/10;
                     //2.二次加工步长
                     step = step>0?Math.ceil(step):Math.floor(step);
                     leader = leader + step;
                     //3.赋值
-                    ele.style[k] = leader + "px";
+                    //特殊情况特殊赋值
+                    if(k === "opacity"){
+                        ele.style[k] = leader/100;
+                        //兼容IE678
+                        ele.style.filter = "alpha(opacity="+leader+")";
+                    }else{
+                        ele.style[k] = leader + "px";
+                    }
                     //4.清除定时器
                     //判断: 目标值和当前值的差大于步长，就不能跳出循环
                     //不考虑小数的情况：目标位置和当前位置不相等，就不能清除清除定时器。
@@ -50,17 +56,4 @@ function animate(ele,json,fn){
         }
 
 
-
-
-        //兼容方法获取元素样式
-        function getStyle(ele,attr){
-            if(window.getComputedStyle){
-                return window.getComputedStyle(ele,null)[attr];
-            }
-            return ele.currentStyle[attr];
-        }
-
 ```
-
-
-#JS一般不用小数运算，小数运算会造成精度丢失。
