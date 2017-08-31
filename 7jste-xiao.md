@@ -61,3 +61,6 @@ function animate(ele,json,fn){
         }
 
 ```
+
+
+# JS一般不用小数运算，小数运算会造成精度丢失。
