@@ -1,6 +1,23 @@
 ```javascript
 
-function animate(ele,json,fn){
+<button>运动到400然后回来</button>
+    <div></div>
+
+
+    <script>
+
+        var btnArr = document.getElementsByTagName("button");
+        var div = document.getElementsByTagName("div")[0];
+
+        btnArr[0].onclick = function () {
+            var json1 = {"left":300,"top":200,"width":300,"height":200,"opacity": 30};
+            animate(div,json1);
+        }
+
+
+
+        //参数变为3个
+        function animate(ele,json,fn){
             //先清定时器
             clearInterval(ele.timer);
             ele.timer = setInterval(function () {
@@ -55,5 +72,18 @@ function animate(ele,json,fn){
             },25);
         }
 
+
+
+
+        //兼容方法获取元素样式
+        function getStyle(ele,attr){
+            if(window.getComputedStyle){
+                return window.getComputedStyle(ele,null)[attr];
+            }
+            return ele.currentStyle[attr];
+        }
+
+
+    </script>
 
 ```
