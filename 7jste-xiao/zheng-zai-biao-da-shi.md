@@ -46,3 +46,4 @@ console.log(/[A-Z]/.test('aa'));
 `console.log(/[a-m1-5]/.test("b"))//true`
 
 
+#正则边界
