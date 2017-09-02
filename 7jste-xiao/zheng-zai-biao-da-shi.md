@@ -47,3 +47,15 @@ console.log(/[A-Z]/.test('aa'));
 
 
 #正则边界
+^ 会匹配行或者字符串的起始位置
+注：^在[]中才表示非！这里表示开始
+$ 会匹配行或字符串的结尾位置
+^$在一起 表示必须是这个（精确匹配）
+// 边界可以精确说明要什么
+```
+console.log(/lily/.test("lilyname")); // true
+console.log(/^lily$/.test("lily"));  // true
+console.log(/^lily$/.test("ly"));   // false
+console.log(/^andy$/.test("andy"));  // true
+```
+这个的最终意思就是说，必须是 andy 这四个字母
