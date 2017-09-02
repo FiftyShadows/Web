@@ -4,4 +4,6 @@
 
 #由普通字符和元字符组成
 
-1. 内置对象法，var reg1 = new RegExp();
+1. 内置对象法，var reg1 = new RegExp(/abc/);
+
+1. 字面量  var reg2 = /def/;
