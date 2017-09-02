@@ -31,9 +31,6 @@ array.shift()删除最前边一位
 
 ```javascript
 
-/**
- * Created by Lenovo on 2016/9/13.
- */
 window.onload = function () {
     var arr = [
         {   //  1
@@ -125,3 +122,5 @@ window.onload = function () {
     }
 
 }
+
+```
