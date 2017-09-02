@@ -12,3 +12,8 @@
 
 - reg2.test("def");
 - /abc/.test("abac");
+
+
+***
+
+#五大内部类
