@@ -11,3 +11,4 @@
 #正则表达式有一个方法test(),检测字符串是否符合该规则。返回true或false。
 
 - reg2.test("def");
+- /abc/.test("abac");
