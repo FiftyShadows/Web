@@ -10,7 +10,7 @@
         var div = document.getElementsByTagName("div")[0];
 
         btnArr[0].onclick = function () {
-            var json1 = {"left":300,"top":200,"width":300,"height":200,"opacity": 30};
+            var json1 = {"left":300,"top":200,"width":300,"height":200,"opacity": 30,"zIndex": 1};
             animate(div,json1);
         }
 
@@ -48,6 +48,10 @@
                         ele.style[k] = leader/100;
                         //兼容IE678
                         ele.style.filter = "alpha(opacity="+leader+")";
+                    //如果是层级，一次行赋值成功，不需要缓动赋值
+                        //为什么？需求！
+                    }else if(k === "zIndex"){
+                        ele.style.zIndex = json[k];
                     }else{
                         ele.style[k] = leader + "px";
                     }
