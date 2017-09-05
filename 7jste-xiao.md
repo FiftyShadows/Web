@@ -2,6 +2,14 @@
 - div.style.width                       	单个赋值
 - div.style[“width”]    			变量赋值
 
+获取属性值：（只能获取）
+- div.currentStyle.width;   IE678		单个获取
+- window.getComputedStyle(div,null).width;
+- div.currentStyle[“width”];   IE678		变量获取
+- window.getComputedStyle(div,null)[“width”];
+      参数1：获取属性的元素。参数2：伪元素，C3学习。
+
+
 
 
 #缓动框架封装（回调函数）
