@@ -10,5 +10,5 @@
   * [scroll](7jste-xiao/scroll.md)
 * [轮播图（焦点图）](lun-bo-tu-ff08-jiao-dian-tu-ff09.md)
   * [滑动焦点图](lun-bo-tu-ff08-jiao-dian-tu-ff09/hua-dong-jiao-dian-tu.md)
-* 8.jQuery
+* [8.jQuery](8jquery.md)
 
