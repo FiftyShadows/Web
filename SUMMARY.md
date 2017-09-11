@@ -12,4 +12,5 @@
   * [滑动焦点图](lun-bo-tu-ff08-jiao-dian-tu-ff09/hua-dong-jiao-dian-tu.md)
 * [8.jQuery](8jquery.md)
   * [1](8jquery/1.md)
+  * [2](8jquery/2.md)
 
