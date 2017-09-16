@@ -13,4 +13,5 @@
 * [8.jQuery](8jquery.md)
   * [1](8jquery/1.md)
   * [2](8jquery/2.md)
+* [JS汇总](jshui-zong.md)
 
