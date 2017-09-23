@@ -15,4 +15,5 @@
   * [2](8jquery/2.md)
   * [3](8jquery/3.md)
 * [JS汇总](jshui-zong.md)
+* [JS面试技巧](jsmian-shi-ji-qiao.md)
 
