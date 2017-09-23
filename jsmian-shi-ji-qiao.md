@@ -29,7 +29,7 @@
 ###typeof 判断对象的类型  返回值是string类型的  
 引用类型中，除了function其他的对象都是object类型    
     
-```    
+```  javascript  
  typeof undefined     //undefined 
  typeof 'abc'         //string
  typeof 123           //number
@@ -38,7 +38,7 @@
  typeof []            //object
  typeof null          //object 
  typeof console.log   //function
-    
+```    
     
     
     
