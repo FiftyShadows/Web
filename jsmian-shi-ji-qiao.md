@@ -53,6 +53,9 @@
   null == undefined         //true 
 
   * if语句  
+  var a = trye;
+  var b = 100;
+  var c ='';
   
   * 逻辑运算  
     
