@@ -69,7 +69,7 @@
   * 逻辑运算  
  console.log(10 && 0)       //0
  console.log('' || 'abc')   //'abc'
-    
+ console.log(!window.abc)   //true
     
     
     
