@@ -53,7 +53,7 @@
   null == undefined         //true 
 
   * if语句  
-  var a = trye;
+  var a = true;
   var b = 100;
   var c ='';
   
