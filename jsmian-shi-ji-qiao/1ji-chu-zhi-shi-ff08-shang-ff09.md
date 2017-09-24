@@ -129,9 +129,13 @@ JSON.parse('{"a":10,"b":20}');字符串转换成对象
     
 ###构造函数    
     
+- var a = {} 其实是 var a = new Object()的语法糖 
+
+- var a = [] 其实是 var a = new Array()的语法糖
+
+- function Foo(){...} 其实是 var Foo = new Function(...)
     
-    
-    
+- 使用instanceof判断一个函数是否是一个变量的构造函数    
     
     
     
