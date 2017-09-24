@@ -87,8 +87,17 @@ if(obj.a == null){
     
     
     
-    
-    
+###JS中的内置函数    
+
+Object
+Array
+Boolean
+Number
+String
+Function
+Date
+RegExp
+Error    
     
     
     
