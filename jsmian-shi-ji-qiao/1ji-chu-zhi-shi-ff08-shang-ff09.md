@@ -112,9 +112,13 @@ Error
     
     
     
-    
-    
-    
+###如何理解JSON
+
+JSON只不过是一个JS对象而已 
+
+JSON.stringify({a:10,b:20});对象转换成字符串
+
+JSON.parse('{"a":10,"b":20}');字符串转换成对象
     
     
     
