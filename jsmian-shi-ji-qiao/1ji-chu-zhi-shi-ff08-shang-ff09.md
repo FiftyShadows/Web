@@ -176,10 +176,18 @@ for (item in f){
 var arr = [];
 arr instanceof Array;         //true                                                                      
                                                                                   
-                                                                                     
-                                                                                        
-                                                                                           
-                                                                                              
+####写一个原型链继承的例子
+
+                                                                                
+                                                                                                                                                                
+####描述 new 一个对象的过程    
+                                                                                                                                                                                                                            - 创建一个新对象 
+                                                                                                                                                                                                                            
+- this 指向一个新对象                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                                                                                                                                                                                                                                                                                                                                                                                                                
+- 执行代码，即对 this 赋值                                                                                        
+
+- 返回 this                                                                                                                                                                                                                                                                                                                                                                                  
                                                                                                  
                                                                                                     
                                                                                                        
