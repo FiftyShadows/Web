@@ -190,7 +190,7 @@ arr instanceof Array;         //true
 - 返回 this                                                                                                                                                                                                                                                                                                                                                                                  
                                                                                                  
                                                                                                     
-                                                                                                       
+####zepto(或其他框架) 源码中如何使用原型链                                                                                                       
                                                                                                           
                                                                                                              
                                                                                                                 
