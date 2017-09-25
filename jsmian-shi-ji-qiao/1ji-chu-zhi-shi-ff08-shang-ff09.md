@@ -154,9 +154,16 @@ JSON.parse('{"a":10,"b":20}');字符串转换成对象
                                   
 5. 当试图得到一个对象的某个属性时，如果这个对象本身没有这个属性，那么会去它的__proto__(即它的构造函数的prototype)中寻找。                                 
                                         
-                                           
+循环对象自身的属性                                           
                                               
-                                                 
+var item
+for (item in f){
+    //高级浏览器已经在 for in 中屏蔽了来自原型的属性
+    //但是这里建议大家还是加上这个判断，保证程序的健壮性
+    if(f.hasOwnPrototype(item)){
+        console.log(item)
+    }
+}                                                 
                                                     
                                                        
                                                           
