@@ -175,10 +175,41 @@ for (item in f){
                                                                             
 var arr = [];
 arr instanceof Array;         //true                                                                      
+ 
                                                                                   
+                                                                                                                                                                                                                                                    
 ####写一个原型链继承的例子
+```javascript
+function Elem(id){
+	this.elem = document.getElementById(id);
+}
+
+Elem.prototype.html = function (val){
+	var elem = this.elem;
+	if(val){
+		elem.innerHTML = val;
+		return this;
+	}else{
+		return elem.innerHTML;
+	}
+}
+
+Elem.prototype.on = function (type,fn){
+	var elem = this.elem;
+	elem.addEventListener(type,fn);
+	return this;
+}
+
+var div1 = new Elem("div1");
+
+div1.html("<p>hello</p>")on("click",function (){
+	alert("clicked");
+});
+```
 
                                                                                 
+                                                                                                                                                                
+                                                                                                                                                                                                                                                                                                                                
                                                                                                                                                                 
 ####描述 new 一个对象的过程    
                                                                                                                                                                                                                             - 创建一个新对象 
