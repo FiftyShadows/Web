@@ -174,7 +174,7 @@ for (item in f){
 ####如何准确判断一个变量是数组类型                                                                         
                                                                             
 var arr = [];
-arr instanceof Array;                                                                               
+arr instanceof Array;         //true                                                                      
                                                                                   
                                                                                      
                                                                                         
