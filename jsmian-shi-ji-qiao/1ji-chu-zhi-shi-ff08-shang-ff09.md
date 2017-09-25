@@ -192,7 +192,7 @@ arr instanceof Array;         //true
                                                                                                     
 ####zepto(或其他框架) 源码中如何使用原型链                                                                                                       
                                                                                                           
-                                                                                                             
+- 阅读源码是高效提高技能的方式                                                                                                             
                                                                                                                 
                                                                                                                       
     
