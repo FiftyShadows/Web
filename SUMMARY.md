@@ -16,5 +16,7 @@
   * [3](8jquery/3.md)
 * [JS汇总](jshui-zong.md)
 * [JS面试技巧](jsmian-shi-ji-qiao.md)
-  * [1.基础知识（上）](jsmian-shi-ji-qiao/1ji-chu-zhi-shi-ff08-shang-ff09.md)
+  * [2.基础知识（中）](jsmian-shi-ji-qiao/ji-chu-zhi-shi-ff08-zhong-ff09.md)
+  * [1.](jsmian-shi-ji-qiao/1.md)
+* [1.基础知识（上）](jsmian-shi-ji-qiao/1ji-chu-zhi-shi-ff08-shang-ff09.md)
 
