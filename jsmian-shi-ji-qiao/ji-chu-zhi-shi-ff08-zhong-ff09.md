@@ -54,12 +54,23 @@
     
     - call apply bind
     ```
-    function fn1(name){
+    function fn1(name,age){
         alert(name);
         console.log(this);
     }
-    fn1.call({x:100},'zhangsan');
+    fn1.call({x:100},'zhangsan',20);
+    
+    fn1.apply({x:100},['zhangsan',20]);
+    
+    var fn2 = function (name,age){
+        alert(name);
+        console.log(this);
+    }.bind({y:200});    //只能用函数表达式，不能用函数声明方式    
+    fn2();
+    ```
 
+    
+    
 
 
 ###创建10个`<a>`标签，点击的时候弹出来对应的序号
