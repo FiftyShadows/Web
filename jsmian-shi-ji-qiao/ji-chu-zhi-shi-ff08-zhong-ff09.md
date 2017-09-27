@@ -79,6 +79,24 @@
 
 - JS没有块级作用域（只有全局和函数作用域）
 
+```
+// 无块级作用域
+if (true) {
+    var name = 'zhangsan';
+}
+console.log(name);
+
+//函数和全局作用域
+var a = 100;
+function fn(){
+    var a = 200;
+    console.log('fn',a);
+}
+console.log('global',a);
+fn();
+```
+
+
 ###实际开发中闭包的作用
 
 
