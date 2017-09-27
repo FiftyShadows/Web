@@ -26,14 +26,39 @@
 四个应用场景
 
     - 作为构造函数执行
+    ```
+        function Foo(name){
+            this.name = name;
+        }
+        var f = new Foo();
+    ```
     
     - 作为对象属性执行
+    ```
+    var obj = {
+        name:'A',
+        printName:function(){
+            console.log(this.name);
+        }
+    }
+    obj.printName();
+    ```
     
     - 作为普通函数执行
+    ```
+    function fn(){
+        console.log(this);    //this===window
+    }
+    fn();
+    ```
     
     - call apply bind
-
-
+    ```
+    function fn1(name){
+        alert(name);
+        console.log(this);
+    }
+    fn1.call({x:100},'zhangsan');
 
 
 
