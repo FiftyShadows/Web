@@ -75,6 +75,26 @@
 
 ###创建10个`<a>`标签，点击的时候弹出来对应的序号
 
+```
+var a,i;
+for(i = 0; i <= 10; i++){
+    function(){
+        a = document.createElement("a");
+        a.innerHTML = i;
+        a.addEventListener("click",function(e){
+            e.stopp;
+            alert(i);
+        })
+        document.body.appendChild(a);
+    }
+}
+
+```
+
+
+
+
+
 ###如何理解作用域
 
 ####自由变量
