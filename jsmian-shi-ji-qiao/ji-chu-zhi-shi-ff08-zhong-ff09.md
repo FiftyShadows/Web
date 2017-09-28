@@ -80,7 +80,7 @@ var a,i;
 for(i = 0; i < 10; i++){
     (function (i){
         a = document.createElement("a");
-        a.innerHTML = i;
+        a.innerHTML = i+"<br/>";
         a.addEventListener("click",function(e){
             e.preventDeafault();
             alert(i);
