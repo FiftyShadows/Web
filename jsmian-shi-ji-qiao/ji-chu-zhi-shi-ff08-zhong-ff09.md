@@ -96,7 +96,7 @@ console.log('global',a);
 fn();
 ```
 
-####作用域链
+###作用域链
 
 ```
 var a = 100;
