@@ -78,7 +78,7 @@
 ```
 var a,i;
 for(i = 0; i < 10; i++){
-    function (i){
+    (function (i){
         a = document.createElement("a");
         a.innerHTML = i;
         a.addEventListener("click",function(e){
@@ -86,7 +86,7 @@ for(i = 0; i < 10; i++){
             alert(i);
         })
         document.body.appendChild(a);
-    }(i)
+    })(i)
 }
 
 ```
