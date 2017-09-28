@@ -78,15 +78,15 @@
 ```
 var a,i;
 for(i = 0; i <= 10; i++){
-    function(){
+    function (i){
         a = document.createElement("a");
         a.innerHTML = i;
         a.addEventListener("click",function(e){
-            e.stopp;
+            e.preventDeafault();
             alert(i);
         })
         document.body.appendChild(a);
-    }
+    }(i)
 }
 
 ```
@@ -138,9 +138,9 @@ fn();
 一个函数的父级作用域是它定义时候的作用域。
 
 
-###实际开发中闭包的作用
 
-####闭包
+
+###闭包
 
 ```javascript
 function F1(){
@@ -180,7 +180,9 @@ F2(f1);
 
 
 
+###实际开发中闭包的作用
 
+闭包实际应用中主要用于封装变量，收敛权限
 
 
 
