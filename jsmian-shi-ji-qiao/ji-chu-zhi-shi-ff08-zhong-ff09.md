@@ -116,8 +116,17 @@ fn();
 
 ####闭包
 
-
-
+```
+function F1(){
+    var a = 100;
+    return function (){
+        console.log(a);
+    }
+}
+var f1 = F1();
+var a = 200;
+f1();
+```
 
 
 
