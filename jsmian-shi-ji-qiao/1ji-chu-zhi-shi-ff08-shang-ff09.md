@@ -160,7 +160,7 @@ var item
 for (item in f){
     //高级浏览器已经在 for in 中屏蔽了来自原型的属性
     //但是这里建议大家还是加上这个判断，保证程序的健壮性
-    if(f.hasOwnPrototype(item)){
+    if(f.hasOwnProperty(item)){
         console.log(item)
     }
 }                                                 
