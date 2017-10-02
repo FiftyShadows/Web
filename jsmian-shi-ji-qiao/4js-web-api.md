@@ -46,6 +46,14 @@ JS-Web-API：W3C标准
 
 - DOM操作的常用API有哪些
 
+    - 获取DOM节点，以及节点的property和Atrribute
+    
+    - 获取父节点，获取子节点
+    
+    - 新增节点，删除节点
+    
+
+
 - DOM节点的attr和property有何区别
 
 
