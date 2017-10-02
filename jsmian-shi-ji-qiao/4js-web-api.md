@@ -119,6 +119,9 @@ removeChild()
 
 var ua = navigator.userAgent;
 
+
+
+
 ###screen
 
 
@@ -133,14 +136,6 @@ console.log(location.pathname);
 console.log(location.search);
 
 console.log(location.hash);
-
-
-
-
-
-
-
-
 
 
 
