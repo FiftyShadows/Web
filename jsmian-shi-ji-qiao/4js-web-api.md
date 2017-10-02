@@ -140,13 +140,15 @@ console.log(screen.height);
 
 console.log(location.href);
 
-console.log(location.protocol);
+console.log(location.protocol);    //协议
 
-console.log(location.pathname);
+console.log(location.host);     //域名
 
-console.log(location.search);
+console.log(location.pathname);    //路径
 
-console.log(location.hash);
+console.log(location.search);    //参数
+
+console.log(location.hash);    //#后边
 
 
 
