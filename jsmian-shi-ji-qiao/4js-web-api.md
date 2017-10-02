@@ -141,22 +141,24 @@ console.log(screen.height);
 console.log(location.href);
 
 console.log(location.protocol);    //协议
-
+"http:"
 console.log(location.host);     //域名
-
+"coding.m.imooc.com"
 console.log(location.pathname);    //路径
-
+"/classindex.html"
 console.log(location.search);    //参数
-
+"?cid=99"
 console.log(location.hash);    //#后边
-
+"#mid=100"
 
 
 
 
 ###history
 
+history.back();
 
+history.forward();
 
 
 
