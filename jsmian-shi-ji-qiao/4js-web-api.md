@@ -62,7 +62,11 @@ DOM可以理解为：
 浏览器把拿到的HTML代码。结构化一个浏览器能识别并且JS可操作的一个模型而已。
 
 
+- 获取DOM节点
 
+- prototype
+
+- Attribute
 
 
 
