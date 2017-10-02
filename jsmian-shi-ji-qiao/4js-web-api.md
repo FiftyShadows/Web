@@ -56,6 +56,11 @@ JS-Web-API：W3C标准
 
 - DOM节点的attr和property有何区别
 
+    - property只是一个JS对象的属性的修改
+    
+    - Attribute是对html标签属性的修改
+
+
 
 
 ###DOM的本质
