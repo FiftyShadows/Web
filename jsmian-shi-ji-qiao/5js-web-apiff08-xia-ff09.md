@@ -9,21 +9,23 @@
 
 
 
+###通用事件绑定
+
+```
+function bindEvent(ele,type,fn){
+    ele.addEventListener(type,fn);
+}
+```
 
 
 
+###关于IE低版本的兼容性
 
+- IE低版本使用attachEvent绑定事件，和W3C标准不一样
 
+- IE低版本使用量以非常少，很多网站都早已不支持
 
-
-
-
-
-
-
-
-
-
+- 建议对IE低版本的兼容性：了解即可，无需深究
 
 
 
