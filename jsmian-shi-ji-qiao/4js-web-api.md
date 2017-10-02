@@ -115,7 +115,17 @@ removeChild()
 
 
 
+###navigator
 
+var ua = navigator.userAgent;
+
+###screen
+
+
+###location
+
+
+###history
 
 
 
