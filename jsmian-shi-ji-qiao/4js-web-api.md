@@ -79,7 +79,11 @@ JS对象标准属性
 
 - 获取父节点
 
+parentElement
+
 - 获取子节点
+
+childNodes
 
 - 删除节点
 
