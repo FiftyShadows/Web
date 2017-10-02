@@ -119,14 +119,18 @@ removeChild()
 
 var ua = navigator.userAgent;
 
+var isChrome = us.indexOf('Chrome');
+
+console.log(isChrome);
+
 
 
 
 ###screen
 
-scren.width
+console.log(scren.width);
 
-screen.height
+console.log(screen.height);
 
 
 
