@@ -44,7 +44,9 @@ JS-Web-API：W3C标准
 
 - DOM是哪种基本的数据结构？
 
+- DOM操作的常用API有哪些
 
+- DOM节点的attr和property有何区别
 
 
 
