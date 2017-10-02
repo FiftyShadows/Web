@@ -64,10 +64,11 @@ DOM可以理解为：
 
 - 获取DOM节点
 
-- prototype
+- property
+JS对象标准属性
 
 - Attribute
-
+文档属性
 
 
 
