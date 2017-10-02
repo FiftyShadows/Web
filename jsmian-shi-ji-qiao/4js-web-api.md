@@ -124,6 +124,27 @@ var ua = navigator.userAgent;
 
 ###location
 
+console.log(location.href);
+
+console.log(location.protocol);
+
+console.log(location.pathname);
+
+console.log(location.search);
+
+console.log(location.hash);
+
+
+
+
+
+
+
+
+
+
+
+
 
 ###history
 
