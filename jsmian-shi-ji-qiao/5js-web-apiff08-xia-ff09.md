@@ -27,7 +27,7 @@ function bindEvent(ele,type,fn){
 
 - 建议对IE低版本的兼容性：了解即可，无需深究
 
-
+- 如果遇到对IE低版本要求苛刻的面试，果断放弃
 
 
 
