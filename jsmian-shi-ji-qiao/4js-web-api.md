@@ -83,6 +83,7 @@ JS对象标准属性
 
 - 删除节点
 
+removeChild()
 
 
 
