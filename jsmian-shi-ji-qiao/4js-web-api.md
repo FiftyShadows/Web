@@ -1,3 +1,3 @@
 JS基础知识：ECMP262标准
 
-JS-WEB-API：W3C标准
+JS-Web-API：W3C标准
