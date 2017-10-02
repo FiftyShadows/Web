@@ -124,6 +124,13 @@ var ua = navigator.userAgent;
 
 ###screen
 
+scren.width
+
+screen.height
+
+
+
+
 
 ###location
 
