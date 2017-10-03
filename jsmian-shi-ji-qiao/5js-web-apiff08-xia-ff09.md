@@ -142,9 +142,13 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+###跨域
 
+- 什么是跨域
 
+- JSONP
 
+- 服务器端设置http header
 
 
 
