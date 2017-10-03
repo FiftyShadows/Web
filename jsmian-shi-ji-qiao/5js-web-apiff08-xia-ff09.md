@@ -59,7 +59,7 @@ function bindEvent(elem,type,selector,fn){
 
 - 代码简洁
 
-- 减少浏览器内存的占用
+- 减少浏览器内存占用
 
 
 ###关于IE低版本的兼容性
