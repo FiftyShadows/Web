@@ -155,12 +155,18 @@ function bindEvent(elem,type,selector,fn){
 
     - 但是有三个标签允许跨域加载资源
     
-    - <img src=xxx>
+    - `<img src=xxx>`
     
-    - <link href=xxx>
+    - `<link href=xxx>`
     
-    - <script src=xxx>
+    - `<script src=xxx>`
 
+
+- 三个标签的场景
+
+    - `<img>用于打点统计，统计网站可能是其他域`
+
+    - `<link><script>可以使用CDN，CDN的也是其他域`
 
 
 
