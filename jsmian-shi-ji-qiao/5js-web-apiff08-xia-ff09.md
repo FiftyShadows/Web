@@ -146,6 +146,11 @@ function bindEvent(elem,type,selector,fn){
 
 - 什么是跨域
 
+    - 浏览器有同源策略，不允许ajax访问其他域接口
+
+
+
+
 - JSONP
 
 - 服务器端设置http header
