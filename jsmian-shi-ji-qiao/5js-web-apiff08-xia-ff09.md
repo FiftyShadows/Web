@@ -12,32 +12,30 @@
 ###通用事件绑定
 
 ```
-function bindEvent(ele,type,fn){
-    ele.addEventListener(type,fn);
+function bindEvent(elem,type,fn){
+    elem.addEventListener(type,fn);
 }
 
 ```
 
-
+完善通用绑定事件的函数
 ```
-function bindEvent(ele,type,selector,fn){
+function bindEvent(elem,type,selector,fn){
     if(fn == null){
         fn = selector;
         selector = null;
     }
-    if(!selector){
-        ele.addEventListener(type,function (e){
-            target = e.target
+    elem.addEventListener(type,function (e){
+        var target;
+        if(selector){
+            target = e.target;
             if(target.matches(selector)){
-                 fn.call(selector,e)
+                fn.call(selector,e);
             }
-        });
-
-
-    }else{
-        ele.addEventListener(type,fn);
-
-    }
+        }else{
+            fn(e);
+        }
+    });
 }
 
 ```
@@ -59,6 +57,9 @@ function bindEvent(ele,type,selector,fn){
 “事件代理”即是把原本需要绑定的事件委托给父元素，让父元素担当事件监听的职务。
 
 
+- 代码简洁
+
+- 减少浏览器内存的占用
 
 
 ###关于IE低版本的兼容性
