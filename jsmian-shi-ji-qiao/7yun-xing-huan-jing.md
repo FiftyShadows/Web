@@ -37,6 +37,15 @@
 
 - 浏览器渲染页面的过程
 
+    - 根据html结构生成DOM Tree
+    
+    - 根据CSS生成CSSOM
+    
+    - 将DOM和CSSOM整合形成RenderTree
+    
+    - 根据RenderTree开始渲染和展示
+    
+    - 遇到`<script>`时，会执行并阻塞渲染
 
 
 
