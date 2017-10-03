@@ -147,6 +147,8 @@ function bindEvent(elem,type,selector,fn){
 - 什么是跨域
 
     - 浏览器有同源策略，不允许ajax访问其他域接口
+    
+    - 跨域条件：协议、域名、端口，有一个不同就算跨域
 
 
 
