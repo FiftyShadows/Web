@@ -235,7 +235,13 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+###locationStorage和sessionStorage
 
+- HTML5专门为存储而设计，最大容量5M
+
+- API简单易用：
+
+- locationStorage.setItem(key,value);localStorage.getItem(key);
 
 
 
