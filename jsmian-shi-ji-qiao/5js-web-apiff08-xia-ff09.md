@@ -108,7 +108,7 @@ function bindEvent(elem,type,selector,fn){
 
 ###知识点
 
-- XMLhttpRequest
+- XMLHttpRequest
 
 - 状态码说明
 
