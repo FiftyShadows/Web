@@ -217,7 +217,7 @@ function bindEvent(elem,type,selector,fn){
 
 - 但是它有本地存储的功能，于是就被“借用”
 
-
+- 使用document.cookie=...获取和修改即可
 
 
 
