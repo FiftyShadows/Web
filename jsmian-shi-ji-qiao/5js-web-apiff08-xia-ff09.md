@@ -62,6 +62,9 @@ function bindEvent(elem,type,selector,fn){
 - 减少浏览器内存占用
 
 
+
+
+
 ###关于IE低版本的兼容性
 
 - IE低版本使用attachEvent绑定事件，和W3C标准不一样
