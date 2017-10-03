@@ -184,13 +184,16 @@ function bindEvent(elem,type,selector,fn){
 
 ###JSONP
 
+![](/assets/360截图20171003212654923.jpg)
+
+
 
 
 
 
 ###服务器端设置http header
 
-
+![](/assets/360截图20171003213253756.jpg)
 
 
 
