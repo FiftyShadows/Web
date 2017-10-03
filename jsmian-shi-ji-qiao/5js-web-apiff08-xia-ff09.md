@@ -186,6 +186,8 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+
+
 ###服务器端设置http header
 
 
