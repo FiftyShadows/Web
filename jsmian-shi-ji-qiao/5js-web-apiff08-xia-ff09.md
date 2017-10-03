@@ -109,6 +109,9 @@ function bindEvent(elem,type,selector,fn){
 ###知识点
 
 - XMLHttpRequest
+![](/assets/360截图20171003162014787.jpg)
+
+
 
 - 状态码说明
 
