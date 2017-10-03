@@ -221,6 +221,7 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+
 ###cookie用于存储的缺点
 
 - 存储量太小，只有4kb
