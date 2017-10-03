@@ -112,6 +112,8 @@ function bindEvent(elem,type,selector,fn){
 
 - 状态码说明
 
+- 跨域
+
 
 
 
