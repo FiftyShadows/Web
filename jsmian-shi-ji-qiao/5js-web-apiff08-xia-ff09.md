@@ -202,7 +202,9 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+##题目
 
+- 请描述一下cookie，sessionStorage和localStorage的区别？
 
 
 
