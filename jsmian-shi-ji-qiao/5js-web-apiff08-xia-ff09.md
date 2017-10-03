@@ -17,6 +17,13 @@ function bindEvent(ele,type,fn){
 }
 ```
 
+###事件冒泡
+
+
+
+###事件代理
+
+
 
 
 ###关于IE低版本的兼容性
