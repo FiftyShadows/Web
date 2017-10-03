@@ -221,7 +221,13 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+###cookie用于存储的缺点
 
+- 存储量太小，只有4kb
+
+- 所有http请求都带着，会影响获取资源的效率
+
+- API简单，需要封装才能用 document.cookie = ...
 
 
 
