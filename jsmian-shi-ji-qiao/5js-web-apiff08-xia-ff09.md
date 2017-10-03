@@ -211,9 +211,11 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+###cookie
 
+- 本身用于客户端和服务端通信
 
-
+- 但是它有本地存储的功能，于是就被“借用”
 
 
 
