@@ -244,8 +244,7 @@ function bindEvent(elem,type,selector,fn){
 - locationStorage.setItem(key,value);localStorage.getItem(key);
 
 
-
-
+IOS safari隐藏模式下localStorage,getItem会报错，建议统一使用try-catch封装。
 
 
 
