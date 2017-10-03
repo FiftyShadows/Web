@@ -168,6 +168,17 @@ function bindEvent(elem,type,selector,fn){
 
     - `<link><script>可以使用CDN，CDN的也是其他域`
 
+    - `<script>可以用于JSONP，马上讲解`
+
+
+- 跨域注意事项
+
+    - 所有的跨域请求都必须经过信息提供方允许
+    
+    - 如果未经允许即可获取，那是浏览器同源策略出现漏洞
+
+
+
 
 
 
