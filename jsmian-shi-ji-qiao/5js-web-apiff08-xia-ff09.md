@@ -109,11 +109,19 @@ function bindEvent(elem,type,selector,fn){
 ###知识点
 
 - XMLHttpRequest
+
 ![](/assets/360截图20171003162014787.jpg)
 
 
 
 - 状态码说明
+
+![](/assets/360截图20171003205936235.jpg)
+
+![](/assets/360截图20171003210121533.jpg)
+
+
+
 
 - 跨域
 
