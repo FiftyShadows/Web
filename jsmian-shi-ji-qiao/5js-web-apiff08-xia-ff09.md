@@ -151,11 +151,25 @@ function bindEvent(elem,type,selector,fn){
     - 跨域条件：协议、域名、端口，有一个不同就算跨域（https默认端口443）
 
 
+- 可以跨域的三个标签
+
+    - 但是有三个标签允许跨域加载资源
+    
+    - <img src=xxx>
+    
+    - <link href=xxx>
+    
+    - <script src=xxx>
 
 
-- JSONP
 
-- 服务器端设置http header
+
+
+###JSONP
+
+
+
+###服务器端设置http header
 
 
 
