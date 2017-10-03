@@ -15,7 +15,37 @@
 function bindEvent(ele,type,fn){
     ele.addEventListener(type,fn);
 }
+
 ```
+
+
+```
+function bindEvent(ele,type,selector,fn){
+    if(fn == null){
+        fn = selector;
+        selector = null;
+    }
+    if(!selector){
+        ele.addEventListener(type,function (e){
+            target = e.target
+            if(target.matches(selector)){
+                 fn.call(selector,e)
+            }
+        });
+
+
+    }else{
+        ele.addEventListener(type,fn);
+
+    }
+}
+
+```
+
+
+
+
+
 
 ###事件冒泡
 
