@@ -120,8 +120,15 @@ function bindEvent(elem,type,selector,fn){
 
 
 
+###IE兼容性问题
 
+- IE低版本还用ActiveObject，和W3C标准不一样
 
+- IE低版本使用量以非常少，很多网站都早已不支持
+
+- 建议对IE低版本的兼容性：了解即可，无需深究
+
+- 如果遇到对IE低版本要求苛刻的面试，果断放弃
 
 
 
