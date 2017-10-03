@@ -206,6 +206,11 @@ function bindEvent(elem,type,selector,fn){
 
 - 请描述一下cookie，sessionStorage和localStorage的区别？
 
+    - 容量
+    
+    - 是否会携带到ajax中
+    
+    - API易用性
 
 
 
