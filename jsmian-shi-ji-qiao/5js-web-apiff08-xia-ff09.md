@@ -99,14 +99,18 @@ function bindEvent(elem,type,selector,fn){
 
 ##题目
 
+- 手动编写一个ajax，不依赖第三方库
+
+- 跨域的几种实现方式
 
 
 
 
+###知识点
 
+- XMLhttpRequest
 
-
-
+- 状态码说明
 
 
 
