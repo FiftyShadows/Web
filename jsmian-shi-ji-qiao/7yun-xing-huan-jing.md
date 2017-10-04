@@ -14,6 +14,9 @@
 
 - window.onload和DOMContentLoaded的区别
 
+    - window.onload页面资源全部加载完才会执行，包括图片、视频等
+
+    - DOMContentLoaded在DOM渲染完即可执行，此时图片、视频还可能没有加载完
 
 
 
