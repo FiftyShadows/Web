@@ -26,6 +26,10 @@
     .border2(30px);
 }
 //混合-默认带值
+.border3(@border_width:10px){
+    border:solid red @border_with;
+
+}
 ```
 
 
