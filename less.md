@@ -8,7 +8,7 @@
 
 ##混合
 
-```css
+```less
 .box{
     width:300px;
     height:300px;
