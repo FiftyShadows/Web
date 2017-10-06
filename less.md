@@ -53,8 +53,15 @@
     border-color:color:@c transparent transparent transparent;
     border-style:solid dashed dashed dashed;
 }
+.triangle(@_,@w:5px,@c:#ccc){
+    width:0;
+    height:0;
+    overflow:hidden;
+}
 
-
+.sanjiao{
+    .triangle(top);
+}
 
 
 
