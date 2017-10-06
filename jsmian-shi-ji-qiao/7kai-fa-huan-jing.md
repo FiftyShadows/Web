@@ -36,7 +36,9 @@
 
 ###AMD和CommonJS的使用场景
 
+- 需要异步加载JS，使用AMD
 
+- 使用了npm之后建议使用CommonJS
 
 
 
