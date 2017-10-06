@@ -111,7 +111,7 @@ a{
 
 
 
-##避免编译
+##避免编译,!important
 ```
 .test{
     width:~'calc(300px-30px)';
