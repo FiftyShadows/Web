@@ -116,6 +116,9 @@ a{
 .test{
     width:~'calc(300px-30px)';
 }
+.test_important{
+    .border3() !important;
+}
 ```
 
 
