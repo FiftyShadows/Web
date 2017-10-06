@@ -97,7 +97,15 @@ a{
 
 
 
-
+##@arguments变量
+```
+.border_arg(@w:30px,@c:red,@xx:solid){
+    border:@arguments;
+}
+.test_arguments{
+    .border_arg(40px);
+}
+```
 
 
 
