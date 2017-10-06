@@ -27,14 +27,14 @@
 
 
 
+###CommonJS    
 
 
 
 
 
 
-
-
+###AMD和CommonJS的使用场景
 
 
 
