@@ -9,6 +9,7 @@
 ##混合
 
 ```less
+//混合
 .box{
     width:300px;
     height:300px;
@@ -24,6 +25,7 @@
 .test_hunhe{
     .border2(30px);
 }
+//混合-默认带值
 ```
 
 
