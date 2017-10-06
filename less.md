@@ -17,6 +17,7 @@
 .border{
     border:5px solid pink;
 }
+//混合-可带参数
 .borer2(@border_width){
     border:solid red @border_with;
 }
