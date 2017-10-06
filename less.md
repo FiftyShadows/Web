@@ -22,13 +22,16 @@
 .borer2(@border_width){
     border:solid red @border_with;
 }
-.test_hunhe{
+.test_hunhe2{
     .border2(30px);
 }
 //混合-默认带值
 .border3(@border_width:10px){
     border:solid red @border_with;
 
+}
+.test_hunhe3{
+    .border3();
 }
 ```
 
