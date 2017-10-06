@@ -39,6 +39,61 @@
 
 
 
+###匹配模式
+
+
+```
+.triangle(top,@w:5px,@c:#ccc){
+    border:@w;
+    border-color:color:transparent transparent @c transparent;
+    border-style:dashed dashed solid dashed;
+}
+.triangle(bottom,@w:5px,@c:#ccc){
+    border:@w;
+    border-color:color:@c transparent transparent transparent;
+    border-style:solid dashed dashed dashed;
+}
+
+
+
+
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
