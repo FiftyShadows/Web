@@ -20,6 +20,9 @@
 .borer2(@border_width){
     border:solid red @border_with;
 }
+.test_hunhe{
+    .border2(30px);
+}
 ```
 
 
