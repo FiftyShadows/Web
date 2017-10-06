@@ -87,5 +87,40 @@
     - 经常需要登录测试机来自己配置、获取数据
 
 
+mkdir a
 
+ll
 
+ls
+
+cd a
+
+a pwd
+
+cd ..
+
+rm -rf a
+
+vi a.js
+
+cp a.js a1.js
+
+mv a1.js src/a1.js
+
+rm a.js
+
+vim a.js
+
+i esc :w :q :wq
+
+cat a.js
+
+head a.js
+
+tail a.js
+
+head -n 1 a.js
+
+tail - n 2 a.js
+
+grep '2' a.js    //搜索
