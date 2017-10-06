@@ -25,12 +25,11 @@
 
 
 
-
-
 ###CommonJS    
 
+![](/assets/360截图20171007005712103.jpg)
 
-
+![](/assets/360截图20171007005727586.jpg)
 
 
 
@@ -40,9 +39,8 @@
 
 - 使用了npm之后建议使用CommonJS
 
-![](/assets/360截图20171007005712103.jpg)
 
-![](/assets/360截图20171007005727586.jpg)
+
 
 
 
@@ -111,13 +109,13 @@ rm a.js
 
 vim a.js
 
-i esc :w :q :wq
+i esc :w :q :wq    //编辑
 
 cat a.js
 
-head a.js
+head a.js    //头部
 
-tail a.js
+tail a.js    //尾部
 
 head -n 1 a.js
 
