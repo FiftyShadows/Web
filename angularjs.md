@@ -192,9 +192,13 @@ AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以�
 
 通过ng-repeat可以将数组或对象数据迭代到视图模板中，ng-switch、on、ng-switch-when可以对数据进行筛选。
 
-
-
-
+```
+<ul>
+	<li ng-repeat="item in items" ng-switch="item">
+		<span ng-switch-when="css">{{item}}</span>
+	</li>
+</ul>
+```
 
 
 
