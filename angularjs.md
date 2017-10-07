@@ -36,6 +36,9 @@ App.controller('DemoController',['#scope',function (#scope){
 
 ##指令
 
+HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展一系列的HTML属性或标签来弥补这些缺陷，所谓指令就是AngularJS自定义的HTML属性或标签，这些指令都是以ng-做为前缀的，例如ng-app、ng-controller、ng-repeat等。
+
+
 
 ###内置指令
 
