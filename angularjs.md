@@ -34,15 +34,43 @@ App.controller('DemoController',['#scope',function (#scope){
 
 
 
+##指令
+
+
+###内置指令
+
+- ng-app 指定应用根元素，至少有一个元素指定了此属性。
+
+- ng-controller 指定控制器
+
+- ng-show控制元素是否显示，true显示、false不显示
+
+- ng-hide控制元素是否隐藏，true隐藏、false不隐藏
+
+- ng-if控制元素是否“存在”，true存在、false不存在
+
+- ng-src增强图片路径(去掉html加载时的缩略图)
+
+- ng-href增强地址
+
+- ng-class控制类名
+
+- ng-include引入模板
+
+- ng-disabled表单禁用
+
+- ng-readonly表单只读
+
+- ng-checked单/复选框表单选中
+
+- ng-selected下拉框表单选中
 
 
 
 
 
 
-
-
-
+###自定义指令
 
 
 
