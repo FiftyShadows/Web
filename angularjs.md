@@ -103,6 +103,7 @@ App.directive('tag', function (){
     return{
         restict:'EA',
         //templateUrl:'./index.html',
+        //replace:true,//是否删除标签
         template:'<h1>Hello Angular</h1>'
     }
 });
