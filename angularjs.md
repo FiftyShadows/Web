@@ -177,3 +177,33 @@ AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数
 
 AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以添加事件，易用性变的更强。通过在原有事件名称基础上添加ng-做为前缀，然后以属性的形式添加到相应的HTML标签上即可。如ng-click、ng-dblclick、ng-blur等。
 
+```
+<div ng-controller="DemoController">
+	<ul>
+		<li><button ng-click="single()">单击</button></li>
+		<li><button ng-dblclick="double()">双击</button></li>
+		<li><input type="text" ng-blur="blur()"></li>
+		<li ng-mouseout="mouseout()">一些内容</li>
+	</ul>
+</div>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
