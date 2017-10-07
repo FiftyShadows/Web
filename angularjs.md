@@ -94,7 +94,9 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 AngularJS允许根据实际业务需要自定义指令，通过angular全局对象下的directive方法实现。
 
+- 自定义指令的类型 E、A、C、M
 
+- E可以作为元素 `<tag></tag>`
 
 ```javascript
 var App = angular.module('App', []);
