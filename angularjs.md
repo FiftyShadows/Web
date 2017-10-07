@@ -8,6 +8,8 @@ var App = angular.module('App',[]);
 
 - 一个页可以有多个模块，但是不能互想嵌套 
 
+- 控制器可以嵌套
+
 ```html
 <body>
 <div class="box" ng-app="App">
