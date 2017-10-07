@@ -96,7 +96,9 @@ AngularJS允许根据实际业务需要自定义指令，通过angular全局对�
 
 - 自定义指令的类型 E、A、C、M
 
-- E可以作为元素 `<tag></tag>`
+- E(element)可以作为元素 `<tag></tag>`
+
+- A(attribute)可以作为属性
 
 ```javascript
 var App = angular.module('App', []);
