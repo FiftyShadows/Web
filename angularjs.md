@@ -154,7 +154,7 @@ AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数
 
 注：“{{}}”是ng-bind的简写形式，其区别在于通过“{{}}”绑定数据时会有“闪烁”现象，添加ng-cloak也可以解决“闪烁”现象，通过ng-bind-template可以绑定多个数据。
 
-
+- `<li ng-cloak>{{name}}{{age}}</li>`,ng-cloak通过css3属性选择器设置display解决“闪烁”，所以angular需要放在head里加载。
 
 
 
