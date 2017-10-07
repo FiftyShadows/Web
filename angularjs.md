@@ -163,6 +163,7 @@ AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数
 - `<li ng-bind-template="{{name}}{{age}}"></li>`
 
 
+通过为表单元素添加ng-model指令实现视图（View）模板向模型（Model）数据的绑定。
 
 
 
