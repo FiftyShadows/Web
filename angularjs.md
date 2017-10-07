@@ -75,6 +75,8 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-include引入模板
 
+    - ajax
+
 - ng-disabled表单禁用
 
 - ng-readonly表单只读
@@ -90,7 +92,7 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 ###自定义指令
 
-
+AngularJS允许根据实际业务需要自定义指令，通过angular全局对象下的directive方法实现。
 
 
 
