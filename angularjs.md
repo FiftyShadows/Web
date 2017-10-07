@@ -96,6 +96,17 @@ AngularJS允许根据实际业务需要自定义指令，通过angular全局对�
 
 
 
+```javascript
+var App = angular.module('App', []);
+
+App.directive('tag', function (){
+    return{
+        restict:'EA',
+        //templateUrl:'./index.html',
+        template:'<h1>Hello Angular</h1>'
+    }
+});
+```
 
 
 
