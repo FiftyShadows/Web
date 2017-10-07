@@ -71,6 +71,8 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-class控制类名
 
+    - `<li ng-class="{red: true, blue: true}">ng-class指令</li>`
+
 - ng-include引入模板
 
 - ng-disabled表单禁用
