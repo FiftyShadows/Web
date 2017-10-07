@@ -49,11 +49,13 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-show控制元素是否显示，true显示、false不显示
 
+    - display掉
+
 - ng-hide控制元素是否隐藏，true隐藏、false不隐藏
 
 - ng-if控制元素是否“存在”，true存在、false不存在
 
-    - `<li ng-if="1">ng-if用来控制元素是否存在，当值为true时存在</li>`
+    - remove掉
 
 - ng-src增强图片路径(去掉html加载时的缩略图)
 
