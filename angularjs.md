@@ -63,7 +63,7 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-href增强地址
 
-    - `<link rel="stylesheet" ng-href="{{link}}">`
+    - `<link rel="stylesheet" href="{{link}}">`
 
 - ng-class控制类名
 
