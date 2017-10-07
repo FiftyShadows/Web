@@ -59,7 +59,7 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-src增强图片路径(去掉html加载时的缩略图)
 
-    - `<li><img ng-src="{{path}}" alt=""></li>`加载两次，会有缩略图
+    - `<li><img src="{{path}}" alt=""></li>`加载两次，会有缩略图
 
 - ng-href增强地址
 
