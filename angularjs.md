@@ -21,6 +21,7 @@ var App = angular.module('App',[]);
 
 <script src="./libs/angular.min.js"></script>
 <script>
+var App = angular.module('App',[]);
 App.controller('DemoController',['#scope',function (#scope){
     // $scope 是一个空对象{}，此对象就是Model
     $scope.name = '范冰冰';
