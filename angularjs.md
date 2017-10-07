@@ -167,5 +167,10 @@ AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数
 
 通过ng-init可以初始化模型（Model）也就是$scope。
 
-
+```
+<div ng-controller="DemoController" ng-init="name='itcast';age=10">
+    <h1>{{name}}</h1>
+    <h2>{{age}}</h2>
+</div>
+```
 
