@@ -4,6 +4,11 @@ var App = angular.module('App',[]);
 
 
 
+
+
+
+
+
 ##定义控制器
 
 - 一个页可以有多个模块，但是不能互想嵌套 
@@ -31,6 +36,7 @@ App.controller('DemoController',['#scope',function (#scope){
 </script>
 </body>
 ```
+
 
 
 
@@ -124,6 +130,9 @@ App.directive('tag', function (){
 
 
 
+
+
+
 ##数据绑定
 
 AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数据经由控制器（Controller）展示到视图（View）中。
@@ -139,7 +148,7 @@ AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数
 双向绑定则可以实现模型（Model）数据和视图（View）模板的双向传递。
 
 
-
+###相关指令
 
 
 
