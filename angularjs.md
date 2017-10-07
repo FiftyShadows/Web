@@ -53,6 +53,8 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-if控制元素是否“存在”，true存在、false不存在
 
+    - `<li ng-if="1">ng-if用来控制元素是否存在，当值为true时存在</li>`
+
 - ng-src增强图片路径(去掉html加载时的缩略图)
 
 - ng-href增强地址
@@ -69,7 +71,7 @@ HTML在构建应用（App）时存在诸多不足之处，AngularJS通过扩展�
 
 - ng-selected下拉框表单选中
 
-
+![](/assets/360截图20171007171945862.jpg)
 
 
 
