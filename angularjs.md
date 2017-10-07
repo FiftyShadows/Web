@@ -100,6 +100,14 @@ AngularJS允许根据实际业务需要自定义指令，通过angular全局对�
 
 - A(attribute)可以作为属性
 
+- C(class)作为类名`<div class="tag"></div>`
+
+- M(mark)可作为备注，注释
+
+![](/assets/360截图20171008014902108.jpg)
+
+
+
 ```javascript
 var App = angular.module('App', []);
 
