@@ -156,6 +156,7 @@ AngularJS是以数据做为驱动的MVC框架，所有模型（Model）里的数
 
 - `<li ng-cloak>{{name}}{{age}}</li>`    ng-cloak通过css3属性选择器设置display解决“闪烁”，所以angular需要放在head里加载。
 
+- `<li ng-bind-template="{{name}}{{age}}"></li>`
 
 
 
