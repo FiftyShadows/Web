@@ -252,4 +252,18 @@ AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以�
 
 - orderBy对数组进行排序，第2个参数可控制方向
 
-
+```
+<ul ng-controller="DemoController">
+	<li>{{price|currency:'￥'}}</li>
+	<li>{{now|date:'yyyy/MM/dd hh:mm:ss'}}</li>
+	<li>{{items|filter:'s'}}</li>
+	<li>{{students|filter:{age: 16} }}</li>
+	<li>{{students|json}}</li>
+	<li>{{items|limitTo:-1}}</li>
+	<li>{{str|uppercase|limitTo:3}}</li>
+	<li>{{str|lowercase}}</li>
+	<li>{{num|number:0}}</li>
+	<li>{{items|orderBy: '':true}}</li>
+	<li>{{students|orderBy: 'age': false}}</li>
+</ul>
+```
