@@ -369,6 +369,15 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 
 ####$http
 
+传递的数据可以是'key=val&key=val'形式，这种形式叫formData
+Content-Type 设成 application/x-www-form-urlencoded
+当请求数据类型不一样，后端在接收的时采取方法也不一样
+假如上述方式以PHP为例可以使用$_POST接收
+
+application/json;charset=UTF-8 就是json对象形式传
+Request Payload
+假如采用上述方式，以PHP为例$_POST就不能接收了
+
 ```
 $http({
 	url: 'example.php',
