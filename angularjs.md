@@ -250,7 +250,7 @@ AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以�
 
 - number数字格式化，可控制小位位数
 
-- orderBy对数组进行排序，第2个参数可控制方向
+- orderBy对数组进行排序，第2个参数可控制方向(默认false)
 
 ```javascript
 <ul ng-controller="DemoController">
