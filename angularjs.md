@@ -400,6 +400,7 @@ $http({
 });
 ```
 
+![](/assets/360截图20171009033113278.jpg)
 
 ####跨域
 
@@ -417,7 +418,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 }]);
 ```
 
-
+![](/assets/360截图20171009034737917.jpg)
 
 
 ###自定义服务
