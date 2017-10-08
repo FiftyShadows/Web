@@ -218,6 +218,7 @@ AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以�
 
 一个AngularJS的应用（App）在启动时会自动创建一个根作用域$rootScope，这个根作用域在整个应用范围（ng-app所在标签以内）都是可以被访问到的。
 
+`<body ng-app="App" ng-init="name='康熙'">`
 
 
 ###子作用域
