@@ -426,7 +426,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 - factory方法
 
-
+![](/assets/360截图20171009042151554.jpg)
 
 - service方法
 
