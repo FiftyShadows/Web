@@ -378,7 +378,7 @@ application/json;charset=UTF-8 就是json对象形式传
 Request Payload
 假如采用上述方式，以PHP为例$_POST就不能接收了
 
-```
+```js
 $http({
 	url: 'example.php',
 	// method: 'get',
@@ -403,11 +403,11 @@ $http({
 
 ####跨域
 
-```
+```js
 App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 	$http({
-		url: 'jsonp.php?a=JSON_CALLBACK',
+		url: 'jsonp.php?callback=JSON_CALLBACK',
 		//JSON_CALLBACK是占位符，jQuery能自动生成
 		method: 'jsonp' // 采用JSONP方式
 	}).success(function (info) {
@@ -416,7 +416,6 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 }]);
 ```
-
 
 
 
