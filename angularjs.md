@@ -367,6 +367,31 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 - $http用于向服务端发起异步请求。同时还支持多种快捷方式如$http.get()、$http.post()、$http.jsonp。![](/assets/image020.png)
 
 
+####$http
+
+```
+$http({
+	url: 'example.php',
+	// method: 'get',
+	method: 'post',
+	headers: {
+		'Content-Type': 'application/x-www-form-urlencoded'
+	},
+	params: { // get 参数
+		name: 'itcast',
+		sex: '男'
+	},
+	// data: 'age=10'
+	data: { // post 传参
+		age: 10
+	}
+}).success(function (info) {
+	// info 就是返回的数据
+	$log.info(info);
+});
+```
+
+
 ####跨域
 
 ```
