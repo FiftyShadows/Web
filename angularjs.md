@@ -367,6 +367,22 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 - $http用于向服务端发起异步请求。同时还支持多种快捷方式如$http.get()、$http.post()、$http.jsonp。![](/assets/image020.png)
 
 
+####跨域
+
+```
+App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
+
+	$http({
+		url: 'jsonp.php?a=JSON_CALLBACK',
+		method: 'jsonp' // 采用JSONP方式
+	}).success(function (info) {
+		console.log(info);
+	});
+
+}]);
+```
+
+
 ###自定义服务
 
 
