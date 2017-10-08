@@ -266,4 +266,57 @@ AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以�
 	<li>{{items|orderBy: '':true}}</li>
 	<li>{{students|orderBy: 'age': false}}</li>
 </ul>
+<script>
+	var App = angular.module('App', []);
+
+	App.controller('DemoController', ['$scope', function ($scope) {
+
+		$scope.price = 11.11;
+
+		$scope.now = new Date;
+
+		$scope.items = ['html', 'css', 'js'];
+
+		$scope.students = [
+			{name: '小红', age: 16},
+			{name: '小明', age: 16},
+			{name: '小米', age: 10}
+
+		];
+
+		$scope.str = 'hello Angular';
+
+		$scope.num = '10.2345';
+
+
+	}]);
+
+	// var str = '10.5a';
+
+	// alert(Number(str));
+</script>
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
