@@ -327,8 +327,8 @@ $scope.info = 'my name is ';
 
 AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成一个对象或函数，实现最大程度的复用，这导致了使用者和被使用者之间存在依赖关系。
 
+所谓依赖注入是指在运行时自动查找依赖关系，然后将查找到依赖传递给使用者的一种机制。
 
-
-
+常见的AngularJS内置服务有$http、$location、$timeout、$rootScope等
 
 
