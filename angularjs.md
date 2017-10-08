@@ -360,6 +360,8 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 
 - $timeout&$interval对原生Javascript中的setTimeout和setInterval进行了封装。
 
+- $filter在控制器中格式化数据。
+
 
 
 ###自定义服务
