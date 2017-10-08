@@ -352,7 +352,14 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 服务是一个对象或函数，对外提供特定的功能。
 
 
+
+
 ###内建服务
+
+- $location是对原生Javascript中location对象属性和方法的封装。
+
+- $timeout&$interval对原生Javascript中的setTimeout和setInterval进行了封装。
+
 
 
 ###自定义服务
