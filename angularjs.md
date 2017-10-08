@@ -332,3 +332,9 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 常见的AngularJS内置服务有$http、$location、$timeout、$rootScope等
 
 
+###推断式注入
+
+
+###行内注入
+
+
