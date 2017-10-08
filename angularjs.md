@@ -374,6 +374,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 	$http({
 		url: 'jsonp.php?a=JSON_CALLBACK',
+		//JSON_CALLBACK是占位符，jQuery能自动生成
 		method: 'jsonp' // 采用JSONP方式
 	}).success(function (info) {
 		console.log(info);
@@ -381,6 +382,9 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 }]);
 ```
+
+
+
 
 
 ###自定义服务
