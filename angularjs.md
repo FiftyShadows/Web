@@ -304,10 +304,19 @@ AngularJS对事件也进行了扩展，无需显式的获取DOM元素便可以�
 ###自定义过滤器
 
 
+```
+<h4>{{info|capitalize:123}}</h4>
 
+App.filter('capitalize', function () {
+	return function (input, arg2) {
+		console.log(arg2);
+		return input[0].toUpperCase() + input.slice(1);
+	}
 
+});
 
-
+$scope.info = 'my name is ';
+```
 
 
 
