@@ -358,23 +358,23 @@ AngularJS采用模块化的方式组织代码，将一些通用逻辑封装成�
 
 - $location是对原生Javascript中location对象属性和方法的封装。
 
-![](/assets/image016.png)
+				![](/assets/image016.png)
 
 - $timeout&$interval对原生Javascript中的setTimeout和setInterval进行了封装。
 
-![](/assets/image017.png)
+				![](/assets/image017.png)
 
 - $filter在控制器中格式化数据。
 
-![](/assets/image018.png)
+				![](/assets/image018.png)
 
 - $log打印调试信息。
 
-![](/assets/image019.png)
+				![](/assets/image019.png)
 
 - $http用于向服务端发起异步请求。同时还支持多种快捷方式如$http.get()、$http.post()、$http.jsonp。
 
-![](/assets/image020.png)
+				![](/assets/image020.png)
 
 
 ###自定义服务
