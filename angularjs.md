@@ -424,15 +424,15 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 ###自定义服务
 
 
+- factory方法
 
 
 
+- service方法
 
 
 
-
-
-
+- value方法定义常量
 
 
 
