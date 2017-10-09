@@ -321,7 +321,7 @@ function getStock(name:string){
         console.log("name is" + this.name);
     },1000);
 }
-var stock = new getStock();
+var stock = new getStock("IBM");
 
 function getStock2(name:string){
     this.name = name;
@@ -329,7 +329,7 @@ function getStock2(name:string){
         console.log("name is" + this.name);
     },1000);
 }
-var stock2 = new getStock2();
+var stock2 = new getStock2("IBM");
 ```
 
-
+functino(){}的写法，由于是匿名函数，上下文是调用时的上下文，即window，因为window.name未定义，所以访问不到。箭头函数的上下文是由创建时所在的上下文决定的，在getStock()函数中创建，所以this之中指向getStock()，故可以访问到name属性。
