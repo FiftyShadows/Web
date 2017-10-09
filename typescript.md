@@ -150,7 +150,7 @@ test("xx");    //xx undefined jojo
 
 ###Rest and Spread 操作符：
 
-
+    用来声明任意数量的方法参数
 
 
 
