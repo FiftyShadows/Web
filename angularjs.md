@@ -473,6 +473,8 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 - 把若干功能集成到一个页面
 
+- 动态生成数据，通过ajax异步获取
+
 
 ###路由
 
