@@ -195,7 +195,7 @@ func1.next();
 ```
 
 
-```
+```js
 function* getPrice(stock){
   while(true){
     yield Math.random()*100;
