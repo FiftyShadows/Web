@@ -100,9 +100,11 @@ var age:number = 13;
 
 var man:boolean = true;
 
-function test():void{
+//返回值void
+function test(name:string):void{
     return   //报错,string则不会
 }
+test(13);    //报错
 ```
 
 
