@@ -160,7 +160,6 @@ function fun1(...args){
 }
 
 func1(1,2,3);
-
 func1(6,7,8,9,11);
 ```
 
