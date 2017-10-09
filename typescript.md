@@ -119,7 +119,6 @@ zhangsan.age = 18;
 
 带默认值的参数一定要放在最后面
 
-
 ```
 function test(a:string, b:string, c:string = "jojo"){
     console.log(a);
