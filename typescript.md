@@ -214,11 +214,24 @@ console.log(`buying at ${price}`);
 
 
 
+###析构表达式
 
+```
+function getStock(){
+    return{
+        code:"IBM",
+        price:100
+    }
+}
 
+//ES5
+var stock = getStock();
+var code = stock.code;
+var price = stock.price;
 
-
-
+//ES6
+var {code1,price1} = getStock();
+```
 
 
 
