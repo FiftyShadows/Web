@@ -49,8 +49,8 @@ var name = `zhailiang`;
 var getName = function (){
     return "zhailiang";
 }
-console.log(`hello${name}`);
-console.log(`hello${getName()}`);
+console.log(`hello ${name}`);
+console.log(`hello ${getName()}`);
 
 ```
 
