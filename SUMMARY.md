@@ -25,4 +25,5 @@
   * [7.运行环境](jsmian-shi-ji-qiao/7yun-xing-huan-jing.md)
 * [LESS](less.md)
 * [AngularJS](angularjs.md)
+* [TypeScript](typescript.md)
 
