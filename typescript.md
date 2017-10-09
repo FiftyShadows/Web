@@ -44,11 +44,15 @@ ccc`;
 
 ###字符串模板
 
+```
+var name = `zhailiang`;
+var getName = function (){
+    return "zhailiang";
+}
+console.log(`hello${name}`);
+console.log(`hello${getName()}`);
 
-
-
-
-
+```
 
 
 
