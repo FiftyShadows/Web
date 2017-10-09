@@ -19,11 +19,11 @@
 
 ##搭建typescipt开发环境
 
+- 使用在线complier开发
 
+- 本地complier
 
-
-
-
+    - npm install -g typescipt
 
 
 
