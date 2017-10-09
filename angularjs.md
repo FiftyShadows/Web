@@ -436,6 +436,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 	- 本质上一个服务,从表现形式上是一个常量
 
+![](/assets/360截图20171009131425514.jpg)
 
 
 
@@ -445,8 +446,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 
 
-
-
+##模块加载
 
 
 
