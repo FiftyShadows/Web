@@ -450,6 +450,10 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 ###配置块
 
+通过config方法实现对模块的配置，AngularJS中的服务大部分都对应一个“provider”，用来执行与对应服务相同的功能或对其进行配置。
+
+比如$log、$http、$location都是内置服务，相对应的“provider”分别是$logProvider、$httpProvider、$locationPorvider。
+
 ![](/assets/360截图20171009142728965.jpg)
 
 ###运行块
@@ -483,17 +487,17 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 ###路由
 
+![](/assets/360截图20171009182149281.jpg)
 
+在1.2版前路由功能是包含在AngularJS核心代码当中，之后的版本将路由功能独立成一个模块，下载angular-route.js
 
+- 引入angular-route.js
 
+- 实例化模块（App）时，当成依赖传进去（模块名称叫ngRoute）。
 
+- 配置路由模块
 
-
-
-
-
-
-
+- 布局模板,通过ng-view指令布局模板，路由匹配的视图会被加载渲染到些区域。
 
 
 
