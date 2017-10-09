@@ -535,3 +535,5 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 	
 	- ：形参，占位
 
+![](/assets/360截图20171009210107687.jpg)
+
