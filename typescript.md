@@ -103,6 +103,15 @@ function test(name:string):void{
     return   //报错,string则不会
 }
 test(13);    //报错
+
+
+class Person{
+    name:string;
+    age:number;
+}
+var zhangsan:Person = new Person();
+zhangsan.name = "zhangsan";.
+zhangsan.age = 18;
 ```
 
 
