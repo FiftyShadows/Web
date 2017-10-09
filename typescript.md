@@ -229,8 +229,10 @@ var stock = getStock();
 var code = stock.code;
 var price = stock.price;
 
-//ES6
-var {code1,price1} = getStock();
+//ES6,参数必须对应
+var {code,price} = getStock();
+
+var {code:codeX,price} = getStock();
 ```
 
 
