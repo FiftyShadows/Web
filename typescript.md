@@ -123,17 +123,22 @@ function test(a:string, b:string, c:string = "jojo"){
     console.log(a);
     console.log(b);
     console.log(c);
-
 }
 test("xx", "yy", "zz");
 test("xx", "yy");
 ```
 
 
+###可选参数
 
-
-
-
+```
+function test(a:string, b?:string, c:string = "jojo"){
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+test("xx");    //xx undefined jojo
+```
 
 
 
