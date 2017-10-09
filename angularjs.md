@@ -475,6 +475,9 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 - 动态生成数据，通过ajax异步获取
 
+1. 提升性能
+
+2. 增强用户体验
 
 ###路由
 
