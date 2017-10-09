@@ -87,11 +87,9 @@ test`my name is ${name},i'm ${getAge()}`;
 
 ```
 var myname:string = "zhai liang";
-//赋值检查
-name = 13;
+name = 13;    //报错
 var alias = "xx";
-//报错
-alias = 13;
+alias = 13;    //报错
 
 var a:any = "xx";
 a = 13;
