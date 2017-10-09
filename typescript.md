@@ -223,7 +223,6 @@ function getStock(){
         price:100
     }
 }
-
 //ES5
 var stock = getStock();
 var code = stock.code;
@@ -280,7 +279,7 @@ function do(num1,num2,...others){
 
 
 
-
+##表达式和循环
 
 
 
