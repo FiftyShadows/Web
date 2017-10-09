@@ -190,6 +190,8 @@ function* doSomething(){
     console.log("finish");
 }
 var func1 = doSomething();
+func1.next();
+func1.next();
 ```
 
 
