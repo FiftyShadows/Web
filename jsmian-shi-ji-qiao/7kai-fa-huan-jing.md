@@ -111,7 +111,7 @@ cd a
 
 a pwd
 
-cd ..
+cd ..(e:)
 
 rm -rf a
 
