@@ -268,5 +268,11 @@ var [num1, num2, ...others] = arr;
 console.log(others);
 ```
 
-
-
+```
+var arr = [1,2,3,4];
+function do(num1,num2,...others){
+    console.log(num1);
+    console.log(num2);
+    console.log(others);
+}
+```
