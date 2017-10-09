@@ -233,6 +233,8 @@ var price = stock.price;
 var {code,price} = getStock();
 
 var {code:codeX,price} = getStock();
+console.log(codeX);
+console.log(price);
 ```
 
 
