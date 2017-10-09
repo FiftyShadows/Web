@@ -351,7 +351,7 @@ arr.forEach(val => console.log(val));
 var arr = [1,2,3,4];
 arr.desc = "four number";
 for(var n in arr){
-    console.log(n);
+    console.log(arr[n]);
 }
 ```
 
