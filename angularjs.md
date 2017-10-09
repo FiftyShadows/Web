@@ -556,3 +556,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 ![](/assets/360截图20171009234839397.jpg)
 
 先引入jQuery,后引入Angular
+
+
+
+###Bower
