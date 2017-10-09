@@ -60,9 +60,19 @@ console.log(`<div>
 
 ###自动拆分字符串
 
+```
+function (template,name,age){
+    console.log(template);
+    console.log(name);
+    console.log(age);
 
-
-
+}
+var myname= "zhai liang";
+var getAge = function (){
+    return 18;
+}
+test`my name is ${name},i'm ${getAge()}`;
+```
 
 
 
