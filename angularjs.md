@@ -531,4 +531,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 - 获取参数，在控制中注入$routeParams可以获取传递的参数
 
+	- ?传参，与路由没有关系
+	
+	- ：形参，占位
 
