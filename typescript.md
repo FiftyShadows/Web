@@ -117,7 +117,7 @@ zhangsan.age = 18;
 
 ###参数默认值
 
-带默认值的参数一定要放在最后面
+带默认值的参数一定要放在最后面。
 
 ```
 function test(a:string, b:string, c:string = "jojo"){
