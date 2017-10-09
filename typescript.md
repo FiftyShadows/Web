@@ -343,7 +343,7 @@ functino(){}的写法，由于是匿名函数，上下文是调用时的上下�
 var arr = [1,2,3,4];
 arr.desc = "four number";
 arr.forEach(val => console.log(val));
-//会忽略属性值
+//会忽略属性值,不能break
 ```
 
 
@@ -356,7 +356,13 @@ for(var n in arr){
 ```
 
 
-
-
+```
+var arr = [1,2,3,4];
+arr.desc = "four number";
+for(var n of arr){
+    console.log(n);
+}
+//会忽略属性值,能break
+```
 
 
