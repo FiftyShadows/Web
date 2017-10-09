@@ -183,9 +183,14 @@ func1(...args2);    // 7 8 9
     控制函数的执行过程，手动暂停和恢复代码执行
 
 
-
-
-
+```js
+function* doSomething(){
+    console.log("start");
+    yeld;
+    console.log("finish");
+}
+doSomething();
+```
 
 
 
