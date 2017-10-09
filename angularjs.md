@@ -430,10 +430,11 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 - service方法
 
-
+![](/assets/360截图20171009130210167.jpg)
 
 - value方法定义常量
 
+	- 本质上一个服务,从表现形式上是一个常量
 
 
 
