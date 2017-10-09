@@ -238,9 +238,20 @@ console.log(price);
 ```
 
 
+```
+function getStock(){
+    return{
+        code:"IBM",
+        price:{
+            price1:200,
+            price2:400
+        }
+    }
+}
 
+var {code:codeX,price:{price2}} = getStock();
 
-
+```
 
 
 
