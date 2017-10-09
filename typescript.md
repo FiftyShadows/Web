@@ -24,6 +24,8 @@
 - 本地complier
 
     - npm install -g typescipt
+    
+    - tsc --version
 
 
 
