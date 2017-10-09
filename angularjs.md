@@ -514,4 +514,21 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 ####路由参数
 
+提供两个方法匹配路由，分别是when和otherwise，when方法需要两个参数，otherwise方法做为when方法的补充只需要一个参数，其中when方法可以被多次调用。
+
+- 第1个参数是一个字符串，代表当前URL中的hash值。
+
+- 第2个参数是一个对象，配置当前路由的参数，如视图、控制器等。
+
+	- template 字符串形式的视图模板
+
+	- templateUrl 引入外部视图模板
+
+	- controller 视图模板所属的控制器
+
+	- redirectTo跳转到其它路由
+
+
+
+
 
