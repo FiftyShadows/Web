@@ -339,10 +339,12 @@ functino(){}的写法，由于是匿名函数，上下文是调用时的上下�
 ###forEach(),for in 和 for of
 
 
-
-
-
-
+```
+var arr = [1,2,3,4];
+arr.desc = "four number";
+arr.forEach(val => console.log(val));
+//会忽略属性值
+```
 
 
 
