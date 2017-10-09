@@ -479,6 +479,8 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 2. 增强用户体验
 
+3. 仿照原声APP
+
 ###路由
 
 
