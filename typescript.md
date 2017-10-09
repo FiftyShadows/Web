@@ -27,7 +27,7 @@
     
     - tsc --version
 
-
+    - tsc hello.ts
 
 
 
