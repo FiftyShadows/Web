@@ -464,6 +464,8 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 ##路由
 
+一个应用是由若个视图组合而成的，根据不同的业务逻辑展示给用户不同的视图，路由则是实现这一功能的关键。
+
 
 ###SPA
 
