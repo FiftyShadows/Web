@@ -203,7 +203,7 @@ function* getPrice(stock){
 }
 var num = getPrice("IBM");
 var price = 100;
-var limitPrice = 2;
+var limitPrice = 15;
 
 while(price > limitPrice){
   console.log(price);
