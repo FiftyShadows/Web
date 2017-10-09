@@ -529,6 +529,6 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 	- redirectTo跳转到其它路由
 
 
-
+- 获取参数，在控制中注入$routeParams可以获取传递的参数
 
 
