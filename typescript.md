@@ -110,7 +110,7 @@ class Person{
     age:number;
 }
 var zhangsan:Person = new Person();
-zhangsan.name = "zhangsan";.
+zhangsan.name = "zhang liang";.
 zhangsan.age = 18;
 ```
 
