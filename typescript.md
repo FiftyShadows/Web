@@ -171,7 +171,7 @@ function func1(a,b,c){
 }
 
 var args = [1,2];
-func1(...arg);    //1 2 undefined
+func1(...args);    //1 2 undefined
 
 var args2 = [7,8,9,10,11];
 func1(...args2);    // 7 8 9
