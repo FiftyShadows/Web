@@ -1,5 +1,5 @@
-微软开发
+- 微软开发
 
-javascript超集
+- javascript超集
 
-遵循ES6
+- 遵循ES6
