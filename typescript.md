@@ -248,9 +248,7 @@ function getStock(){
         }
     }
 }
-
 var {code:codeX,price:{price2}} = getStock();
-
 ```
 
 
