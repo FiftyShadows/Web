@@ -469,7 +469,9 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 ###SPA
 
+- 不产生跳转
 
+- 把若干功能集成到一个页面
 
 
 ###路由
