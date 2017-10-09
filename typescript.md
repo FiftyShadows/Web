@@ -92,6 +92,11 @@ name = 13;
 var alias = "xx";
 //报错
 alias = 13;
+
+var a:any = "xx";
+a = 13;
+
+
 ```
 
 
