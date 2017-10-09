@@ -286,27 +286,50 @@ function do(num1,num2,...others){
 
     用来声明匿名函数，消除传统匿名函数的this指针问题
 
+```
+//单行
+var sum = (arg1,arg2) => arg1 + arg2;
+```
+
+
+```
+//无参数
+var sum = () => {
+
+}
+```
+
+```
+//一个参数
+var sum = arg1 => {
+
+}
+```
+
+```
+var arr = [1,2,3,4,5,6,7,8,9];
+console.log(arr.filter(val => val%2 == 0));
+```
 
 
 
+```
+//消除传统匿名函数的this指针问题
+function getStock(name:string){
+    this.name = name;
+    setInterval(function (){
+        console.log("name is" + this.name);
+    },1000);
+}
+var stock = new getStock();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function getStock2(name:string){
+    this.name = name;
+    setInterval(() => {
+        console.log("name is" + this.name);
+    },1000);
+}
+var stock2 = new getStock2();
+```
 
 
