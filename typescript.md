@@ -163,9 +163,19 @@ func1(1,2,3);
 func1(6,7,8,9,11);
 ```
 
+```
+function func1(a,b,c){
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
 
+var args = [1,2];
+func1(...arg);    //1 2 undefined
 
-
+var args2 = [7,8,9,10,11];
+func1(...args2);    // 7 8 9
+```
 
 
 
