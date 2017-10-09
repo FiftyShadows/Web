@@ -87,6 +87,7 @@ test`my name is ${name},i'm ${getAge()}`;
 
 ```
 var myname:string = "zhai liang";
+//赋值检查
 ```
 
 
