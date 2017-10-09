@@ -444,18 +444,17 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 
 
-
-
 ##模块加载
 
 
 
 ###配置块
 
-
+![](/assets/360截图20171009142728965.jpg)
 
 ###运行块
 
+![](/assets/360截图20171009143902757.jpg)
 
 
 
@@ -463,8 +462,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 
 
-
-
+##路由
 
 
 
