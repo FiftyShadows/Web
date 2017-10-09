@@ -96,7 +96,9 @@ alias = 13;
 var a:any = "xx";
 a = 13;
 
+var age:number = 13;
 
+var man:boolean = true;
 ```
 
 
