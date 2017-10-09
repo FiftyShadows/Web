@@ -552,3 +552,7 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 ###jQuery
 
 在没有引入jQuery的前提下AngularJS实现了简版的jQuery Lite，通过angular.element不能选择元素，但可以将一个DOM元素转成jQuery对象，如果引提前引入了jQuery则angular.element则完全等于jQuery。
+
+![](/assets/360截图20171009234839397.jpg)
+
+先引入jQuery,后引入Angular
