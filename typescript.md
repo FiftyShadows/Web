@@ -45,13 +45,17 @@ ccc`;
 ###字符串模板
 
 ```
-var name = `zhailiang`;
+var name = `zhai liang`;
 var getName = function (){
-    return "zhailiang";
+    return "zhai liang";
 }
 console.log(`hello ${name}`);
 console.log(`hello ${getName()}`);
-
+console.log(`<div>
+<span>${name}</span>
+<span>${getName()}</span>
+<div>xxx</div>
+</div>`);
 ```
 
 
