@@ -264,10 +264,8 @@ var [,,num1, num2] = arr;
 
 ```
 var arr = [1,2,3,4];
-
 var [num1, num2, ...others] = arr;
 console.log(others);
-
 ```
 
 
