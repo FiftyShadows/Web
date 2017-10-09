@@ -489,9 +489,16 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 3. 仿照原生APP
 
+
+
+
 ###路由
 
 ![](/assets/360截图20171009182149281.jpg)
+
+
+
+####使用
 
 在1.2版前路由功能是包含在AngularJS核心代码当中，之后的版本将路由功能独立成一个模块，下载angular-route.js
 
@@ -505,6 +512,6 @@ App.controller('DemoController', ['$http', '$scope', function ($http, $scope) {
 
 
 
-
+####路由参数
 
 
