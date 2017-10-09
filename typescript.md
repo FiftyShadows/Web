@@ -83,7 +83,7 @@ test`my name is ${name},i'm ${getAge()}`;
 
 ###参数类型
 
-在参数名称后面使用冒号来制定参数类型
+在参数名称后面使用冒号来制定参数类型。
 
 ```
 var myname:string = "zhai liang";
