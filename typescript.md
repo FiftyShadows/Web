@@ -32,10 +32,13 @@
 
 
 
+##字符串新特性
 
-
-
-
+```
+var content = `aaa
+bbb
+ccc`;
+```
 
 
 
