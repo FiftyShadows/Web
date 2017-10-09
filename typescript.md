@@ -361,8 +361,9 @@ var arr = [1,2,3,4];
 arr.desc = "four number";
 for(var n of arr){
     console.log(n);
+    if(n > 2)break;
 }
-//会忽略属性值,能break
+//会忽略属性值,能break,还可用于字符串
 ```
 
 
