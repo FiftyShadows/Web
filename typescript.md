@@ -152,9 +152,17 @@ test("xx");    //xx undefined jojo
 
     用来声明任意数量的方法参数
 
+```
+function fun1(...args){
+    args.forEach(function (arg){
+        console.log(arg);
+    });
+}
 
+func1(1,2,3);
 
-
+func1(6,7,8,9,11);
+```
 
 
 
