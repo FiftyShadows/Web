@@ -186,7 +186,7 @@ func1(...args2);    // 7 8 9
 ```js
 function* doSomething(){
     console.log("start");
-    yeld;
+    yield;
     console.log("finish");
 }
 var func1 = doSomething();
