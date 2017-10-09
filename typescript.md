@@ -189,7 +189,7 @@ function* doSomething(){
     yeld;
     console.log("finish");
 }
-doSomething();
+var func1 = doSomething();
 ```
 
 
