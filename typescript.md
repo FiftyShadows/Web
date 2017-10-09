@@ -245,7 +245,9 @@ function getStock(){
         price:{
             price1:200,
             price2:400
-        }
+        },
+        aaa:"xx",
+        bbb:"yy"
     }
 }
 var {code:codeX,price:{price2}} = getStock();
