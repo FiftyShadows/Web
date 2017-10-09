@@ -195,8 +195,22 @@ func1.next();
 ```
 
 
+```
+function* getPrice(stock){
+  while(true){
+    yield Math.random()*100;
+  }
+}
+var num = getPrice("IBM");
+var price = 100;
+var limitPrice = 2;
 
-
+while(price > limitPrice){
+  console.log(price);
+  price = num.next().value;
+  }
+console.log(`buying at ${price}`);
+```
 
 
 
