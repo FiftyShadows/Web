@@ -415,17 +415,50 @@ p1.eat();
 
 
 
+####类的继承extends, super
+
+```
+class Person{
+    //声明了name属性
+    constructor(public name:string){
+        console.log("imooc");
+    }
+    eat(){
+        console.log(this.name);
+    }
+}
+class Employee extends Person{
+    code:string;
+    work(){
+    
+    }
+}
+var e1 = new Employee("name");
+```
 
 
 
 
+```
+class Person{
+ constructor(public name:string){
+        console.log("imooc");
+    }
+    eat(){
+        console.log(this.name);
+    }
+}
+class Employee extends Person{
+    constructor(name: string, code: string){
+        super(name);
+        this.code = code;
+    }
+    code:string;
+    work(){
+    
+    }
+}
 
-
-
-
-
-
-
-
+```
 
 
