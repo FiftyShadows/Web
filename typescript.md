@@ -451,6 +451,7 @@ class Person{
 class Employee extends Person{
     constructor(name: string, code: string){
         super(name);
+        console.log("xx");
         this.code = code;
     }
     code:string;
@@ -458,6 +459,7 @@ class Employee extends Person{
     
     }
 }
+var e1 = new Employee("name","1");
 
 ```
 
