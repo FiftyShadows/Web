@@ -391,15 +391,24 @@ p2.name = "superman";
 p2.eat();
 ```
 
+访问控制符public,private（内部）,protected(内部和子类)
 
 
 
+####类的构造方法
 
+```
+class Person{
+    constructor(){
+        console.log("imooc");
+    }
+    name;
+    eat(){
+        console.log("i'm eating");
+    }
+}
 
-
-
-
-
+```
 
 
 
