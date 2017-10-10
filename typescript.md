@@ -459,7 +459,7 @@ class Employee extends Person{
         super.eat();
         this.doWork();
     }
-    doWork(){
+    private doWork(){
         console.log("i'm working.");
     }
 }
