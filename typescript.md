@@ -399,14 +399,16 @@ p2.eat();
 
 ```
 class Person{
-    constructor(){
+    constructor(public name:string){
         console.log("imooc");
     }
-    name;
     eat(){
         console.log("i'm eating");
     }
 }
+var p1 = new Person("batman");
+p1.eat();
+
 
 ```
 
