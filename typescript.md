@@ -523,6 +523,7 @@ var p1 = new Person({
     name:"zhangsan",
     age:18
 });
+console.log(p1.config.name);
 ```   
     
     
