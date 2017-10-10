@@ -403,7 +403,7 @@ class Person{
         console.log("imooc");
     }
     eat(){
-        console.log("i'm eating");
+        console.log(this.name);
     }
 }
 var p1 = new Person("batman");
