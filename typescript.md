@@ -520,7 +520,7 @@ class Person{
     }
 }
 var p1 = new Person({
-    name:"zhangsan";
+    name:"zhangsan",
     age:18
 });
 ```   
