@@ -526,7 +526,21 @@ var p1 = new Person({
 console.log(p1.config.name);
 ```   
     
-    
-    
-    
-    
+```
+interface Animal{
+    eat();
+}
+//Sheep类实现Animal接口
+class Sheep implemets Animal{
+    //必须实现eat方法
+    eat(){
+        console.log("i eat grass.");
+    }
+} 
+class Tiger implements Animal{
+    eat(){
+        console.log("i eat meat.");
+    }
+}
+```    
+   
