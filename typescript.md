@@ -515,6 +515,7 @@ interface IPerson{
     age:number;
 }
 class Person{
+    //作为参数类型声明
     constructor(public config:IPerson){
     
     }
