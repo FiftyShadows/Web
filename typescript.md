@@ -367,3 +367,53 @@ for(var n of arr){
 ```
 
 
+
+
+
+##面向对象特性
+
+###，类是typescrip的核心，使用typescript开发时，大部分代码都是写在类里面的。
+
+
+```
+class Person{
+    name;
+    eat(){
+        console.log("i'm eating");
+    }
+}
+var p1 = new Person();
+p1.name = "batman";
+p1.eat();
+
+var p2 = new Person();
+p2.name = "superman";
+p2.eat();
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
