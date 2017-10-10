@@ -399,6 +399,7 @@ p2.eat();
 
 ```
 class Person{
+    //声明了name属性
     constructor(public name:string){
         console.log("imooc");
     }
