@@ -594,7 +594,7 @@ new Clazz1();
 
     类型定义文件用来帮助开发者在TypeScript中使用已有的JavaScript的工具包如：jQuery
 
-typings工具
+npm install @types/库名
 
 
 
