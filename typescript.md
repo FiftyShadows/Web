@@ -469,11 +469,38 @@ e1.work();
 
 
 
-###泛型
+###泛型（generic）
+    
+    参数化的类型，一般用来限制集合的内容
 
-
-
-
+```
+class Person{
+ constructor(public name:string){
+        console.log("imooc");
+    }
+    eat(){
+        console.log("i'm eating.");
+    }
+}
+class Employee extends Person{
+    constructor(name: string, code: string){
+        super(name);
+        console.log("xx");
+        this.code = code;
+    }
+    code:string;
+    work(){
+        super.eat();
+        this.doWork();
+    }
+    private doWork(){
+        console.log("i'm working.");
+    }
+}
+var workers: Array<Person> = [];
+workers[0] = new Person("zhangsan");
+workers[1] = new Employee("lisi","2");
+```
 
 
 
