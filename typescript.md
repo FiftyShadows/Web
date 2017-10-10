@@ -464,7 +464,6 @@ class Employee extends Person{
     }
 }
 var e1 = new Employee("name","1");
-
 ```
 
 
