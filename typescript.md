@@ -445,7 +445,7 @@ class Person{
         console.log("imooc");
     }
     eat(){
-        console.log(this.name);
+        console.log("i'm eating.");
     }
 }
 class Employee extends Person{
@@ -456,7 +456,11 @@ class Employee extends Person{
     }
     code:string;
     work(){
-    
+        super.eat();
+        this.doWork();
+    }
+    doWork(){
+        console.log("i'm working.");
     }
 }
 var e1 = new Employee("name","1");
