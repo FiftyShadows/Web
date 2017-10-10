@@ -372,7 +372,7 @@ for(var n of arr){
 
 ##面向对象特性
 
-###，类是typescrip的核心，使用typescript开发时，大部分代码都是写在类里面的。
+###类，类是typescrip的核心，使用typescript开发时，大部分代码都是写在类里面的。
 
 
 ```
@@ -466,5 +466,17 @@ class Employee extends Person{
 var e1 = new Employee("name","1");
 e1.work();
 ```
+
+
+
+###泛型
+
+
+
+
+
+
+
+
 
 
