@@ -1,5 +1,7 @@
 ctrl+shift+g    alt+shift+w    环绕
 
+ctrl+shift+;    去掉父标签
+
 ctrl+shift+'    替换标签
 
 ctrl+shift+a    选择父标签
