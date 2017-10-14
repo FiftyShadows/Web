@@ -1,4 +1,4 @@
-ctrl+shift+g    环绕
+ctrl+shift+g    alt+shift+w    环绕
 
 ctrl+shift+'    替换标签
 
