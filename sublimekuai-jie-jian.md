@@ -10,9 +10,5 @@ ctrl+shift+d    复制已选
 
 ctrl+x    剪切一行
 
-
-
-
-
-
+ctrl+r    搜索函数名
 
