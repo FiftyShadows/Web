@@ -17,7 +17,7 @@
 
 new route --routing
 
-
+在app目录下多生成一个app-routing.module.ts
 
 
 
