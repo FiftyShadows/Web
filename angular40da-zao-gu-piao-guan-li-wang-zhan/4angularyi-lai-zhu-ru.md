@@ -30,14 +30,13 @@ IOC容器
 
 provide指定了提供器的token，useClass代表实例化方法是new ProductService()
 
+    `providers: [provide: ProductService, useClass: AnotherProductService]`
 
+实例化AnotherProductService，useClass决定了实例化的类
 
+    `providers: [provide: ProductService, useFactory: () => {...}]`
 
-
-
-
-
-
+通过工厂方法返回一个实例，注入到构造函数里，并且对实例做一些初始化
 
 
 
