@@ -75,7 +75,9 @@ new route --routing
 
 ####参数订阅和参数快照
 
+- 参数快照
 
+`this.productId = this.routeInfo.snapshot.params["id"];`
 
 
 
