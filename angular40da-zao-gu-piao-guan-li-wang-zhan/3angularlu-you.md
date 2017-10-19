@@ -157,9 +157,7 @@ activate    vt.    使活动，起动，触发; 使开始作用;
 ![](/assets/360截图20171019182231904.jpg)
 
 
-
-
-##resolve守卫
+- resolve守卫
 
 
 
