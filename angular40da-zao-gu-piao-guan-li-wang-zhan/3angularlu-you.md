@@ -24,8 +24,6 @@ new route --routing
 
 不能用斜线开头，在多个视图间导航时，可以自由的使用相对路径绝对路径。
 
-
-
 `<router-outlet></router-outlet>`路由插座，显示导航的信息。
 
 
@@ -34,7 +32,7 @@ new route --routing
 用斜线开头，数组可以方便传参
 
 
-
+####router对象来导航
 
 
 
