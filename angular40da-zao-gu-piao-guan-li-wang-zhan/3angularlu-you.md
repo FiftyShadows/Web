@@ -77,9 +77,14 @@ new route --routing
 
 - 参数快照
 
+组件创建一次不会再创建，productId保持不变
 `this.productId = this.routeInfo.snapshot.params["id"];`
 
+组件创建一次不会再创建，productId保持不变
 
+- 参数订阅
+
+![](/assets/360截图20171019111344147.jpg)
 
 
 
