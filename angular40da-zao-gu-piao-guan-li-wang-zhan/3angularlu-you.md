@@ -146,9 +146,9 @@ activate    vt.    使活动，起动，触发; 使开始作用;
 
 - canActivate
 
+![](/assets/360截图20171019163821020.jpg)
 
-
-
+- canDeactivate
 
 
 
