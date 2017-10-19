@@ -106,7 +106,7 @@ new route --routing
 
 ![](/assets/360截图20171019132005346.jpg)
 
-子路由找不到参数
+路由配置和页面[routerLink]="['./seller', 99]"
 
 
 
