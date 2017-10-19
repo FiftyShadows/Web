@@ -34,9 +34,9 @@ new route --routing
 
 ####router对象来导航
 
+![](/assets/360截图20171019095232439.jpg)
 
-
-
+![](/assets/360截图20171019095219455.jpg)
 
 
 
