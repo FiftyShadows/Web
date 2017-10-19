@@ -510,7 +510,10 @@ workers[1] = new Employee("lisi","2");
     用来建立某种代码约定，使得其他开发者在调用某个方法或创建新的类时必须遵循接口所定义的代码约定。
     
 
-interface方法参数的类型声明    
+interface类的方法参数的类型声明    
+
+implements声明方法
+
         
                 
 ```    
