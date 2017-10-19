@@ -497,6 +497,7 @@ class Employee extends Person{
         console.log("i'm working.");
     }
 }
+//泛型
 var workers: Array<Person> = [];
 workers[0] = new Person("zhangsan");
 workers[1] = new Employee("lisi","2");
