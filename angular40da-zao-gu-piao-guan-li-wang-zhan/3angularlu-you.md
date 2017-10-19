@@ -26,7 +26,7 @@ new route --routing
 
 
 
-
+`<router-outlet></router-outlet>`插座，显示导航的信息。
 
 
 
