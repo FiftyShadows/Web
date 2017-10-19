@@ -142,9 +142,7 @@ new route --routing
 
 ![](/assets/360sdf20171019155447997.jpg)
 
-activate	英[ˈæktɪveɪt]
-美[ˈæktəˌvet]
-vt.	使活动，起动，触发; 使开始作用;
+activate    vt.    使活动，起动，触发; 使开始作用;
 
 
 
