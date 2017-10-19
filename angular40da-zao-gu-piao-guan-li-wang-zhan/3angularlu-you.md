@@ -26,11 +26,12 @@ new route --routing
 
 
 
-`<router-outlet></router-outlet>`插座，显示导航的信息。
+`<router-outlet></router-outlet>`路由插座，显示导航的信息。
 
 
+![](/assets/360截图20171019094006842.jpg)
 
-
+用斜线开头，数组可以方便传参
 
 
 
