@@ -144,7 +144,7 @@ new route --routing
 
 activate    vt.    使活动，起动，触发; 使开始作用;
 
-
+- canActivate
 
 
 
