@@ -546,6 +546,7 @@ class Sheep implemets Animal{
     }
 } 
 class Tiger implements Animal{
+    //实现泛型的方法
     eat(){
         console.log("i eat meat.");
     }
