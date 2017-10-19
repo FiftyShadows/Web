@@ -38,5 +38,5 @@
   * 9.构建和部署
 * [Bootstrap](bootsrap.md)
 * [sublime快捷键](sublimekuai-jie-jian.md)
-* webstorm快捷键
+* [webstorm快捷键](webstormkuai-jie-jian.md)
 
