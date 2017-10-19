@@ -30,7 +30,7 @@
   * [1.Angular介绍](angular40da-zao-gu-piao-guan-li-wang-zhan/1.md)
   * [2.开始Angular开发](angular40da-zao-gu-piao-guan-li-wang-zhan/2.md)
   * [3.Angular路由](angular40da-zao-gu-piao-guan-li-wang-zhan/3angularlu-you.md)
-  * 4.Angular依赖注入
+  * [4.Angular依赖注入](angular40da-zao-gu-piao-guan-li-wang-zhan/4angularyi-lai-zhu-ru.md)
   * 5.数据绑定，响应式编程和管道
   * [6.组件间通讯](angular40da-zao-gu-piao-guan-li-wang-zhan/6angularzu-jian-jian-tong-xun.md)
   * 7.表单处理
