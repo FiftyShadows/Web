@@ -20,11 +20,9 @@ new route --routing
 在app目录下多生成一个app-routing.module.ts
 
 
+![](/assets/360截图20171019093007537.jpg)
 
-
-
-
-
+不能用斜线开头，在多个视图间导航时，可以自由的使用相对路径绝对路径。
 
 
 
