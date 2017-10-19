@@ -106,7 +106,7 @@ new route --routing
 
 ![](/assets/360截图20171019132005346.jpg)
 
-路由配置和页面[routerLink]="['./seller', 99]"
+路由配置和页面`[routerLink]="['./seller', 99]"`
 
 
 
