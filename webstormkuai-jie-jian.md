@@ -26,9 +26,9 @@ Ctrl + Backspace	Delete to word start 删除文字开始
 
 alt+enter    智能引入
 
+![](/assets/360截图20171020135945538.jpg)
 
-
-
+设置Ctrl+滚轮调整字体大小
 
 
 
