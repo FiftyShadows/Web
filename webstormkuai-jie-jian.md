@@ -30,7 +30,7 @@ alt+enter    智能引入
 
 设置Ctrl+滚轮调整字体大小
 
-
+ctrl++f    ctrl+r    选中相同的词，替换
 
 
 
