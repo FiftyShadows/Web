@@ -48,6 +48,8 @@ provide指定了提供器的token，useClass代表实例化方法是new ProductS
 
 外标签不能用p
 
+product1和product.service，并在app.module设置提供器
+
 ![](/assets/360截图20171020100126983.jpg)
 
 ![](/assets/360截图20171020100200800.jpg)
@@ -71,13 +73,17 @@ product2使用pruduct.service的Product类,但注入another.service的AnotherPro
 
 
 
+####@Injectable()装饰器的作用
 
+![](/assets/360截图20171020113735976.jpg)
 
+@Injectable()的作用：表示这个ProductService也可以通过构造函数**注入其他服务**。并不表示这个服务可以注入到其他地方，app.module的providers决定了能不能在其他地方注入
 
+######需要注意的
 
+1. 把所有的服务都加上@Injectable装饰器，方便以后添加依赖，服务一致性，Angular命令行工具已经这样做了
 
-
-
+2. 组件的@Component装饰器和管道装饰器都是@Injectable的子类，所以能在构造函数里注入其他的类。
 
 
 
