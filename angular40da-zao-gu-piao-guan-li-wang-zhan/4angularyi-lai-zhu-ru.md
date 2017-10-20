@@ -103,7 +103,7 @@ product2使用pruduct.service的Product类,但注入another.service的AnotherPro
 
 - 用具体的值定义一个提供器
 
-
+![](/assets/360截图20171020141114845.jpg)
 
 
 
