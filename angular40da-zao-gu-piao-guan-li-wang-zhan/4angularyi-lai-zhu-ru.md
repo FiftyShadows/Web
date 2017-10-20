@@ -48,11 +48,11 @@ provide指定了提供器的token，useClass代表实例化方法是new ProductS
 
 外标签不能用p
 
+![](/assets/360截图20171020100126983.jpg)
 
+![](/assets/360截图20171020100200800.jpg)
 
-
-
-
+![](/assets/360截图20171020100239991.jpg)
 
 
 
