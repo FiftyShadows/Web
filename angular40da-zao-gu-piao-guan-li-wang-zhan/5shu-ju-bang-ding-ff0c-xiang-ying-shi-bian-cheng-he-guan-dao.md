@@ -54,6 +54,138 @@ DOM属性指定了当前值
 
 DOM属性的值可以改变，HTML属性不能改变
 
+disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
+
+
+
+####HTML属性和DOM属性的关系
+
+- 少量HTML属性和DOM属性之间有着1:1的映射，如id。
+
+- 有些HTML属性没有对应的DOM属性，如cosplay。
+
+- 有些DOM属性没有对应的HTML属性，如textHTML。
+
+- 就算名字相同，HTML属性和DOM属性也不是一样东西。
+
+- HTML属性的值指定了初始值；DOM属性的值表示当前值。
+DOM属性的值可以改变；HTML属性的值不能改变。
+
+- 模板绑定是通过DOM属性和事件来工作的，而不是HTML属性。
+
+![](/assets/360截图20171023130322503.jpg)
+
+
+
+
+
+##HTML属性绑定
+
+- 基本HTML属性绑定
+
+`<td [attr.colspan]="tableColspan">Something</td>`
+
+- CSS类绑定
+
+`<div class="aaa" [class]="someExpression">something</div>`替换原来class的值
+
+`<div [class.special]="isSpecial">something</div>`样式名和布尔值
+
+`<div ngClass="{aaa:isA,bbb:isB}"></div>`控制多个CSS类是否显示
+
+- 样式绑定
+
+`<button [style.color]="isSpecial?'red':'green'">Red</button>`
+
+`<div [ngStyle]="{'font-style':this.canSAve?'itlaic':'normal'}"></div>`
+
+![](/assets/360截图20171023132451898.jpg)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
