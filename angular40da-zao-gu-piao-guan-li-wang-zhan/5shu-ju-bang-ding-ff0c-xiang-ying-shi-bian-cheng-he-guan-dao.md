@@ -99,9 +99,17 @@ DOM属性的值可以改变；HTML属性的值不能改变。
 
 - 样式绑定
 
-`<button [style.color]="isSpecial?'red':'green'">Red</button>`
+`<button [style.color]="isDev?'red':'green'">Red</button>`
+
+![](/assets/360截图20171023134313521.jpg)
 
 `<div [ngStyle]="{'font-style':this.canSAve?'itlaic':'normal'}"></div>`
+
+![](/assets/360截图20171023134606556.jpg)
+
+![](/assets/360截图20171023134752280.jpg)
+
+
 
 ![](/assets/360截图20171023132451898.jpg)
 
@@ -109,7 +117,7 @@ DOM属性的值可以改变；HTML属性的值不能改变。
 
 
 
-
+##双向绑定
 
 
 
