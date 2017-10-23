@@ -162,9 +162,13 @@ async异步管道
 
 
 
+####自定义管道
 
+ng g pipe pipe/multiple
 
+![](/assets/360截图20171023145721814.jpg)
 
+![](/assets/360截图20171023145545899.jpg)
 
 
 
