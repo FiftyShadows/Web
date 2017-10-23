@@ -87,11 +87,15 @@ DOM属性的值可以改变；HTML属性的值不能改变。
 
 - CSS类绑定
 
-`<div class="aaa" [class]="someExpression">something</div>`替换原来class的值
+    1. 全有或全无`<div class="aaa" [class]="someExpression">something</div>`替换原来class的值
 
-`<div [class.special]="isSpecial">something</div>`样式名和布尔值
+    2. 样式名和布尔值`<div class="a b" [class.c]="bool">something</div>`
 
-`<div ngClass="{aaa:isA,bbb:isB}"></div>`控制多个CSS类是否显示
+    3. 控制多个CSS类是否显示`<div ngClass="{aaa:isA,bbb:isB}"></div>`
+
+![](/assets/360截图20171023133852147.jpg)
+
+![](/assets/360截图20171023133957236.jpg)
 
 - 样式绑定
 
