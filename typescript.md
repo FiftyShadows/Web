@@ -498,9 +498,10 @@ class Employee extends Person{
     }
 }
 //泛型
-var workers: Array<Person> = [];
+var workers: Array<Person> = [];//规定了数组里面只能放Person类型的元素
 workers[0] = new Person("zhangsan");
-workers[1] = new Employee("lisi","2");
+workers[1] = new Employee("lisi","2");//也可以，因为Employee继承了Person
+worker[2] = 2;//报错
 ```
 
 

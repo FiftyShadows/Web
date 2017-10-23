@@ -18,7 +18,11 @@
 
 
 
+##路由传递数据
 
+constructor(routeInfo: ActivateRoute){}参数订阅和参数快照
+
+将特定的数据结构用类或接口来明确的定义。
 
 
 
