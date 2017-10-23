@@ -201,15 +201,17 @@ fromEvent操作符:这个操作符是专门为事件转换成Observable而制作
 
 异步数据流编程
 
+![](/assets/360截图20171024023510405.jpg)
 
+rxjs:javascript响应式编程包
 
+######模板本地变量
 
+![](/assets/360截图20171024024021600.jpg)
 
+######ReactiveFormsModule模块
 
-
-
-
-
+做响应式编程，它的对象FormControl
 
 
 
