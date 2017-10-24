@@ -128,6 +128,8 @@ ng-content和innerHTML各有利弊
 
 - ng可以有多个投影点，inner只能插入一段
 
+- ng只能绑定父组件中的属性，inner只能绑定当前组件的内容
+
 
 
 
