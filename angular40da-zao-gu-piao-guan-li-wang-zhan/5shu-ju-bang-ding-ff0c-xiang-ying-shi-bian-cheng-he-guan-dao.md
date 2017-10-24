@@ -211,7 +211,7 @@ rxjs:javascript响应式编程包
 
 ######ReactiveFormsModule模块
 
-做响应式编程，它的对象FormControl
+做响应式编程的一个模块，它的对象FormControl
 
 
 
