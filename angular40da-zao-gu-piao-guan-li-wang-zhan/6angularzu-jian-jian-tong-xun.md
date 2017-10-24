@@ -103,22 +103,30 @@ ngAfterViewChecked()变更检测，精简这个事件，以免出现性能问题
 
 注意：
 
-- 
+- 调用顺序，先ngAfterViewInit()后ngAfterViewChecked()，视图被组装完毕后调用
+
+- 当子组件的所有视图组装完毕后，父组件的两个方法才会被掉用
+
+- 不要在这两个方法里改变视图中绑定的东西，可以写在setTimeout里，否则会抛出异常
+
+ 
 
 
+##Content钩子
 
+####投影特性
 
+![](/assets/360截图20171024151059455.jpg)
 
+![](/assets/360截图20171024151133872.jpg)
 
+父组件模板中投影的内容使用的插值表达式只能绑定父组件中的属性。
 
+ng-content和innerHTML各有利弊
 
+- ng可以把html应用转为hybirdAPP应用
 
-
-
-
-
-
-
+- ng可以有多个投影点，inner只能插入一段
 
 
 
