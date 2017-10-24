@@ -112,9 +112,9 @@ ngAfterViewChecked()变更检测，精简这个事件，以免出现性能问题
  
 
 
-##Content钩子
 
-####投影特性
+
+##投影特性
 
 ![](/assets/360截图20171024151059455.jpg)
 
@@ -135,17 +135,19 @@ ng-content和innerHTML各有利弊
 
 
 
+##ngAfterContentInit()和ngAfterContentChecked()是在被投影进来的内容组装完调用的
+
+ngAfterContentInit()里可以改变内容
+
+首先组装投影的内容，然后组装子组件中的内容
+
+![](/assets/360截图20171024155925139.jpg)
 
 
 
+##ngOnDestroy
 
-
-
-
-
-
-
-
+从一个路由地址跳往另一个路由地址的时候，前一个路由地址对应的组件会被销毁，后一个路由组件被创建
 
 
 
