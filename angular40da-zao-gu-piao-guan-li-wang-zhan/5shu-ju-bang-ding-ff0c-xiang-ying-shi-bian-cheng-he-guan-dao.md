@@ -213,7 +213,7 @@ rxjs:javascript响应式编程包
 
 做响应式编程的一个模块，它的对象FormControl
 
-
+![](/assets/360截图20171024102134987.jpg)
 
 
 

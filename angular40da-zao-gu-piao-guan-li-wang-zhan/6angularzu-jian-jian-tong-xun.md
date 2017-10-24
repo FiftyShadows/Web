@@ -26,9 +26,11 @@ constructor(routeInfo: ActivateRoute){}参数订阅和参数快照
 
 
 
+##@Output()
 
+使用输出属性向组件外发射事件，并通过事件携带数据，只能通过父组件事件绑定的方式捕获并处理。
 
-
+使用EventEmitter发射自定义事件，可以被其他组件处理，是subscribe类的子类，可以作为被观察者和观察者。
 
 
 
