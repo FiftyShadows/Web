@@ -90,21 +90,23 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 
 
 
+##状态字段
+
+![](/assets/360截图20171025142529067.jpg)
+
+touch和untouch字段是否获取过焦点，任何一个字段touch所有字段touch
+
+pristine和dirty字段的值是否变过,任何一个字段dirty,则所有字段dirty
+
+pending当一个字段正处于异步校验时，字段的pending属性为true，显示一段文字或图片让用户知道在校验。
+
+![](/assets/360截图20171025143402423.jpg)
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
+##模板式表单校验
 
 
 
