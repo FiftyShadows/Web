@@ -27,7 +27,7 @@
 
 指令NgForm、NgModel、NgModelGroup
 
-Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致的刷新，可以给其他标签手动添加ngForm指令，ngNoForm组织Angular接管。
+Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致的刷新，可以给其他标签手动添加ngForm指令，ngNoForm阻止Angular接管。
 
 被模板本地变量引用，以便在末班中访问ngForm的实例。
 
