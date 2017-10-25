@@ -35,7 +35,7 @@
   * [6.组件间通讯](angular40da-zao-gu-piao-guan-li-wang-zhan/6angularzu-jian-jian-tong-xun.md)
   * [7.表单处理](angular40da-zao-gu-piao-guan-li-wang-zhan/7biao-dan-chu-li.md)
   * [8.与服务器通讯](angular40da-zao-gu-piao-guan-li-wang-zhan/8yu-fu-wu-qi-tong-xun.md)
-  * 9.构建和部署
+  * [9.构建和部署](angular40da-zao-gu-piao-guan-li-wang-zhan/9gou-jian-he-bu-shu.md)
 * [Bootstrap](bootsrap.md)
 * [sublime快捷键](sublimekuai-jie-jian.md)
 * [webstorm快捷键](webstormkuai-jie-jian.md)
