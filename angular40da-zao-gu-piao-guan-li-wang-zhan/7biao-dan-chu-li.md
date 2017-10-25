@@ -27,7 +27,7 @@
 
 指令NgForm、NgModel、NgModelGroup
 
-ngForm自动为form表单添加指令，阻止表单自动提交导致的刷新，可以给其他标签手动添加ngForm指令，ngNoForm组织Angular接管。
+Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致的刷新，可以给其他标签手动添加ngForm指令，ngNoForm组织Angular接管。
 
 被模板本地变量引用，以便在末班中访问ngForm的实例。
 
@@ -42,13 +42,15 @@ ngForm自动为form表单添加指令，阻止表单自动提交导致的刷新�
 
 ##响应式表单
 
+![](/assets/360截图20171025085528204.jpg)
+
 ![](/assets/360截图20171025003216388.jpg)
 
+指令全都来自于ReactiveFormsModule
 
+####不可引用
 
-
-
-
+不能通过模板本地变量引用这个指令的实例，为了明确区分两种表单的处理方式
 
 
 
