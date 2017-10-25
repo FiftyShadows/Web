@@ -41,4 +41,5 @@
 * [webstorm快捷键](webstormkuai-jie-jian.md)
 * [Express](express.md)
   * [基础配置](express/ji-chu-pei-zhi.md)
+* [VS Code快捷键](vs-codekuai-jie-jian.md)
 
