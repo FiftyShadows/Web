@@ -60,6 +60,11 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 
 - 以name结尾的指令只能用在formGroup指令覆盖的范围之内。
 
+![](/assets/360截图20171025125449895.jpg)
+
+![](/assets/360截图20171025125528991.jpg)
+
+
 
 
 ####FormBuilder
