@@ -33,11 +33,15 @@ alt+enter    智能引入
 ctrl++f    ctrl+r    选中相同的词，替换
 
 
+##设置头部注释
+settings→File and Code Templates→Javascript File
 
+```
+/**
+ * Created by LY on ${DATE}.
+ */
 
-
-
-
+```
 
 
 
