@@ -69,19 +69,21 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 
 ####FormBuilder
 
+![](/assets/360截图20171025130038237.jpg)
 
 
 
 
 
+##表单校验
 
+####校验器
 
+- 预定义的校验器Validators(required,minLength,maxLength,pattern)
 
+![](/assets/360截图20171025131200552.jpg)
 
-
-
-
-
+- 自定义的校验器
 
 
 
