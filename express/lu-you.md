@@ -1,6 +1,6 @@
 ##可使用 app.route() 创建路由路径的链式路由句柄。
 
-```js
+```
 app.route('/book')
   .get(function(req, res) {
     res.send('Get a random book');
