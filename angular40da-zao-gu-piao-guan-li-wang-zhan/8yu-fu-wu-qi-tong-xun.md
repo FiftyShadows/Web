@@ -18,6 +18,12 @@
 - 监控服务器文件的变化
 
 
+全局安装nodemon监控服务器文件的变化
+
+nodemon app.js
+
+
+
 
 
 ##Http通讯
