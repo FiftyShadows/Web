@@ -44,4 +44,5 @@
 * [VS Code快捷键](vs-codekuai-jie-jian.md)
 * [Angular进阶技术](angularjin-jie-ji-zhu.md)
   * [1. 环境部署](angularjin-jie-ji-zhu/1.md)
+  * [2.](angularjin-jie-ji-zhu/2.md)
 
