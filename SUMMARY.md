@@ -41,6 +41,7 @@
 * [webstorm快捷键](webstormkuai-jie-jian.md)
 * [Express](express.md)
   * [基础配置](express/ji-chu-pei-zhi.md)
+  * [路由](express/lu-you.md)
 * [VS Code快捷键](vs-codekuai-jie-jian.md)
 * [Angular进阶技术](angularjin-jie-ji-zhu.md)
   * [1. 环境部署](angularjin-jie-ji-zhu/1.md)
