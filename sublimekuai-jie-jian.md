@@ -12,3 +12,8 @@ ctrl+x    剪切一行
 
 ctrl+r    搜索函数名
 
+![](/assets/360截图20171027131436682.jpg)
+
+ctrl+shift+p    sshtml文档格式
+
+ctrl+shift+f    文件夹里查找
