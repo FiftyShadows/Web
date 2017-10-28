@@ -10,6 +10,7 @@ console.log(str.trim());
 var str = "Today is fine day,today is fine day!"
 console.log(str);
 console.log(str.replace(/today/ig,"tomorrow"));
+//i表示忽略大小写，g表示全局替换
 ```
 
 
