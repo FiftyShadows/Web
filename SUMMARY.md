@@ -47,4 +47,5 @@
   * [1. 环境部署](angularjin-jie-ji-zhu/1.md)
   * [2.](angularjin-jie-ji-zhu/2.md)
 * [Angular常用命令](angularchang-yong-ming-ling.md)
+* [npm命令](npmming-ling.md)
 
