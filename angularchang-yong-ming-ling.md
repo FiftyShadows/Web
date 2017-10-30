@@ -12,3 +12,5 @@ npm i jquery --save
 
 
 3. 安装类型描述文件(jquery,bootstrap)
+
+npm i @types/jquery --save-dev
