@@ -4,4 +4,11 @@
 
 npm i jquery --save
 
-2. 引入第三方包
+
+
+2. 在.angular-cli.json中引入第三方包
+
+![](/assets/360截图20171030133923815.jpg)
+
+
+3. 安装类型描述文件(jquery,bootstrap)
