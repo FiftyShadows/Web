@@ -32,6 +32,10 @@ alt+enter    智能引入
 
 ctrl++f    ctrl+r    选中相同的词，替换
 
+ctrl+alt+t     环绕
+
+
+
 
 ##设置头部注释
 settings→File and Code Templates→Javascript File
