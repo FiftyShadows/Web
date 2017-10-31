@@ -16,6 +16,11 @@
 
 ![](/assets/360截图20171024235049273.jpg)
 
+
+
+
+
+
 ## 模板式表单
 
 ![](/assets/360截图20171025002101919.jpg)
@@ -29,6 +34,12 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 ![](/assets/360截图20171025001434065.jpg)
 
 ![](/assets/360截图20171025002253141.jpg)
+
+
+
+
+
+
 
 ## 响应式表单
 
@@ -58,6 +69,12 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 
 ![](/assets/360截图20171025130038237.jpg)
 
+
+
+
+
+
+
 ## 表单校验
 
 #### 校验器
@@ -72,9 +89,11 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 
 ![](/assets/360截图20171025142529067.jpg)
 
-touch和untouch字段是否获取过焦点，任何一个字段touch所有字段touch
+touch和untouch字段是否获取过焦点。
 
-pristine和dirty字段的值是否变过,任何一个字段dirty,则所有字段dirty
+pristine和dirty字段的值是否变过。
+
+对于整个表单，任何一个字段touched（dirty），整个表单touched(dirty);所有字段untouched(pristine)，整个表单untouched(pristine)。
 
 pending当一个字段正处于异步校验时，字段的pending属性为true，显示一段文字或图片让用户知道在校验。
 
