@@ -85,21 +85,48 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 
 * 自定义的校验器
 
+
+
+
+
+
+
 ## 状态字段
 
 ![](/assets/360截图20171025142529067.jpg)
 
-touch和untouch字段是否获取过焦点。
+- touch和untouch字段是否获取过焦点。
 
-pristine和dirty字段的值是否变过。
+- pristine和dirty字段的值是否变过。
 
-对于整个表单，任何一个字段touched（dirty），整个表单touched(dirty);所有字段untouched(pristine)，整个表单untouched(pristine)。
+- 对于整个表单，任何一个字段touched（dirty），整个表单touched(dirty);所有字段untouched(pristine)，整个表单untouched(pristine)。
 
-pending当一个字段正处于异步校验时，字段的pending属性为true，显示一段文字或图片让用户知道在校验。
+- pending当一个字段正处于异步校验时，字段的pending属性为true，显示一段文字或图片让用户知道在校验。
 
 ![](/assets/360截图20171025143402423.jpg)
 
+
+####针对所有字段Angular会自动根据其状态，给input标签添加一些样式，可以通过自定义这些样式个性化input在不同状态下的外观
+
+![](/assets/360截图20171031160921809.jpg)
+
+给input标签添加hasError样式
+
+`<div>用户名：<input [class.hasError]="formModel.get('username').invalid && formModel.get('username').touched" type="text" formControlName="username"></div>`
+
+
+
+
+
+
+
+
+
 ## 模板式表单校验
 
+directive（没有模板的组件）和component类似，区别就是directive没有模板。
+
+
+ 
 
 
