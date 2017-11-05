@@ -86,7 +86,7 @@ product2使用pruduct.service的Product类,但注入another.service的AnotherPro
 
 ###### 工厂声明提供器的两个问题
 
-* 在useFactory里注入其他的类
+* 在useFactory里注入其他的类——解耦合
 
 ![](/assets/360截图20171020134154731.jpg)
 
