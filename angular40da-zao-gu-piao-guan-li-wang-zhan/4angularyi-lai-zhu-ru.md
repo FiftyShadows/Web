@@ -84,9 +84,17 @@ product2使用pruduct.service的Product类,但注入another.service的AnotherPro
 
 ![](/assets/360截图20171020133111905.jpg)
 
+###### 
+
+###### 
+
+###### 
+
 ###### 工厂声明提供器的两个问题
 
 * 在useFactory里注入其他的类——解耦合
+
+deps数组声明工厂方法依赖的参数
 
 ![](/assets/360截图20171020134154731.jpg)
 
