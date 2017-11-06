@@ -32,17 +32,11 @@
 
 ## DOM属性绑定
 
-
-
 * 插值表达式和属性绑定一样
 
 ![](/assets/360截图20171023092903496.jpg)
 
 渲染之前会把插值表达式编译成属性绑定。
-
-
-
-
 
 * HTML属性和DOM属性区别
 
@@ -57,12 +51,6 @@ DOM属性指定了当前值
 DOM属性的值可以改变，HTML属性不能改变
 
 disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
-
-
-
-
-
-
 
 #### HTML属性和DOM属性的关系
 
@@ -79,21 +67,19 @@ disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
 
 * 模板绑定是通过DOM属性和事件来工作的，而不是HTML属性。
 
-
-
-
-
 ![](/assets/360截图20171023130322503.jpg)
 
+## 
+
+## 
+
+
+
 ## HTML属性绑定
-
-
 
 * 基本HTML属性绑定
 
 `<td [attr.colspan]="tableColspan">Something</td>`
-
-
 
 * CSS类绑定
 
@@ -106,8 +92,6 @@ disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
 ![](/assets/360截图20171023133852147.jpg)
 
 ![](/assets/360截图20171023133957236.jpg)
-
-
 
 * 样式绑定
 
