@@ -73,8 +73,6 @@ disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
 
 ## 
 
-
-
 ## HTML属性绑定
 
 * 基本HTML属性绑定
@@ -108,6 +106,8 @@ disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
 ![](/assets/360截图20171023134752280.jpg)
 
 ![](/assets/360截图20171023132451898.jpg)
+
+## 
 
 ## 双向绑定
 
