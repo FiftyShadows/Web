@@ -95,6 +95,8 @@ disabled属性的HTML值无关紧要，可以设置DOM的disabled属性
 
 * 样式绑定
 
+![](/assets/360截图20171106102901439.jpg)
+
 `<button [style.color]="isDev?'red':'green'">Red</button>`
 
 ![](/assets/360截图20171023134313521.jpg)
