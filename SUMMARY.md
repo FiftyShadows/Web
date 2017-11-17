@@ -45,7 +45,7 @@
 * [VS Code快捷键](vs-codekuai-jie-jian.md)
 * [Angular进阶技术](angularjin-jie-ji-zhu.md)
   * [1. 环境部署](angularjin-jie-ji-zhu/1.md)
-  * [2.](angularjin-jie-ji-zhu/2.md)
+  * [2. Material](angularjin-jie-ji-zhu/2.md)
 * [Angular常用命令](angularchang-yong-ming-ling.md)
 * [npm命令](npmming-ling.md)
 * [17.11.8](17118.md)
