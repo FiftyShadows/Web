@@ -12,23 +12,27 @@ flex-basis    项目的长度。合法值："auto"、"inherit" 或一个后跟 "
 
 * 在父节点上设置
 
-display: flex;    伸缩盒子
+- display: flex;    伸缩盒子
 
-flex-direction: row;    flex容器主轴方向\(row \| row-reverse \| column \| column-reverse\)
+- flex-direction: row;    flex容器主轴方向\(row \| row-reverse \| column \| column-reverse\)
 
-flex-wrap: wrap;    控制flex容器是单行或者多行，同时横轴的方向决定了新行堆叠的方向\(nowrap \| wrap \| wrap-reverse\)
+- flex-wrap: wrap;    控制flex容器是单行或者多行，同时横轴的方向决定了新行堆叠的方向\(nowrap \| wrap \| wrap-reverse\)
 
-flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。
+- flex-flow属性是flex-direction属性和flex-wrap属性的简写形式，默认值为row nowrap。
 
-justify-content: center;    主轴横向对齐方式
+- justify-content: center;    主轴横向对齐方式
 
-align-content: stretch;    主轴竖向对齐方式，默认stretch
+- align-content: stretch;    主轴竖向对齐方式，默认stretch
 
-align-items: center;    定义flex子项在flex容器的当前行纵轴对齐方式\(flex-start \| flex-end \| center \| baseline \| stretch\)
+- align-items: center;    定义flex子项在flex容器的当前行纵轴对齐方式\(flex-start \| flex-end \| center \| baseline \| stretch\)
 
 ![](/assets/360截图20171120204939943.jpg)
 
 ![](/assets/360截图20171117132227121.jpg)
+
+- display:flex; 设置在外层容器父级，表示该容器使用弹性盒布局方式
+
+- flex:1; 设置在子项，数值表示占据剩余空间的份数
 
 ## 
 
@@ -38,7 +42,7 @@ align-items: center;    定义flex子项在flex容器的当前行纵轴对齐方
 
 * order属性定义项目的排列顺序。数值越小，排列越靠前，默认为0。
 
-* flex-grow属性定义项目的放大比例，默认为0，即如果存在剩余空间，也不放大
+* flex-growflex-grow 属性的默认值为 0，如果没有显示定义该属性，是不会拥有分配剩余空间权利的
 
 如果所有项目的flex-grow属性都为1，则它们将等分剩余空间（如果有的话）。如果一个项目的flex-grow属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍。
 
