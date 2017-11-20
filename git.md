@@ -1,1 +1,1 @@
-本地强制上传git push -u origin master -f
+本地强制上传到远程仓库git push -u origin master -f
