@@ -2,7 +2,7 @@ flex:1;
 
 flex: flex-grow flex-shrink flex-basis|auto|initial|inherit;
 
-flex-grow	一个数字，规定项目将相对于其他灵活的项目进行扩展的量。
+flex-grow	一个数字，项目将相对于其他灵活的项目进行扩展的量。
 
 flex-shrink	一个数字，规定项目将相对于其他灵活的项目进行收缩的量。
 
