@@ -14,7 +14,7 @@ flex-basis	项目的长度。合法值："auto"、"inherit" 或一个后跟 "%"�
 
 display: flex;    伸缩盒子
 
-flex-direction: row;    flex容器主轴方向
+flex-direction: row;    flex容器主轴方向(row | row-reverse | column | column-reverse)
 
 flex-wrap: wrap;    控制flex容器是单行或者多行，同时横轴的方向决定了新行堆叠的方向
         nowrap	默认值。规定灵活的项目不拆行或不拆列。
