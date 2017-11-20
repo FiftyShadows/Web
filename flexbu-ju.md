@@ -26,6 +26,8 @@ align-content: stretch;    主轴竖向对齐方式，默认stretch
 
 align-items: center;    定义flex子项在flex容器的当前行纵轴对齐方式(flex-start | flex-end | center | baseline | stretch)
 
+![](/assets/360截图20171120204939943.jpg)
+
 ![](/assets/360截图20171117132227121.jpg)
 
 
