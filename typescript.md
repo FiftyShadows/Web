@@ -1,87 +1,68 @@
-- 微软开发
+* 微软开发
 
-- javascript超集
+* javascript超集
 
-- 遵循ES6
+* 遵循ES6
 
+## 优势
 
+* 支持ES6规范
 
-##优势
+* 强大的IDE支持（语法提示，重构）
 
-- 支持ES6规范
+* Angular的开发语言
 
-- 强大的IDE支持（语法提示，重构）
+## 搭建typescipt开发环境
 
-- Angular的开发语言
+* 使用在线complier开发
 
+* 本地complier
 
+  * npm install -g typescipt
 
+  * tsc --version
 
-##搭建typescipt开发环境
+  * tsc hello.ts
 
-- 使用在线complier开发
+## 字符串新特性
 
-- 本地complier
+### 多行字符串
 
-    - npm install -g typescipt
-    
-    - tsc --version
+    var content = `aaa
+    bbb
+    ccc`;
 
-    - tsc hello.ts
+### 字符串模板
 
+    var name = `zhai liang`;
+    var getName = function (){
+        return "zhai liang";
+    }
+    console.log(`hello ${name}`);
+    console.log(`hello ${getName()}`);
+    console.log(`<div>
+    <span>${name}</span>
+    <span>${getName()}</span>
+    <div>xxx</div>
+    </div>`);
 
+### 自动拆分字符串
 
+    function (template,name,age){
+        console.log(template);
+        console.log(name);
+        console.log(age);
 
-##字符串新特性
+    }
+    var myname= "zhai liang";
+    var getAge = function (){
+        return 18;
+    }
+    test`my name is ${name},i'm ${getAge()}`;
 
-###多行字符串
+## 参数新特性
 
-```
-var content = `aaa
-bbb
-ccc`;
-```
-
-###字符串模板
-
-```
-var name = `zhai liang`;
-var getName = function (){
-    return "zhai liang";
-}
-console.log(`hello ${name}`);
-console.log(`hello ${getName()}`);
-console.log(`<div>
-<span>${name}</span>
-<span>${getName()}</span>
-<div>xxx</div>
-</div>`);
-```
-
-###自动拆分字符串
-
-```
-function (template,name,age){
-    console.log(template);
-    console.log(name);
-    console.log(age);
-
-}
-var myname= "zhai liang";
-var getAge = function (){
-    return 18;
-}
-test`my name is ${name},i'm ${getAge()}`;
-```
-
-
-
-
-
-##参数新特性
-
-
-###参数类型
+### 参数类型
 
 在参数名称后面使用冒号来制定参数类型。
 
@@ -114,8 +95,7 @@ zhangsan.name = "zhang liang";.
 zhangsan.age = 18;
 ```
 
-
-###参数默认值
+### 参数默认值
 
 带默认值的参数一定要放在最后面。
 
@@ -129,8 +109,7 @@ test("xx", "yy", "zz");
 test("xx", "yy");
 ```
 
-
-###可选参数
+### 可选参数
 
 可选参数要放在必选参数的后面。
 
@@ -143,14 +122,13 @@ function test(a:string, b?:string, c:string = "jojo"){
 test("xx");    //xx undefined jojo
 ```
 
+## 函数新特性
 
+### Rest and Spread 操作符：
 
-##函数新特性
-
-
-###Rest and Spread 操作符：
-
-    用来声明任意数量的方法参数
+```
+用来声明任意数量的方法参数
+```
 
 ```
 function fun1(...args){
@@ -177,11 +155,11 @@ var args2 = [7,8,9,10,11];
 func1(...args2);    // 7 8 9
 ```
 
+### generator函数：
 
-###generator函数：
-
-    控制函数的执行过程，手动暂停和恢复代码执行
-
+```
+控制函数的执行过程，手动暂停和恢复代码执行
+```
 
 ```js
 function* doSomething(){
@@ -193,7 +171,6 @@ var func1 = doSomething();
 func1.next();
 func1.next();
 ```
-
 
 ```js
 function* getPrice(stock){
@@ -212,9 +189,7 @@ while(price > limitPrice){
 console.log(`buying at ${price}`);
 ```
 
-
-
-###析构表达式
+### 析构表达式
 
 ```
 function getStock(){
@@ -236,7 +211,6 @@ console.log(codeX);
 console.log(price);
 ```
 
-
 ```
 function getStock(){
     return{
@@ -253,13 +227,11 @@ var {code:codeX,price:{price2}} = getStock();
 console.log(price);
 ```
 
-
 ```
 var arr = [1,2,3,4];
 
 var [,,num1, num2] = arr;
 ```
-
 
 ```
 var arr = [1,2,3,4];
@@ -276,21 +248,18 @@ function do(num1,num2,...others){
 }
 ```
 
+## 表达式和循环
 
+### 箭头表达式
 
-
-##表达式和循环
-
-
-###箭头表达式
-
-    用来声明匿名函数，消除传统匿名函数的this指针问题
+```
+用来声明匿名函数，消除传统匿名函数的this指针问题
+```
 
 ```
 //单行
 var sum = (arg1,arg2) => arg1 + arg2;
 ```
-
 
 ```
 //无参数
@@ -311,8 +280,6 @@ var arr = [1,2,3,4,5,6,7,8,9];
 console.log(arr.filter(val => val%2 == 0));
 ```
 
-
-
 ```
 //消除传统匿名函数的this指针问题
 function getStock(name:string){
@@ -332,12 +299,9 @@ function getStock2(name:string){
 var stock2 = new getStock2("IBM");
 ```
 
-functino(){}的写法，由于是匿名函数，上下文是调用时的上下文，即window，因为window.name未定义，所以访问不到。箭头函数的上下文是由创建时所在的上下文决定的，在getStock()函数中创建，所以this之中指向getStock()，故可以访问到name属性。
+functino\(\){}的写法，由于是匿名函数，上下文是调用时的上下文，即window，因为window.name未定义，所以访问不到。箭头函数的上下文是由创建时所在的上下文决定的，在getStock\(\)函数中创建，所以this之中指向getStock\(\)，故可以访问到name属性。
 
-
-
-###forEach(),for in 和 for of
-
+### forEach\(\),for in 和 for of
 
 ```
 var arr = [1,2,3,4];
@@ -346,7 +310,6 @@ arr.forEach(val => console.log(val));
 //会忽略属性值,不能break
 ```
 
-
 ```
 var arr = [1,2,3,4];
 arr.desc = "four number";
@@ -354,7 +317,6 @@ for(var n in arr){
     console.log(arr[n]);
 }
 ```
-
 
 ```
 var arr = [1,2,3,4];
@@ -366,14 +328,9 @@ for(var n of arr){
 //会忽略属性值,能break,还可用于字符串
 ```
 
+## 面向对象特性
 
-
-
-
-##面向对象特性
-
-###类，类是typescrip的核心，使用typescript开发时，大部分代码都是写在类里面的。
-
+### 类，类是typescrip的核心，使用typescript开发时，大部分代码都是写在类里面的。
 
 ```
 class Person{
@@ -391,11 +348,9 @@ p2.name = "superman";
 p2.eat();
 ```
 
-访问控制符public,private（内部）,protected(内部和子类)
+访问控制符public,private（内部）,protected\(内部和子类\)
 
-
-
-####类的构造方法
+#### 类的构造方法
 
 ```
 class Person{
@@ -409,13 +364,9 @@ class Person{
 }
 var p1 = new Person("batman");
 p1.eat();
-
-
 ```
 
-
-
-####类的继承extends, super
+#### 类的继承extends, super
 
 ```
 class Person{
@@ -430,14 +381,11 @@ class Person{
 class Employee extends Person{
     code:string;
     work(){
-    
+
     }
 }
 var e1 = new Employee("name");
 ```
-
-
-
 
 ```
 class Person{
@@ -467,11 +415,11 @@ var e1 = new Employee("name","1");
 e1.work();
 ```
 
+### 泛型（generic）
 
-
-###泛型（generic）
-    
-    参数化的类型，一般用来限制集合的内容
+```
+参数化的类型，一般用来限制集合的内容
+```
 
 ```
 class Person{
@@ -504,20 +452,17 @@ workers[1] = new Employee("lisi","2");//也可以，因为Employee继承了Perso
 worker[2] = 2;//报错
 ```
 
+### 接口\(Interface\)
 
+```
+用来建立某种代码约定，使得其他开发者在调用某个方法或创建新的类时必须遵循接口所定义的代码约定。
+```
 
-###接口(Interface)
-
-    用来建立某种代码约定，使得其他开发者在调用某个方法或创建新的类时必须遵循接口所定义的代码约定。
-    
-
-interface类的方法参数的类型声明    
+interface类的方法参数的类型声明
 
 implements声明方法
 
-        
-                
-```    
+```
 interface IPerson{
     name:string;
     age:number;
@@ -525,7 +470,7 @@ interface IPerson{
 class Person{
     //作为参数类型声明
     constructor(public config:IPerson){
-    
+
     }
 }
 var p1 = new Person({
@@ -533,8 +478,8 @@ var p1 = new Person({
     age:18
 });
 console.log(p1.config.name);
-```   
-    
+```
+
 ```
 interface Animal{
     eat();
@@ -552,17 +497,18 @@ class Tiger implements Animal{
         console.log("i eat meat.");
     }
 }
-```    
-   
+```
 
+### m模块（module）
 
-###m模块（module）
-
-    模块可以帮助开发者将代码分割为可重用的单元。开发者可以自己决定将模块中的哪些资源（类、方法、变量）暴露出去供外部使用，哪些资源只在模块内使用。
+```
+模块可以帮助开发者将代码分割为可重用的单元。开发者可以自己决定将模块中的哪些资源（类、方法、变量）暴露出去供外部使用，哪些资源只在模块内使用。
+```
 
 export,import
 
 a.ts文件
+
 ```
 export var prop1;
 var prop2;
@@ -581,6 +527,7 @@ class Clazz2{
 ```
 
 b.ts文件
+
 ```
 import {prop1,func1,Clazz1} from "./a";
 
@@ -589,26 +536,17 @@ func1();
 new Clazz1();
 ```
 
+### 注解（annotation）
 
+```
+注解为程序的元素（类、方法、变量）加上更直观更明了的说明，这些说明信息与程序的业务逻辑无关，而是供指定的工具或框架使用的。
+```
 
-###注解（annotation）
+### 类型定义文件（\*.d.ts）
 
-    注解为程序的元素（类、方法、变量）加上更直观更明了的说明，这些说明信息与程序的业务逻辑无关，而是供指定的工具或框架使用的。
-
-
-
-
-
-###类型定义文件（*.d.ts）
-
-    类型定义文件用来帮助开发者在TypeScript中使用已有的JavaScript的工具包如：jQuery
+```
+类型定义文件用来帮助开发者在TypeScript中使用已有的JavaScript的工具包如：jQuery
+```
 
 npm install @types/库名
-
-
-
-
-
-
-
 
