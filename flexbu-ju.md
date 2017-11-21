@@ -1,3 +1,5 @@
+http://www.jianshu.com/p/07e0c16a4ff5#
+
 flex:1;
 
 flex: flex-grow flex-shrink flex-basis\|auto\|initial\|inherit;
