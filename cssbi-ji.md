@@ -8,7 +8,6 @@ input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
 ```
 
 2. firefox浏览器下移除
-
 ```
 input[type="number"]{
         -moz-appearance:textfield;
