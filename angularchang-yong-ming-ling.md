@@ -14,3 +14,7 @@ npm i jquery --save
 3. 安装类型描述文件(jquery,bootstrap)
 
 npm i @types/jquery --save-dev
+
+
+##keyup.enter事件
+`<input type="text" [(ngModel)]="desc" (keyup.enter)="addTodo()">`
