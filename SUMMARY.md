@@ -53,4 +53,5 @@
 * [flex布局](flexbu-ju.md)
 * [HTML笔记](htmlbi-ji.md)
 * [CSS笔记](cssbi-ji.md)
+* [Nginx配置](nginxpei-zhi.md)
 
