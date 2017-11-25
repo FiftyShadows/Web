@@ -4,7 +4,7 @@
 
 - exe目录下start nginx
 
-- 关闭 .\nginx.exe -s stop
+- 快速停止或关闭 .\nginx.exe -s stop
 
 - 重载（修改配置后使用如下命令生效配置） .\nginx.exe -s reload
 
