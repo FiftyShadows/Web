@@ -29,7 +29,7 @@
 
 Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致的刷新，可以给其他标签手动添加ngForm指令，ngNoForm阻止Angular接管。
 
-被模板本地变量引用，以便在模板中访问ngForm的实例。
+####ngForm被模板本地变量引用，以便在模板中访问ngForm的实例。
 
 ![](/assets/360截图20171025001434065.jpg)
 
@@ -38,6 +38,13 @@ Angular会自动为form表单添加ngForm指令，阻止表单自动提交导致
 ####ngModel指令创建的对象也可以通过本地模板变量来引用
 
 ![](/assets/360截图20171125155542956.jpg)
+
+####ngModelGroup嵌套ngModel指令
+
+![](/assets/360截图20171125160028710.jpg)
+
+
+
 
 
 
