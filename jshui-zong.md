@@ -39,7 +39,40 @@ map() 方法创建一个新数组，其结果是该数组中的每个元素都�
 
 ##javascript时间戳和日期字符串相互转换
 
-Date.parse(new Date("2014-07-10 10:21:12"))；
+```js
+// 获取某个时间格式的时间戳
+var stringTime = "2014-07-10 10:21:12";
+var timestamp2 = Date.parse(new Date(stringTime));
+timestamp2 = timestamp2 / 1000;
+//2014-07-10 10:21:12的时间戳为：1404958872 
+console.log(stringTime + "的时间戳为：" + timestamp2);
+
+// 将当前时间换成时间格式字符串
+var timestamp3 = 1403058804;
+var newDate = new Date();
+newDate.setTime(timestamp3 * 1000);
+// Wed Jun 18 2014 
+console.log(newDate.toDateString());
+// Wed, 18 Jun 2014 02:33:24 GMT 
+console.log(newDate.toGMTString());
+// 2014-06-18T02:33:24.000Z
+console.log(newDate.toISOString());
+// 2014-06-18T02:33:24.000Z 
+console.log(newDate.toJSON());
+// 2014年6月18日 
+console.log(newDate.toLocaleDateString());
+// 2014年6月18日 上午10:33:24 
+console.log(newDate.toLocaleString());
+// 上午10:33:24 
+console.log(newDate.toLocaleTimeString());
+// Wed Jun 18 2014 10:33:24 GMT+0800 (中国标准时间)
+console.log(newDate.toString());
+// 10:33:24 GMT+0800 (中国标准时间) 
+console.log(newDate.toTimeString());
+// Wed, 18 Jun 2014 02:33:24 GMT
+console.log(newDate.toUTCString());
+
+```
 
 
 
