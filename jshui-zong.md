@@ -21,7 +21,7 @@ console.log(div.bbbb);
 
 
 
-字符串转换成数组：
+##字符串转换成数组：
 
 var str = "红鲤鱼与绿鲤鱼与驴";
 var arr =  str.split("");
