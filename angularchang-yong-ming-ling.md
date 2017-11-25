@@ -20,7 +20,7 @@ npm i @types/jquery --save-dev
 
 `<input type="text" [(ngModel)]="desc" (keyup.enter)="addTodo()">`
 
-##ngSubit提交事件
+##ngSubit事件
 
 ![](/assets/360截图20171125155159123.jpg)
 
