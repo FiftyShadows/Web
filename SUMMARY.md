@@ -1,6 +1,9 @@
 # Summary
 
 * [Introduction](README.md)
+* [JS笔记](jshui-zong.md)
+* [HTML笔记](htmlbi-ji.md)
+* [CSS笔记](cssbi-ji.md)
 * [7.JS特效](7jste-xiao.md)
   * [缓动框架的透明度兼容](7jste-xiao/tou-ming-du-de-jian-rong.md)
   * [旋转轮播图](7jste-xiao/xuan-zhuan-lun-bo-tu.md)
@@ -14,7 +17,6 @@
   * [1](8jquery/1.md)
   * [2](8jquery/2.md)
   * [3](8jquery/3.md)
-* [JS汇总](jshui-zong.md)
 * [JS高级](jsmian-shi-ji-qiao.md)
   * [1.基础知识（上）](jsmian-shi-ji-qiao/1ji-chu-zhi-shi-ff08-shang-ff09.md)
   * [2.基础知识（中）](jsmian-shi-ji-qiao/ji-chu-zhi-shi-ff08-zhong-ff09.md)
@@ -50,8 +52,6 @@
 * [npm命令](npmming-ling.md)
 * [17.11.8](17118.md)
 * [Git](git.md)
-* [flex布局](flexbu-ju.md)
-* [HTML笔记](htmlbi-ji.md)
 * [CSS笔记](cssbi-ji.md)
 * [Nginx配置](nginxpei-zhi.md)
 * [Http statusCode](abc.md)
