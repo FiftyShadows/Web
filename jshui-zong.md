@@ -75,4 +75,17 @@ console.log(newDate.toUTCString());
 ```
 
 
+##类型转换
+
+- Boolean(value) 是把值转换成Boolean类型
+
+- Nnumber(value) 是把值转换成数字
+
+- parseInt和parseFloat则可以只转换开头的数字部分
+
+- String(value) 是把值转换成字符串
+
+- parseInt和parseFloat则可以只转换开头的数字部分
+
+
 
