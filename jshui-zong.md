@@ -90,6 +90,21 @@ console.log(newDate.toUTCString());
 
 ##浅复制和深复制
 
+```
+//浅复制
+var obj = { a:1, arr: [2,3] };
+var shallowObj = shallowCopy(obj);
+
+function shallowCopy(src) {
+  var dst = {};
+  for (var prop in src) {
+    if (src.hasOwnProperty(prop)) {
+      dst[prop] = src[prop];
+    }
+  }
+  return dst;
+}
+```
 
 
 
