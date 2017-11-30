@@ -88,4 +88,22 @@ console.log(newDate.toUTCString());
 - parseInt和parseFloat则可以只转换开头的数字部分
 
 
+##浅复制和深复制
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
