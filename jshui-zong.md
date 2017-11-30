@@ -90,6 +90,8 @@ console.log(newDate.toUTCString());
 
 ##浅复制和深复制
 
+- 浅复制只会将对象的各个属性进行依次复制，并不会进行递归复制，而 JavaScript 存储对象都是存地址的，所以浅复制会导致 obj.arr 和 shallowObj.arr 指向同一块内存地址
+
 ```
 //浅复制
 var obj = { a:1, arr: [2,3] };
