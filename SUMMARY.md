@@ -49,6 +49,7 @@
   * [1. 环境部署](angularjin-jie-ji-zhu/1.md)
   * [2. Material](angularjin-jie-ji-zhu/2.md)
   * [4. ](angularjin-jie-ji-zhu/4.md)
+  * [7. Redux](angularjin-jie-ji-zhu/asdsafaf.md)
 * [Angular笔记](angularchang-yong-ming-ling.md)
 * [npm命令](npmming-ling.md)
 * [17.11.8](17118.md)
