@@ -53,7 +53,6 @@
 * [npm命令](npmming-ling.md)
 * [17.11.8](17118.md)
 * [Git](git.md)
-* [CSS笔记](cssbi-ji.md)
 * [Nginx配置](nginxpei-zhi.md)
 * [Http statusCode](abc.md)
 * [ngx-fullpage](ngx-fullpage.md)
