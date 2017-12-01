@@ -122,6 +122,7 @@ var obj2 = deepCopy(obj);
 
 ##查找值在数组中的位置
 
+- indexOf([ 1, 2, 3, 4 ], 3)
 
 
 
