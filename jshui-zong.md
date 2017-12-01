@@ -124,6 +124,11 @@ var obj2 = deepCopy(obj);
 
 - indexOf([ 1, 2, 3, 4 ], 3)
 
+如果数组中存在 item，则返回元素在数组中的位置，否则返回 -1
+
+- array.indexOf(value);
+
+
 
 
 
