@@ -174,8 +174,13 @@ var obj2 = deepCopy(obj);
 
 
 
+##Object.assign()
 
+- 合并多个对象
 
+- 克隆对象（浅）
+
+- 为对象添加多个方法
 
 
 
