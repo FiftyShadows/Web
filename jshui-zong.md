@@ -182,7 +182,15 @@ var obj2 = deepCopy(obj);
 
 - 为对象添加多个方法
 
+```
+var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj、obj1是源对象。对象合并是指：将源对象里面的属性添加到目标对象中去，若两者的属性名有冲突，后面的将会覆盖前面的
 
+   
+//【注意】：当Object.assign()方法用于数组时：
+ var arr11 = Object.assign([1,2,3],[4,5]);
+ console.log(arr11);//[4,5,3]
+ //[说明]:对象是根据属性名来对应，数组是根据索引号来对应   
+```
 
 
 
