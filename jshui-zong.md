@@ -193,8 +193,11 @@ var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj�
 ```
 
 
+##Ajax
 
+- post application/json 
 
+![](/assets/360截图20171205155857590.jpg)
 
 
 
