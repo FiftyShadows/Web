@@ -130,6 +130,53 @@ var obj2 = deepCopy(obj);
 
 
 
+##JSON
+
+- 使用反斜线对字符串中的双引号进行转义
+
+```
+{
+  "promo": "Say \"Bob's the best!\" at checkout for free 8oz bag of kibble."
+}
+```
+
+- 除了双引号和反斜线，还需要转义以下字符串：
+
+  - \/（正斜线）
+  
+  - \b
+  
+  - \f
+  
+  - \t
+  
+  - \n
+  
+  - \r
+  
+  - \u
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
