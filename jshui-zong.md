@@ -134,31 +134,43 @@ var obj2 = deepCopy(obj);
 
 - 使用反斜线对字符串中的双引号进行转义
 
-```
-{
-  "promo": "Say \"Bob's the best!\" at checkout for free 8oz bag of kibble."
-}
-```
 
 - 除了双引号和反斜线，还需要转义以下字符串：
 
   - \/（正斜线）
   
-  - \b
+  - \b（退格符）
   
-  - \f
+  - \f（换页符）
   
-  - \t
+  - \t（制表符）
   
-  - \n
+  - \n（换行符）
   
-  - \r
+  - \r（回车符）
   
-  - \u
+  - \u（后跟十六进制字符\u263A）
 
 
+```
+{
+  "promo": "Say \"Bob's the best!\" at checkout for free 8oz bag of kibble."
+}
 
+{
+  "location": "C:\\Program Files"
+}
 
+{
+  "story": "\\t Once upon a time, in a far away land \\n there lived a princess."
+}
+```
+
+- 序列化和反序列化
+
+  - 反序列化JSON.parse()，将文本转换成对象。
+  
+  - 序列化JSON.stringfy(),将对象转换成文本。
 
 
 
