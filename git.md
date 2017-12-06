@@ -36,6 +36,14 @@ git reset --hard 6f647f79a39
 
 
 
+##储藏
+
+git stash
+
+git stash pop    恢复位于栈顶的被储藏修改
+
+
+
 
 ##.gitignore
 
