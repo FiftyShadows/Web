@@ -41,8 +41,12 @@ console.log(first); // outputs 1
 console.log(second); // outputs 2
 ```
 
+- 解构作用于已声明的变量会更好
 
-
+```
+// swap variables
+[first, second] = [second, first];
+```
 
 
 
