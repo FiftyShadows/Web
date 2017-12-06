@@ -4,6 +4,8 @@
 
 * 遵循ES6
 
+
+
 ## 优势
 
 * 支持ES6规范
@@ -11,6 +13,9 @@
 * 强大的IDE支持（语法提示，重构）
 
 * Angular的开发语言
+
+
+
 
 ## 搭建typescipt开发环境
 
@@ -23,6 +28,11 @@
   * tsc --version
 
   * tsc hello.ts
+
+
+
+
+
 
 ## 字符串新特性
 
@@ -59,6 +69,9 @@
         return 18;
     }
     test`my name is ${name},i'm ${getAge()}`;
+    
+    
+    
 
 ## 参数新特性
 
@@ -121,6 +134,10 @@ function test(a:string, b?:string, c:string = "jojo"){
 }
 test("xx");    //xx undefined jojo
 ```
+
+
+
+
 
 ## 函数新特性
 
