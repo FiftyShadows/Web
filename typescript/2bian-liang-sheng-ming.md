@@ -32,9 +32,13 @@ kitty.numLives--;
 
 ##解构数组
 
-
-
-
+- 解构赋值
+```
+let input = [1, 2];
+let [first, second] = input;
+console.log(first); // outputs 1
+console.log(second); // outputs 2
+```
 
 
 
