@@ -35,11 +35,14 @@ interface SquareConfig {
 
 ##只读属性
 
+```
+interface Point {
+    readonly x: number;
+    readonly y: number;
+}
+```
 
-
-
-
-
+一些对象属性只能在对象刚刚创建的时候修改其值。 你可以在属性名前用 readonly来指定只读属性
 
 
 
