@@ -4,6 +4,10 @@ git log --oneline
 
 git dif xxx.xx
 
+##创建裸仓库
+
+裸仓库通常可被用来充当开发者们传递提交的汇聚点。
+
 git clone --bare /program/first-steps    创建裸仓库
 
 
