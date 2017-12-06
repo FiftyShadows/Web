@@ -28,9 +28,13 @@ let myAdd: (baseValue: number, increment: number) => number =
 
 ##剩余参数
 
+```
+function buildName(firstName: string, ...restOfName: string[]) {
+  return firstName + " " + restOfName.join(" ");
+}
 
-
-
+let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
+```
 
 
 
