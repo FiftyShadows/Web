@@ -33,6 +33,7 @@
   * [3.接口](typescript/3jie-kou.md)
   * [4.类](typescript/4lei.md)
   * [5.函数](typescript/5han-shu.md)
+  * [6.泛型](typescript/6fan-xing.md)
 * [Angular4.0打造股票管理网站](angular40da-zao-gu-piao-guan-li-wang-zhan.md)
   * [1.Angular介绍](angular40da-zao-gu-piao-guan-li-wang-zhan/1.md)
   * [2.开始Angular开发](angular40da-zao-gu-piao-guan-li-wang-zhan/2.md)
