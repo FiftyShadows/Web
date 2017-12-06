@@ -90,6 +90,43 @@ let o = {
 let { a, b } = o;
 ```
 
+- 在对象里使用...语法创建剩余变量
+
+```
+let o = {
+    a: "foo",
+    b: 12,
+    c: "bar"
+};
+let { a, ...passthrough } = o;
+let total = passthrough.b + passthrough.c.length;
+```
+
+
+
+##属性重命名
+
+- 给属性以不同的名字
+
+```
+let o = {
+    a: "foo",
+    b: 12,
+    c: "bar"
+};
+let { a: newName1, b: newName2 }: {a: string, b: number} = o;
+```
+
+这里的冒号不是指示类型的。 如果你想指定它的类型， 仍然需要在其后写上完整的模式。
+
+let {a, b}: {a: string, b: number} = o;
+
+
+
+##默认值
+
+
+
 
 
 
