@@ -33,6 +33,7 @@ kitty.numLives--;
 ##解构数组
 
 - 解构赋值
+
 ```
 let input = [1, 2];
 let [first, second] = input;
