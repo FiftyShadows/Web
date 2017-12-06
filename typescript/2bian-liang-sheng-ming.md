@@ -24,7 +24,7 @@ kitty.name = "Cat";
 kitty.numLives--;
 ```
 
-
+**实际上const变量的内部状态是可修改的。**
 
 
 
