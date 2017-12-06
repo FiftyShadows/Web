@@ -152,7 +152,7 @@ let second = [3, 4];
 let bothPlus = [0, ...first, ...second, 5];
 ```
 
-
+展开操作创建了 first和second的一份**浅拷贝**。 它们不会被展开操作所改变。
 
 
 
