@@ -108,9 +108,12 @@ interface SquareConfig {
 }
 ```
 
+- 将这个对象赋值给一个另一个变量： 因为 squareOptions不会经过额外属性检查，所以编译器不会报错。
 
-
-
+```
+let squareOptions = { colour: "red", width: 100 };
+let mySquare = createSquare(squareOptions);
+```
 
 
 
