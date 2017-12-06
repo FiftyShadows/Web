@@ -4,6 +4,36 @@ git log --oneline
 
 git dif xxx.xx
 
+git config --global alias.st status
+git config --global alias.co checkout
+git config --global alias.ci commit
+git config --global alias.br branch
+git config --global alias.rs reset
+
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ##创建裸仓库
 
 裸仓库通常可被用来充当开发者们传递提交的汇聚点，以便其他人可以从中拉回他们所做的修改。
