@@ -155,10 +155,12 @@ let bothPlus = [0, ...first, ...second, 5];
 展开操作创建了 first和second的一份**浅拷贝**。 它们不会被展开操作所改变。
 
 
+####展开对象
 
-
-
-
+```
+let defaults = { food: "spicy", price: "$$", ambiance: "noisy" };
+let search = { ...defaults, food: "rich" };
+```
 
 
 
