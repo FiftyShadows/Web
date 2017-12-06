@@ -24,6 +24,8 @@ git log --graph --oneline
 
 git status --short
 
+git reset HEAD    重置暂存区
+
 git reset HEAD blash.txt    将blash移出暂存区
 
 
