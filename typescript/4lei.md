@@ -142,6 +142,8 @@ department.generateReports(); // 错误: 方法在声明的抽象类中不存在
 
 ##构造函数
 
+构造函数也包含了类的所有静态属性。 换个角度说，我们可以认为类具有 实例部分与 静态部分这两个部分。
+
 ```
 class Greeter {
     static standardGreeting = "Hello, there";
