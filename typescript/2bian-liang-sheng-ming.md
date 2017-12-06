@@ -176,9 +176,17 @@ let search = { food: "rich", ...defaults };
 
 - 它仅包含对象 自身的可枚举属性。 大体上是说当你展开一个对象实例时，你会丢失其方法：
 
-
-
-
+```
+class C {
+  p = 12;
+  m() {
+  }
+}
+let c = new C();
+let clone = { ...c };
+clone.p; // ok
+clone.m(); // error!
+```
 
 
 
