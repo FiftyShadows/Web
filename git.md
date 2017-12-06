@@ -36,6 +36,9 @@ git reset --hard 6f647f79a39
 
 git branch -d xxx    删除分支
 
+git reflog
+
+
 
 
 ##储藏
