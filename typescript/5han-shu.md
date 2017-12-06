@@ -35,7 +35,7 @@ function buildName(firstName: string, ...restOfName: string[]) {
 let employeeName = buildName("Joseph", "Samuel", "Lucas", "MacKinzie");
 ```
 
-
+剩余参数会被当做个数不限的可选参数。 可以一个都没有，同样也可以有任意个。 编译器创建参数数组，名字是你在省略号（ ...）后面给定的名字，你可以在函数体内使用这个数组。
 
 
 
