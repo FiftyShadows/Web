@@ -32,6 +32,9 @@ git branch xxx 6f647f79a39
 
 git commit -am'xxxxxxx'    添加并提交
 
+git reset --hard 6f647f79a39
+
+
 
 
 ##.gitignore
