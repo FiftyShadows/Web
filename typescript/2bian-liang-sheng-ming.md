@@ -1,4 +1,4 @@
-##let和var
+##let,const和var
 
 const是对let的一个增强，它能阻止对一个变量再次赋值。
 
