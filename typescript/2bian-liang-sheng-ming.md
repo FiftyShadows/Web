@@ -129,11 +129,14 @@ let {a, b}: {a: string, b: number} = o;
 
 ##函数声明
 
+解构也能用于函数声明。 看以下简单的情况
 
-
-
-
-
+```
+type C = { a: string, b?: number }
+function f({ a, b }: C): void {
+    // ...
+}
+```
 
 
 
