@@ -2,6 +2,8 @@
 
 
 
+git log --oneline
+
 
 
 
