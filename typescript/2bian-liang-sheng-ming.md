@@ -127,7 +127,7 @@ let {a, b}: {a: string, b: number} = o;
 
 
 
-
+##函数声明
 
 
 
