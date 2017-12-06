@@ -51,6 +51,7 @@ console.log(second); // outputs 2
 - 作用于函数参数
 
 ```
+let input = [1, 2];
 function f([first, second]: [number, number]) {
     console.log(first);
     console.log(second);
