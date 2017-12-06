@@ -59,8 +59,11 @@ ro.length = 100; // error!
 a = ro; // error!
 ```
 
-
-
+  - 上面代码的最后一行，可以看到就算把整个ReadonlyArray赋值到一个普通数组也是不可以的。 但是你可以用类型断言重写：
+  
+  ```
+  a = ro as number[];
+  ```
 
 
 
