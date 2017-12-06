@@ -172,7 +172,7 @@ let search = { food: "rich", ...defaults };
 那么，defaults里的food属性会重写food: "rich"
 
 
-
+######对象展开还有其它一些意想不到的限制
 
 
 
