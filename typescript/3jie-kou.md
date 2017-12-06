@@ -116,7 +116,7 @@ let mySquare = createSquare(squareOptions);
 ```
 
 
-
+##函数类型
 
 
 
