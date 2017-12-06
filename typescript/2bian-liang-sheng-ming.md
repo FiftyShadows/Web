@@ -144,10 +144,13 @@ function f({ a, b }: C): void {
 
 ##展开
 
+展开操作符正与解构相反。 它允许你将一个数组展开为另一个数组，或将一个对象展开为另一个对象.
 
-
-
-
+```
+let first = [1, 2];
+let second = [3, 4];
+let bothPlus = [0, ...first, ...second, 5];
+```
 
 
 
