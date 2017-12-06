@@ -107,3 +107,13 @@ interface SquareConfig {
     [propName: string]: any;
 }
 ```
+
+
+
+
+
+
+
+
+
+
