@@ -188,7 +188,7 @@ clone.p; // ok
 clone.m(); // error!
 ```
 
-
+- TypeScript编译器不允许展开泛型函数上的类型参数。
 
 
 
