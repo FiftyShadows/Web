@@ -12,7 +12,7 @@ let myAdd: (baseValue: number, increment: number) => number =
 
 
 
-
+##可选参数和默认参数
 
 
 
