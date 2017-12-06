@@ -34,7 +34,7 @@ git commit -am'xxxxxxx'    添加并提交
 
 git reset --hard 6f647f79a39
 
-git branch -d xxx删除分支
+git branch -d xxx    删除分支
 
 
 
