@@ -122,9 +122,11 @@ let mySquare = createSquare(squareOptions);
 
 ##函数类型
 
-
-
-
+```
+interface SearchFunc {
+  (source: string, subString: string): boolean;
+}
+```
 
 
 
