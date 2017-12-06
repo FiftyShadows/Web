@@ -58,7 +58,13 @@ function f([first, second]: [number, number]) {
 f([4582, 16762]);
 ```
 
+- 在数组里使用...语法创建剩余变量
 
+```
+let [first, ...rest] = [1, 2, 3, 4];
+console.log(first); // outputs 1
+console.log(rest); // outputs [ 2, 3, 4 ]
+```
 
 
 
