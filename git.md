@@ -29,7 +29,26 @@ git reset HEAD    重置暂存区
 git reset HEAD blash.txt    将blash移出暂存区
 
 
+##.gitignore
 
+```
+#
+#Simple file path
+#
+somehow/xxx.txt
+#
+#
+#
+generated/
+#
+#
+#
+*.bak
+#
+#
+#
+!demo.bak
+```
 
 
 
