@@ -28,6 +28,11 @@ git reset HEAD    重置暂存区
 
 git reset HEAD blash.txt    将blash移出暂存区
 
+git branch xxx 6f647f79a39
+
+
+
+
 
 ##.gitignore
 
