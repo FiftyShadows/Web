@@ -30,6 +30,7 @@
 * [TypeScript](typescript.md)
   * [1.基础类型](typescript/1.md)
   * [2.变量声明](typescript/2bian-liang-sheng-ming.md)
+  * [3.接口](typescript/3jie-kou.md)
 * [Angular4.0打造股票管理网站](angular40da-zao-gu-piao-guan-li-wang-zhan.md)
   * [1.Angular介绍](angular40da-zao-gu-piao-guan-li-wang-zhan/1.md)
   * [2.开始Angular开发](angular40da-zao-gu-piao-guan-li-wang-zhan/2.md)
