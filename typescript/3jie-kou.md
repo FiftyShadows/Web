@@ -35,6 +35,7 @@ interface SquareConfig {
 
 
 
+
 ##只读属性
 
 - 一些对象属性只能在对象刚刚创建的时候修改其值。 你可以在属性名前用 readonly来指定只读属性
@@ -70,6 +71,7 @@ a = ro; // error!
 - readonly vs const
 
 最简单判断该用readonly还是const的方法是看要把它做为变量使用还是做为一个属性。 做为变量使用的话用 const，若做为属性则使用readonly。
+
 
 
 
@@ -114,6 +116,7 @@ interface SquareConfig {
 let squareOptions = { colour: "red", width: 100 };
 let mySquare = createSquare(squareOptions);
 ```
+
 
 
 
