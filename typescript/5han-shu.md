@@ -26,7 +26,7 @@ let myAdd: (baseValue: number, increment: number) => number =
 
 
 
-
+##剩余参数
 
 
 
