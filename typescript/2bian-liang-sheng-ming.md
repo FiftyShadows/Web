@@ -48,7 +48,15 @@ console.log(second); // outputs 2
 [first, second] = [second, first];
 ```
 
+- 作用于函数参数
 
+```
+function f([first, second]: [number, number]) {
+    console.log(first);
+    console.log(second);
+}
+f(input);
+```
 
 
 
