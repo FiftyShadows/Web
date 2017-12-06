@@ -1,3 +1,8 @@
+##error TS1056: Accessors are only available when targeting ECMAScript 5 and higher.
+
+tsc --target ES5  demo1.ts
+
+
 * 微软开发
 
 * javascript超集
