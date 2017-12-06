@@ -16,9 +16,12 @@ function identity<T>(arg: T): T {
 
 `let output = identity("myString");  // type of output will be 'string'`
 
-
-
-
+```
+function loggingIdentity<T>(arg: Array<T>): Array<T> {
+    console.log(arg.length);  // Array has a .length, so no more error
+    return arg;
+}
+```
 
 
 
