@@ -76,9 +76,18 @@ a = ro; // error!
 
 ##额外的属性检查
 
+```
+interface SquareConfig {
+    color?: string;
+    width?: number;
+}
 
+function createSquare(config: SquareConfig) {
+    // ...
+}
 
-
+let mySquare = createSquare({ colour: "red", width: 100 });
+```
 
 
 
