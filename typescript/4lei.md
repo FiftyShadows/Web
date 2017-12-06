@@ -161,6 +161,7 @@ greeter1 = new Greeter();
 console.log(greeter1.greet());
 
 let greeterMaker: typeof Greeter = Greeter;
+console.info(typeof Greeter);    //function
 greeterMaker.standardGreeting = "Hey there!";
 
 let greeter2: Greeter = new greeterMaker();
