@@ -66,9 +66,12 @@ console.log(first); // outputs 1
 console.log(rest); // outputs [ 2, 3, 4 ]
 ```
 
+- 由于是JavaScript, 你可以忽略你不关心的尾随元素
 
-
-
+```
+let [first] = [1, 2, 3, 4];
+console.log(first); // outputs 1
+```
 
 
 
