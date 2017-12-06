@@ -2,6 +2,10 @@
 
 git log --oneline
 
+git log -n 3
+
+git log --stat -1
+
 git dif xxx.xx
 
 git config --global alias.st status
@@ -12,9 +16,15 @@ git config --global alias.rs reset
 
 git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
 
+git diff 6f647f79a39 HEAD
 
+git diff 6f647f79a39^!
 
+git log --graph --oneline
 
+git status --short
+
+git reset HEAD blash.txt    将blash移出暂存区
 
 
 
