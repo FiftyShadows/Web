@@ -42,6 +42,10 @@ git stash
 
 git stash pop    恢复位于栈顶的被储藏修改
 
+git stash list
+
+git stash pop stash@{1}
+
 
 
 
