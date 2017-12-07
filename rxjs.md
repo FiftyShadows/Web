@@ -1,5 +1,5 @@
 ```js
-var text =document.querSelect("#text");
+var text =document.querSelector("#text");
 var inputStream = Rx.Observable.fromEvent(text,'keyup')
                                 .pluck('targeet', 'value')
                                 .flatMapLatest(url => Http.get(url))
