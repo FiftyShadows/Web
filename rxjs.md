@@ -1,4 +1,4 @@
-```
+```js
 var text =document.querSelect("#text");
 var inputStream = Rx.Observable.fromEvent(text,'keyup')
                                 .pluck('targeet', 'value')
