@@ -42,6 +42,9 @@ git merge --no-ff a-branch    强制其产生一次新的提交
 
 
 
+
+
+
 ##储藏
 
 git stash
