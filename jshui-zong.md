@@ -202,7 +202,11 @@ var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj�
 
 
 
+##JS异常
 
+- 运行异常
+
+- 资源加载错误
 
 
 
