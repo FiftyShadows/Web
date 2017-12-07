@@ -40,7 +40,7 @@ git reflog
 
 git merge --no-ff a-branch    强制其产生一次新的提交
 
-
+git log --merges
 
 
 
