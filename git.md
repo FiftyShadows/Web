@@ -38,6 +38,7 @@ git branch -d xxx    删除分支
 
 git reflog
 
+git merge --no-ff a-branch    强制其产生一次新的提交
 
 
 
