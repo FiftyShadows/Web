@@ -65,4 +65,5 @@
 * [ngx-fullpage](ngx-fullpage.md)
 * [Websocket](websocket.md)
 * [RxJs](rxjs.md)
+* [性能提升](xing-neng-ti-sheng.md)
 
