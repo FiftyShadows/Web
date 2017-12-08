@@ -66,4 +66,5 @@
 * [Websocket](websocket.md)
 * [RxJs](rxjs.md)
 * [性能提升](xing-neng-ti-sheng.md)
+* [图片格式选择](tu-pian-ge-shi-xuan-ze.md)
 
