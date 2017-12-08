@@ -211,5 +211,7 @@ var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj�
 
 
 
+##外联script的异步加载方式
 
+async
 
