@@ -21,7 +21,11 @@
 ![](/assets/360截图20171210100639194.jpg)
 
 
+####如何设置这两种模型
 
+box-sizing: content-box;
+
+box-sizing: border-box;
 
 
 
