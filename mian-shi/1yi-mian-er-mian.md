@@ -84,7 +84,7 @@ IFC内联元素格式化上下文
 
 - position(值不是static或relative)
 
-- display(table,table-cell,table-caption)
+- display(值为inline-block,table,table-cell,table-caption)
 
 
 ######BFC的使用场景
