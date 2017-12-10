@@ -34,6 +34,8 @@ box-sizing: border-box;为元素指定的任何内边距和边框都将在已设
 
 ####JS如何设置获取盒模型对应的宽和高
 
+- dom.style.witdh/height    只能取内联样式的宽和高
+
 ######css写法
 
 - 内联样式
