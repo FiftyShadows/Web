@@ -36,6 +36,10 @@ box-sizing: border-box;为元素指定的任何内边距和边框都将在已设
 
 - dom.style.witdh/height    只能取内联样式的宽和高
 
+- dom.currentStyle.width/height    只支持IE（渲染后，即时运行的结果）
+
+- window.getComputedStyle(dom).width/height    兼容firefox,chrome
+
 ######css写法
 
 - 内联样式
