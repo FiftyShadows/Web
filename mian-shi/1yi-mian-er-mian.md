@@ -85,7 +85,7 @@ IFC内联元素格式化上下文
 
 - position(值不是static或relative)
 
-- display(table,table-cell)
+- display(table,table-cell,table-caption)
 
 
 
