@@ -65,7 +65,6 @@ BFC块级格式化上下文
 IFC内联元素格式化上下文
 
 
-
 ######BFC原理
 
 - BFC元素垂直方向的边距会发生重叠
@@ -86,7 +85,6 @@ IFC内联元素格式化上下文
 - position(值不是static或relative)
 
 - display(table,table-cell,table-caption)
-
 
 
 ######BFC的使用场景
