@@ -42,6 +42,7 @@ box-sizing: border-box;为元素指定的任何内边距和边框都将在已设
 
 - dom.getBoundingClientRect().width/height（left/top）    计算一个元素的绝对位置(viewport)
 
+
 ######css写法
 
 - 内联样式
@@ -51,8 +52,9 @@ box-sizing: border-box;为元素指定的任何内边距和边框都将在已设
 - 外联样式表
 
 
+######实例题（根据盒模型解释边距重叠）
 
-
+![](/assets/360截图20171210194301696.jpg)
 
 
 
