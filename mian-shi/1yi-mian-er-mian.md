@@ -77,6 +77,15 @@ IFC内联元素格式化上下文
 - 计算BFC高度时浮动元素也会参与计算
 
 
+######如何创建BFC
+
+- overflow（不为visible）
+
+- float（值不为none）
+
+- position(值不是static或relative)
+
+- display(table,table-cell)
 
 
 
