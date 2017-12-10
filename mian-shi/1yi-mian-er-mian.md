@@ -40,6 +40,8 @@ box-sizing: border-box;为元素指定的任何内边距和边框都将在已设
 
 - window.getComputedStyle(dom).width/height    兼容firefox,chrome
 
+- dom.getBoundingClientRect().width/height（left/top）    计算一个元素的绝对位置(viewport)
+
 ######css写法
 
 - 内联样式
