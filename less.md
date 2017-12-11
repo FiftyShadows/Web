@@ -125,6 +125,8 @@ a{
 
 ##less.js的使用
 
+运行在服务器
+
 ```
 <link rel="stylesheet/less" type="text/css" href="styles.less" />
 <script src="less.js" type="text/javascript"></script>
