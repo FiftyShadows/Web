@@ -121,3 +121,14 @@ a{
 }
 ```
 
+
+
+##less.js的使用
+
+```
+<link rel="stylesheet/less" type="text/css" href="styles.less" />
+<script src="less.js" type="text/javascript"></script>
+```
+
+
+
