@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [JS笔记](jshui-zong.md)
 * [HTML笔记](htmlbi-ji.md)
+* [HTML5笔记](html5bi-ji.md)
 * [CSS笔记](cssbi-ji.md)
 * [7.JS特效](7jste-xiao.md)
   * [缓动框架的透明度兼容](7jste-xiao/tou-ming-du-de-jian-rong.md)
@@ -69,5 +70,5 @@
 * [图片格式选择](tu-pian-ge-shi-xuan-ze.md)
 * [面试](mian-shi.md)
   * [1.一面二面](mian-shi/1yi-mian-er-mian.md)
-* [emmet](emmet.md)
+* HTML5笔记
 
