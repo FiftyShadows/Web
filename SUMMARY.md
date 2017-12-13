@@ -69,6 +69,7 @@
 * [性能提升](xing-neng-ti-sheng.md)
 * [图片格式选择](tu-pian-ge-shi-xuan-ze.md)
 * [面试](mian-shi.md)
-  * [1.一面二面](mian-shi/1yi-mian-er-mian.md)
+  * [1.CSS盒模型](mian-shi/1csshe-mo-xing.md)
+* [1.一面二面](mian-shi/1yi-mian-er-mian.md)
 * HTML5笔记
 
