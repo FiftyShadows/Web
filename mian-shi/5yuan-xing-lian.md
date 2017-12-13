@@ -22,7 +22,7 @@
 
 
 
-##instanceof用来测试一个对象在其原型链中是否存在一个构造函数的 prototype 属性。
+##instanceof用来测试一个对象在其原型链中是否存在一个构造函数的 prototype 属性
 
 ![](/assets/360截图20171213205701928.jpg)
 
