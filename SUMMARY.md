@@ -65,7 +65,7 @@
 * [Nginx配置](nginxpei-zhi.md)
 * [Http statusCode](abc.md)
 * [ngx-fullpage](ngx-fullpage.md)
-* [Websocket](websocket.md)
+* [WebSocket](websocket.md)
 * [RxJs](rxjs.md)
 * [性能提升](xing-neng-ti-sheng.md)
 * [图片格式选择](tu-pian-ge-shi-xuan-ze.md)
@@ -73,6 +73,6 @@
   * [1.页面布局](mian-shi/1ye-mian-bu-ju.md)
   * [2.CSS盒模型](mian-shi/1csshe-mo-xing.md)
   * [3.DOM事件](mian-shi/3.md)
-  * [4.](mian-shi/4.md)
+  * [4.Http](mian-shi/4.md)
 * [HTML5笔记](html5bi-ji.md)
 
