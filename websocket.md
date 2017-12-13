@@ -22,7 +22,7 @@
 
 ##Websocket的作用
 
-
+在讲Websocket之前，我就顺带着讲下 long poll 和 ajax轮询 的原理。
 
 
 
