@@ -16,7 +16,7 @@
 
 
 
-####标准模型和IE模型
+##标准模型和IE模型
 
 ![](/assets/360截图20171210100639194.jpg)
 
@@ -24,7 +24,7 @@
 
 
 
-####如何设置这两种模型
+##如何设置这两种模型
 
 box-sizing: content-box;    (浏览器默认)在宽度和高度之外绘制元素的内边距和边框。
 
@@ -32,7 +32,7 @@ box-sizing: border-box;    为元素指定的任何内边距和边框都将在�
 
 
 
-####JS如何设置获取盒模型对应的宽和高
+##JS如何设置获取盒模型对应的宽和高
 
 - dom.style.witdh/height    只能取内联样式的宽和高
 
@@ -43,7 +43,7 @@ box-sizing: border-box;    为元素指定的任何内边距和边框都将在�
 - dom.getBoundingClientRect().width/height（left/top）    计算一个元素的绝对位置(viewport)
 
 
-######css写法
+####css写法
 
 - 内联样式
 
@@ -52,20 +52,20 @@ box-sizing: border-box;    为元素指定的任何内边距和边框都将在�
 - 外联样式表
 
 
-######实例题（根据盒模型解释边距重叠）
+####实例题（根据盒模型解释边距重叠）
 
 ![](/assets/360截图20171210194301696.jpg)
 
 
 
-####BFC（边距重叠解决方案）
+##BFC（边距重叠解决方案）
 
 BFC块级格式化上下文
 
 IFC内联元素格式化上下文
 
 
-######BFC原理
+####BFC原理
 
 - BFC元素垂直方向的边距会发生重叠
 
@@ -76,7 +76,7 @@ IFC内联元素格式化上下文
 - 计算BFC高度时浮动元素也会参与计算
 
 
-######如何创建BFC
+####如何创建BFC
 
 - overflow（不为visible）
 
@@ -87,7 +87,7 @@ IFC内联元素格式化上下文
 - display(值为inline-block,table,table-cell,table-caption)
 
 
-######BFC的使用场景
+####BFC的使用场景
 
 ```html
 <!DOCTYPE html>
