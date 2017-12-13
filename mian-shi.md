@@ -1,0 +1,1 @@
+open -a atom xxx.xx
