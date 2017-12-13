@@ -219,3 +219,9 @@ var nObj = Object.assign({},obj,obj1);//花括号叫目标对象，后面的obj�
 
 async
 
+
+
+
+##body和html
+
+document.body和document.documentElement
