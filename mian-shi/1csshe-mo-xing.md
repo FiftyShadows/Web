@@ -89,6 +89,95 @@ IFC内联元素格式化上下文
 
 ######BFC的使用场景
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>CSS盒模型</title>
+	<style media="screen">
+		html *{
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<section id="sec">
+		<style media="screen">
+			#sec{
+				background: #f00;
+			}
+			.child{
+				height: 100px;
+				margin-top: 10px;
+				background: yellow;
+			}
+		</style>
+		<article class="child"></article>
+	</section>
+
+	<!-- BFC垂直方向边距重叠 -->
+	<!-- 给子元素增加父元素，父元素创建BFC -->
+	<section class="margin">
+		<style media="screen">
+			.margin{
+				background: pink;
+				overflow: hidden;
+			}
+			.margin p{
+				margin: 5px auto 25px;
+				background: red;
+			}
+		</style>
+		<p>1</p>
+		<div style="overflow: hidden;">
+			<p>2</p>
+		</div>
+		<p>3</p>
+	</section>
+
+	<!-- BFC的元素不会与浮动元素的box重叠 -->
+	<section id="layout">
+		<style media="screen">
+			#layout{
+				background: blue;
+				border: 1px dashed blue;
+			}
+			#layout .left{
+				float: left;
+				width: 100px;
+				height: 100px;
+				background: pink;
+			}
+			#layout .right{
+				height: 110px;
+				background: #ccc;
+				overflow: auto;
+			}
+		</style>
+		<div class="left"></div>
+		<div class="right"></div>
+	</section>
+
+	<!-- BFC子元素即时是float也会参与高度计算 -->
+	<section id="float">
+		<style media="screen">
+			#float{
+				background: red;
+				overflow: auto;
+				/*float: left;*/
+			}
+			#float .float{
+				float: left;
+				font-size: 30px;
+			}
+		</style>
+		<div class="float">我是浮动元素</div>
+	</section>
+</body>
+</html>
+```
 
 
 
