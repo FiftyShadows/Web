@@ -1,4 +1,4 @@
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -177,7 +177,7 @@
 		</article>
 	</section>
 
-
+	<!-- 使用inline-block -->
 	<section class="layout basic">
 		<style type="text/css">
 			.layout.basic .left-center-right{
