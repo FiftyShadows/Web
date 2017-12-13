@@ -47,6 +47,7 @@
   * [9.构建和部署](angular40da-zao-gu-piao-guan-li-wang-zhan/9gou-jian-he-bu-shu.md)
 * [Bootstrap](bootsrap.md)
 * [sublime快捷键](sublimekuai-jie-jian.md)
+  * [SublimeLinter](sublimekuai-jie-jian/sublimelinter.md)
 * [webstorm快捷键](webstormkuai-jie-jian.md)
 * [Express](express.md)
   * [基础配置](express/ji-chu-pei-zhi.md)
