@@ -98,6 +98,8 @@ util.json = function (options) {
 
 - Hash
 
+url中#后边，hash的变动不会刷新页面，url中?后边的是search，search的改变会刷新页面
+
 - postMessage
 
 - WebSocket
