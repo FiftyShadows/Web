@@ -52,7 +52,130 @@
 ##继承的几种方式
 
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>面向对象</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/**
+		 *类的声明
+		 */
+		function Animal() {
+			this.name = 'name';
+		}
 
+		/**
+		 *ES6中的class的声明
+		 */
+		class Animal2 {
+			constructor() {
+				this.name = name;
+			}
+		}
+
+		/**
+		 *实例化
+		 */
+		console.info(new Animal(), new Animal2());
+
+		/**
+		 *借助构造函数实现继承
+		 */
+		function Parent1() {
+			this.name = 'parent1';
+		}
+		Parent1.prototype.say = function (){};
+		function Child1() {
+			Parent1.call(this);
+			this.type = 'child1';
+		}
+
+		console.info(new Child1);
+		// console.info(new Child1().say());
+
+		/**
+		 *借助原型链实现继承
+		 */
+		function Parent2() {
+			this.name = 'parent2';
+			this.play = [1, 2, 3];
+		}
+		function Child2() {
+			this.type = 'child2';
+		}
+		Child2.prototype = new Parent2();
+
+		console.info(new Child2());
+
+		var s1 = new Child2();
+		var s2 = new Child2();
+		console.info(s1.play, s2.play);
+		s1.play.unshift(4);
+		console.info(s1.play, s2.play);
+
+		/**
+		 *组合方式
+		 */
+		function Parent3() {
+			this.name = 'parent3';
+			this.play = [1, 2, 3];
+		}
+		function Child3() {
+			Parent3.call(this);
+			this.type = 'child3';
+		}
+		Child3.prototype = new Parent3();
+
+		var s3 = new Child3();
+		var s4 = new Child3();
+		s3.play.push(4);
+		console.info(s3.play, s4.play);
+
+		/**
+		 *组合继承的优化1
+		 */
+		function Parent4() {
+			this.name = 'parent4';
+			this.play = [1, 2, 3];
+		}
+		function Child4() {
+			Parent3.call(this);
+			this.type = 'child3';
+		}
+		Child4.prototype = Parent4.prototype;
+
+		var s5 = new Child4();
+		var s6 = new Child4();
+		s5.play.push(4);
+		console.info(s5, s6);
+
+		console.info(s5 instanceof Child4, s5 instanceof Parent4);
+
+		/**
+		 *组合继承的优化2
+		 */
+		function Parent5() {
+			this.name = 'parent5';
+			this.play = [1, 2, 3];
+		}
+		function Child5() {
+			Parent3.call(this);
+			this.type = 'child3';
+		}
+		Child5.prototype = Object.create(Parent5.prototype);
+		Child5.prototype.constructor = Child5;
+
+		var s7 = new Child5;
+		console.info(s7 instanceof Child5, s7 instanceof Parent5);
+		console.info(s7.constructor );
+	</script>	
+</body>
+</html>
+```
 
 
 
