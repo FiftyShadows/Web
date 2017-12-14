@@ -248,3 +248,7 @@ util.createScript = function (url, charset) {
      return script;
  };
  ```
+ 
+ 
+ 
+ onload,onerror,onhashchange,message
