@@ -37,9 +37,55 @@ Object.create() 方法会使用指定的原型对象及其属性去创建一个�
 
 ##new运算符
 
+![](/assets/360截图20171214133847151.jpg)
 
 
 
 
+##代码
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>原型链</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 第一种方式：字面量
+		var o1 = {name: 'o1'};
+		var o2 = new Object({name: 'o2'});
+		// 第二种方式：通过构造函数
+		var M = function(name) {this.name = name;}
+		var o3 = new M('o3');
+		// 第三种方式：Object.create
+		var p = {name: 'p'};
+		var o4 = Object.create(p);
 
+		M.prototype.say = function() {
+			console.info('say hi');
+		}
+
+		o5 = new M('o5');
+
+		console.info(o3.__proto__ === M.prototype);
+		console.info(o3.__proto__.__proto__ === Object.prototype);
+		console.info(o3.__proto__.constructor === M);
+
+		var new2 = function(func){
+			var o = Object.create(func.prototype);
+			var k = func.call(o);
+			if(typeof k === 'object'){
+				return k
+			}else{
+				return o
+			}
+		}
+
+		o6 = new2(M);
+		console.info(o6);
+	</script>
+</body>
+</html>
+```
