@@ -30,6 +30,8 @@ Object.create() 方法会使用指定的原型对象及其属性去创建一个�
 
 ##instanceof用来判断一个对象在其原型链中是否存在一个构造函数的 prototype 属性
 
+- 语法 `object instanceof constructor`
+
 ![](/assets/360截图20171213205701928.jpg)
 
 
