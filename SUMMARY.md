@@ -75,5 +75,6 @@
   * [3.DOM事件](mian-shi/3.md)
   * [4.Http](mian-shi/4.md)
   * [5.原型链](mian-shi/5yuan-xing-lian.md)
+  * [6.面向对象](mian-shi/6mian-xiang-dui-xiang.md)
 * [HTML5笔记](html5bi-ji.md)
 
