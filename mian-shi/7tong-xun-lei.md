@@ -92,7 +92,17 @@ util.json = function (options) {
 
 
 
+##跨域通信的几种方式
 
+- JSONP
+
+- Hash
+
+- postMessage
+
+- WebSocket
+
+- CORS
 
 
 
