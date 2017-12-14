@@ -225,3 +225,11 @@ async
 ##body和html
 
 document.body和document.documentElement
+
+
+
+
+##随机获取5位字符串
+
+`Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)`
+
