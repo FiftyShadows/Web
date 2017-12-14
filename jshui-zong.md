@@ -233,3 +233,18 @@ document.body和document.documentElement
 
 `Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)`
 
+
+
+##charset && script.setAttribute('charset', charset);
+
+
+```
+util.createScript = function (url, charset) {
+     var script = document.createElement('script');
+     script.setAttribute('type', 'text/javascript');
+     charset && script.setAttribute('charset', charset);
+     script.setAttribute('src', url);
+     script.async = true;
+     return script;
+ };
+ ```
