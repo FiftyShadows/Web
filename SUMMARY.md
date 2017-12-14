@@ -78,6 +78,6 @@
   * [6.面向对象](mian-shi/6mian-xiang-dui-xiang.md)
   * [7.通讯类](mian-shi/7tong-xun-lei.md)
   * 8.安全类
-  * 9.算法类
+  * [9.算法类](mian-shi/9suan-fa-lei.md)
 * [HTML5笔记](html5bi-ji.md)
 
