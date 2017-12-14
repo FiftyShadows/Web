@@ -76,5 +76,8 @@
   * [4.Http](mian-shi/4.md)
   * [5.原型链](mian-shi/5yuan-xing-lian.md)
   * [6.面向对象](mian-shi/6mian-xiang-dui-xiang.md)
+  * [7.通讯类](mian-shi/7tong-xun-lei.md)
+  * 8.安全类
+  * 9.算法类
 * [HTML5笔记](html5bi-ji.md)
 
