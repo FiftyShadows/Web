@@ -16,6 +16,14 @@
 
 
 
+##前后端如何通信
+
+- Ajax
+
+- WebSocket
+
+- CORS
+
 
 
 
