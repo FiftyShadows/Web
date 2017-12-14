@@ -102,6 +102,8 @@ url中#后边，hash的变动不会刷新页面，url中?后边的是search，se
 
 - postMessage
 
+html5新增加
+
 - WebSocket
 
 - CORS
