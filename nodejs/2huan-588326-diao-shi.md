@@ -71,7 +71,7 @@ CommonJS对外输出的永远是module.exports
 
 ##process
 
-```
+```js
 const {argv, argv0, execArgv, execPath} = process;
 
 argv.forEach(function(item){
