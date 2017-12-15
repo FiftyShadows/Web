@@ -51,7 +51,7 @@ exports = {
 }; 
 ```
 
-commonjs对外输出的永远是module.exports
+CommonJS对外输出的永远是module.exports
 
 
 
