@@ -131,3 +131,9 @@ process.nextTick(() => {
 
 ##调试
 
+- chrome://inspect
+
+- 安装chrome插件NIM
+
+
+
