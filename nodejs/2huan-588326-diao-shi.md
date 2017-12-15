@@ -106,3 +106,19 @@ process.cwd();
 ```
 
 
+####setImmediate和precess.nextTick
+
+```
+setImmediate(() => {
+    console.log('setImmediate');
+});
+
+process.nextTick(() => {
+    console.log('nextClick');
+});
+```
+
+
+
+
+
