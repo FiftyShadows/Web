@@ -71,6 +71,10 @@ CommonJS对外输出的永远是module.exports
 
 ##process
 
+####argv
+
+node --inspect .\10_argv.js -test a=1 b=2
+
 ```js
 const {argv, argv0, execArgv, execPath} = process;
 
@@ -85,6 +89,20 @@ console.log(execArgv);
 console.log(execPath);
 ```
 
+####env
 
+```
+const {env} = process;
+
+console.log(env);
+```
+
+####cwd
+
+```
+console.log(process.cwd());
+
+process.cwd();
+```
 
 
