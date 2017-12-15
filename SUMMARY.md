@@ -70,5 +70,6 @@
 * [性能提升](xing-neng-ti-sheng.md)
 * [图片格式选择](tu-pian-ge-shi-xuan-ze.md)
 * [Node.js](nodejs.md)
-  * [1.](nodejs/1.md)
+  * [1.nodejs应用场景](nodejs/1.md)
+  * [2.环境&调试](nodejs/2huan-588326-diao-shi.md)
 
