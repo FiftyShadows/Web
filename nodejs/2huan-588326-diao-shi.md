@@ -56,6 +56,18 @@ CommonJS对外输出的永远是module.exports
 
 
 
+##global
+
+- CommonJS
+
+- Buffer、process、console
+
+- timer
+
+`global.testVar2 = 200;`
+
+
+
 
 
 
