@@ -110,7 +110,8 @@ process.cwd();
 
 下一个事件队列执行，同步执行完后执行
 
-```
+```js
+//最慢，放在下个队列的队首
 setImmediate(() => {
     console.log('setImmediate');
 });
@@ -119,6 +120,7 @@ setTimeout(() => {
     console.log('setTimeout');
 }, 0);
 
+//最快,放在当前事件队列最后一个
 process.nextTick(() => {
     console.log('nextClick');
 });
