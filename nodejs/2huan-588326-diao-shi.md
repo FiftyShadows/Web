@@ -131,9 +131,12 @@ process.nextTick(() => {
 
 ##调试
 
+####chrome
 - chrome://inspect
 
 - 安装chrome插件NIM
 
+- node --inspect-brk 14_debug.js
 
+####VSCode
 
