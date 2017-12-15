@@ -31,6 +31,26 @@
 
 exports相当于module.exports的快捷方式， `const exports = module.exports;`
 
+不能改变exports的指向，否则不生效
+
+```js
+// const exports = module.exports;
+
+// (
+//     function(exports, require, module, __filename, __dirname) {
+//         //code
+//     }
+// );
+
+// exports.test = 100;
+
+exports = {
+    a: 1,
+    b: 2,
+    test: 100
+}; 
+```
+
 
 
 
