@@ -108,7 +108,7 @@ process.cwd();
 
 ####setImmediate和precess.nextTick
 
-
+下一个事件队列执行，同步执行完后执行
 
 ```
 setImmediate(() => {
