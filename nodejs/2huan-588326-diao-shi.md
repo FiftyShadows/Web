@@ -27,7 +27,9 @@
 
 
 
+##exports和module.exports的区别
 
+exports相当于module.exports的快捷方式， `const exports = module.exports;`
 
 
 
