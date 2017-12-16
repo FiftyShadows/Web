@@ -65,13 +65,21 @@ console.log(format(ret));
 ```
 const {sep,delimiter,win32,posix} = require('path');
 
- console.log('sep:', sep);
- console.log('posix sep:', posix.sep);
+console.log('sep:', sep);
+console.log('posix sep:', posix.sep);
 
- console.log('PATH:', process.env.PATH);
+console.log('PATH:', process.env.PATH);
 
- console.log('delimiter:', delimiter);
+console.log('delimiter:', delimiter);
 console.log('posix delimiter:', posix.delimiter);
+
+// sep: \
+// posix sep: /
+// PATH: C: \Windows\system32; C: \Windows; C: \Windows\System32\Wbem; C: \Windows\System32\WindowsPowerShell\v1.0\; C: \Program
+// Files\Git\cmd; C: \Program Files\nodejs\; C: \Users\LY\AppData\Local\Microsoft\WindowsApps;; C: \Program Files\Microsoft VS Code\bin; C: \Users\LY\AppData\Roaming\npm
+// delimiter: ;
+// posix delimiter: :
+
 ```
  
 
