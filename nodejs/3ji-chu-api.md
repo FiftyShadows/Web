@@ -104,6 +104,19 @@ process.cwd()总是返回执行node命令所在的文件夹
 - C++代码在V8堆外分配物理内存
 
 
+####创建Buffer
+
+```
+console.log(Buffer.alloc(10));
+console.log(Buffer.alloc(20));
+console.log(Buffer.alloc(5, 1));
+console.log(Buffer.allocUnsafe(10));
+
+console.log(Buffer.from([1, 2, 3]));
+console.log(Buffer.from('test'));
+console.log(Buffer.from('test', 'base64'));
+
+```
 
 
 
