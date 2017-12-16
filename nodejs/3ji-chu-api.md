@@ -28,8 +28,21 @@ console.log(resolve('./'));
 ```
 
 
+- basename、dirname、extname
 
+文件名、路径、扩展名
 
+```
+const { basename, dirname, extname } = require('path');
+
+const filePath = 'C:/Users/LY/Desktop/datepicker/data.js';
+
+console.log(basename(filePath));
+
+console.log(dirname(filePath));
+
+console.log(extname(filePath));
+```
 
 
 
