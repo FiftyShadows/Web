@@ -48,7 +48,17 @@ console.log(extname(filePath));
 
 把一个文件名解析成上面的几部分，format反操作
 
+```
+const {parse, format} = require('path');
 
+const filePath = '/usr/local/node_modules/n/package.json';
+
+const ret = parse(filePath);
+
+console.log(ret);
+
+console.log(format(ret));
+```
 
 
 
