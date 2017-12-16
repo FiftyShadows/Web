@@ -46,7 +46,7 @@ console.log(extname(filePath));
 
 - parse、format
 
-把一个文件名解析成上面的几部分，format反操作
+把一个文件名解析成上面的几部分，format反操作(用于修改文件名)
 
 ```
 const {parse, format} = require('path');
