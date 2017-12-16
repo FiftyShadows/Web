@@ -144,4 +144,27 @@ console.log(buf.toString());
 
 - 实例的常用方法
 
+```
+/*
+buf.length
+buf.toString()
+buf.fill()
+buf.equals()
+buf.indexof()
+buf.copy()
+*/
+
+const buf1 = Buffer.from('This is a test.');
+console.log(buf1.length);
+console.log(buf1.toString('base64'));
+const buf2 = Buffer.from('测试');
+console.log(buf2.length);
+const buf3 = Buffer.allocUnsafe(10);
+buf3[0] = 2;
+console.log(buf3.length);
+
+console.log(buf3.toString());
+```
+
+
 
