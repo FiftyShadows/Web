@@ -82,7 +82,7 @@ console.log('posix delimiter:', posix.delimiter);
 
 ```
  
-
+- __dirname、process.cwd()、path.resolve('./')
 
 
 
