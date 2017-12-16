@@ -142,6 +142,6 @@ const buf = Buffer.concat([buf1, buf2, buf3, buf4, buf5]);
 console.log(buf.toString());
 ```
 
-
+- 实例的常用方法
 
 
