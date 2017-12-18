@@ -11,3 +11,11 @@
 - ?匹配任意一个字符
 
 - **匹配多级目录
+
+
+
+##.editorconfig
+
+- 安装editorconfig插件
+
+- 配置editorconfig
