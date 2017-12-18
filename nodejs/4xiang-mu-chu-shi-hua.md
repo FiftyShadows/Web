@@ -19,3 +19,7 @@
 - 安装editorconfig插件
 
 - 配置editorconfig
+
+
+
+##.eslintrc.js
