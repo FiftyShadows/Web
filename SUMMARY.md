@@ -74,4 +74,5 @@
   * [2.环境&调试](nodejs/2huan-588326-diao-shi.md)
   * [3.基础API](nodejs/3ji-chu-api.md)
   * [4.项目初始化](nodejs/4xiang-mu-chu-shi-hua.md)
+  * [5.静态资源服务器](nodejs/5jing-tai-zi-yuan-fu-wu-qi.md)
 
