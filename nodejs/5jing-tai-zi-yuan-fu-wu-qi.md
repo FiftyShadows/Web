@@ -10,6 +10,8 @@
 
 ##curl
 
+CURL http://127.0.0.1:9527/LICENSE
+
 CURL -i http://127.0.0.1:9527/LICENSE
 
 curl -r 0-10 -i http://127.0.0.1:9527/LICENSE
