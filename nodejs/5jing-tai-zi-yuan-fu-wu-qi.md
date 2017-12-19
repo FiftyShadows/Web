@@ -38,6 +38,9 @@ http://curl.haxx.se/download.html
 
 - Expires,Cache-Control
 
+- If-Modified-Since/Last-Modified
+
+- If-None-Match/ETag
 
 
 
