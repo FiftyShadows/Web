@@ -12,6 +12,8 @@
 
 CURL http://127.0.0.1:9527/LICENSE
 
+CURL -I http://127.0.0.1:9527/LICENSE    不显示文件内容
+
 CURL -i http://127.0.0.1:9527/LICENSE
 
 curl -r 0-10 -i http://127.0.0.1:9527/LICENSE
