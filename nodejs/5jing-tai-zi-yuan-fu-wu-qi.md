@@ -27,3 +27,33 @@ curl -r 0-10 -i http://127.0.0.1:9527/LICENSE
 http://curl.haxx.se/download.html
 
 - 拷贝I386/curl.exe文件到C:\Windows\System32
+
+
+
+##缓存
+
+![](/assets/360截图20171219150813031.jpg)
+
+####缓存header
+
+- Expires,Cache-Control
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
