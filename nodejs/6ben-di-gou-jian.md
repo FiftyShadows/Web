@@ -39,6 +39,10 @@
 
 - +(pattern1|pattern2)匹配1或多个
 
+- *(a|b|c)匹配任意个
+
+- @(pattern|pat*|pat?erN)匹配特定的一个
+
 
 
 
