@@ -13,3 +13,64 @@
 
 
 ##gulp
+
+- npm run gulp
+
+```
+"main": "index.js",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "author": "",
+```
+
+
+####glob
+
+- *匹配任意个字符
+
+- ?匹配一个字符
+
+- [...]匹配范围内字符
+
+- !(pattern1|pattern2)匹配取反
+
+- ?(pattern1|pattern2)匹配0或1个
+
+- +(pattern1|pattern2)匹配1或多个
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
