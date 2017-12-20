@@ -75,4 +75,8 @@
   * [3.基础API](nodejs/3ji-chu-api.md)
   * [4.项目初始化](nodejs/4xiang-mu-chu-shi-hua.md)
   * [5.静态资源服务器](nodejs/5jing-tai-zi-yuan-fu-wu-qi.md)
+  * [6.本地构建](nodejs/6ben-di-gou-jian.md)
+  * 7.单元测试
+  * 8.UI测试工具
+  * 9.爬虫
 
