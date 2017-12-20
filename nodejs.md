@@ -1,1 +1,1 @@
-npm root -g    全局路径
+npm root -g    npm包的全局路径
