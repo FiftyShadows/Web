@@ -125,6 +125,16 @@ var reg = new RegExp('\\bis\\b', 'g');
 
 
 
+##修饰符
+
+- g: global全文搜索，不添加，搜索到第一个匹配停止
+
+- i:ignore case忽略大小写，默认大小写敏感
+
+- m:multiple lines多行搜索
+
+
+
 
 
 
