@@ -115,9 +115,11 @@ var demo    = /^0\d{2}-\d{8}$|^0\d{3}-\d{7}$/;
 ####JS的使用
 
 ```
+//字面量
 var reg = /\bis\b/g;    //g表示global,全文匹配
 'He is a boy.This is a dog.Where is she?'.replace(reg, 'IS');
-
+//构造函数
+var reg = new RegExp('\\bis\\b', 'g');
 ```
 
 
