@@ -259,3 +259,8 @@ util.createScript = function (url, charset) {
  
  hobby 并不是一个真正的数组，但他有length属性，所以可以用for循环，forEach是真正数组的方法，所以hobby不能直接用forEach
  
+ - Array.prototype.forEach.call(hobby,function(element,index){ ... });
+ 
+ - [].forEach.call(hobby,function(element,index){ ... });
+
+ 
