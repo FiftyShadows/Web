@@ -250,5 +250,12 @@ util.createScript = function (url, charset) {
  ```
  
  
+ ##事件
  
  onload,onerror,onhashchange,message
+ 
+ 
+ ##var hobby = document.getElementsByTagName("input");使用forEach
+ 
+ hobby 并不是一个真正的数组，但他有length属性，所以可以用for循环，forEach是真正数组的方法，所以hobby不能直接用forEach
+ 
