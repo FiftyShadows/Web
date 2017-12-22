@@ -169,7 +169,7 @@ var reg = new RegExp('\\bis\\b', 'g');
 
 ##量词
 
-
+![](/assets/360截图20171222193104390.jpg)
 
 
 
