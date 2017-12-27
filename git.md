@@ -1,3 +1,5 @@
+git remote add origin git@github.com:Botue/repo.git
+
 本地强制上传到远程仓库git push -u origin master -f
 
 git log --oneline
