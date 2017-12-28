@@ -42,21 +42,3 @@ http://curl.haxx.se/download.html
 
 - If-None-Match/ETag
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
