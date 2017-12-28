@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [JS笔记](jshui-zong.md)
+  * [方法](jshui-zong/fang-fa.md)
 * [CSS笔记](cssbi-ji.md)
 * [HTML笔记](htmlbi-ji.md)
 * [HTML5笔记](html5bi-ji.md)
@@ -91,3 +92,4 @@
   * [9.算法类](mian-shi/9suan-fa-lei.md)
 * [flex布局](flexbu-ju.md)
 * [Emmet语法](emmet.md)
+
