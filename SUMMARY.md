@@ -80,4 +80,13 @@
   * [8.UI测试工具](nodejs/8uice-shi-gong-ju.md)
   * [9.爬虫](nodejs/9pa-chong.md)
 * [面试](mian-shi.md)
+  * [1.页面布局](mian-shi/1ye-mian-bu-ju.md)
+  * [2.CSS盒模型](mian-shi/1csshe-mo-xing.md)
+  * [3.DOM事件](mian-shi/3.md)
+  * [4.Http协议类](mian-shi/4.md)
+  * [5.原型链](mian-shi/5yuan-xing-lian.md)
+  * [6.面向对象](mian-shi/6mian-xiang-dui-xiang.md)
+  * [7.通讯类](mian-shi/7tong-xun-lei.md)
+  * [8.安全类](mian-shi/8an-quan-lei.md)
+  * [9.算法类](mian-shi/9suan-fa-lei.md)
 
