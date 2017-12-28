@@ -15,3 +15,9 @@
 - 帮助网页阅读程序做识别
 
 中文网站一般用`<html lang="zh-CN">`
+
+
+
+##html空标签
+
+hr,img,meta,link,input,br,wbr,map,base,col,embed,param,source,track,area
