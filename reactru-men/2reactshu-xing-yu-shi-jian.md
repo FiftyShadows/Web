@@ -15,6 +15,7 @@
 
 
 
+
 ##props属性
 
 - props对于模块属于外来属性
@@ -22,6 +23,7 @@
 - 传递参数： <MainComponent username={'Parry'}/>
 
 - 模块中接受参数： this.props.username
+
 
 
 
@@ -64,7 +66,6 @@ ler.bind(this);
 
 
 
-
 ##组件的refs
 
 - 原始获取方法: let submitButton = document.getElementById('submitButton');ReactDOM.findDOMNode(submitButton).style.color = 'red';
@@ -92,17 +93,3 @@ ler.bind(this);
 - 和页面具有类似的生命周期
 
 - ES6下的使用需要安装插件： react-mixin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
