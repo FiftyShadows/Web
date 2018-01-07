@@ -13,3 +13,21 @@ webpack-dev-server --content-base src
 webpack-dev-server localhost:8080/webpack-dev-server
 
 webpack-dev-server --content-base src --inline --hot
+
+
+
+##atom安装本packages
+
+- atom-ternjs对es5,es6，nodejs等的语法支持
+
+- atom-beautify对……语言格式化
+
+- open-in-brower
+
+- emmet
+
+- file-icons
+
+- highlight-line
+
+- highlight-selected
