@@ -40,7 +40,23 @@
 
 
 
+##HTML重要属性
 
+- a[href,target]
+
+- img[src,alt]    alternative替换资源
+
+- table td[colspan,rowspan]    合并单元格
+
+- form[target,method,enctype]    enctype针对post的编码格式，urlencode/formdata
+
+- input[type,value]
+
+- button[type]
+
+- select>option[value]
+
+- label[for]
 
 
 
