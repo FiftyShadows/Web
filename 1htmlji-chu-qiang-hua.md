@@ -78,6 +78,89 @@
 ```
 
 
+- 面试：如果是ajax请求，并不通过form的submit提交，是否需要form元素
+
+    - 不一定需要，仍然建议使用form，首先由submit，reset的特性可以利用
+    
+    - 用form可以批量的获取表单，jquery中有serialize()方法可以获取到整个表单所有的数据
+    
+    - 当有form的时候可以和一些框架，验证组件结合
+    
+    - 用户特性，密码管理工具可以记住密码，所以涉及到表单的时候，建议放上一个form
+
+
+
+
+##如何理解HTML
+
+- HTML“文档”
+
+- 描述文档的“结构”
+
+- 有区块和大纲
+
+- 工具https://h5o.github.io/
+
+
+
+
+
+##HTML5
+
+- HTML4/4.01(SGML)
+
+- XHTML(XML)    非常严格，所有的标签必须是小写，所有的属性必须是小写，所有属性必须要有值。XHTML2.0更加严格
+
+- HTML5    基于HTML4
+
+![](/assets/360截图20180108211344031.jpg)
+
+- w3c验证网站： validator.w3.org
+
+
+####新区块标签
+
+- section
+
+- article
+
+- nav
+
+- aside    不出现在大纲中，表示不太重要的东西，广告等
+
+
+####表单增强
+
+- 日期、时间、搜索
+
+- 表单验证
+
+- Placeholder自动聚焦
+
+
+####新增语义
+
+- header/footer头尾    可以放在articale中
+
+- section/article区域    文章、导航、热点新闻等section；更完整的东西，博客，含标题、内容、评论等；section零碎的区块，article完整的区块
+
+- nav导航    栏目，层级
+
+- aside    不重要的内容，语义：侧边栏
+
+- em/strong强调
+
+- i icon    保留
+
+
+
+
+
+
+
+
+
+
 
 
 
