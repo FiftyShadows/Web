@@ -1,39 +1,68 @@
-##内联样式
+## 内联样式
 
-- CSS命名规范： dialog__confirm-button--highlight
+* CSS命名规范： dialog\_\_confirm-button--highlight
 
--  const styleHeaderComponent = {
-            header: {
-                backgroundColor: '#000',
-                color: '#fff',
-                paddingTop: '30px',
-                paddingBottom: '15px'
-            },
-            
-- 注意样式的驼峰写法
+* const styleHeaderComponent = {  
+           header: {  
+               backgroundColor: '\#000',  
+               color: '\#fff',  
+               paddingTop: '30px',  
+               paddingBottom: '15px'  
+           },
 
-- style={styleHeaderComponent.header}
+* 注意样式的驼峰写法
 
-- 文件中引用css的形式
+* style={styleHeaderComponent.header}
 
-- 注意class需要更改成className
+* 文件中引用css的形式
 
-- 缺点是动画、伪类等不能
+* 注意class需要更改成className
 
-
-
-
-
-##内联样式中的表达式
-
-- paddingBottom: (this.state.miniHeader)? '3px' : '30px';
+* 缺点是动画、伪类等不能
 
 
 
 
 
+## 内联样式中的表达式
 
-##CSS模块化
+* paddingBottom: \(this.state.miniHeader\)? '3px' : '30px';
+
+
+
+
+
+## CSS模块化
+
+- "babel-plugin-react-html-attrs": "^2.0.0",    解决class的冲突，拷贝代码
+
+- "style-loader": "^0.13.1",
+
+- "css-loader": "0.25.0"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
