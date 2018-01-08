@@ -48,7 +48,7 @@
 
 - table td[colspan,rowspan]    合并单元格
 
-- form[target,method,enctype]    enctype针对post的编码格式，urlencode/formdata
+- form[target,method,enctype]    enctype针对post的编码格式，urlencode（文本）/formdata（数据编码，上传文件）
 
 - input[type,value]
 
@@ -59,7 +59,23 @@
 - label[for]
 
 
+```html
+/*name相同，只能选一个，不能同时选*/
+<input type="radio" name="radio1" id="radio1-1"/>
+<label for="radio1-1">选项一</label>
+<input type="radio" name="radio1" id="radio1-2"/>
+<label for="radio1-2">选项二</label>
 
+/*普通按钮用来绑定事件*/
+<button type="button">普通按钮</button>
+
+/*submit按钮出现在form中才有意义*/
+<button type="submit">提交按钮一</button>
+<input type="submit" value="提交按钮二"/>
+
+/*reset按钮出现在form中才有意义*/
+<button type="reset">重置按钮</button>
+```
 
 
 
