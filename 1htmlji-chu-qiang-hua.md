@@ -155,6 +155,38 @@
 
 
 
+##HTML元素分类
+
+- 按默认样式分
+
+    - 块级block
+    
+    - 行内inline
+    
+    - inline-block
+    
+    
+- 按内容分
+
+![](/assets/360截图20180108215642206.jpg)
+
+https://www.w3.org/TR/html5/dom.html#phrasing-content
+
+
+
+
+
+##HTML元素嵌套关系
+
+- 块级元素可以包含行内元素
+
+- 块级元素不一定能不含块级元素    div可以包含div，section可以包含div，p不可以包含div
+
+- 行内元素一般不能包含块级元素
+
+- 为什么a > div是合法的？    不一定合法，a的content model是transparent；
+
+- `<p><a href="#"><div>P &gt; A &gt; DIV</div></a></p>`不合法
 
 
 
