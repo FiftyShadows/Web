@@ -189,53 +189,28 @@
 
 ##文字折行
 
+- overflow-wrap(word-wrap)通用换行控制
+
+    - 是否保留单词
+    
+- word-break针对多字节文字
+
+    - 中文句子也是单词
+    
+- white-space空白处是否断行
 
 
 
 
 
+##装饰性属性及其他
 
+- 字重（粗体）font-weight
 
+    - normal(400) bold(700) bolder lighter
 
+- 斜体font-style:itatic
 
+- 下划线text-decoration
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- 指针cursor
