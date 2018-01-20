@@ -1,6 +1,6 @@
 ## 内联样式
 
-* CSS命名规范： dialog\_\_confirm-button--highlight
+* CSS命名规范： `dialog__confirm-button--highlight`
 
 * const styleHeaderComponent = {  
            header: {  
