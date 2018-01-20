@@ -5,3 +5,6 @@
 ```
 
 ```
+
+
+##window.innerWidth

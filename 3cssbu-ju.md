@@ -286,13 +286,336 @@
 
 ##inline-block布局
 
+- 像文本一样排block元素
+
+- 没有清除浮动等问题
+
+- 需要处理间隙
+
+    - 设置父元素font-size:0
+    
+    - 去掉标签间的空白
+    
+    - 标签间加注释
+    
+- 做自适应比较空困难，适合定宽布局
+
+```
+<head>
+    <style>
+        .container{
+            width: 800px;
+            height: 200px;
+            font-size: 0;
+        }
+        .left{
+            background: red;
+            display: inline-block;
+            height: 100%;
+            width: 200px;
+            font-size: 16px;
+        }
+        .right{
+            background: blue;
+            display: inline-block;
+            height: 100%;
+            width: 600px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            左
+        </div>
+        <div class="right">
+            右
+        </div>
+    </div>
+</body>
+```
+
+
+
+##响应式设计和布局
+
+- 在不同设备上正常使用
+
+- 一般主要处理屏幕大小问题
+
+- 主要方法：
+
+    - 隐藏 + 折行 + 自适应空间
+    
+    - rem/viewport/media query
+    
+- viewport可视区大小等于屏幕大小，不加iphone默认页面宽度980
+
+```
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container {
+            max-width: 800px;
+            min-height: 200px;
+            display: flex;
+            border: 1px solid black;
+        }
+
+        .left {
+            display:flex;
+            width: 200px;
+            background: red;
+            margin: 5px;
+        }
+
+        .right {
+            background: blue;
+            display: flex;
+            flex:1;
+            margin: 5px;
+        }
+
+        @media (max-width:640px) {
+            .left {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            这里是一些不重要内容，比如广告、友情链接
+        </div>
+        <!-- a -->
+        <div class="right">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis modi laudantium impedit, illum quia eaque dolores architecto voluptatem in asperiores animi tempore eligendi ipsam quaerat officia quae porro qui quod? Aliquid, fugit cumque placeat recusandae libero dicta laboriosam quas, velit minus, reprehenderit reiciendis facere nihil itaque maxime hic voluptate! Rerum unde architecto nam, debitis a odio impedit quidem quo commodi officiis neque magni tempora sint doloribus consequatur culpa officia quibusdam, molestiae nobis nulla esse, quas delectus! Soluta odio qui ullam!
+        </div>
+    </div>
+</body>
+```
+
+
+####案例二：折行的方式
+
+```
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .container{
+            margin:0 auto;
+            max-width: 800px;
+            border:1px solid black;
+            font-size: 0;
+        }
+        .intro{
+            display: inline-block;
+            width: 180px;
+            height: 180px;
+            line-height: 180px;
+            text-align: center;
+            border-radius: 90px;
+            border:1px solid red;
+            margin: 7px;
+            font-size:16px;
+        }
+        @media (max-width:640px){
+            .intro{
+                margin: 7px auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            介绍1
+        </div>
+        <div class="intro">
+            介绍2
+        </div>
+        <div class="intro">
+            介绍3
+        </div>
+        <div class="intro">
+            介绍4
+        </div>
+    </div>
+</body>
+```
+
+
+####自适应空间
+
+- `<meta name="viewport" content="width=320px">`
+
+- window.innerWidth
+
+- rem，不一定会非常精确
+
+```
+<head>
+    <meta name="viewport" content="width=320px">
+    <style>
+        .container{
+            margin:0 auto;
+            max-width: 800px;
+            border:1px solid black;
+            font-size: 0;
+        }
+        .intro{
+            display: inline-block;
+            width: 180px;
+            height: 180px;
+            line-height: 180px;
+            text-align: center;
+            border-radius: 90px;
+            border:1px solid red;
+            margin: 7px;
+            font-size:16px;
+        }
+        @media (max-width:640px){
+            .intro{
+                margin: 7px auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            介绍1
+        </div>
+        <div class="intro">
+            介绍2
+        </div>
+        <div class="intro">
+            介绍3
+        </div>
+        <div class="intro">
+            介绍4
+        </div>
+    </div>
+</body>
+```
+
+
+```
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        html{
+            font-size: 20px;
+        }
+        .container{
+            margin:0 auto;
+            max-width: 800px;
+            border:1px solid black;
+            font-size: 0;
+        }
+        .intro{
+            display: inline-block;
+            width: 9rem;
+            height: 9rem;
+            line-height: 9rem;
+            text-align: center;
+            border-radius: 4.5rem;
+            border:1px solid red;
+            margin: 0.3rem;
+            font-size:0.8rem;
+        }
+        @media (max-width:375px){
+            html{
+                font-size: 24px;
+            }
+        }
+        @media (max-width:320px){
+            html{
+                font-size: 20px;
+            }
+        }
+        @media (max-width:640px){
+            .intro{
+                margin: 0.3rem auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">
+            介绍1
+        </div>
+        <div class="intro">
+            介绍2
+        </div>
+        <div class="intro">
+            介绍3
+        </div>
+        <div class="intro">
+            介绍4
+        </div>
+    </div>
+</body>
+```
+
+
+
+
+##主流网站使用的布局方式
+
+- 国内主要使用float布局
+
+- 苹果使用flex布局
 
 
 
 
 
+##面试真题
 
+1. 实现两栏（三栏）布局的方法
 
+    - 表格布局
+    
+    - float+margin布局，兼容性非常好
+    
+    - inline-block布局
+    
+    - flex布局
+    
+2. position:absoulute/fixed有什么区别
 
+    - 前者相对最近的absoulute/relative
+    
+    - 后者相对屏幕（viewport）,fixed在移动端兼容问题
+    
+3. display:inline-block的间隙
 
+    - 原因：字符间距
+    
+    - 解决：消灭字符或者消灭间距
+    
+4. 如何清除浮动
 
+    - 浮动元素不会占据父元素的布局空间，浮动元素可能会超出父元素，从而对其他元素产生影响
+    
+    - 让盒子负责自己的布局
+    
+    - overflow:hiddden(auto)
+    
+    - ::after{clear:both}
+    
+5. 如何适配移动端页面？
+
+    - viewport
+    
+    - rem/viewport/media query
+    
+    - 设计上：隐藏 折行 自适应
