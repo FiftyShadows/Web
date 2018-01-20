@@ -106,12 +106,31 @@
 ##行高
 
 - 行高的构成
+    
+    - 由line-box决定的
 
 - 行高相关的现象和方案
 
+    - 居中特性
+    
+    ```
+        <div>
+            <span style="line-height:60px;">文字</span>
+        </div>
+    ```
+
 - 行高的调整
 
+```
+    <div style="background:red">
+        <span>文字</span>
+        <img src="test.png" alt="">
+    </div>  
+```
+
 - img相当于inline元素，遵守行高的构成，按照baseline对齐，图片3px缝隙问题
+
+    - span和img通过baseline对齐，所以img下有缝隙
 
     - vertical-align:bottom;
 
