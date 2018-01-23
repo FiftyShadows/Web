@@ -40,33 +40,17 @@
 
 - "css-loader": "0.25.0"
 
+```
+{
+    test: /\.css$/,
+    loader: 'style-loader!css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]'
+}
+```
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+##JSX样式与CSS的互转
 
