@@ -1,6 +1,9 @@
-# My Awesome Book
+##你总是这样轻言放弃的话，无论过多久都只会原地踏步。
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+##1、不管知识新、项目难，来了就得上。2、借助外力。3、积极要求进步当三八红旗手
+
+##罐头是1810发明出来的，可是开罐器呢，却在1858年才发明出来。有时就是这样，重要的东西可能迟来一步，但却一定会到。生活和爱情，都是如此。程序，当然也不例外。
+
 
 #顶级标题
 
