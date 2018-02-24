@@ -19,5 +19,11 @@ npm root -g    npm包的全局路径
 
 
 
+##列出包的版本
+
+- npm v xxx versions --json
+
+
+
 
 
