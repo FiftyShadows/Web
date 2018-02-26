@@ -107,4 +107,5 @@
   * [1.学习准备](webpack/1xue-xi-zhun-bei.md)
   * [2.使用Webpack](webpack/2shi-yong-webpack.md)
   * [3.webpack环境配置](webpack/3webpackhuan-jing-pei-zhi.md)
+  * [4.图片处理](webpack/4tu-pian-chu-li.md)
 
