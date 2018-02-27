@@ -1,9 +1,12 @@
 [https://www.imooc.com/video/13640](https://www.imooc.com/video/13640)
 
-上一个流会随着下一个流的产生而被抛弃掉
+流 随时间流逝的一系列事件
+
+上一个流会随着下一个流的产生而被抛弃掉，上一个流的数据不再会经历过最终结果的影响了。
 
 ```js
 var text =document.querSelector("#text");
+var anotherStream = Rx.Observable.fromEvent(text,'keydown');
 var inputStream = Rx.Observable.fromEvent(text,'keyup')
                 .pluck('targeet', 'value')                //类似event,拿到event.target.value的值
                 .filter(text => text.length > 1)
@@ -49,17 +52,21 @@ just、fromEvent
 
 #### 转变
 
-map、FlatMap、FlatMapLatest
+- map
+
+- FlatMap
+
+- FlatMapLatest
 
 ![](/assets/360截图20171207104022918.jpg)
 
 #### 过滤
 
-filter、debounce(函数过渡)
+filter、debounce(函数节流)
 
 #### 组合
 
-merge
+- merge
 
 #### 错误处理
 
@@ -77,19 +84,19 @@ catch                如果可观察者的流出错，则执行catch里的可观
 
 * 函数式
 
-* 可组合
+* 可组合                链式操作将数据组合在一起
 
-* 伸缩性强（方便改变需求）
+* 伸缩性强（方便改变需求）                随意增删函数
 
-* 错误处理
+* 错误处理                优雅容错
 
 * 并发处理
 
-* 局部到整体
+* 局部到整体                库，而不是框架
 
-* 同步到异步
+* 同步到异步的统一
 
-* 事件与数据
+* 事件与数据的统一
 
 * 前端和后端
 
