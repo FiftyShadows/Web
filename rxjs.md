@@ -8,8 +8,28 @@ var inputStream = Rx.Observable.fromEvent(text,'keyup')
                 .pluck('targeet', 'value')                //类似event,拿到event.target.value的值
                 .filter(text => text.length > 1)
                 .flatMapLatest(url => Http.get(url))
-                .subscribe(data => render(data));
+                .catch(anotherStream)
+                .map(v => v * 2)
+                .subscribe(
+                                data => render(data)
+                                err => console.log(`Wrong: ${err}`),
+                                () => console.log(`complete`)
+                );
 ```
+
+```js
+var button = document.querySelector('.btn');
+var clickStream = Rx.Observable.fromEvent(button, 'click');
+
+var multiClickStream = clickStream
+                                .buffer( () => clickSteam.throttle(250))
+                                .map(list => list.length)
+                                .filter( x => x >=2 );
+multiClickSteam.scribe( numClicks => render(numClicks)); 
+```
+
+
+
 
 ## 入门
 
