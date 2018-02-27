@@ -1,3 +1,6 @@
+https://www.imooc.com/video/13640
+
+
 ```js
 var text =document.querSelector("#text");
 var inputStream = Rx.Observable.fromEvent(text,'keyup')
