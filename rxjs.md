@@ -5,7 +5,7 @@
 ```js
 var text =document.querSelector("#text");
 var inputStream = Rx.Observable.fromEvent(text,'keyup')
-                .pluck('targeet', 'value')
+                .pluck('targeet', 'value')                //类似event,拿到event.target.value的值
                 .flatMapLatest(url => Http.get(url))
                 .subscribe(data => render(data));
 ```
