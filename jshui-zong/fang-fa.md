@@ -100,6 +100,13 @@ rect.move(1, 1); // Outputs, 'Shape moved.'
 
 - instanceof 运算符用来测试一个对象在其原型链中是否存在一个构造函数的 prototype 属性。换言之也就是判断一个实体是不是某个构造函数的实体
 
+```
+function People(){
+  this.name = 'sun';
+  this.id = 
+}
+```
+
 
 
 
