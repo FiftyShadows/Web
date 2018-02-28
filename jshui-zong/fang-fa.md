@@ -103,8 +103,18 @@ rect.move(1, 1); // Outputs, 'Shape moved.'
 ```
 function People(){
   this.name = 'sun';
-  this.id = 
+  this.id = 1;
 }
+
+function Shape() {
+  this.x = 0;
+  this.y = 0;
+}
+
+var tmp = new Peole;
+console.log(tmp instanceof Peolpe);  //true
+console.log(tmp instanceof Object);  //true
+console.log(tmp instanceof Object);  //false
 ```
 
 
