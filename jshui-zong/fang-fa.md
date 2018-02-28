@@ -131,6 +131,10 @@ console.log(tmp instanceof Object);  //false
 
 - 深浅拷贝问题：针对深拷贝，需要使用其他方法，因为 Object.assign()拷贝的是属性值。假如源对象的属性值是一个指向对象的引用，它也只拷贝那个引用值。
 
+- 继承属性和不可枚举属性是不能拷贝的
+
+- 原始类型会被包装为对象
+
 ```js
 //Deep Clone
 obj1 = { a: 0 , b: { c: 0}};
