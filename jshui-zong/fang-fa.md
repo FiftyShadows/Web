@@ -1,10 +1,13 @@
+##随机获取5位字符串
+
+`Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)`
+
+
+
 ##in关键字的用法
 
 1. 最常用的是在for in 循环中遍历对象的键
 
-```
-
-```
 
 
 ##window.innerWidth

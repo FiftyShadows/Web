@@ -229,9 +229,6 @@ document.body和document.documentElement
 
 
 
-##随机获取5位字符串
-
-`Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)`
 
 
 
@@ -263,4 +260,70 @@ util.createScript = function (url, charset) {
  
  - [].forEach.call(hobby,function(element,index){ ... });
 
+
+
+
+
+##数组去重
+
+- 题目：有数组 var arr = ['a', 'b', 'c', '1', 0, 'c', 1, '', 1, 0]，请用JavaScript实现去重函数unqiue，使得unique(arr)返回 ['a', 'b', 'c', '1', 0, 1, '']
+
+```
+//es6最简单的办法
+function unique(){
+  return arr.filter((item, index) => index === this.indexOf(item));
+}
+
+//es6遍历数组，不支持ie6-8
+function unique(arr) {
+  var ret = []
+   for (var i = 0; i < arr.length; i++) {
+    var item = arr[i]
+    if (ret.indexOf(item) === -1) {
+      ret.push(item)
+    }
+  }
+   return ret
+}
+
+//es5,两重循环，内存消耗大
+var indexOf = [].indexOf ?
+    function(arr, item) {
+      return arr.indexOf(item)
+    } :
+    function indexOf(arr, item) {
+      for (var i = 0; i < arr.length; i++) {
+        if (arr[i] === item) {
+          return i
+        }
+      }
+      return -1
+    }
+ function unique(arr) {
+  var ret = []
+   for (var i = 0; i < arr.length; i++) {
+    var item = arr[i]
+    if (indexOf(ret, item) === -1) {
+      ret.push(item)
+    }
+  }
+   return ret
+}
+
+
+//优化方案，核心是构建了一个 hash 对象来替代 indexOf. 注意在 JavaScript 里，对象的键值只能是字符串，因此需要var key = typeof(item) + item 来区分数值 1 和字符串 '1' 等情况。
+function unique(arr) {
+  var ret = []
+  var hash = {}
+   for (var i = 0; i < arr.length; i++) {
+    var item = arr[i]
+    var key = typeof(item) + item
+    if (hash[key] !== 1) {
+      ret.push(item)
+      hash[key] = 1
+    }
+  }
+   return ret
+}
+```
  
