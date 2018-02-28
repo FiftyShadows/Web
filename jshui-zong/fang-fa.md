@@ -61,7 +61,7 @@
 ```js
 var p = {x: 1, y: 2};
 var tmp = Object.create(p);
-console.log('tmp.__proto__ === p ?', tmp.__proto__ === p);
+console.log('tmp.__proto__ === p ?', tmp.__proto__ === p);  //true
 ```
 
 ```js
