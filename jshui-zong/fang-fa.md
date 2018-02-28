@@ -54,7 +54,7 @@
 
 
 
-##Object.create()
+##Object.create(proto[, propertiesObject])
 
 - Object.create() 方法会使用指定的原型对象及其属性去创建一个新的对象。
 
@@ -125,6 +125,19 @@ console.log(tmp instanceof Object);  //false
 
 
 
+##Object.assign()
 
+- Object.assign() 方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象。
+
+- 深浅拷贝问题：针对深拷贝，需要使用其他方法，因为 Object.assign()拷贝的是属性值。假如源对象的属性值是一个指向对象的引用，它也只拷贝那个引用值。
+
+```js
+//Deep Clone
+obj1 = { a: 0 , b: { c: 0}};
+let obj3 = JSON.parse(JSON.stringify(obj1));
+obj1.a = 4;
+obj1.b.c = 4;
+console.log(JSON.stringify(obj3));  // { a: 0, b: { c: 0}};
+```
 
 
