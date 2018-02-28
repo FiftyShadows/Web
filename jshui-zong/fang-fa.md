@@ -59,7 +59,7 @@
 - Object.create() 方法会使用指定的原型对象及其属性去创建一个新的对象。
 
 ```js
-var p = {x: 1; y: 2};
+var p = {x: 1, y: 2};
 var tmp = Object.create(p);
 console.log('tmp.__proto__ === p ?', tmp.__proto__ === p);
 ```
