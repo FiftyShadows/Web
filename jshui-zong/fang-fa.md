@@ -50,7 +50,7 @@
 
 - 返回值是一个DOMRect对象，DOMRect 对象包含了一组用于描述边框的只读属性——left、top、right和bottom，单位为像素。除了 width 和 height 外的属性都是相对于视口的左上角位置而言的。
 
-- 跟window.scroll.top组成加载更多组件，`window.scroll.top > ele.getBoundingClientRect().top`
+- 跟window.scroll.height组成加载更多组件，`window.scroll.height> ele.getBoundingClientRect().top`
 
 ![](/assets/rect.png)
 
