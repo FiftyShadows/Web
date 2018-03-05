@@ -110,4 +110,5 @@
   * [3.webpack环境配置](webpack/3webpackhuan-jing-pei-zhi.md)
   * [4.图片处理](webpack/4tu-pian-chu-li.md)
 * [微信小程序](wei-xin-xiao-cheng-xu.md)
+* [面试题汇总](mian-shi-ti-hui-zong.md)
 

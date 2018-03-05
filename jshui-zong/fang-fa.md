@@ -148,3 +148,55 @@ console.log(JSON.stringify(obj3));  // { a: 0, b: { c: 0}};
 ```
 
 
+
+##Location.replace
+
+Location.replace()方法以给定的URL来替换当前的资源。 与assign() 方法 不同的是调用replace()方法后，当前页面不会保存到会话历史中（session History），这样用户点击回退按钮将不会再跳转到该页面。
+
+
+
+
+##window.onresize
+
+onresize属性可以用来获取或设置当前窗口的resize事件的事件处理函数。
+
+
+
+##回到顶部
+
+```js
+  var topBtn = document.querySelector('.float-nav .top');
+  topBtn.addEventListener(
+    'click',
+    function() {
+      window.scrollTo(0, 0);
+    },
+    false
+  );
+```
+
+
+
+
+##判断页面大小并重定向
+
+```
+(function() {
+  // mobile redirect
+  function detectmob() {
+    if (window.innerWidth < 800 || window.innerHeight < 512) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+
+  if(detectmob()) {
+    location.replace('mindex.html');
+  }
+
+  window.onresize = function() {
+    detectmob() && location.replace('mindex.html');
+  };
+)()
+```

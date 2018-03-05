@@ -31,3 +31,20 @@ webpack-dev-server --content-base src --inline --hot
 - highlight-line
 
 - highlight-selected
+
+
+
+
+##约束性和非约束性组件
+
+- 非约束性：即通过查询DOM，获取DOM属性的方式来做。跟之前jquery的做法一样，都是围绕着DOM来做的。缺点有两个：
+
+    - 依赖DOM操作，不符合组件化的设计，也不易扩展
+    
+    - 查询DOM消耗更多性能
+    
+- 约束性：即监控<input>的变化，将值实时保存到state中，直接从state中获取值。React或者Vue都是一种基于数据驱动视图的设计方式，定好数据和视图的规则之后，只更改数据，不直接操作DOM。操作DOM的事情，交给React或者Vue这个框架的代码来搞定。
+
+
+
+
