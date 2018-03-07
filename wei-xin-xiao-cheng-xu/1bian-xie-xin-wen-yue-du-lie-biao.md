@@ -204,7 +204,7 @@ Page({
 
 //post.wxml
 <import src="post-item/post-item-template.wxml" />    //少写/会导致出错，相对路径和绝对路径都可以
-<block wx:for={{postList}} wx:for-item="item" wx:for-index="index">
+<block wx:for="{{postList}}" wx:for-item="item" wx:for-index="index">
     <template is="postItem" data="{{item}}" />    //出发点：并非只是在一个页面中引用，编程的复用思想
 </block>
 
