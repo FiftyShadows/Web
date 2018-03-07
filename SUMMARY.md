@@ -112,5 +112,6 @@
 * [微信小程序](wei-xin-xiao-cheng-xu.md)
   * [1.编写新闻阅读列表](wei-xin-xiao-cheng-xu/1bian-xie-xin-wen-yue-du-lie-biao.md)
   * [2.构建新闻详情页面](wei-xin-xiao-cheng-xu/2gou-jian-xin-wen-xiang-qing-ye-mian.md)
+  * [3.电影资讯页面](wei-xin-xiao-cheng-xu/3dian-ying-zi-xun-ye-mian.md)
 * [面试题汇总](mian-shi-ti-hui-zong.md)
 
