@@ -161,6 +161,12 @@ page{
         <text class='moto'>开启小程序之旅</text>
     </view>
 </view>
+
+
+//welcome.js
+Page({
+
+})
 ```
 
 
