@@ -62,11 +62,11 @@
 
 ##组件
 
-- 只有text标签内的文字才在手机上能长按选中
+- 包含text标签内的文字才在手机上能长按选中
 
 - rpx自动转化，ip6的尺寸宽750像素做效果图
 
-- 静态样式以及复用性写在class里，动态样式写在style里
+- 静态样式以及复用性写在class里，动态样式写在style里，性能上把样式放在style里运行效率会比较低，规范和代码复用性上都应该用class形式编写样式。
 
 - CSS大局观，从整体上解决布局问题是最优的解决方案
 
@@ -99,6 +99,69 @@
 - 使用rpx，小程序会自动在不同的分辨率下进行转换，而使用px为单位不会
 
 - 不是所有的单位都适合用rpx,例如文字
+
+- 小程序在注册时，并不是注册的某一个文件，而是注册的以welcome开头的所有的文件（js,wxss,wxml,json）,他会自动把welcome相关的四种类型文件关联在一起。
+
+```
+//app.json
+{
+    "page": [
+        "pages/welcome/welcome"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#b3d4db"
+    }
+}
+
+//app.wxss,公共样式
+text{
+    font-family: MicroSoft Yahei;
+}
+
+//welcome.wxss,差异性代码
+.container{
+    display: flex;
+    flex-direction: column;
+    align-item: center;    //居中
+}
+.user-avatar{
+    width: 200rpx;
+    height: 200rpx;
+    margin-top: 160rpx;
+}
+.user-name{
+    margin-top: 100rpx;
+    font-size: 32rpx;
+    font-weight: bold;
+}
+.moto-container{
+    margin-top: 200rpx;
+    border: 1px solid #405f80;
+    width: 200rpx;
+    height: 80rpx;
+    border-radius: 5px;
+    text-align: center;
+}
+.moto{
+    font-size: 22rpx;
+    font-weight: bold;
+    line-height: 80rpx;
+    color: #405f80;
+}
+page{
+    height: 100%;
+    background: #b3d4db
+}
+
+//welcome.wxml
+<view class='container'>
+    <image class='user-avatar' src='/images/avatar/.png'></image>>
+    <text class='user-name'><text style="color:red">Hello\n</text>,七月</text>>
+    <view class='moto-container'>
+        <text class='moto'>开启小程序之旅</text>
+    </view>
+</view>
+```
 
 
 

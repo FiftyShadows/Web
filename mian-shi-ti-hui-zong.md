@@ -258,5 +258,10 @@ if (!(a in window)){
 console.log(a);    //undefined
 ```
 
-
+```
+//宽高80%盒子
+html{height: 100%}
+body{heigt: 100%}
+div{hright: 80%}
+```
 
