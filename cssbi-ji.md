@@ -39,6 +39,10 @@ input[type="tel"]的value值亦是number，且其没有type="number"时的上下
 
 
 
+##word-break:break-all换行时拆分单词；break-word不拆分单词，并在下一行显示
+
+
+
 
 
 
