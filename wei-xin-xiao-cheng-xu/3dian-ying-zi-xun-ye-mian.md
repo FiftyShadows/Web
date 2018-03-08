@@ -108,3 +108,66 @@ Data:{
 
 
 
+
+##组件间传递数据的方式
+
+- 全局变量
+
+- 缓存
+
+- Url
+
+- 发射事件和接收事件
+
+
+
+
+##导航栏动态标题的显示
+
+- onLoad是页面初始化，不应该操作跟UI相关的东西的
+
+- 要在onReady后面的生命周期中设置
+
+
+
+##上拉加载更多，数据的concat
+
+- 在more-grid中加入`<scroll-view class="grid-container" scroll-y="true" scroll-x="false" bindscrolltolower="onScrollLower">`，并设置高度
+
+- 一个方法最多不超过10行，方法越小越灵活，代码重发的可能性就越小
+
+
+
+
+##wx.showNavigationBarLoading()和wx.hideNavigationBarLoading();在导航栏上加载loading图标
+
+
+
+
+##下拉刷新
+
+- 在more-movie.json中配置{"enablePullDownRefresh": true}
+
+- 停止刷新wx.stopPullDownRefresh();
+
+
+
+##window配置下的backgroundColor指的是下拉刷新空白区域的颜色
+
+
+
+
+##搜索页面的显隐
+
+
+
+##搜索功能，input标签bindchange
+
+
+
+
+##app.json的list绝对路径前不能加/
+
+
+
+

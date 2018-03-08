@@ -1,5 +1,7 @@
 ##你总是这样轻言放弃的话，无论过多久都只会原地踏步。
 
+##纵使秋风起,人生不言弃。
+
 ##黑客与画家
 
 ##1、不管知识新、项目难，来了就得上。2、借助外力。3、积极要求进步当三八红旗手
@@ -15,7 +17,9 @@
 - split    vt.分裂; 分开;
 
 
+##VSCode添加后缀名扩展
 
+- C:\Program Files\Microsoft VS Code\resources\app\extensions\css
 
 
 #顶级标题
