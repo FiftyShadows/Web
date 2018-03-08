@@ -27,7 +27,15 @@ input[type="tel"]的value值亦是number，且其没有type="number"时的上下
 
 
 
+##white-space:nowrap不换行
 
+
+
+##letter-spacing文字间距
+
+
+
+##text-indent:2em;规定文本块中首行文本的缩进
 
 
 
