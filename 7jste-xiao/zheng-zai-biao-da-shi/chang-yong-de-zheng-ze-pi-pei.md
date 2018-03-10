@@ -5,6 +5,7 @@ function GetChinese(strValue) {
   if (strValue != null && strValue != "") {
     var reg = /[\u4e00-\u9fa5，。？；]/g;
     strValue = strValue.match(reg).join("");
+    //去掉指定字符
     strValue = strValue.replace(/\u67e5\u770b\u77e5\u4e4e\u8ba8\u8bba/, '。');
     return strValue;
   }
