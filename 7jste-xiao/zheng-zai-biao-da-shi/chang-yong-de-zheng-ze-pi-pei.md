@@ -1,4 +1,4 @@
-##获取中文字
+##获取中文字符
 
 ```
 function getContent() {
