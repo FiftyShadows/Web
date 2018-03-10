@@ -137,6 +137,112 @@ console.log( trim("  foobar   ") );
 // => "foobar"
 ```
 
+- 将每个单词的首字母转换为大写
 
-##(?:)不捕获里面的内容(?=n)匹配任何其后紧接指定字符串n的字符串，不捕获
+```
+function titleize(str) {
+	return str.toLowerCase().replace(/(?:^|\s)\w/g, function(c) {
+		return c.toUpperCase();
+	});
+}
+console.log( titleize('my name is epeli') ); 
+// => "My Name Is Epeli"
+```
+
+- 驼峰化
+
+```
+function camelize(str) {
+	return str.replace(/[-_\s]+(.)?/g, function(match, c) {
+		return c ? c.toUpperCase() : '';
+	});
+}
+console.log( camelize('-moz-transform') ); 
+// => "MozTransform"
+```
+
+- 中划线化
+
+```
+function dasherize(str) {
+	return str.replace(/([A-Z])/g, '-$1').replace(/[-_\s]+/g, '-').toLowerCase();
+}
+console.log( dasherize('MozTransform') ); 
+// => "-moz-transform"
+```
+
+- html转义和反转义
+
+```
+// 将HTML特殊字符转换成等值的实体
+function escapeHTML(str) {
+	var escapeChars = {
+	  '¢' : 'cent',
+	  '£' : 'pound',
+	  '¥' : 'yen',
+	  '€': 'euro',
+	  '©' :'copy',
+	  '®' : 'reg',
+	  '<' : 'lt',
+	  '>' : 'gt',
+	  '"' : 'quot',
+	  '&' : 'amp',
+	  '\'' : '#39'
+	};
+	return str.replace(new RegExp('[' + Object.keys(escapeChars).join('') +']', 'g'), function(match) {
+		return '&' + escapeChars[match] + ';';
+	});
+}
+console.log( escapeHTML('<div>Blah blah blah</div>') );
+// => "&lt;div&gt;Blah blah blah&lt;/div&gt";
+
+
+// 实体字符转换为等值的HTML。
+function unescapeHTML(str) {
+	var htmlEntities = {
+	  nbsp: ' ',
+	  cent: '¢',
+	  pound: '£',
+	  yen: '¥',
+	  euro: '€',
+	  copy: '©',
+	  reg: '®',
+	  lt: '<',
+	  gt: '>',
+	  quot: '"',
+	  amp: '&',
+	  apos: '\''
+	};
+	return str.replace(/\&([^;]+);/g, function(match, key) {
+		if (key in htmlEntities) {
+			return htmlEntities[key];
+		}
+		return match;
+	});
+}
+console.log( unescapeHTML('&lt;div&gt;Blah blah blah&lt;/div&gt;') );
+// => "<div>Blah blah blah</div>"
+```
+
+- 匹配成对标签
+
+```
+var regex = /<([^>]+)>[\d\D]*<\/\1>/;
+var string1 = "<title>regular expression</title>";
+var string2 = "<p>laoyao bye bye</p>";
+var string3 = "<title>wrong!</p>";
+console.log( regex.test(string1) ); // true
+console.log( regex.test(string2) ); // true
+console.log( regex.test(string3) ); // false
+```
+
+
+
+##(?:)不捕获里面的内容(?=n)匹配任何其后紧接指定字符串n的字符串，不捕获，不使用反向引用
+
+```js
+(?!_)　　不能以_开头
+
+(?!.*?_$)　　不能以_结尾
+```
 
