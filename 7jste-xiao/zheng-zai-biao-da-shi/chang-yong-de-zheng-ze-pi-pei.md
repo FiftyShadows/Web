@@ -1,4 +1,4 @@
-##匹配中文字
+##获取中文字
 
 ```
 function getContent() {
