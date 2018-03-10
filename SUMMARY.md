@@ -7,6 +7,7 @@
 * [HTML笔记](htmlbi-ji.md)
 * [HTML5笔记](html5bi-ji.md)
 * [正则表达式](7jste-xiao/zheng-zai-biao-da-shi.md)
+  * [常用得正则匹配](7jste-xiao/zheng-zai-biao-da-shi/chang-yong-de-zheng-ze-pi-pei.md)
 * [7.JS特效](7jste-xiao.md)
   * [缓动框架的透明度兼容](7jste-xiao/tou-ming-du-de-jian-rong.md)
   * [旋转轮播图](7jste-xiao/xuan-zhuan-lun-bo-tu.md)
