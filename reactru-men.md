@@ -69,4 +69,22 @@ webpack-dev-server --content-base src --inline --hot
 
 
 
+##无状态组件
 
+- 无状态的函数创建的组件是无状态组件，它是一种只负责展示的纯组件，对于这种无状态的组件，使用函数式的方式声明，会使得代码的可读性更好，并能大大减少代码量，箭头函数则是函数式写法的最佳搭档
+
+
+
+##页面返回
+
+- window.history.back()
+
+
+
+##componentDidMount和componentDidUpdate两个生命周期的不同
+
+- 页面初次渲染，会走compnentDidMount
+
+- 页面再次渲染，就不会走componentDidMount，而只走componentDidUpdate
+
+**一定要判断参数是否发生变化**
