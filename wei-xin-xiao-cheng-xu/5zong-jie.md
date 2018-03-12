@@ -74,3 +74,12 @@
 
 
 ##通过给 button 组件设置属性 open-type="share"，可以在用户点击按钮后触发 Page.onShareAppMessage() 事件，如果当前页面没有定义此事件，则点击后无效果。相关组件：button
+
+
+
+
+##wx:key 的值以两种形式提供
+
+- 字符串，代表在 for 循环的 array 中 item 的某个 property，该 property 的值需要是列表中唯一的字符串或数字，且不能动态改变。
+
+- 保留关键字 *this 代表在 for 循环中的 item 本身，这种表示需要 item 本身是一个唯一的字符串或者数字
