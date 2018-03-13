@@ -88,3 +88,28 @@ webpack-dev-server --content-base src --inline --hot
 - 页面再次渲染，就不会走componentDidMount，而只走componentDidUpdate
 
 **一定要判断参数是否发生变化**
+
+
+
+##当props和state发生变化时执行，并且在render方法之前执行，当然初始化render时不执行该方法，需要特别注意的是，在这个函数里面，你就不能使用this.setState来修改状态。这个函数调用之后，就会把nextProps和nextState分别设置到this.props和this.state中。紧接着这个函数，就会调用render()来更新界面了
+
+
+
+
+##组件更新结束之后执行，在初始化render时不执行
+
+
+
+
+##componentWillReceiveProps：当props发生变化时执行，初始化render时不执行，在这个回调函数里面，你可以根据属性的变化，通过调用this.setState()来更新你的组件状态，旧的属性还是可以通过this.props来获取,这里调用更新状态是安全的，并不会触发额外的render调用
+
+- 当组件被更新时，使用该方法是操作DOM的一次机会。这也是一个适合发送请求的地方，要是你对比了当前属性和之前属性（例如，如果属性没有改变那么请求也就没必要了）。
+
+
+
+##componentWillReceiveProps(nextProps)
+
+- componentWillReceiveProps()在装配了的组件接收到新属性前调用。若你需要更新状态响应属性改变（例如，重置它），你可能需对比this.props和nextProps并在该方法中使用this.setState()处理状态改变。
+
+
+
