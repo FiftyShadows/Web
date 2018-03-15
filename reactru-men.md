@@ -16,6 +16,10 @@ webpack-dev-server --content-base src --inline --hot
 
 
 
+##exact的值为bool型，为true是表示严格匹配，为false时为正常匹配。
+
+
+
 ##atom安装本packages
 
 - atom-ternjs对es5,es6，nodejs等的语法支持
