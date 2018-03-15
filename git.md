@@ -1,3 +1,5 @@
+ssh-keygen -t rsa    生成密钥
+
 git remote add origin git@github.com:Botue/repo.git
 
 本地强制上传到远程仓库git push -u origin master -f
@@ -10,13 +12,13 @@ git log --stat -1
 
 git dif xxx.xx
 
-git config --global alias.st status
-git config --global alias.co checkout
-git config --global alias.ci commit
-git config --global alias.br branch
+git config --global alias.st status  
+git config --global alias.co checkout  
+git config --global alias.ci commit  
+git config --global alias.br branch  
 git config --global alias.rs reset
 
-git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C\(yellow\)%d%Creset %s %Cgreen\(%cr\) %C\(bold blue\)&lt;%an&gt;%Creset' --abbrev-commit --date=relative"
 
 git diff 6f647f79a39 HEAD
 
@@ -44,10 +46,7 @@ git merge --no-ff a-branch    强制其产生一次新的提交
 
 git log --merges
 
-
-
-
-##储藏
+## 储藏
 
 git stash
 
@@ -57,10 +56,7 @@ git stash list
 
 git stash pop stash@{1}
 
-
-
-
-##.gitignore
+## .gitignore
 
 ```
 #
@@ -81,39 +77,17 @@ generated/
 !demo.bak
 ```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##创建裸仓库
+## 创建裸仓库
 
 裸仓库通常可被用来充当开发者们传递提交的汇聚点，以便其他人可以从中拉回他们所做的修改。
 
 git clone --bare /program/first-steps    创建裸仓库
 
-
-
-
-
-##工作区与版本库
+## 工作区与版本库
 
 工作区是一个包含.git子目录（内含版本库）中的目录。用git init命令在当前目录中创建版本库。
 
-
-
-git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
-
+git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C\(yellow\)%d%Creset %s %Cgreen\(%cr\) %C\(bold blue\)&lt;%an&gt;%Creset' --abbrev-commit --date=relative"
 
 
 
@@ -121,16 +95,7 @@ git config --global alias.lg "log --graph --pretty=format:'%Cred%h%Creset -%C(ye
 
 
 
+![](/assets/360截图20180315095201098.jpg)
 
-
-
-
-
-
-
-
-
-
-
-
+需要配置hosts
 
