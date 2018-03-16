@@ -117,3 +117,17 @@ webpack-dev-server --content-base src --inline --hot
 
 
 
+
+
+##虽然 this.props 由React本身设置以及this.state 具有特殊的含义，但如果需要存储不用于视觉输出的东西，则可以手动向类中添加其他字段。
+
+- 如果你不在 render() 中使用某些东西，它就不应该在状态中。
+
+
+
+
+##因为 this.props 和 this.state 可能是异步更新的，你不应该依靠它们的值来计算下一个状态。
+
+
+
+
