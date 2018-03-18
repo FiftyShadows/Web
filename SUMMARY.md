@@ -81,7 +81,7 @@
   * [7.单元测试](nodejs/7dan-yuan-ce-shi.md)
   * [8.UI测试工具](nodejs/8uice-shi-gong-ju.md)
   * [9.爬虫](nodejs/9pa-chong.md)
-* [面试](mian-shi.md)
+* [JavaScript高级应用](mian-shi.md)
   * [1.页面布局](mian-shi/1ye-mian-bu-ju.md)
   * [2.CSS盒模型](mian-shi/1csshe-mo-xing.md)
   * [3.DOM事件](mian-shi/3.md)
@@ -117,4 +117,6 @@
   * [4.构建电影详情页面](wei-xin-xiao-cheng-xu/4gou-jian-dian-ying-xiang-qing-ye-mian.md)
   * [5.总结](wei-xin-xiao-cheng-xu/5zong-jie.md)
 * [面试题汇总](mian-shi-ti-hui-zong.md)
+* [JavaScript高级知识](javascriptgao-ji-zhi-shi.md)
+  * [虚拟DOM](javascriptgao-ji-zhi-shi/xu-ni-dom.md)
 
