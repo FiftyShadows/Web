@@ -117,4 +117,5 @@
   * [4.构建电影详情页面](wei-xin-xiao-cheng-xu/4gou-jian-dian-ying-xiang-qing-ye-mian.md)
   * [5.总结](wei-xin-xiao-cheng-xu/5zong-jie.md)
 * [面试题汇总](mian-shi-ti-hui-zong.md)
+* [组件库](zu-jian-ku.md)
 
