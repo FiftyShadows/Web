@@ -270,7 +270,7 @@ util.createScript = function (url, charset) {
 
 ```
 //es6最简单的办法
-function unique(){
+function unique(arr){
   return arr.filter((item, index) => index === this.indexOf(item));
 }
 
