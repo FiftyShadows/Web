@@ -327,3 +327,19 @@ function unique(arr) {
 }
 ```
  
+ 
+ 
+ 
+ 
+ ##数组对象去重
+ 
+ ```js
+ function arrayUnique2(arr, name) {
+  var hash = {};
+  return arr.reduce(function (item, next) {
+    hash[next[name]] ? '' : hash[next[name]] = true && item.push(next);
+    return item;
+  }, []);
+}
+
+ ```
