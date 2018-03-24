@@ -47,50 +47,6 @@ rc-tween-one
 
 
 
-##单例模式
-
-- 基于es6实现单例模式
-
-```
-export class Director{
-    constructor(){
-        console.info('构造器初始化');
-    }
-    static getInstance(){
-        if(!Director.instance){
-            Director.instance = new Director;
-        }
-        return Director.instance;
-    }
-}
-```
-
-
-
-
-
-##drawImage
-
-this.ctx.drawImage = {
-    image对象，
-    image的x起始位置，
-    image的y起始位置，
-    image.width,
-    image.height,
-    放置在画布的位置0,
-    0，
-    image.width,
-    image.height
-};
-
-
-
-
-
-##精灵基类，负责初始化精灵加载的资源和大小以及位置
-
-
-
 
 
 
