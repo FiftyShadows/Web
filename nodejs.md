@@ -6,6 +6,9 @@
 npm root -g    npm包的全局路径
 
 
+npm install默认安装在-D
+
+
 
 ##不擅长的
 
