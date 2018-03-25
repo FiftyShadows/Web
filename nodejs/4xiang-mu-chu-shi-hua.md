@@ -46,7 +46,7 @@ indent_size = 4
 
 ##.eslintrc.js
 
-- eslint init
+- eslint --init
 
 - npm i -D eslint babel-eslint
 
