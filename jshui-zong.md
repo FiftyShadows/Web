@@ -343,3 +343,58 @@ function unique(arr) {
 }
 
  ```
+ 
+ 
+ 
+ 
+##表达式(expressions)和语句(statements)之间的区别
+ 
+- 表达式会产生一个值,它可以放在任何需要一个值的地方
+ 
+```
+myvar
+3 + x
+myfunc("a", "b")
+```
+
+- 语句可以理解成一个行为.循环语句和if语句就是典型的语句.你可以使用一个表达式来代替.这样的语句称之为表达式语句.但反过来不可以:你不能在一个需要表达式的地方放一个语句.比如,一个if语句不能作为一个函数的参数.
+
+- 类似if语句功能的表达式叫做条件运算符(三元运算符)
+
+- 分号可以连接两个语句
+
+- 逗号运算符会计算前后两个表达式,然后返回右边表达式的计算结果
+
+```
+Statement -> Block
+           | VariableStatement
+           | EmptyStatement
+           | ExpressionStatement
+           | IfStatement
+           | IterationStatement
+           | ContinueStatement
+           | BreakStatement
+           | ReturnStatement
+           ...
+
+ExpressionStatement -> Expression;
+
+Expression -> this
+            | 基本表达式
+            | 属性访问表达式
+            | new表达式
+            | 函数调用表达式
+            | 函数表达式
+            | 自增/自减表达式
+            | 算术表达式
+            | 逻辑表达式
+            ...
+```
+
+
+
+
+
+
+
+
