@@ -1,3 +1,17 @@
+##atom插件
+
+- lint-eslint
+
+- atom beautify
+
+- emmet
+
+- snippets
+
+
+
+
+
 ##兼容并包的学习态度
 
 
