@@ -125,5 +125,6 @@
 * [微信小游戏](wei-xin-xiao-you-xi.md)
   * [1.逻辑梳理与API初探](wei-xin-xiao-you-xi/1luo-ji-shu-li-yu-api-chu-tan.md)
 * [Vue](vue.md)
+  * [1.基础语法](vue/1ji-chu-yu-fa.md)
 * [组件化思想](zu-jian-hua-si-xiang.md)
 
