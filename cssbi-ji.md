@@ -43,7 +43,9 @@ input[type="tel"]的value值亦是number，且其没有type="number"时的上下
 
 
 
+##文字省略
 
+![](/assets/360截图20180404225732078.jpg)
 
 
 

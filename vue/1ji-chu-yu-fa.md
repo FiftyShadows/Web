@@ -109,6 +109,34 @@
 - `<router-link></router-link>`或者this.$router.push({path:''})
 
 - `<router-view></router-view>`
+
+
+
+
+
+##动态路由匹配
+
+- 路由模式history/hash
+
+![](/assets/360截图20180405181228155.jpg)
+
+![](/assets/360截图20180405180939734.jpg)
+
+
+
+
+- 什么是动态路由？
+
+![](/assets/360截图20180405180333282.jpg)
+
+
+
+
+- 嵌套路由
+
+![](/assets/360截图20180405181555567.jpg)
+
+![](/assets/360截图20180405181833071.jpg)
     
 
 
