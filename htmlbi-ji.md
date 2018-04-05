@@ -21,3 +21,16 @@
 ##html空标签
 
 hr,img,meta,link,input,br,wbr,map,base,col,embed,param,source,track,area
+
+
+
+
+
+
+##document.write在页面写入标签
+
+
+
+
+
+##embed标签定义嵌入的内容，比如插件。
