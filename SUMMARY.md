@@ -121,7 +121,7 @@
 * [JavaScript高级知识](javascriptgao-ji-zhi-shi.md)
   * [虚拟DOM](javascriptgao-ji-zhi-shi/xu-ni-dom.md)
 * [前端需要掌握的知识](qian-duan-xu-yao-zhang-wo-de-zhi-shi.md)
-* [组件库](zu-jian-ku.md)
+* [Node包](zu-jian-ku.md)
 * [微信小游戏](wei-xin-xiao-you-xi.md)
   * [1.逻辑梳理与API初探](wei-xin-xiao-you-xi/1luo-ji-shu-li-yu-api-chu-tan.md)
 * [Vue](vue.md)

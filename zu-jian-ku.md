@@ -46,6 +46,20 @@ rc-tween-one
 
 pm2    一个带有负载均衡功能的Node应用的进程管理器
 
+    - pm2 start server.js
+    
+    - pm2 list
+    
+    - pm2 show server
+    
+    - pm2 stop server
+    
+    - pm2 logs
+    
+    - pm2 restart server
+
+
+curl
 
 
 
