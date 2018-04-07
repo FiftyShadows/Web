@@ -32,7 +32,7 @@ recharts    图表库
 
 reqwest    发送请求
 
-rc-animate
+rc-animate    动画
 
 rc-banner-anim
 
@@ -43,6 +43,8 @@ rc-queue-anim
 rc-scroll-anim
 
 rc-tween-one
+
+pm2    一个带有负载均衡功能的Node应用的进程管理器
 
 
 
