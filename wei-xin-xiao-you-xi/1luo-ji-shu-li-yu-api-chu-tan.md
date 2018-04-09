@@ -74,6 +74,8 @@ export class Director{
 
 ## drawImage
 
+- 要在图片onLoad之后才能在canvas绘制
+
 this.ctx.drawImage = {  
     image对象，  
     image的x起始位置，  
