@@ -82,7 +82,7 @@ this.ctx.drawImage = {
     image.height,  
     放置在画布的位置0,  
     0，  
-    image.width,  
+    image.width,      //使用图片的大小
     image.height  
 };
 
