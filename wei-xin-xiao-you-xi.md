@@ -24,6 +24,14 @@ live-server
 
 
 
+##浏览器端运行es6代码
+
+- script加上type='module'
+
+- import文件名要完整
+
+
+
 
 
 
