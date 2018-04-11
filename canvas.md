@@ -1,1 +1,1 @@
-##requestAnimationFrame根据帧率动态调整
+##requestAnimationFrame和cancelAnimationFrame根据帧率动态调整
