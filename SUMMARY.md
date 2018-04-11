@@ -127,4 +127,5 @@
 * [Vue](vue.md)
   * [1.基础语法](vue/1ji-chu-yu-fa.md)
 * [组件化思想](zu-jian-hua-si-xiang.md)
+* [Canvas](canvas.md)
 
