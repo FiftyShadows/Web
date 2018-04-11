@@ -6,7 +6,7 @@
 
 
 
-##ctx.dawnImage
+##ctx.drawImage
 
 ```
 this.ctx.drawImage = {  
