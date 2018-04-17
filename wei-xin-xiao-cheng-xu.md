@@ -1,4 +1,18 @@
-for循环下的template的view上加上自定义属性，获取路由需要的值
+```
+//段落文字的布局
+.detail {
+  color: #666;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+}
+```
+
+
+
+for循环下的template的view上加上自定义属性data-postId/data-post-name-id，获取路由需要的值e.currentTarget.dataset.postid/postNameId
 
 
 template渲染后并没有这个标签，只是占位符
