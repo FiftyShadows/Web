@@ -1,3 +1,6 @@
+设置了display:flex的盒子模型内不能再使用vertical-align
+
+
 ```
 //段落文字的样式
 .detail {
