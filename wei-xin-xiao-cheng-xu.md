@@ -1,6 +1,16 @@
+生命周期 onLoad(页面初始化的时候向服务器请求数据) - onShow - onReady
+
+
 img src绝对路径 /开头
 
+
 相对路径
+
+
+vertical="{{false}}"布尔类型属性值要加括号
+
+
+wx:if="{{}}"
 
 
 
