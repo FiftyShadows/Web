@@ -1,7 +1,39 @@
-img src绝对路径 /开头
+```
+//段落文字的样式
+.detail {
+  color: #666;
+  margin-left: 30rpx;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  line-height: 44rpx;
+  letter-spacing: 2px;
+}
+```
 
-相对路径
 
+
+for循环下的template的view上加上自定义属性data-postId/data-post-name-id，获取路由需要的值e.currentTarget.dataset.postid/postNameId
+
+
+template渲染后并没有这个标签，只是占位符
+
+
+teplate的data="{{..item}}"这样模板里的值更直观
+
+
+import/image的src可以是绝对或相对路径
+
+
+require只能用相对路径
+
+
+小程序总是会先onLoad，然后再读取data对象来做数据绑定
+
+
+wx:if=""来控制显隐
+
+
+节点属性的布尔值false，需要{{false}}的形式，否则无效
 
 
 
@@ -79,24 +111,9 @@ img src绝对路径 /开头
 
 - height:100%;仍然是根据内部大小确定高度的
 
+- text嵌套来控制不同的文本颜色
 
-
-
-
-
-##text
-
-- text可以嵌套控制不同的文本颜色
-
-- 在手机里长按选中
-
-- 解析转义字符如`\n`
-
-
-
-
-
-##rpx
+- 解析转义字符`\n`
 
 - 移动设备的分辨率与rpx
 
@@ -191,9 +208,6 @@ Page({
 })
 ```
 
-
-
-##margin：垂直建议用px；水平建议用rpx
 
 
 
