@@ -1,3 +1,6 @@
+teplate的data="{{..item}}"这样模板里的值更直观
+
+
 import/image的src可以是绝对或相对路径
 
 
