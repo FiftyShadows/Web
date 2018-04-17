@@ -10,7 +10,7 @@ img src绝对路径 /开头
 vertical="{{false}}"布尔类型属性值要加括号
 
 
-wx:if="{{}}"
+wx:if="{{true}}"
 
 
 
