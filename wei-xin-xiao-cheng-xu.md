@@ -1,4 +1,4 @@
-import的src可以是绝对或相对路径
+import/image的src可以是绝对或相对路径
 
 
 require只能用相对路径
