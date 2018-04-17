@@ -1,5 +1,5 @@
 ```
-//段落文字的布局
+//段落文字的样式
 .detail {
   color: #666;
   margin-left: 30rpx;
