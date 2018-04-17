@@ -1,3 +1,6 @@
+template渲染后并没有这个标签，只是占位符
+
+
 teplate的data="{{..item}}"这样模板里的值更直观
 
 
