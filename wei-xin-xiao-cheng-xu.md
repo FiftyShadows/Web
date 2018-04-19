@@ -1,3 +1,28 @@
+this.setData会引起页面的重新渲染；this.data不会
+
+
+
+scroll-view设置flex-direction无效
+
+
+
+onLoad -> onShow -> onReady
+
+
+
+wx.setNavigationBarTitle设置导航栏；但不能在onLoad,onShow
+内设置，因为页面还没有生成；在onReady里可以设置；
+
+
+
+传参：1.全局变量    2.缓存    3.dataset+url    4.事件发射
+
+
+
+template里可以调用父组件里定义的方法
+
+
+
 margin：垂直建议用px；水平建议用rpx
 
 
