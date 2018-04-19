@@ -1,3 +1,7 @@
+wx.setNavigationBarTitle设置导航栏；但不能在onLoad内设置，因为页面还没有生成
+
+
+
 传参：1.全局变量    2.缓存    3.dataset+url    4.事件发射
 
 
