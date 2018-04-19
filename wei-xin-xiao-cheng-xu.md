@@ -1,4 +1,13 @@
-wx.setNavigationBarTitle设置导航栏；但不能在onLoad内设置，因为页面还没有生成
+scroll-view设置flex-direction无效
+
+
+
+onLoad -> onShow -> onReady
+
+
+
+wx.setNavigationBarTitle设置导航栏；但不能在onLoad,onShow
+内设置，因为页面还没有生成；在onReady里可以设置；
 
 
 
