@@ -1,3 +1,7 @@
+this.setData会引起页面的重新渲染；this.data不会
+
+
+
 scroll-view设置flex-direction无效
 
 
