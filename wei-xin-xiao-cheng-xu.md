@@ -1,3 +1,7 @@
+wx.stopPullDownRefresh()
+
+
+
 wx.showNavigationBarLoading()导航栏loading效果
 
 
