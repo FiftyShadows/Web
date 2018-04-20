@@ -1,3 +1,7 @@
+wx.showNavigationBarLoading()导航栏loading效果
+
+
+
 this.setData会引起页面的重新渲染；this.data不会
 
 
