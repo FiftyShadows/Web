@@ -63,6 +63,8 @@ curl
 
 brew
 
+react.qrcode
+
 
 
 
