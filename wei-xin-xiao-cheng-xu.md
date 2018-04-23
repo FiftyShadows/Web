@@ -1,3 +1,7 @@
+从服务器获取的对象属性值要 判空；尤其二级以上属性
+
+
+
 wx.stopPullDownRefresh()
 
 
