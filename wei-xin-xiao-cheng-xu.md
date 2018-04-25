@@ -6,7 +6,7 @@
 
 
 
-wx.stopPullDownRefresh()
+wx.stopPullDownRefresh()停止导航栏刷新
 
 
 
