@@ -201,6 +201,8 @@ errorCaptured(){}{
 
 - deep    默认只监听对象引用地址的变化；deep遍历对象属性并监听值变化；性能开销较大
 
+- watch/computed里修改监听的data的值会导致死循环
+
 ```
 watch: {
     obj: {
