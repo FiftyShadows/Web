@@ -197,6 +197,22 @@ errorCaptured(){}{
 
 - 监听到数据变化，做一些操作
 
+- immediate    false时绑定时不会执行，只有数据变化时才会执行
+
+- deep    默认只监听对象引用地址的变化；deep遍历对象属性并监听值变化；性能开销较大
+
+```
+watch: {
+    obj: {
+        handler(newName, oldName){
+            console.info('ong.a changed');
+        },
+        immediate: true,
+        deep: true
+    }
+}
+````
+
 
 
 
