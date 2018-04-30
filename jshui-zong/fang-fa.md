@@ -1,6 +1,6 @@
 ##innerHTML、innerText、textCentent区别
 
-- innerHTML能够解析标签
+- innerHTML能够解析标签，其他不能会把标签显示在页面上
 
 
 
