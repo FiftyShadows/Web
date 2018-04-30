@@ -48,7 +48,7 @@
 const unWatch = app.$watch( 'text', (newText, oldText) => {
     console.info(`${newTExt} : ${oldText}`);
 }});
-unWatch();
+setTimeout( () => unWatch(), 2000);
 
 
 //另一种写法,在组件销毁时会自动unWatch
