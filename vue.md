@@ -166,9 +166,11 @@ errorCaptured(){}{
     
 - 通过指令v-html解析变量中html标签
 
-- v-bind:id="aaa"    :id="aaa"
+- v-bind:id="aaa"    :id="aaa"    :class="{active: isActive}"
 
 - v-on:click="handleClick"    @click=""
+
+- 
 
 
 
