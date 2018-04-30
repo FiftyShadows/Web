@@ -1,3 +1,11 @@
+##innerHTML、innerText、textCentent区别
+
+- innerHTML能够解析标签
+
+
+
+
+
 ##随机获取5位字符串
 
 `Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)`
