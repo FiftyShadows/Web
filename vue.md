@@ -176,6 +176,12 @@ errorCaptured(){}{
 
 - v-on:click="handleClick"    @click=""
 
+- v-text    等价于插值表达式
+
+- v-html    可解析html标签
+
+- v-model    双向绑定
+
 
 
 
