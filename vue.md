@@ -57,7 +57,7 @@ const app = new Vue({
         text: 0
     },
     watch: {
-        text: (newText, oldText) => {
+        text(newText, oldText){
             console.log(`${newTExt} : ${oldText}`);
         }
     }
