@@ -79,7 +79,7 @@ app.$emit('test', 1, 2)
 
 - app.forceUpdate
 
-    - vue是响应式框架，如果对象的属性和值没有声明，而直接赋值属性则是非响应式的，需要强制刷新
+    - vue是响应式框架，如果对象的属性和值没有声明，而直接赋值属性则是非响应式的，需要强制刷新；频度过高会导致性能低
     
 ```js
 const app = new Vue({
@@ -104,7 +104,9 @@ setInterval( () => {
 }, 1000);
 ```
 
-- app.$set    app.$set(app.obj, 'a', i);
+- app.$set    app.$set(app.obj, 'a', i);这种方式data的赋值仍然是响应式的
+
+- app.$delete    防止内存溢出
 
     
 
