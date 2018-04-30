@@ -175,7 +175,7 @@ errorCaptured(){}{
     
     - 计算属性
     
-    - ：style="[]"    自动加profix
+    - ：style="[]"    自动加前缀
 
 
 - v-on:click="handleClick"    @click=""
