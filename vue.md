@@ -18,7 +18,7 @@
 
 ##vue实例的一些是属性
 
-- app.$mount
+- app.$mount    app.$mount('#root')
 
 - app.$data    app.text和app.$data.text是同一个属性
 
@@ -120,11 +120,11 @@ setInterval( () => {
 
 - created
 
-- beforeMount
+- beforeMount    app.$mount有关系
 
 - mounted
 
-- beforeUpdate
+- beforeUpdate    数据更新
 
 - updated
 
@@ -132,7 +132,7 @@ setInterval( () => {
 
 - deactived
 
-- beforeDestroy
+- beforeDestroy    app.$destroy主动销毁实例，解除所有的事件监听和所有的watch
 
 - destroyed
 
