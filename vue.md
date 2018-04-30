@@ -36,7 +36,11 @@
 
 - app.$slots
 
-- spp.$scopedSlots
+- app.$scopedSlots
+
+- app.$refs
+
+- app.$isServer
     
 
 
