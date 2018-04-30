@@ -45,12 +45,13 @@
 - app.$watch
 
 ```
-app.$watch( 'text', (newText, oldText) => {
+const unWatch = app.$watch( 'text', (newText, oldText) => {
     console.info(`${newTExt} : ${oldText}`);
 }});
+unWatch();
 
 
-//另一种写法
+//另一种写法,在组件销毁时会自动unWatch
 const app = new Vue({
     template: '<div ref="div">{{text}}</div>',
     data: {
