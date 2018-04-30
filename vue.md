@@ -64,6 +64,16 @@ const app = new Vue({
     }
 });
 ```
+
+- app.$on    
+
+```
+app.$on('test', () => {
+    console.info('test emitted');
+});
+
+app.$emit('test')
+```
     
 
 
