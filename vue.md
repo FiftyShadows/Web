@@ -68,11 +68,39 @@ const app = new Vue({
 - app.$on    
 
 ```
-app.$on('test', () => {
-    console.info('test emitted');
+app.$on('test', (a, b) => {
+    console.info('test emitted ${a} ${b}');
 });
 
-app.$emit('test')
+app.$emit('test', 1, 2)
+```
+
+- app.$once
+
+- app.forceUpdate
+
+    - vue是响应式框架，如果对象的属性和值没有声明，而直接赋值属性则是非响应式的，需要强制刷新
+    
+```
+const app = new Vue({
+    template: '<div ref="div">{{text}} {{obj.a}}</div>',
+    data: {
+        text: 0,
+        obj: {}
+    },
+    watch: {
+        text(newText, oldText){
+            console.log(`${newTExt} : ${oldText}`);
+        }
+    }
+});
+
+let i = 0;
+setInterval( () => {
+    i++;
+    app.obj.a = i;
+    app.$forceUpdate();
+}, 1000);
 ```
     
 
