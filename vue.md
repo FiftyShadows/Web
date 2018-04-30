@@ -108,6 +108,8 @@ setInterval( () => {
 
 - app.$delete    防止内存溢出
 
+- app.$nextTick
+
     
 
 
