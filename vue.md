@@ -160,9 +160,12 @@ errorCaptured(){}{
 
     - 全局对象    能访问绑定在this上的所有值和白名单（默认的js全局对象）如Date.noew()
     
+    - 单一根节点
+    
 - 通过指令v-html解析变量中html标签
 
 - v-bind:id="aaa"    :id="aaa"    
+
     - :class="{active: isActive}"
     
     - :class="[isActive ? 'active' : '']"
