@@ -116,7 +116,7 @@ setInterval( () => {
 
 ##生命周期方法
 
-- beforeCreate
+- beforeCreate    获取不到this.$el
 
 - created
 
