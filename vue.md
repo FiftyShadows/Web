@@ -188,7 +188,14 @@ errorCaptured(){}{
 
 - 像变量一样访问，类似于object.defineproperty的get和set方法
 
-- 处理数据时 
+- 处理数据，数据拼接
+
+
+
+
+##watch
+
+- 监听到数据变化，做一些操作
 
 
 
