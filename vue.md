@@ -183,7 +183,7 @@ errorCaptured(){}{
 
 - v-html    可解析html标签
 
-- v-model    双向绑定
+- v-model    双向绑定    .number    .trim    .lazy(类似于onBlur)
 
 - v-show    display:none;控制样式
 
@@ -195,13 +195,27 @@ errorCaptured(){}{
     
     - 对象`<li v-for="(val, key, index) in arr">{{val}}: {{key}}: {{index}}</li>`
     
+- v-pre    不解析插值表达式
+
+- v-cloak    数据没渲染完成不显示，类似于AngularJS的ng-cloak;打包构建的vue项目用不到
+
+- v-once    插值表达式的值只渲染一次，不再更新
+    
     
 ```
+//动态改变arr值
 <div>
     <input type="checkbox" :value="1" v-model="arr">
     <input type="checkbox" :value="2" v-model="arr">
     <input type="checkbox" :value="3" v-model="arr">
 </div>
+<div>
+    <input type="radio" :value="1" v-model="arr">
+    <input type="radio" :value="2" v-model="arr">
+    <input type="radio" :value="3" v-model="arr">
+</div>
+
+
 
 new Vue({
     el: '#root',
