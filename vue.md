@@ -160,6 +160,16 @@ errorCaptured(){}{
 
 ##数据绑定
 
+- template模板插值表达式不能使用if else，可使用：
+
+    - 全局对象    能访问绑定在this上的所有值和白名单（默认的js全局对象）如Date.noew()
+    
+- 通过指令v-html解析变量中html标签
+
+- v-bind:id="aaa"    :id="aaa"
+
+- v-on:click="handleClick"    
+
 
 
 
