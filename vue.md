@@ -110,7 +110,31 @@ setInterval( () => {
 
 - app.$nextTick
 
-    
+
+
+
+
+##生命周期方法
+
+- beforeCreate
+
+- created
+
+- beforeMount
+
+- mounted
+
+- beforeUpdate
+
+- updated
+
+- actived
+
+- deactived
+
+- beforeDestroy
+
+- destroyed
 
 
 
