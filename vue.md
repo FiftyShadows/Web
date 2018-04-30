@@ -81,7 +81,7 @@ app.$emit('test', 1, 2)
 
     - vue是响应式框架，如果对象的属性和值没有声明，而直接赋值属性则是非响应式的，需要强制刷新
     
-```
+```js
 const app = new Vue({
     template: '<div ref="div">{{text}} {{obj.a}}</div>',
     data: {
@@ -100,8 +100,12 @@ setInterval( () => {
     i++;
     app.obj.a = i;
     app.$forceUpdate();
+    //app.$set(app.obj, 'a', i);
 }, 1000);
 ```
+
+- app.$set    app.$set(app.obj, 'a', i);
+
     
 
 
