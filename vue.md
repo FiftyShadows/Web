@@ -168,7 +168,7 @@ errorCaptured(){}{
 
 - v-bind:id="aaa"    :id="aaa"
 
-- v-on:click="handleClick"    
+- v-on:click="handleClick"    @click=""
 
 
 
