@@ -177,13 +177,51 @@ errorCaptured(){}{
     - ：style="[]"    自动加前缀
 
 
-- v-on:click="handleClick"    @click=""
+- v-on:click="handleClick"    @click=""    自动判断dom节点使用addEventListener；组件使用$on
 
 - v-text    等价于插值表达式
 
 - v-html    可解析html标签
 
 - v-model    双向绑定
+
+- v-show    display:none;控制样式
+
+- v-if    不显示则节点不存在；动态的增删节点
+
+- v-for    遍历数组/对象；
+
+    - 数组`<li v-for="(item, index) in arr" :key="">{{item}}: {{index}}</li>`
+    
+    - 对象`<li v-for="(val, key, index) in arr">{{val}}: {{key}}: {{index}}</li>`
+    
+    
+```
+<div>
+    <input type="checkbox" :value="1" v-model="arr">
+    <input type="checkbox" :value="1" v-model="arr">
+    <input type="checkbox" :value="1" v-model="arr">
+</div>
+
+new Vue({
+    el: '#root',
+    data: {
+        arr: [1, 2, 3]
+    }
+});
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
