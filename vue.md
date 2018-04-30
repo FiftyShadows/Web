@@ -120,7 +120,7 @@ setInterval( () => {
 
 - created
 
-- beforeMount    app.$mount有关系
+- beforeMount    app.$mount有关系；服务端渲染时不会被调用，因为没有DOM执行环境
 
 - mounted
 
@@ -135,6 +135,36 @@ setInterval( () => {
 - beforeDestroy    app.$destroy主动销毁实例，解除所有的事件监听和所有的watch
 
 - destroyed
+
+- render    将template转化为render function;在beforeMount后执行
+
+- renderError    开发时才会被调用;只在本组件
+
+- errorCaptured    用在正式环境里，可收集子组件错误，除了子组件停止掉向上冒泡
+
+```
+render(h){
+    throw new TypeError('render error');
+    return h('div', {}, this.text)
+}
+renderError(h, error){
+    return h('div', {}, err.stack)
+}
+errorCaptured(){}{
+    //会向上冒泡，并且正式环境可以使用
+}
+```
+
+
+
+
+
+
+
+
+
+
+
 
 
 
