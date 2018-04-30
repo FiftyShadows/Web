@@ -182,7 +182,13 @@ errorCaptured(){}{
 
 ##计算属性
 
-- 缓存，优化性能
+- computed缓存，优化性能
+
+- methods没有缓存
+
+- 像变量一样访问，类似于object.defineproperty的get和set方法
+
+- 处理数据时 
 
 
 
