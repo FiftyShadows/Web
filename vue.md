@@ -176,7 +176,13 @@ errorCaptured(){}{
 
 - v-on:click="handleClick"    @click=""
 
-- 
+
+
+
+
+##计算属性
+
+
 
 
 
