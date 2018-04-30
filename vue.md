@@ -199,8 +199,8 @@ errorCaptured(){}{
 ```
 <div>
     <input type="checkbox" :value="1" v-model="arr">
-    <input type="checkbox" :value="1" v-model="arr">
-    <input type="checkbox" :value="1" v-model="arr">
+    <input type="checkbox" :value="2" v-model="arr">
+    <input type="checkbox" :value="3" v-model="arr">
 </div>
 
 new Vue({
