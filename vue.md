@@ -166,7 +166,17 @@ errorCaptured(){}{
     
 - 通过指令v-html解析变量中html标签
 
-- v-bind:id="aaa"    :id="aaa"    :class="{active: isActive}"
+- v-bind:id="aaa"    :id="aaa"    
+    - :class="{active: isActive}"
+    
+    - :class="[isActive ? 'active' : '']"
+    
+    - :class="[{active: isActive}]"
+    
+    - 计算属性
+    
+    - ：style="[]"    自动加profix
+
 
 - v-on:click="handleClick"    @click=""
 
