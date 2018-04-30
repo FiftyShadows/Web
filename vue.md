@@ -41,6 +41,28 @@
 - app.$refs
 
 - app.$isServer
+
+- app.$watch
+
+```
+app.$watch( 'text', (newText, oldText) => {
+    console.info(`${newTExt} : ${oldText}`);
+}});
+
+
+//另一种写法
+const app = new Vue({
+    template: '<div ref="div">{{text}}</div>',
+    data: {
+        text: 0
+    },
+    watch: {
+        text: (newText, oldText) => {
+            console.log(`${newTExt} : ${oldText}`);
+        }
+    }
+});
+```
     
 
 
