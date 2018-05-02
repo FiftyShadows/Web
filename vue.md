@@ -191,7 +191,7 @@ errorCaptured(){}{
 
 - v-for    遍历数组/对象；
 
-    - 数组`<li v-for="(item, index) in arr" :key="">{{item}}: {{index}}</li>`
+    - 数组`<li v-for="(item, index) in arr" :key="">{{item}}: {{index}}</li>`，index作为key可能引起错误的缓存
     
     - 对象`<li v-for="(val, key, index) in arr">{{val}}: {{key}}: {{index}}</li>`
     
