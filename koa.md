@@ -70,6 +70,8 @@
   ctx.response.body = await fs.readFile('./demos/template.html', 'utf8');
 };
 
+- fs.readFile是一个异步操作，必须写成await fs.readFile()，然后中间件必须写成 async 函数。
+
 
 
 
