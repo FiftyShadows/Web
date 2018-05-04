@@ -143,6 +143,10 @@
 
 - const koaBody = require('koa-body');  先调用app.use(koaBody());
 
+- koa-body模块还可以用来处理文件上传。
+
+- ctx.request.body.files
+
 
 
 
