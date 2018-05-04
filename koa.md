@@ -89,7 +89,7 @@
 
 - 如果代码运行过程中发生错误，我们需要把错误信息返回给用户。HTTP 协定约定这时要返回500状态码。
 
-- ctx.throw: 抛出错误。ctx.throw(500);
+- ctx.throw: 抛出错误。ctx.throw(500);/ctx.throw(400, '.name required');
 
 - 如果将ctx.response.status设置成404，就相当于ctx.throw(404)，返回404错误。ctx.response.status = 404;
 
@@ -121,6 +121,27 @@
 ##释放 error 事件
 
 - 如果错误被try...catch捕获，就不会触发error事件。这时，必须调用ctx.app.emit()，手动释放error事件，才能让监听函数生效。ctx.app.emit('error', err, ctx);
+
+
+
+
+
+##Cookies
+
+- ctx.cookies.set('view', n);
+
+- ctx.cookies.get('view') 
+
+
+
+
+##koa-body模块
+
+- koa-body模块可以用来从 POST 请求的 (表单) 数据体里面提取键值对。
+
+- ctx.request.body
+
+- const koaBody = require('koa-body');  先调用app.use(koaBody());
 
 
 
