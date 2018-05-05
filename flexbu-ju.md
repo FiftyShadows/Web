@@ -2,9 +2,11 @@
 
 - flex-direction：决定了弹性盒子的主轴是row方向还是column方向
 
-- flex-wrap：如果一条轴线排不下，如何换行。默认不换行。 flex-wrap: nowrap | wrap | wrap-reverse;
+- flex-wrap：如果主轴排不下，如何换行。默认不换行。 flex-wrap: nowrap | wrap | wrap-reverse;
 
-- 
+- flex-flow: flex-direction属性和flex-wrap属性的简写形式。默认值为row nowrap。
+
+- justify-content: 定义了项目在主轴上的对齐方式。
 
 
 
