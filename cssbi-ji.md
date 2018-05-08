@@ -39,7 +39,7 @@
 
 - 圆角矩形
 
-- 圆形        超过50%不会有影响，任然是圆形；使用百分比和使用像素相比，百分比不用考虑边框对盒子的影响。
+- 圆形        超过50%不会有影响，仍然是圆形；使用百分比和使用像素相比，百分比不用考虑边框对盒子的影响。
 
 - 半圆/扇形
 
@@ -48,9 +48,74 @@
         - 可单独设置水平方向和垂直方向的圆角 border-radius:10px 10px 10px 10px /20px 20px 20px 20px;
         
         - border-top-left-radius: 10px 20px;
+        
+        
+        
+
+##background
+
+- 纹理、图案
+
+- 渐变
+
+- 雪碧图动画
+
+- 背景图尺寸适应
 
 
 
+####background属性
+
+- background-size 大小
+
+        - background-size: 100% 100%;        全覆盖，会拉伸
+        
+        - cover覆盖整个画面，保持长宽比不变，不会有空白
+        
+        - contain长宽比不变，让图片完整显示，会有空白
+        
+- background-position 位置
+
+        - background-position: center center; top left
+        
+- background-repeat
+        
+        - repeat-x
+        
+        - no-repeat
+
+        
+        
+
+
+##clip-path 按路径裁剪
+
+- 对容器进行裁剪
+
+- 常见几何图形
+
+- 自定义路径
+
+
+####clip-path写法
+
+- clip-path: inset(100px 50px);
+
+- clip-path: circle(50px at 100px 100px);
+
+        - 区别于border-radius；仍然占据相应位置。
+        
+        - 支持动画，适合做容器内的动画
+        
+- clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+- 用svg裁剪各种图形效果
+
+
+
+
+
+##3D变换
 
       
 
