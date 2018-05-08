@@ -1,3 +1,9 @@
+##box-shadow
+
+- box-shadow: x轴偏移 y轴偏移 阴影模糊区域 阴影扩展区域 颜色 <inset>;
+
+
+
 ##移除input在type="number"时的上下箭头
 
 1. chrome浏览器移除
