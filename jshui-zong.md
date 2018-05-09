@@ -1,3 +1,12 @@
+##parseInt和Number的区别
+
+- 当转换的内容包含非数字的时候，Number() 会返回NaN(Not a Number)
+
+- parseInt() 要看情况，如果以数字开头，就会返回开头的合法数字部分，如果以非数字开头，则返回NaN
+
+
+
+
 ##join() 方法将一个数组（或一个类数组对象）的所有元素连接成一个字符串并返回这个字符串。
 
 
@@ -88,7 +97,7 @@ console.log(newDate.toUTCString());
 
 - Boolean(value) 是把值转换成Boolean类型
 
-- Nnumber(value) 是把值转换成数字
+- Number(value) 是把值转换成数字
 
 - parseInt和parseFloat则可以只转换开头的数字部分
 
