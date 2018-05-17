@@ -1,4 +1,7 @@
- white-space: nowrap;阻止换行包括view    inline-flex
+e.target是点击的元素；e.currentTarget是绑定事件的元素
+
+
+white-space: nowrap;阻止换行包括view    inline-flex
 
 
 
