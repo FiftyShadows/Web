@@ -51,6 +51,18 @@ settings→File and Code Templates→Javascript File
 
 
 
+##设置未保存标记
+
+- Editor > General > Editor Tabs     Mark modified tabs with asterisk
+
+
+
+
+##关闭自动保存
+
+- Appearance & Behavior > System Settings > Synchronization    只勾选第二个：切换到其他窗口的时候（当前窗口没有被激活）保存
+
+
 
 
 
