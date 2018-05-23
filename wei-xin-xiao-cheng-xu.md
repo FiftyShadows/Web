@@ -1,3 +1,12 @@
+##禁止页面上下滑动 
+
+- 如果是一直不让滑动，可以在 page.json 里设 " disableScroll ": false
+
+- 如果是滑一半后要禁用，可以显示一层 fixed 全屏并 catchtouchstart 的空层
+
+- scrool-view
+
+
 e.target是点击的元素；e.currentTarget是绑定事件的元素
 
 
