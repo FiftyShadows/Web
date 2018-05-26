@@ -49,6 +49,12 @@
         
         - border-top-left-radius: 10px 20px;
         
+- 大值特性
+
+- 等比特性
+
+- 垂直在前
+        
         
         
 
