@@ -65,6 +65,7 @@ brew
 
 react.qrcode
 
+moment
 
 
 
