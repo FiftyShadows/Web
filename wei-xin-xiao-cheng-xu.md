@@ -4,7 +4,7 @@
 
 - 如果是滑一半后要禁用，可以显示一层 fixed 全屏并 catchtouchstart 的空层
 
-- scrool-view
+- scrool-view    bindscrolltolower
 
 
 e.target是点击的元素；e.currentTarget是绑定事件的元素
