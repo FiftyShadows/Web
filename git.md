@@ -1,3 +1,8 @@
+
+alt + enter    全屏
+
+git checkout -- .    清除修改
+
 git branch -a    查看所有分支
 
 ssh-keygen -t rsa    生成密钥
