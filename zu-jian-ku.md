@@ -67,6 +67,10 @@ react.qrcode
 
 moment
 
+live-server    修改文件浏览器自动刷新
+
+json-server    数据mock
+
 
 
 
