@@ -121,6 +121,7 @@
 * [面试题汇总](mian-shi-ti-hui-zong.md)
 * [JavaScript高级知识](javascriptgao-ji-zhi-shi.md)
   * [虚拟DOM](javascriptgao-ji-zhi-shi/xu-ni-dom.md)
+  * [1.ES6](javascriptgao-ji-zhi-shi/1es6.md)
 * [前端需要掌握的知识](qian-duan-xu-yao-zhang-wo-de-zhi-shi.md)
 * [Node包](zu-jian-ku.md)
 * [微信小游戏](wei-xin-xiao-you-xi.md)
