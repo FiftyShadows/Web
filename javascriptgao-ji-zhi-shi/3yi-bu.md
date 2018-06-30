@@ -57,7 +57,7 @@
 
 - 第一类： dtd.resolve    dtd.reject
 
-- 第二类： dtd.then()    dtd.done    dtd.fail
+- 第二类： dtd.then   dtd.done    dtd.fail
 
 
 
