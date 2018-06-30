@@ -53,6 +53,13 @@
 ![](/assets/微信截图_20180630220427.png)
 
 
+#### 总结dtd的API可分成两类，用意不同
+
+- 第一类： dtd.resolve    dtd.reject
+
+- 第二类： dtd.then()    dtd.done    dtd.fail
+
+
 
 
 ## Promise的基本使用和原理
