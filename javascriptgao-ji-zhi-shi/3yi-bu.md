@@ -170,7 +170,35 @@
 
 ## 介绍一下async/await(和Promise的区别、联系)
 
+- then只是将callback拆分了
+
+- async/await是最直接的同步写法
+
+    - 使用await,函数必须用async标识
+    
+    - await后面跟的是一个Promise实例
+    
+    - 需要babel-polyfill
+    
+![](/assets/微信截图_20180701105038.png)
+
 ## 总结一下当前JS解决异步的方案
+
+- jQuery Deferred
+
+- Promise
+
+- Async/Await
+
+- Generator
+
+    - 原理比较复杂
+    
+    - 不是异步的直接替代方式
+    
+    - 有更好更简洁的解决方案 async/await
+    
+    - koa使用async/await
 
 
 
