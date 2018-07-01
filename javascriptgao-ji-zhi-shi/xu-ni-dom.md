@@ -10,7 +10,7 @@
 
 ## 什么是vdom
 
-* virtual dom，虚拟DOM
+* virtual dom，虚拟DOM(document object model)
 
 * 用JS模拟DOM结构
 
