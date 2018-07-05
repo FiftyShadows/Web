@@ -1,3 +1,14 @@
+## outline
+
+- outline（轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。
+
+- 可以设置的属性分别是（按顺序）：outline-color, outline-style, outline-width
+
+- 如果不设置其中的某个值，也不会出问题
+
+
+
+
 ## HSLA(Hue, saturation, Lightness, Alhpa)
 
 - 此色彩模式与HSL相同，只是在HSL模式上新增了Alpha透明度
