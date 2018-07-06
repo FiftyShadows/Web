@@ -1,3 +1,8 @@
+a = null    !a = true
+
+
+
+
 ##parseInt和Number的区别
 
 - 当转换的内容包含非数字的时候，Number() 会返回NaN(Not a Number)
