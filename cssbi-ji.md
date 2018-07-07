@@ -1,3 +1,12 @@
+## 文本省略
+
+- 单行文本，overflow: hidden;white-space: nowrap;text-overflow: ellipsis;需要设置盒子宽度；所以flex下需设置min-width/max-width
+
+- 多行文本，1.使用伪元素content:'...'；2.display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical;
+
+
+
+
 ## outline
 
 - outline（轮廓）是绘制于元素周围的一条线，位于边框边缘的外围，可起到突出元素的作用。
