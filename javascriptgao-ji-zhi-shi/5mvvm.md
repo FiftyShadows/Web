@@ -119,6 +119,30 @@
 
 
 
+## render函数
+
+- 模板中所有信息都包含在了render函数中
+
+- this 即 vm
+
+- price 即 this.price 即 vm.price，即 data中的 price
+
+- `_c 即 this._c 即 vm._c`
+
+![](/assets/360截图18720126564482.png)
+
+
+
+
+- 从哪里可以看到render函数？    code.render
+
+- 复杂一点的例子，render函数是什么样子的？
+
+- v-if v-for v-on 都是怎么处理的？
+
+
+
+
 
 
 
