@@ -125,6 +125,7 @@
   * [3.异步](javascriptgao-ji-zhi-shi/3yi-bu.md)
   * [4.虚拟DOM](javascriptgao-ji-zhi-shi/xu-ni-dom.md)
   * [5.MVVM](javascriptgao-ji-zhi-shi/5mvvm.md)
+  * [6.组件化和react](javascriptgao-ji-zhi-shi/6zu-jian-hua-he-react.md)
 * [前端需要掌握的知识](qian-duan-xu-yao-zhang-wo-de-zhi-shi.md)
 * [Node包](zu-jian-ku.md)
 * [微信小游戏](wei-xin-xiao-you-xi.md)
