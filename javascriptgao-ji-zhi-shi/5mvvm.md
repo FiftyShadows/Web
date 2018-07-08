@@ -86,7 +86,7 @@
 
 ## vue中如何解析模板
 
-- 模板是什么
+- 模板是什么    字符串，有逻辑，嵌入JS变量……；必须转换为JS代码(有逻辑、渲染html、JS变量)；render函数执行返回vnode;updateComponent
 
     - 本质：字符串
     
@@ -131,6 +131,12 @@
 
 ![](/assets/360截图18720126564482.png)
 
+![](/assets/360截图18750819435268.png)
+
+![](/assets/360截图17860610417566.png)
+
+![](/assets/360截图16821220322337.png)
+
 
 
 
@@ -139,6 +145,110 @@
 - 复杂一点的例子，render函数是什么样子的？
 
 - v-if v-for v-on 都是怎么处理的？
+
+- v-model是怎么实现的？    get/set
+
+- v-on:click是怎么实现的？    
+
+- v-for是怎么实现的？
+
+
+
+
+
+- 已经解决了模板中"逻辑"(v-for v-if)的问题
+
+- 还剩下模板生成html的问题
+
+- 另外，vm._c是什么？render函数返回了什么？
+
+
+
+
+## render函数和vdm
+
+- vm._c其实就相当于snabbdom中的h函数
+
+- render函数执行之后，返回的是vnode
+
+- updateComponent中实现了vdom的patch
+
+- 页面首次渲染执行updateComponent
+
+- data中每次修改属性，执行updateComponent
+
+
+
+
+## vue的整个实现流程
+
+1. 解析模板成render函数
+
+    - with的用法
+    
+    - 模板中的所有信息都被render函数包含
+    
+    - 模板中用到的data中的属性，都变成了JS变量
+    
+    - 模板中的v-model v-for v-on都变成了JS逻辑
+    
+    - render函数返回vnode
+
+2. 响应式开始监听
+
+    - Object.defineProperty
+    
+    - 将data的属性代理到vm上
+
+3. 首次渲染，显示页面，且绑定依赖
+
+    - 处理渲染，执行updateComponent，执行vm._render()
+    
+    - 执行render函数，会访问到vm.list和vm.titile
+    
+    - 会被响应式的get方法监听到
+    
+        - 为何要监听get，直接监听set不行吗？
+        
+        - data中有很多属性，有些被用到，有些可能不被用到
+        
+        - 被用到的会走get,不被用到的不会走到get
+        
+        - 未走到get中的属性，set的时候我们也无需关心
+        
+        - 避免不必要的重复渲染
+    
+    - 执行updateCopmonent,会走到vdom的patch方法
+    
+    - patch将vnode渲染成DOM，初次渲染完成
+
+4. data属性变化，触发rerender
+
+    - 修改属性，被响应式的set监听到
+    
+    - set中执行updateComponent
+    
+    - updateCompomemt重新执行vm._render()
+    
+    - 生成的vnode和preVnode，通过patch进行对比
+    
+    - 渲染到html中
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
