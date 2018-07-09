@@ -76,6 +76,16 @@
 
 - JSX和vdom的关系
 
+    - vdom是React初次推广开来的，结合JSX
+    
+    - JSX就是模板，最终要渲染成html
+    
+    - 初次渲染 + 修改state后的re-render
+    
+    - 正好符合vdom的应用场景
+    
+
+
 - 说一下setState的过程
 
 - 阐述自己对React和vue的认识
@@ -83,19 +93,57 @@
     - mvvm
     
     - 组件化
+    
+
+    
+
+## 何时patch
+
+- 初次渲染-ReactDOM.render(<App/>, container)
+
+- 会触发patch(container, vnode)
+
+- re-render - setState
+
+- 会触发patch(vnode, newVnode)
+
+
+
+
+## 自定义组建的解析
+
+- 'div' - 直接渲染`<div>`即可，vdom可以做到
+
+- Input和List，是自定义组件(class)，vdom默认不认识
+
+- 因此Input和List定义的时候必须声明render函数
+
+- 根据props初始化实例，然后执行实例的render函数
+
+- render函数返回的还是vnode对象
+
+
+
+## JSX和vdom的关系
+
+- 为何需要vdom:JSX需要渲染成html，数据驱动视图
+
+- React.createElement和h，都生成vnode
+
+- 何时patch: ReactDOM.render(...)和setState
+
+- 自定义组件的解析：初始化实例，然后执行render
+
+
+
+## React setState的过程
 
 
 
 
 
 
-
-
-
-
-
-
-
+ 
 
 
 
