@@ -119,6 +119,7 @@
   * [5.总结](wei-xin-xiao-cheng-xu/5zong-jie.md)
   * [web-view](wei-xin-xiao-cheng-xu/web-view.md)
   * [小程序和公众号的关系](wei-xin-xiao-cheng-xu/xiao-cheng-xu-he-gong-zhong-hao-de-guan-xi.md)
+  * [小程序分享](wei-xin-xiao-cheng-xu/xiao-cheng-xu-fen-xiang.md)
 * [面试题汇总](mian-shi-ti-hui-zong.md)
 * [JavaScript高级知识](javascriptgao-ji-zhi-shi.md)
   * [1.ES6](javascriptgao-ji-zhi-shi/1es6.md)
