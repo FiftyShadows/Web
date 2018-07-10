@@ -138,6 +138,20 @@
 
 ## React setState的过程
 
+- setState的异步
+
+    - 可能会一次执行多次setState
+    
+    - 你无法规定、限制用户如何使用setState
+    
+    - 没必要每次setState都重新渲染，考虑性能
+    
+    - 即便是每次重新渲染，用户也看不到中间的效果
+
+- vue修改属性也是异步
+
+- setState的过程
+
 
 
 
