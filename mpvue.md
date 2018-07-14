@@ -1,3 +1,7 @@
+## template为空时run dev会报错 Cannot read property 'for' of undefined
+
+
+
 ![](/assets/360截图18790311314767.png)
 
 
