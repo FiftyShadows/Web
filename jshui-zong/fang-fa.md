@@ -1,3 +1,38 @@
+## 闰年
+
+```
+isLeapYear(){
+  const year = new Date().getFullYear();
+  if(year % 400 === 0){
+    return true
+  }
+  else if(year % 4 === 0 && year % 100 !== 0){
+    return true
+  }
+  else{
+    return false
+  }
+}
+```
+
+
+
+## 计算今年过去了多少天
+
+```
+days() {
+    let start = new Date();
+    start.setMonth(0);
+    start.setDate(1);
+    let offset = new Date().getTime() - start.getTime();
+    return parseInt(offset / 1000 / 60 / 60 / 24) + 1;
+}
+```
+
+
+
+
+
 ##innerHTML、innerText、textCentent区别
 
 - innerHTML能够解析标签，其他不能会把标签显示在页面上
