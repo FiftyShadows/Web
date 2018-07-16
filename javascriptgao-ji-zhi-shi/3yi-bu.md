@@ -180,6 +180,8 @@
     
     - 需要babel-polyfill
     
+- 用try……catch处理异常
+    
 ![](/assets/微信截图_20180701105038.png)
 
 ## 总结一下当前JS解决异步的方案
