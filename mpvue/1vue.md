@@ -29,7 +29,9 @@ npm i -D sass-loader node-sass    可能需要
 
 
 
-## 跳转页面
+## a标签跳转页面
+
+-- 默认是navigateTo方法
 
 ```
 <a :href="detailUrl"></a>
@@ -41,3 +43,18 @@ computed: {
 }
 
 ```
+
+
+## click方法跳转页面
+
+- 同微信
+
+
+
+## 数组的元素分成每3个一组
+
+- 如果通用    请用chunk函数    比如lodash的chunk方法
+
+
+
+## 设置image mode="aspectFit"可自动居中
