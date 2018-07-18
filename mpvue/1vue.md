@@ -58,3 +58,12 @@ computed: {
 
 
 ## 设置image mode="aspectFit"可自动居中
+
+
+
+## 通过百度API(http://api.map.baidu.com/geocoder/v2/)和经纬度，获取用户省市区
+
+
+
+
+## 通过em控制星级评价组件
