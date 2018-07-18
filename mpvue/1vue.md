@@ -65,5 +65,32 @@ computed: {
 
 
 
-
 ## 通过em控制星级评价组件
+
+
+
+## eslint --fix --ext .js.vue src server/controllers
+
+- `--ext`后指定js文件的扩展
+
+
+
+## 组件内的data不能用对象，必须是函数return，多个组件共享变量，会导致bug
+
+- 一个组件的 data 选项必须是一个函数，因此每个实例可以维护一份被返回对象的独立的拷贝
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
