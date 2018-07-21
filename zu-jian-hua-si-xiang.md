@@ -246,7 +246,7 @@
 
 
 
-## background: #FFF url(//www.baidu.com/xxx) center center no-repeat;
+## background: #FFF url(//www.baidu.com/xxx) center center no-repeat; background-size: auto 50%;
 
 
 
