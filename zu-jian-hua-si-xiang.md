@@ -216,6 +216,9 @@
 
 
 ##viewport
+
+- viewport分三类： layout viewport; visual viewport; ideal viewport
+
 ![](/assets/360截图20180404231712051.jpg)
 
 
