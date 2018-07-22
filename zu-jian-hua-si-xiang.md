@@ -311,6 +311,20 @@
 
 
 
+## 灵活运用nth-child
+
+- 当前元素父节点的子元素编号
+
+- nth-child(2n)
+
+- nth-child(n+3)
+
+- nth-child(-n+5)
+
+- nth-child(odd)奇数；nth-child(even)偶数
+
+
+
 
 
 
