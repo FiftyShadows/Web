@@ -277,6 +277,10 @@
 
 
 
+## absolute居中；top:50%;margin-top:-xx;
+
+
+
 
 
 
