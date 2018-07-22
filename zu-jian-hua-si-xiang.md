@@ -323,6 +323,8 @@
 
 - nth-child(odd)奇数；nth-child(even)偶数
 
+- div:empty     空标签会被选中
+
 
 
 
