@@ -282,7 +282,17 @@
 
 
 
+## 使用dl,dt,dd代替ul,li
 
+- 减少类名/高级选择器；活用标签做选择器
+
+```
+<dl :class="$style.item" v-for="item in items" :key="item.title">
+     <dt>{{ item.title }}<span>{{ item.sub }}</span></dt>
+     <dd>{{ item.rate }}</dd>
+     <dd>{{ item.text }}</dd>
+</dl>
+```
 
 
 
