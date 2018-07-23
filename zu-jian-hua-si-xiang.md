@@ -303,6 +303,16 @@
 
 - border     不要使DOM结构复杂化
 
+```
+&:after{
+     content: " ";
+     box-sizing: border-box;
+     height: 0;
+     width: 100%;
+     border-bottom: 1px solid #ddd;
+     margin-left: 150px;
+}
+```
 
 
 
