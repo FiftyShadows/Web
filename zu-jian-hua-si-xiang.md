@@ -312,6 +312,9 @@
      border-bottom: 1px solid #ddd;
      margin-left: 150px;
 }
+&:last-child:after{
+     border-color: #fff;
+}
 ```
 
 
