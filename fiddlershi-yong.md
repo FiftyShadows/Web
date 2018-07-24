@@ -1,3 +1,7 @@
+![](/assets/360截图18720118100141133.png)
+
+
+
 ## AutoResponsder
 
 - 替换线上服务器返回的文件，修复线上Bug
@@ -42,4 +46,6 @@
 
 ```
 HttpTuunnel(也叫Http隧道，Http穿梭），是这样一种技术: 它用HTTP协议在要通信的Client和Server建立起一条”Tunnel”，然后Client和Server之间的通信，都是在这条Tunnel的基础之上。
+
+可以选择隐藏Rules > Hide Connects
 ```
