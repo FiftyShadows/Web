@@ -35,3 +35,11 @@
 - JS Formatter
 
 - Traffic Differ    网站优化对比
+
+
+
+
+
+```
+HttpTuunnel(也叫Http隧道，Http穿梭），是这样一种技术: 它用HTTP协议在要通信的Client和Server建立起一条”Tunnel”，然后Client和Server之间的通信，都是在这条Tunnel的基础之上。
+```
