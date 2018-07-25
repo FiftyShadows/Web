@@ -21,3 +21,29 @@ this.ctx.drawImage = {
     image.height  
 };
 ```
+
+
+
+ctx.moveTo(100,100)
+
+ctx.lineTo(700,700)
+
+ctx.lineWidth = 5
+
+ctx.strokeStyle = "#005588"
+
+ctx.stroke()
+
+ctx.fillStyle = "rgb(2,100,30)"
+
+ctx.fill()    closePath不会起作用，自动首尾相连，填充
+
+canvas的绘制是基于状态的
+
+ctx.beginPath()
+
+ctx.closePath()    会自动连接首尾
+
+ctx.arc(centerx, centery, radius, startingAngle, endingAngle, anticlockwise = false)
+
+ctx.arc(300, 300, 200, 0, 1.5*Math.PI)
