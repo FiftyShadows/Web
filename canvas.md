@@ -48,4 +48,4 @@ ctx.arc(centerx, centery, radius, startingAngle, endingAngle, anticlockwise = fa
 
 ctx.arc(300, 300, 200, 0, 1.5*Math.PI)
 
-ctx.cleaRect(0, 0, ctx.canvas.width, ctx.canvas.height)
+ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height)
