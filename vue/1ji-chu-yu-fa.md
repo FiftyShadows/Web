@@ -1,4 +1,4 @@
-v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key值做DOM区分
+v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key值做区分
 
 
 v-show在DOM上一直存在，对于需要频繁显示和隐藏的元素性能会更高
