@@ -1,5 +1,14 @@
-v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key值做区分
+通过数组下表的方式修改数据并不会触发DOM重新渲染，触发数组重新渲染的方法有push,pop,shift,unshift,splice,sort,reverse
 
+想要修改数组中的某一项，通过vue.list.splice(1, 1, {id: '333', text: 'Dell1'})；或者改变数组引用的地址
+
+可用template作为占位符，在列表渲染的时候
+
+遍历对象，v-for="(item, key, index) of userinfo"，通过改变对象引用地址的方式给对象添加数据
+
+
+
+v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key值做区分
 
 v-show在DOM上一直存在，对于需要频繁显示和隐藏的元素性能会更高
 
