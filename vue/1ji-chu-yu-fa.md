@@ -1,11 +1,16 @@
 通过数组下表的方式修改数据并不会触发DOM重新渲染，触发数组重新渲染的方法有push,pop,shift,unshift,splice,sort,reverse
 
-想要修改数组中的某一项，通过vue.list.splice(1, 1, {id: '333', text: 'Dell1'})；或者改变数组引用的地址
+想要修改数组中的某一项，通过vue.list.splice(1, 1, {id: '333', text: 'Dell1'})；或者改变数组引用的地址;vue.set
 
 可用template作为占位符，在列表渲染的时候
 
-遍历对象，v-for="(item, key, index) of userinfo"，通过改变对象引用地址的方式给对象添加数据
+遍历对象，v-for="(item, key, index) of userinfo"，通过改变对象引用地址的方式给对象添加数据；或者vue.set(vue.userinfo, 'address', 'beijing')
 
+
+计算属性computed(缓存值) > 侦听器watch(缓存值) > 方法methods
+
+
+v-html能够解析DOM节点
 
 
 v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key值做区分
