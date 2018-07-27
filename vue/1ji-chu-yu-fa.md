@@ -7,6 +7,9 @@
 遍历对象，v-for="(item, key, index) of userinfo"，通过改变对象引用地址的方式给对象添加数据；或者vue.set(vue.userinfo, 'address', 'beijing')
 
 
+computed方法的get,set方法；get依赖的值变化，会重新计算
+
+
 计算属性computed(缓存值) > 侦听器watch(缓存值) > 方法methods
 
 
@@ -18,6 +21,19 @@ v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key�
 v-show在DOM上一直存在，对于需要频繁显示和隐藏的元素性能会更高
 
 vif不会存在
+
+
+
+## vue的样式绑定
+
+- `:class="{actived: isActivated}"`
+
+- `:class="[activited, error]"`
+
+- `:style="styleObj"    styleObj:{color: "red"}`
+
+- `:style="[styleObj, {fontSize: '20px'}]"`
+
 
 
 
