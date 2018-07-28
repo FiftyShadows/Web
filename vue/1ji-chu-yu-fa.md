@@ -1,3 +1,12 @@
+## 动态组件与v-once指令
+
+- `<component :is="type"></component>`
+
+- 给组件根节点加上v-once指令，v-if判断不会销毁，保存在内存里
+
+
+
+
 ## 作用域插槽
 
 ```html
