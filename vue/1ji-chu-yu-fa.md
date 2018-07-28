@@ -1,3 +1,11 @@
+## props特性和非props特性
+
+- props特性：传递的属性不会显示在DOM上
+
+- 非props特性：传递的属性会显示在DOM上；组件内无法使用
+
+
+
 ## 组件参数校验
 
 ```
@@ -9,7 +17,11 @@ props: {
 props: {
     content: {
         type: String,
-        required: true
+        required: true,
+        default: '',
+        validator: function(value) {
+            return value.length > 5
+        }
     }
 }
 
