@@ -1,4 +1,4 @@
-## 给组件绑定原声事件
+## 给组件绑定原生事件
 
 - `<child @click.native="handleClick"></child>`
 
