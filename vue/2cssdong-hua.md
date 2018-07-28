@@ -31,7 +31,7 @@
 
 ## 自定义动画名字和animate.css
 
-```
+```html
 <transition
     type="transition"
     :duration="5000"
