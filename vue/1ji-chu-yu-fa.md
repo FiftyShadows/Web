@@ -1,3 +1,50 @@
+## 非父子组件传值
+
+- vuex
+
+- bus总线
+
+```html
+<body>
+    <div id="root">
+        <child content="Del"></child>
+        <child content="Lee"></child>
+    </div>
+</body>
+
+<script>
+
+    Vue.prototype.bus = new Vue();
+
+    Vue.component('child', {
+        props: ['content'],
+        data: function () {
+            return {
+                childData: this.content
+            }
+        },
+        template: '<div @click="handleClick">{{childData}}</div>',
+        methods: {
+            handleClick: function () {
+                this.bus.$emit('change', this.childData);
+            }
+        },
+        mounted: function () {
+            var _this = this;
+            this.bus.$on('change', function (data) {
+                _this.childData = data;
+            });
+        }
+    });
+
+    var vm = new Vue({
+        el: '#root'
+    });
+</script>
+```
+
+
+
 ## 给组件绑定原生事件
 
 - `<child @click.native="handleClick"></child>`
