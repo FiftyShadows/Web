@@ -1,3 +1,14 @@
+vue不建议在代码里操作DOM，但在处理一些极其复杂的动画，或必要时需要操作DOM。`<div ref="hello"></div>    this.$refs.hello`。
+
+ref在标签上的时候，获取到的是DOM元素。ref在组件上的时候，获取到的是子组件的引用。
+
+
+在根组件里，可以用对象定义data。子组件data必须是方法，且返回一个对象；子组件不像根组件只会被调用一次，每个子组件都应该有自己的数据，通过函数返回一个对象让每个子组件都有一个独立的数据存储，避免互相影响。
+
+
+is属性，h5规范要求table必须有tbody，tbody必须放的是tr；ul下的li;select下的option
+
+
 通过数组下表的方式修改数据并不会触发DOM重新渲染，触发数组重新渲染的方法有push,pop,shift,unshift,splice,sort,reverse
 
 想要修改数组中的某一项，通过vue.list.splice(1, 1, {id: '333', text: 'Dell1'})；或者改变数组引用的地址;vue.set
