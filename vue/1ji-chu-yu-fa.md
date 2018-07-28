@@ -2,6 +2,61 @@ vue不建议在代码里操作DOM，但在处理一些极其复杂的动画，�
 
 ref在标签上的时候，获取到的是DOM元素。ref在组件上的时候，获取到的是子组件的引用。
 
+```html
+<body>
+    <div id="root">
+        <todo-item></todo-item>
+        <counter ref="one" @change="handleChange"></counter>
+        <counter ref="two" @change="handleChange"></counter>
+        <div>{{total}}</div>
+    </div>
+</body>
+
+</html>
+<script>
+    // 全局组件
+    Vue.component('counter', {
+        template: '<div @click="handleClick">{{number}}</div>',
+        data: function () {
+            return {
+                number: 0
+            }
+        },
+        methods: {
+            handleClick: function () {
+                this.number++;
+                this.$emit('change');
+            }
+        }
+    });
+
+    // 局部组件
+    var TodoItem = {
+        props: ['content'],
+        template: '<li>一个局部组件</li>'
+    };
+
+    var vm = new Vue({
+        el: '#root',
+        data: {
+            total: 0
+        },
+        components: {
+            TodoItem: TodoItem
+        },
+        methods: {
+            handleChange: function () {
+                console.info(this.$refs.one);
+                console.info(this.$refs.two);
+                this.total = this.$refs.one.number + this.$refs.two.number;
+            }
+        }
+    });
+</script>
+
+```
+
+
 
 在根组件里，可以用对象定义data。子组件data必须是方法，且返回一个对象；子组件不像根组件只会被调用一次，每个子组件都应该有自己的数据，通过函数返回一个对象让每个子组件都有一个独立的数据存储，避免互相影响。
 
