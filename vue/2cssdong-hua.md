@@ -66,3 +66,50 @@
 }
 </style>
 ```
+
+
+
+## js动画
+
+- enter & leave
+
+```html
+<transition
+    @before-enter="handleBeforeEnter"
+    @eneter="handleEnter"
+    @aftereneter="handleAfterEnter"
+>
+    <div v-if="show">hello</div>
+</transition>
+
+var vm = new Vue({
+    el: '#root',
+    methods: {
+        handleBeforeEnter(el){
+            el.style.opacity = 0;
+        },
+        handleEnter(el){
+            Velocity(el, {opacity: 1}, {duration: 1000, complete: done});
+        },
+        handleAfterEnter(el){
+
+        }
+    }
+});
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
