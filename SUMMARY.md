@@ -134,6 +134,7 @@
   * [1.逻辑梳理与API初探](wei-xin-xiao-you-xi/1luo-ji-shu-li-yu-api-chu-tan.md)
 * [Vue](vue.md)
   * [1.基础语法](vue/1ji-chu-yu-fa.md)
+  * [2.css动画](vue/2cssdong-hua.md)
 * [组件化思想](zu-jian-hua-si-xiang.md)
 * [Canvas](canvas.md)
 * [Koa](koa.md)
