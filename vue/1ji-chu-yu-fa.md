@@ -1,3 +1,22 @@
+## 组件参数校验
+
+```
+props: {
+    content: [String, Number]
+    }
+}
+
+props: {
+    content: {
+        type: String,
+        required: true
+    }
+}
+
+```
+
+
+
 ## 单向数据流
 
 - 父组件可以向子组件传递参数，子组件不可以直接修改父组件的参数，可能会影响其他子组件。子组件clone父组件参数
