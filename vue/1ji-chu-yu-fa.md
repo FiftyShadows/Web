@@ -1,3 +1,19 @@
+## 插槽
+
+- slot插槽可以定义默认内容
+
+- 具名插槽，具名插槽也可以有默认值
+
+```
+<div slot="header">header</div>            
+<div slot="footer">footer</div>  
+
+<slot name="header">default header</slot>
+<slot name="footer"></slot>
+```
+
+
+
 ## 非父子组件传值
 
 - vuex
