@@ -1,3 +1,9 @@
+## 给组件绑定原声事件
+
+- `<child @click.native="handleClick"></child>`
+
+
+
 ## props特性和非props特性
 
 - props特性：传递的属性不会显示在DOM上
