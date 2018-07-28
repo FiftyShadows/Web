@@ -32,29 +32,9 @@
 ## 自定义动画名字和animate.css
 
 ```html
-<transition
-    type="transition"
-    :duration="5000"
-    :duration="{enter: 5000, leave: 10000}"
-    name="fade"
-    apear
-    enter-active-class="animated swing fade-enter-active"
-    leave-active-class="animated shake fade-leave-active"
-    appear-active-class="animated swing"
->
-    <div v-if="show">hello</div>
+<transition enter-active-class="animated swing" leave-active-class="animated shake">
+  <d v-if="currentNav === 0">123</p>
 </transition>
-
-<style>
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 3s;
-}
-</style>
 ```
 
 
