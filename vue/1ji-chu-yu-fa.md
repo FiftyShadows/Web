@@ -1,5 +1,37 @@
 ## 作用域插槽
 
+```html
+<body>
+    <div id="root">
+        <child content="Del">
+            <template slot-scope="props">
+                <li>{{props.item}}</li>
+            </template>
+        </child>
+    </div>
+</body>
+
+<script>
+
+    Vue.component('child', {
+        data: function () {
+            return {
+                list: [9, 8, 7, 6, 5]
+            }
+        },
+        template: `<div>
+            <ul>
+                <slot v-for="item of list" :item="item"></slot>
+            </ul>
+        </div>`
+    });
+
+    var vm = new Vue({
+        el: '#root'
+    });
+</script>
+```
+
 
 
 ## 插槽
