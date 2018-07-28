@@ -8,6 +8,8 @@
 
 
 
+## 通过ref操作DOM
+
 vue不建议在代码里操作DOM，但在处理一些极其复杂的动画，或必要时需要操作DOM。`<div ref="hello"></div>    this.$refs.hello`。
 
 ref在标签上的时候，获取到的是DOM元素。ref在组件上的时候，获取到的是子组件的引用。
@@ -68,13 +70,20 @@ ref在标签上的时候，获取到的是DOM元素。ref在组件上的时候�
 
 
 
+## 子组件data的定义
+
 在根组件里，可以用对象定义data。子组件data必须是方法，且返回一个对象；子组件不像根组件只会被调用一次，每个子组件都应该有自己的数据，通过函数返回一个对象让每个子组件都有一个独立的数据存储，避免互相影响。
 
+
+## 通过is属性设置子组件
 
 is属性，h5规范要求table必须有tbody，tbody必须放的是tr；ul下的li;select下的option
 
 
-通过数组下表的方式修改数据并不会触发DOM重新渲染，触发数组重新渲染的方法有push,pop,shift,unshift,splice,sort,reverse
+
+## 修改组件的data
+
+通过数组下标的方式修改数据并不会触发DOM重新渲染，触发数组重新渲染的方法有push,pop,shift,unshift,splice,sort,reverse
 
 想要修改数组中的某一项，通过vue.list.splice(1, 1, {id: '333', text: 'Dell1'})；或者改变数组引用的地址;vue.set
 
@@ -83,14 +92,21 @@ is属性，h5规范要求table必须有tbody，tbody必须放的是tr；ul下的
 遍历对象，v-for="(item, key, index) of userinfo"，通过改变对象引用地址的方式给对象添加数据；或者vue.set(vue.userinfo, 'address', 'beijing')
 
 
-computed方法的get,set方法；get依赖的值变化，会重新计算
 
+## 计算属性和watch和方法
+
+computed方法的get,set方法；get依赖的值变化，会重新计算
 
 计算属性computed(缓存值) > 侦听器watch(缓存值) > 方法methods
 
 
+
+## v-html的作用
+
 v-html能够解析DOM节点
 
+
+## v-show和v-if的比较
 
 v-if/else 重新渲染页面的时候vue会尽量的复用页面上的DOM，key值做区分
 
