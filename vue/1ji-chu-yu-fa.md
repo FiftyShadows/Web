@@ -226,6 +226,8 @@ ref在标签上的时候，获取到的是DOM元素。ref在组件上的时候�
 
 ## 通过is属性设置动态组件
 
+- `<component :is="type"></component>`
+
 is属性，h5规范要求table必须有tbody，tbody必须放的是tr；ul下的li;select下的option
 
 
