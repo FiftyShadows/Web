@@ -109,6 +109,28 @@ var vm = new Vue({
 
 
 
+## 列表过渡
+
+- `transition-group`
+
+
+
+## 动画封装
+
+- 可以用js动画
+
+```
+Vue.component('fade', {
+    props: ['show'],
+    template: `
+        <transition>
+            <slot v-if="show"></slot>
+        </transition>
+    `
+});
+```
+
+
 
 
 
