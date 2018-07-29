@@ -104,6 +104,8 @@ var vm = new Vue({
 
 - vue在两个元素切换时，会尽量的复用DOM。1.v-if的动画不会出现，加key值；2.mode="in-out"
 
+- 动态组件；mode="in-out"
+
 
 
 
