@@ -1,3 +1,6 @@
+尽量不要用index作为key值，会导致性能的下降。
+
+
 ## 动态组件与v-once指令
 
 - `<component :is="type"></component>`；keep-alive可以保留它的装态，避免重新渲染。
