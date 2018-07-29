@@ -2,7 +2,7 @@
 
 - `<component :is="type"></component>`
 
-- 给组件根节点加上v-once指令，v-if判断不会销毁，保存在内存里
+- 给组件根节点加上v-once指令，v-if判断不会销毁，保存在内存里。v-once指令有效的提高静态内容的展示效率。
 
 
 
