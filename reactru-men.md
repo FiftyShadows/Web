@@ -1,3 +1,13 @@
+## react脚手架
+
+npm i -g create-react-app
+
+create-react-app my-app 
+
+
+
+
+
 npm install --save react react-dom babelify babel-preset-react
 
 npm install --save babel-preset-es2015
