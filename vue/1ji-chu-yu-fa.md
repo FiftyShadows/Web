@@ -1,6 +1,6 @@
 ## 动态组件与v-once指令
 
-- `<component :is="type"></component>`
+- `<component :is="type"></component>`；keep-alive可以保留它的装态，避免重新渲染。
 
 - 给组件根节点加上v-once指令，v-if判断不会销毁，保存在内存里。v-once指令有效的提高静态内容的展示效率。
 
