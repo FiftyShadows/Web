@@ -1,4 +1,6 @@
-git branch -d dev_20180802
+git push origin --delete dev_20180802    删除远程分支
+
+git branch -d dev_20180802    删除本地分支
 
 yarn config set registry https://registry.npm.taobao.org
 
