@@ -1,3 +1,5 @@
+git仓库里出现要忽略的文件时，删除本地忽略的文件，并push到remote，还原本地忽略的文件。
+
 git push origin --delete dev_20180802    删除远程分支
 
 git branch -d dev_20180802    删除本地分支
