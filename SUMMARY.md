@@ -146,4 +146,5 @@
 * [antd](antd.md)
 * [Fiddler使用](fiddlershi-yong.md)
 * [Http](http.md)
+* [ES6](es6.md)
 
