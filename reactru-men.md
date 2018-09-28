@@ -15,6 +15,12 @@ componentWillMount  可以在服务端被调用，也可以在浏览器端被调
 
 
 
+shouldComponentUpdate(nextProps, nextState)：你可以通过这个方法控制组件是否重新渲染。如果返回 false 组件就不会重新渲染。这个生命周期在 React.js 性能优化上非常有用。
+componentWillReceiveProps(nextProps)：组件从父组件接收到新的 props 之前调用。
+componentWillUpdate()：组件开始重新渲染之前调用。
+componentDidUpdate()：组件重新渲染并且把更改变更到真实的 DOM 以后调用。
+
+
 
 根据是否需要高度的复用性，把组件划分为 Dumb 和 Smart 组件，约定俗成地把它们分别放到 components 和 containers 目录下。
 
