@@ -147,4 +147,5 @@
 * [Fiddler使用](fiddlershi-yong.md)
 * [Http](http.md)
 * [ES6](es6.md)
+* [设计模式](she-ji-mo-shi.md)
 
