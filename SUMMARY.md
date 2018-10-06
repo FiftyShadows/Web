@@ -149,5 +149,5 @@
 * [ES6](es6.md)
 * [设计模式](she-ji-mo-shi.md)
   * [1.设计原则](she-ji-mo-shi/1she-ji-yuan-ze.md)
-  * 2.工厂模式
+  * [2.工厂模式](she-ji-mo-shi/2gong-chang-mo-shi.md)
 
