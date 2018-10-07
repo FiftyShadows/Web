@@ -154,4 +154,5 @@
   * [4.适配器模式](she-ji-mo-shi/4shi-pei-qi-mo-shi.md)
   * [5.装饰器模式](she-ji-mo-shi/5zhuang-shi-qi-mo-shi.md)
   * [6.代理模式](she-ji-mo-shi/6dai-li-mo-shi.md)
+  * [7.外观模式](she-ji-mo-shi/7wai-guan-mo-shi.md)
 
