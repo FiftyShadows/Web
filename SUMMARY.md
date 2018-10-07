@@ -151,4 +151,5 @@
   * [1.设计原则](she-ji-mo-shi/1she-ji-yuan-ze.md)
   * [2.工厂模式](she-ji-mo-shi/2gong-chang-mo-shi.md)
   * [3.单例模式](she-ji-mo-shi/3dan-li-mo-shi.md)
+  * [4.适配器模式](she-ji-mo-shi/4shi-pei-qi-mo-shi.md)
 
