@@ -152,4 +152,5 @@
   * [2.工厂模式](she-ji-mo-shi/2gong-chang-mo-shi.md)
   * [3.单例模式](she-ji-mo-shi/3dan-li-mo-shi.md)
   * [4.适配器模式](she-ji-mo-shi/4shi-pei-qi-mo-shi.md)
+  * [5.装饰器模式](she-ji-mo-shi/5zhuang-shi-qi-mo-shi.md)
 
