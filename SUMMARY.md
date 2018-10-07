@@ -155,4 +155,5 @@
   * [5.装饰器模式](she-ji-mo-shi/5zhuang-shi-qi-mo-shi.md)
   * [6.代理模式](she-ji-mo-shi/6dai-li-mo-shi.md)
   * [7.外观模式](she-ji-mo-shi/7wai-guan-mo-shi.md)
+  * [8.观察者模式](she-ji-mo-shi/8guan-cha-zhe-mo-shi.md)
 
