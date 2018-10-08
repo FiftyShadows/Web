@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [JS笔记](jshui-zong.md)
   * [方法](jshui-zong/fang-fa.md)
+* [跨域](kua-yu.md)
 * [CSS笔记](cssbi-ji.md)
 * [HTML笔记](htmlbi-ji.md)
 * [HTML5笔记](html5bi-ji.md)
