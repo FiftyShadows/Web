@@ -1,3 +1,19 @@
+## Http的三次握手
+
+- TCP connection
+
+
+
+## URI
+
+- URI 统一资源标识，用来唯一标识互联网上的信息资源。包括URL和URN
+
+- URL 统一资源定位器
+
+- URN 永久统一资源定位符
+
+
+
 ## Cache-Control:max-age=100
 
 - public, private
