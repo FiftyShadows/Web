@@ -106,11 +106,38 @@ app.listen(4000)
 
 ## postMessage
 
-```
+```html
 //a.html    http://localhost:3000/a.html
-//b.html    http://localhost:3000/b.html
+<iframe src="http://localhost:4000/b.html" frameborder="0" id="frame" onload="load()"></iframe>
+<script>
+    let frame = document.getElementById('frame')        
+    frame.onload = function () {
+        frame.contentWindow.postMessage('a页面发送数据', 'http://localhost:4000')
+    }
+    window.onmessage = function (e) {
+        console.info('a接收到b页面发来的数据', e)
+    }
+</script>
+
+
+//b.html    http://localhost:4000/b.html
+<script>
+    window.onmessage = function (e){
+        console.info('b页面获取到a页面的postMessage', e)
+        e.source.postMessage('b页面返回数据', e.origin)
+    }    
+</script>
 ```
 
+
+
+## window.name
+
+```
+//a,b页面同域， c页面不同域且window.name = 'xxx'
+
+a页面iframe指向c页面， c
+```
 
 
 
