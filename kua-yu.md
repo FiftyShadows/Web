@@ -206,5 +206,15 @@ app.listen(4000)
 
 
 
+## nginx
+
+```
+location ~.*\.json{
+    root json;
+    add_header "Access-Control-Allow-Origin" "*"；
+}
+```
+
+
 
 
