@@ -108,6 +108,7 @@ app.listen(4000)
 
 ```
 //a.html    http://localhost:3000/a.html
+//a.html    http://localhost:3000/a.html
 ```
 
 
