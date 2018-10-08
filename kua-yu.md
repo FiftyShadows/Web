@@ -134,14 +134,75 @@ app.listen(4000)
 ## window.name
 
 ```
-//a,b页面同域， c页面不同域且window.name = 'xxx'
+//a,b页面同域， c页面不同域window.name = 'xxx'
 
-a页面iframe指向c页面， c
+//a页面iframe指向c页面， c页面onload后修改src, window.name仍保留值
+<iframe src="http://localhost:4000/c.html" frameborder="0" id="frame" onload="load()"></iframe>
+<script>
+    let first = true
+    let frame = document.getElementById('frame')     
+    frame.onload = function () {
+        if(first){
+            frame.src = 'http://localhost:3000/b.html'
+            first = false
+        }
+        else{
+            console.info(frame.contentWindow.name)
+        }
+    }
+</script>
 ```
 
 
 
+## location.hash
 
+- 路径后面的hash值可以用来通信
+
+```
+//a,b页面同域， c页面不同域
+//a.html
+<iframe src="http://localhost:4000/c.html#pageA"></iframe>
+<script>
+    window.onhashchange = function (){
+        console.info(location.hash)
+    }
+<script>
+
+//c.html
+<script>
+    let iframe = document.createElement('iframe')
+    iframe.src = 'http://localhost:3000/b.html#pageC'
+    document.body.appendChild(iframe)
+</script>
+
+//b.html
+<script>
+    window.parentt.parent.location.hash = location.hash
+<script>
+```
+
+
+
+## document.domain
+
+```
+//针对不同的子域名a.zf.cn:3000/a.html和b.zf.cn:4000/b.html
+//a.html
+<iframe src="http://b.zf.cn:4000/b.html" id="framme" onload="load()"></iframe>
+<script>
+    document.domain = 'zf.cn'
+    function load(){
+        frame.contentWindow.a
+    }
+<script>
+
+//b.html
+<script>
+    document.domain = 'zf.cn'
+    a = 100
+</script>
+```
 
 
 
