@@ -4,8 +4,26 @@
 
     - hashchange
 
-- BrowerRouter:利用 H5api 实现路由的切换
+- BrowerRouter:利用 H5 api 实现路由的切换
 
     - 没有#
     
     - history.pushState({p:path})
+    
+
+```html
+//BrowerRouter
+<a onclick="push('/a')">a</a>
+<a onclick="push('/b')">b</a>
+
+<script>
+    function push(path){
+        history.pushState({p:path}, null, path)
+    }
+    //监听不到pushState，但能监听到浏览器前进后退
+    window.addEventListener('popstate', e => {
+        console.info(history)
+        console.info(e)
+    })
+</script>
+```
