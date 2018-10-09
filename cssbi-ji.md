@@ -1,3 +1,12 @@
+## animation 属性 timing-function 中的 steps()函数。
+
+- Animation 在执行动画时默认以 ease函数进行过渡，ease 会在每个关键帧之间插入补间动画，所以动画效果是连贯的。
+
+- steps()是 Animation 中的一个 timing-function函数， 能够实现动画的阶跃式变化，而非两个状态间的线性过渡。
+
+
+
+
 ## 文本省略
 
 - 单行文本，overflow: hidden;white-space: nowrap;text-overflow: ellipsis;需要设置盒子宽度；所以flex下需设置min-width/max-width
