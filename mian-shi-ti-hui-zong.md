@@ -212,6 +212,8 @@ JavaScript
 13、如何添加、删除、修改节点
 14、什么是jsonp？
 15、高阶函数
+    - 接受一个或多个函数作为输入
+    - 输出一个函数
 16、js线程你是如何理解的？
 17、setTimeout与setInterval有何区别？使用时需要注意什么？
 18、什么是隐式转换？需要注意什么？
@@ -262,6 +264,6 @@ console.log(a);    //undefined
 //宽高80%盒子
 html{height: 100%}
 body{heigt: 100%}
-div{hright: 80%}
+div{height: 80%}
 ```
 
