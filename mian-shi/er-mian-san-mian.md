@@ -55,6 +55,12 @@
 
 - 异步任务挂起
 
+    - setTimeout和setInterval
+    
+    - DOM事件
+    
+    - ES6中的Promise
+
 - 同步任务执行完之前，任何的异步任务都不会被执行
 
 - EventLoop
