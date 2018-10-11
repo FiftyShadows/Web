@@ -1,3 +1,27 @@
+## 怎么防止HTML页面广告
+
+- 使用https
+
+
+
+## src和fref的区别
+
+- src会阻塞页面加载
+
+
+
+## 发送请求会经过那几个缓存
+
+- DNS缓存
+
+- CDN缓存
+
+- 服务器缓存
+
+- 浏览器缓存
+
+
+
 ##  js的各种位置，比如clientHeight,scrollHeight,offsetHeight ,以及scrollTop, offsetTop,clientTop的区别？
 
 clientHeight：表示的是可视区域的高度，不包含border和滚动条
