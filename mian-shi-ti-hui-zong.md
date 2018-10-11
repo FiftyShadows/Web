@@ -4,7 +4,7 @@
 
 
 
-## src和fref的区别
+## src和href的区别
 
 - src会阻塞页面加载
 
