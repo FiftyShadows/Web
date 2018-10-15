@@ -2,6 +2,21 @@
 
 
 
+## 函数会首先被提升，然后是变量
+
+```
+var foo = 1;
+function bar() {
+    foo = 10;
+    return;
+    function foo() {}
+}
+bar()
+console.info(foo);
+```
+
+
+
 ## 怎么防止HTML页面广告
 
 - 使用https
