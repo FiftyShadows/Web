@@ -8,7 +8,7 @@
 
     - 没有#
     
-    - history.pushState({p:path})
+    - history.pushState(状态对象， 标题， URL)
     
 
 ```html
