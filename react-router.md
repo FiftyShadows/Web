@@ -3,6 +3,8 @@
 - HashRouter:利用 hash 实现路由切换
 
     - hashchange
+    
+    - 用于静态文件服务
 
 - BrowerRouter:利用 H5 api 实现路由的切换
 
@@ -11,6 +13,8 @@
     - history.pushState({p:path})
     
     - url回车后回去找真实的路径，需要后端配合
+    
+    - 用于动态网站服务
     
 
 ```html

@@ -16,6 +16,14 @@
 
 
 
+## es6 组件 this 的处理方式有两种
+
+- bind(this)
+
+- 箭头函数
+
+
+
 
 componentWillMount  将要装载，在render之前调用；
 
