@@ -1,3 +1,12 @@
+
+## forEach跳出循环
+
+- 不支持break语法
+
+- 通过抛异常，try catch的方式跳出异常
+
+
+
 ## Array(10).fill(1)
 
 
