@@ -1,3 +1,16 @@
+## React特点
+
+- 声明式编码 Declaractive
+
+- Component-Based 组件化编码
+
+- 高效的DOM Diff算法，最小化页面重绘
+
+- 单向数据流
+
+
+
+
 componentWillMount  将要装载，在render之前调用；
 
       componentDidMount，（装载完成），在render之后调用
