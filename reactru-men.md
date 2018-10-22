@@ -10,6 +10,12 @@
 
 
 
+## MV* 框架
+
+- 只关注视图view层和数据层model
+
+
+
 
 componentWillMount  将要装载，在render之前调用；
 
