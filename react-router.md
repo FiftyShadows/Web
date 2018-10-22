@@ -10,6 +10,8 @@
     
     - history.pushState({p:path})
     
+    - url回车后回去找真实的路径，需要后端配合
+    
 
 ```html
 //BrowerRouter
