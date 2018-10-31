@@ -1,3 +1,17 @@
+## 判断一个object是数组类型
+
+- arr instanceof Array
+
+- Array.isArray(arr)
+
+- Object.prototype.toString.call(arr) ===‘[object Array]’
+
+- 判断对象是否有push等数组的一些方法
+
+- arr.constructor===Array
+
+
+
 ## fetch函数
 
 
