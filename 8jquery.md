@@ -1,3 +1,10 @@
+
+$.proxy 方法接受一个已有的函数，并返回一个带特定上下文的新的函数。
+
+$.extend()类似于Object.asign(),复制对象到目标对象。
+
+$.fn.extend() 函数为jQuery扩展一个或多个实例属性和方法(主要用于扩展方法)。
+
 $("xx li").filter(".current").index();
 
 $('xx').stop().animate();

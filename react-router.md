@@ -10,7 +10,7 @@
 
     - 没有#
     
-    - history.pushState(状态对象， 标题， URL)
+    - history.pushState({p:path})    三个参数：状态对象，标题，URL
     
     - url回车后回去找真实的路径，需要后端配合
     
