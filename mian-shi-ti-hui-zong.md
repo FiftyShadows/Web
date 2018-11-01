@@ -1,3 +1,34 @@
+
+## setTimeout 内存泄漏
+
+- 第一个参数 可以是string || function;如果过使用string 就会造成内存泄露
+
+
+
+
+## 输出结果题
+
+```
+setTimeout(()=>{
+        console.log(1);
+}, 0);
+ 
+new Promise((resolve)=>{
+        console.log(2);
+        for(var i = 1; i < 200; i++){
+                i = 198 && resolve();
+        }
+        console.log(3);
+}).then(()=>{
+        console.log(4);
+});
+console.log(5);
+
+23541
+```
+
+
+
 ## 判断一个object是数组类型
 
 - arr instanceof Array
