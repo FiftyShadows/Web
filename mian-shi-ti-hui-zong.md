@@ -1,3 +1,23 @@
+## 对元素的margin设置百分数，百分数是相对于父元素的width计算
+
+
+
+## 垂直居中的解决方案
+
+- top: 50%; margin-top: -200px;
+
+- top: 50%; transform: translateY(-50%);
+
+- top: 0; bottom: 0; margin: auto;
+
+- vertical-align: middle;
+
+- line-height: 100px;
+
+
+
+
+
 
 ## setTimeout 内存泄漏
 
