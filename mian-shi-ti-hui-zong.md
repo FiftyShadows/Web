@@ -15,6 +15,10 @@
 
 - line-height
 
+- 使用padding实现子元素的垂直居中
+
+- align-items: center;
+
 
 
 
