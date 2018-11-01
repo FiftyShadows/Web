@@ -2,6 +2,7 @@
 
 
 
+
 ## 垂直居中的解决方案
 
 - top: 50%; margin-top: -200px;
@@ -12,9 +13,7 @@
 
 - vertical-align: middle;
 
-- line-height: 100px;
-
-
+- line-height
 
 
 
