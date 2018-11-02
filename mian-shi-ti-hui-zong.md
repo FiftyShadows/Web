@@ -19,6 +19,8 @@
 
 - align-items: center;
 
+- 父元素display: table; 子元素display: table-cell; vertical-align: middle;
+
 
 
 
