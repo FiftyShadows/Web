@@ -1,3 +1,13 @@
+```
+handleOpen = (type)=>{
+    this.setState({
+        [type]:true
+    })
+}
+```
+
+
+
 ## React特点
 
 - 声明式编码 Declaractive
