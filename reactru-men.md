@@ -1,6 +1,6 @@
 ## 组件元素设置style可省略px，多个值不可以省略
 
-```html
+```
 <Spin style={{margin:'0 10px'}}/>
 <Spin indicator={icon} style={{ marginLeft: 10 }} spinning={true}/>
 ```
