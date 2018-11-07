@@ -1,3 +1,35 @@
+## 组件元素设置style可省略px，多个值不可以省略
+
+```
+<Spin style={{margin:'0 10px'}}/>
+<Spin indicator={icon} style={{ marginLeft: 10 }} spinning={true}/>
+```
+
+
+
+```
+handleConfirm = (type)=>{
+    Modal[type]({
+        title:'确认？',
+        content:'你确定你学会了React了吗？',
+        onOk(){
+            console.log('Ok')
+        },
+        onCancel(){
+            console.log('Cancel')
+        }
+    })
+}
+    
+handleOpen = (type)=>{
+    this.setState({
+        [type]:true
+    })
+}
+```
+
+
+
 ## React特点
 
 - 声明式编码 Declaractive
