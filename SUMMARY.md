@@ -165,4 +165,5 @@
 * [组件库](zu-jian-ku.md)
   * [Antd](antd.md)
   * Element
+* [Echarts](echarts.md)
 
