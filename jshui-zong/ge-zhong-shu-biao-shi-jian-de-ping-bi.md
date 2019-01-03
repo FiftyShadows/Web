@@ -1,3 +1,7 @@
+## Another difference is that you cannot return false to prevent default behavior in React. You must call preventDefault explicitly.
+
+
+
 ```
 //屏蔽右键菜单  
 document.oncontextmenu = function (event){  
