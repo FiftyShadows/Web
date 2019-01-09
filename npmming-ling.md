@@ -1,6 +1,3 @@
-
-npm install --registry=https://registry.npm.taobao.org
-
 # 默认源
 npm config set registry https://registry.npmjs.org
 

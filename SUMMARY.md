@@ -3,6 +3,7 @@
 * [Introduction](README.md)
 * [JS笔记](jshui-zong.md)
   * [方法](jshui-zong/fang-fa.md)
+  * [各种鼠标事件的屏蔽](jshui-zong/ge-zhong-shu-biao-shi-jian-de-ping-bi.md)
 * [ES6](es6.md)
 * [跨域](kua-yu.md)
 * [CSS笔记](cssbi-ji.md)
@@ -165,5 +166,4 @@
 * [组件库](zu-jian-ku.md)
   * [Antd](antd.md)
   * Element
-* [Echarts](echarts.md)
 
