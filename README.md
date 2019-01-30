@@ -136,3 +136,14 @@ css世界    css揭秘
 
 
 
+
+# mac
+
+1、装一个 iTerm2 + oh my zsh  了解一下快捷键和常用功能，爽的飞起
+
+2、brew$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+3、好玩的话，装一个the fuck吧，不要想多了，纠错用的哈哈哈哈
+
+
+
