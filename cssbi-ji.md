@@ -1,4 +1,4 @@
-## 对元素的margin设置百分数，百分数是相对于父元素的width计算
+## 对元素的margin，padding设置百分数，百分数是相对于父元素的width计算
 
 
 
