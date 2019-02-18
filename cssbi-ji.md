@@ -1,3 +1,7 @@
+## 对元素的margin设置百分数，百分数是相对于父元素的width计算
+
+
+
 ## animation 属性 timing-function 中的 steps()函数。
 
 - Animation 在执行动画时默认以 ease函数进行过渡，ease 会在每个关键帧之间插入补间动画，所以动画效果是连贯的。
