@@ -1,3 +1,7 @@
+# Object.assign(this.$data, this.$options.data())
+
+
+
 ##核心思想
 
 - 数据驱动
