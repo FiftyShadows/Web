@@ -1,3 +1,7 @@
+渐进式的理解是相对于另外两个框架的，vue可以用于现有项目，只写一部分，但是react和angular写了一部分，再慢慢扩展到整个，这个过程叫渐进式开发
+
+
+
 # Object.assign(this.$data, this.$options.data())
 
 
