@@ -1,12 +1,3 @@
-# react navigation
-
-## 传递参数给路由
-
-- 传参：`this.props.navigation.navigate('RouteName', {paramName: 'value'})`
-
-- 接受：this.props.navigation.state.params访问 params 对象。 如果没有提供参数，这可能是null，所以使用this.props.navigation.getParam通常更容易，所以你不必处理这种情况。`const otherParam = navigation.getParam('otherParam', 'some default value');`
-
-
 
 # 网络图片
 
