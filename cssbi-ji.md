@@ -1,3 +1,9 @@
+## 不要把fixed元素放在有transform属性的元素内
+
+- fixed相对的不是visual viewport，而是transformELe, 产生这样的原因主要是因为transform和position: fixed使用了不同的坐标系统
+
+
+
 ## 对元素的margin，padding设置百分数，百分数是相对于父元素的width计算
 
 
