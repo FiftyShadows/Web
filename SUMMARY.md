@@ -50,6 +50,7 @@
   * [4.虚拟DOM](javascriptgao-ji-zhi-shi/xu-ni-dom.md)
   * [5.MVVM](javascriptgao-ji-zhi-shi/5mvvm.md)
   * [6.组件化和react](javascriptgao-ji-zhi-shi/6zu-jian-hua-he-react.md)
+  * [Hybrid](javascriptgao-ji-zhi-shi/hybrid.md)
 * [LESS](less.md)
 * [AngularJS](angularjs.md)
 * [TypeScript](typescript.md)
