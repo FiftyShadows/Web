@@ -73,6 +73,8 @@ json-server    数据mock
 
 http-server
 
+cross-env    能跨平台地设置及使用环境变量
+
 
 
 
