@@ -75,6 +75,12 @@ http-server
 
 cross-env    能跨平台地设置及使用环境变量
 
+react-sticky 组件实现吸顶效果
+
+react-beautiful-dnd    拖拽效果
+
+react-image-lightbox    图片滑动和缩放
+
 
 
 
