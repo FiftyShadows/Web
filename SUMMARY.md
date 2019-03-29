@@ -170,4 +170,5 @@
   * Element
 * [react-native](react-native.md)
   * [react-navigation](react-native/react-navigation.md)
+* [Redux](redux.md)
 
