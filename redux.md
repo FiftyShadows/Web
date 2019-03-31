@@ -69,3 +69,5 @@ export const connect = (mapStateToProps) => (WrappedComponent) => {
 ```
 
 - mapDispatchToProps方法返回一个对象，对象定义了方法去dispatch store的改变，但当前组件并没有dispath函数，需要传递给高阶组件，在高阶组件的_updateProps方法里调用mapDispatchToProps(dispatch, this.props)获取到返回的对象，在回传给组件，组件可以在事件当中直接调用方法了
+
+- 通过Provider组件定义context，减少代码的耦合
