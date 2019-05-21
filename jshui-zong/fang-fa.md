@@ -1,3 +1,12 @@
+## 通过debounce控制表单onChange的出发频率
+
+```
+import debounce from 'lodash.debounce';
+this.handleDebounceChange = debounce(this.handleDebounceChange.bind(this), 500);
+```
+
+
+
 ## 鼠标选中文字
 
 - window.getSelection()
