@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
+* [react路由传参](reactlu-you-chuan-can.md)
 * [JS笔记](jshui-zong.md)
   * [方法](jshui-zong/fang-fa.md)
   * [各种鼠标事件的屏蔽](jshui-zong/ge-zhong-shu-biao-shi-jian-de-ping-bi.md)
