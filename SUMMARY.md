@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [react路由传参](reactlu-you-chuan-can.md)
+* [在umi中如何访问静态资源](zai-umi-zhong-ru-he-fang-wen-jing-tai-zi-yuan.md)
 * [JS笔记](jshui-zong.md)
   * [方法](jshui-zong/fang-fa.md)
   * [各种鼠标事件的屏蔽](jshui-zong/ge-zhong-shu-biao-shi-jian-de-ping-bi.md)
