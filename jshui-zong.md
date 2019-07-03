@@ -1,3 +1,6 @@
+## navigator.onLine这个属性值为true表示设备能上网，值为false表示设备离线。
+
+
 
 ## a = + '1';
 
