@@ -81,6 +81,8 @@ react-beautiful-dnd    拖拽效果
 
 react-image-lightbox    图片滑动和缩放
 
+jQuery.print    局部打印
+
 
 
 
