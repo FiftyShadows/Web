@@ -363,7 +363,7 @@ util.createScript = function (url, charset) {
 ```
 //es6最简单的办法
 function unique(arr){
-  return arr.filter((item, index) => index === this.indexOf(item));
+  return arr.filter((item, index) => index === arr.indexOf(item));
 }
 
 //es6遍历数组，不支持ie6-8
