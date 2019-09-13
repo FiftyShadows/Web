@@ -75,6 +75,14 @@
 
 - 其他-线性变换    transform
 
+    - translate
+    
+    - rotate
+    
+    - scale
+    
+    - skew
+
 - 颜色    background兼容问题
 
 
