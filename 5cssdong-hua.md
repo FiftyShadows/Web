@@ -87,9 +87,21 @@
 
 
 
+## transition
+
+- transition-delat
+
+- transition-duration
+
+- transition-property
+
+- `transition-timing-function: cubic-bezier(0.205, -0.390, 0.860, 1.480);`
+
+
+
 ## 关键帧动画
 
-- 相当于多个补间动画
+- 相当于多个补间动画，与元素状态的变化无关(hover)
 
 - 与元素状态的变化无关
 
