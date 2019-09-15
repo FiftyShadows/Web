@@ -92,6 +92,19 @@ var requestAnimationFrame = window.requestAnimationFrame ||
 			    window.msRequestAnimationFrame ||
 			    function(cb){window.setTimeout(cb,1000/60);};
 
+
+
+
+所有dom相关的动画最终都是通过改变css的值来实现的。
+
+dom动画的实现有两种方式，一种是css3动画，一种是js控制。
+
+css3动画是由浏览器的css布局渲染引擎控制的。通常声明属性初始和终值，设定过渡方式，接下来就交给浏览器自己处理。
+
+js动画不仅需要设定初始和终值，还把过渡方式这个步骤交给js来控制。所以你需要指定每一帧样式变换多少，该怎么变化。
+
+所以，dom动画本质上只有css和js这两种实现方式。js实现方式等于用自主实现了一个精简的css动画渲染控制器。
+
 ```
 
 
