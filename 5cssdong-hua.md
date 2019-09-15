@@ -36,7 +36,7 @@
 
 # JS动画
 
-- setTimeout、setInterval、requestAnimationFrame(告诉浏览器——你希望执行一个动画，并且要求浏览器在下次重绘之前调用指定的回调函数更新动画)
+- setTimeout、setInterval、requestAnimationFrame(告诉浏览器——你希望执行一个动画，并且要求浏览器在下次重绘之前调用指定的回调函数更新动画。cancelAnimationFrame取消)
 
     - 异步的实际执行时间一般要比其设定的时间晚一些。
     
