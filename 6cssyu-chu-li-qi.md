@@ -71,6 +71,8 @@
 
 - 也有lighten函数
 
+- !default是用来指定变量默认值
+
 ```
 @mixin block(){
     font-size: $fontSize;
