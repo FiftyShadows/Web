@@ -1,3 +1,12 @@
+## 控制台copy函数
+
+- 复制内容到粘贴板
+
+- https://developer.mozilla.org/zh-CN/docs/Web/API/Document/execCommand
+
+
+
+
 ## 连续赋值操作
 
 - 从右至左永远只取等号右边的表达式结果赋值到等号左侧
