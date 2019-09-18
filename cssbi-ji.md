@@ -1,3 +1,14 @@
+## position
+
+- static 默认值，没有定位
+
+- relative生成相对定位的元素，相对于其正常位置进行定位,其值的定位起点都是是父元素左上角(这点和absoute、fixed不一样)
+
+- absoute生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。top、left的定位起点是包含块左上角，right、bottom的定位起点是包含块右下角
+
+- fixed生成绝对定位的元素，相对于浏览器窗口进行定位，和absoute的区别是fixed不会跟随屏幕滚动。top、left的定位起点是包含块左上角，right、bottom的定位起点是包含块右下角
+
+
 ## 不要把fixed元素放在有transform属性的元素内
 
 - fixed相对的不是visual viewport，而是transformELe, 产生这样的原因主要是因为transform和position: fixed使用了不同的坐标系统
