@@ -1,16 +1,15 @@
-![](/assets/360截图17571114416583.png)
+# 2.css动画
+
+![](../.gitbook/assets/360截图17571114416583.png)
 
 ## 过渡
 
-- 条件渲染 (使用 v-if)
+* 条件渲染 \(使用 v-if\)
+* 条件展示 \(使用 v-show\)
+* 动态组件
+* 组件根节点
 
-- 条件展示 (使用 v-show)
-
-- 动态组件
-
-- 组件根节点
-
-```
+```text
 <transition>
     <p v-if="show">hello</p>
 </transition>
@@ -27,21 +26,17 @@
 </style>
 ```
 
-
-
 ## 自定义动画名字和animate.css
 
-```html
+```markup
 <transition enter-active-class="animated swing" leave-active-class="animated shake">
   <d v-if="currentNav === 0">123</p>
 </transition>
 ```
 
-
-
 ## 同时使用过渡和动画
 
-```
+```text
 <transition
     type="transition"
     :duration="5000"
@@ -67,13 +62,11 @@
 </style>
 ```
 
-
-
 ## js动画
 
-- enter & leave
+* enter & leave
 
-```html
+```markup
 <transition
     @before-enter="handleBeforeEnter"
     @eneter="handleEnter"
@@ -98,28 +91,20 @@ var vm = new Vue({
 });
 ```
 
-
-
 ## 多个元素或组件的过渡
 
-- vue在两个元素切换时，会尽量的复用DOM。1.v-if的动画不会出现，加key值；2.mode="in-out"
-
-- 动态组件；mode="in-out"
-
-
-
+* vue在两个元素切换时，会尽量的复用DOM。1.v-if的动画不会出现，加key值；2.mode="in-out"
+* 动态组件；mode="in-out"
 
 ## 列表过渡
 
-- `transition-group`
-
-
+* `transition-group`
 
 ## 动画封装
 
-- 可以用js动画
+* 可以用js动画
 
-```
+```text
 Vue.component('fade', {
     props: ['show'],
     template: `
@@ -129,16 +114,4 @@ Vue.component('fade', {
     `
 });
 ```
-
-
-
-
-
-
-
-
-
-
-
-
 

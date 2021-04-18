@@ -1,79 +1,58 @@
-alt + enter  修补问题
+# webstorm快捷键
 
-ctrl+1   添加导入组件
+alt + enter 修补问题
 
-Ctrl+B或Ctrl+鼠标左键单击    快速打开光标处的类或方法，（NB的功能）
+ctrl+1 添加导入组件
 
-Ctrl+X    删除行
+Ctrl+B或Ctrl+鼠标左键单击 快速打开光标处的类或方法，（NB的功能）
 
-F2 或Shift+F2    高亮错误或警告快速定位
+Ctrl+X 删除行
 
-Ctrl+Shift+F7    高亮显示所有该文本，按Esc高亮消失。
+F2 或Shift+F2 高亮错误或警告快速定位
 
-Ctrl+Alt+L    格式化代码
+Ctrl+Shift+F7 高亮显示所有该文本，按Esc高亮消失。
 
-F3    查找下一个
+Ctrl+Alt+L 格式化代码
 
-Shift+F3    查找上一个
+F3 查找下一个
 
-ctrl+Shift+N	通过文件名快速查找工程内的文件（必记）
+Shift+F3 查找上一个
 
-ctrl+Shift+alt+N	通过一个字符快速查找位置（必记）
+ctrl+Shift+N 通过文件名快速查找工程内的文件（必记）
 
-Shift+enter	重新开始一行（无论光标在哪个位置）
+ctrl+Shift+alt+N 通过一个字符快速查找位置（必记）
 
-Ctrl + Delete	Delete to word end 删除文字结束
+Shift+enter 重新开始一行（无论光标在哪个位置）
 
-Ctrl + Backspace	Delete to word start 删除文字开始
+Ctrl + Delete Delete to word end 删除文字结束
 
-alt+enter    智能引入
+Ctrl + Backspace Delete to word start 删除文字开始
 
-![](/assets/360截图20171020135945538.jpg)
+alt+enter 智能引入
+
+![](.gitbook/assets/360截图20171020135945538.jpg)
 
 设置Ctrl+滚轮调整字体大小
 
-ctrl++f    ctrl+r    选中相同的词，替换
+ctrl++f ctrl+r 选中相同的词，替换
 
-ctrl+alt+t     环绕
+ctrl+alt+t 环绕
 
+## 设置头部注释
 
-
-
-##设置头部注释
 settings→File and Code Templates→Javascript File
 
-```
+```text
 /**
  * Created by LY on ${DATE}.
  */
-
 ```
 
+## 设置未保存标记
 
+* Editor &gt; General &gt; Editor Tabs     Mark modified tabs with asterisk
 
-##设置未保存标记
+## 关闭自动保存
 
-- Editor > General > Editor Tabs     Mark modified tabs with asterisk
-
-
-
-
-##关闭自动保存
-
-- Appearance & Behavior > System Settings > Synchronization    只勾选第二个：切换到其他窗口的时候（当前窗口没有被激活）保存
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Appearance & Behavior &gt; System Settings &gt; Synchronization    只勾选第二个：切换到其他窗口的时候（当前窗口没有被激活）保存
 

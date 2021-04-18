@@ -1,3 +1,5 @@
+# 1.逻辑梳理与API初探
+
 ## 模块分解-game.js
 
 * 游戏全局的入口文件，是微信小游戏必须有的一个文件
@@ -49,7 +51,6 @@
 ## 使用es6在浏览器里执行
 
 1. 要在script标签上加type='module'
-
 2. import引入文件要加后缀名
 
 ## 工厂方法？
@@ -58,7 +59,7 @@
 
 * 基于es6实现单例模式
 
-```
+```text
 export class Director{
     constructor(){
         console.info('构造器初始化');
@@ -74,21 +75,18 @@ export class Director{
 
 ## drawImage
 
-- 要在图片onLoad之后才能在canvas绘制
+* 要在图片onLoad之后才能在canvas绘制
 
 this.ctx.drawImage = {  
-    image对象，  
-    image的x起始位置，  
-    image的y起始位置，  
-    image.width,  
-    image.height,  
-    放置在画布的位置0,  
-    0，  
-    image.width,      //使用图片的大小
-    image.height  
+image对象，  
+image的x起始位置，  
+image的y起始位置，  
+image.width,  
+image.height,  
+放置在画布的位置0,  
+0，  
+image.width, //使用图片的大小 image.height  
 };
 
 ## 精灵基类，负责初始化精灵加载的资源和大小以及位置
-
-
 

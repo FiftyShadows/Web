@@ -1,14 +1,14 @@
-##变量
+# LESS
 
-```
+## 变量
+
+```text
 @test_width:300px;
-
 ```
 
+## 混合
 
-##混合
-
-```less
+```css
 //混合
 .box{
     width:300px;
@@ -35,14 +35,9 @@
 }
 ```
 
+### 匹配模式
 
-
-
-
-###匹配模式
-
-
-```
+```text
 .triangle(top,@w:5px,@c:#ccc){
     border:@w;
     border-color:color:transparent transparent @c transparent;
@@ -62,17 +57,11 @@
 .sanjiao{
     .triangle(top);
 }
-
 ```
 
+## 运算
 
-
-
-
-
-##运算
-
-```
+```text
 @test1:300px;
 .box{
     width:(@test1-20)*5;
@@ -80,12 +69,9 @@
 }
 ```
 
+## 嵌套规则
 
-
-
-##嵌套规则
-
-```
+```text
 a{
     float:left;
     &:hover{
@@ -94,11 +80,9 @@ a{
 }
 ```
 
+## @arguments变量
 
-
-
-##@arguments变量
-```
+```text
 .border_arg(@w:30px,@c:red,@xx:solid){
     border:@arguments;
 }
@@ -107,12 +91,9 @@ a{
 }
 ```
 
+## 避免编译,!important
 
-
-
-
-##避免编译,!important
-```
+```text
 .test{
     width:~'calc(300px-30px)';
 }
@@ -121,16 +102,12 @@ a{
 }
 ```
 
-
-
-##less.js的使用
+## less.js的使用
 
 需要运行在服务器
 
-```
+```text
 <link rel="stylesheet/less" type="text/css" href="styles.less" />
 <script src="less.js" type="text/javascript"></script>
 ```
-
-
 

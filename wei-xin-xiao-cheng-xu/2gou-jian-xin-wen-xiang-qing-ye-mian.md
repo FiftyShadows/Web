@@ -1,6 +1,8 @@
-##template另一种写法
+# 2.构建新闻详情页面
 
-```
+## template另一种写法
+
+```text
 //post.wxml
 <template is="postItem" data="{{...item}}">
 
@@ -11,10 +13,9 @@
 </tempalte>
 ```
 
+* template标签只是一个占位符，所以不能在template上加事件
 
-- template标签只是一个占位符，所以不能在template上加事件
-
-```
+```text
 //post.wxml
 <block wx:for="{{postList}" wx:for-item="item" wx:for-index="idx">
     <view catchtap="onPostTap" data-postId="{{item.postId}}">
@@ -31,24 +32,16 @@ Page({
 });
 ```
 
+## 样式
 
+* 先静后动，先样式后数据
+* 父级盒子设置了`display: flex;`，子盒子也会变成弹性盒子模型，所以不需要再设置`display: flex;`，只需指定盒子模型的流动方向即可
 
+## 父组件给子组件传递数据：通过点击事件跳转的url里添加参数的形式
 
-##样式
+* app通过webview加载html网页
 
-- 先静后动，先样式后数据
-
-- 父级盒子设置了`display: flex;`，子盒子也会变成弹性盒子模型，所以不需要再设置`display: flex;`，只需指定盒子模型的流动方向即可
-
-
-
-
-
-##父组件给子组件传递数据：通过点击事件跳转的url里添加参数的形式
-
-- app通过webview加载html网页
-
-```
+```text
 //post.js
 Page({
     onTap: function(event){
@@ -71,25 +64,17 @@ Page({
 });
 ```
 
+## 缓存的几个方法
 
-##缓存的几个方法
+* wx.setStorageSync\('key', {}\);
+* wx.getStorageSync\('key'\);
+* wx.removeStorage\('key'\);
+* wx.clearStorageSync\(\);
+* 缓存的上限最大不能超过10M
 
-- wx.setStorageSync('key', {});
+## 收藏功能图片的切换显示
 
-- wx.getStorageSync('key');
-
-- wx.removeStorage('key');
-
-- wx.clearStorageSync();
-
-- 缓存的上限最大不能超过10M
-
-
-
-
-##收藏功能图片的切换显示
-
-```
+```text
 //post-detail.wxml
 <view class="circle-img">
     <image wx:if="{{collected}}" src="xxx"></iamge>
@@ -134,29 +119,21 @@ Page({
 });
 ```
 
+## showToast,showModal,showActionSheet
 
-##showToast,showModal,showActionSheet
+## 同步和异步的选择
 
+* 优先用同步，如果同步解决不了的问题再用异步
+* 需要解耦时，选择异步
 
-##同步和异步的选择
+## 切换图片的两种方式
 
-- 优先用同步，如果同步解决不了的问题再用异步
+* src=""
+* wx:if
 
-- 需要解耦时，选择异步
+## 音乐播放控件
 
-
-
-##切换图片的两种方式
-
-- src="{{isPlaying? '/xx/xx/xx': '/xx/xx/xx'}}"
-
-- wx:if
-
-
-
-##音乐播放控件
-
-```
+```text
 //post-detail.js
 onMusicTap: function(){
     var isPlayingMusic = this.data.isPlayingMusic;
@@ -174,15 +151,12 @@ onMusicTap: function(){
 }
 ```
 
+## 主控开关与音乐播放开关同步
 
+* 事件驱动，在Nodejs，Angular中大量使用，模块与模块之间的松耦合
+* 数据绑定，更好的方便做单元测试
 
-##主控开关与音乐播放开关同步
-
-- 事件驱动，在Nodejs，Angular中大量使用，模块与模块之间的松耦合
-
-- 数据绑定，更好的方便做单元测试
-
-```
+```text
 wx.onBaackgroundAudioPlay(() => {
     this.setData({
         isPlayingMusic: true;
@@ -190,17 +164,12 @@ wx.onBaackgroundAudioPlay(() => {
 });
 ```
 
+## 全局变量
 
+* 利用全局变量，使跳出页面再返回时图片状态保持一致
+* 跳出页面，进入其他页面时的状态
 
-
-
-##全局变量
-
-- 利用全局变量，使跳出页面再返回时图片状态保持一致
-
-- 跳出页面，进入其他页面时的状态
-
-```
+```text
 //app.js
 App({
     globalData: {
@@ -220,10 +189,6 @@ Page({
 });
 ```
 
-
-
-
-- 真机运行时的bug，有可能是没有清除缓存导致的
-
-- template文件里的src路径应该使用绝对路径，使用相对路径无法在其他组件中引用
+* 真机运行时的bug，有可能是没有清除缓存导致的
+* template文件里的src路径应该使用绝对路径，使用相对路径无法在其他组件中引用
 

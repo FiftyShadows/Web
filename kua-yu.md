@@ -1,43 +1,29 @@
+# 跨域
+
 ## 为什么浏览器不支持跨域
 
-- cookie LocalStorage
-
-- DOM元素也有同源策略 iframe
-
-- ajax也不支持跨域
-
-
-
+* cookie LocalStorage
+* DOM元素也有同源策略 iframe
+* ajax也不支持跨域
 
 ## 实现跨域
 
-- jsonp
-
-- cors
-
-- postMessage
-
-- document.domain
-
-- window.name
-
-- location.hash
-
-- http-proxy
-
-- nginx
-
-- websocket
-
-
+* jsonp
+* cors
+* postMessage
+* document.domain
+* window.name
+* location.hash
+* http-proxy
+* nginx
+* websocket
 
 ## jsonp
 
-- 只能发送get请求，不支持post，put，delete
+* 只能发送get请求，不支持post，put，delete
+* 不安全 xss攻击
 
-- 不安全 xss攻击
-
-```html
+```markup
 <script>
     function jsonp({url, params, cb}) {
         return new Promise((resolve, reject) => {
@@ -65,10 +51,9 @@
 </script>
 ```
 
-
 ## cors
 
-```js
+```javascript
 let express = require('express')
 let app = express()
 app.use(express.static(__dirname))
@@ -103,10 +88,9 @@ app.put('/getData', (req, res) => {
 app.listen(4000)
 ```
 
-
 ## postMessage
 
-```html
+```markup
 //a.html    http://localhost:3000/a.html
 <iframe src="http://localhost:4000/b.html" frameborder="0" id="frame" onload="load()"></iframe>
 <script>
@@ -129,11 +113,9 @@ app.listen(4000)
 </script>
 ```
 
-
-
 ## window.name
 
-```
+```text
 //a,b页面同域， c页面不同域window.name = 'xxx'
 
 //a页面iframe指向c页面， c页面onload后修改src, window.name仍保留值
@@ -153,13 +135,11 @@ app.listen(4000)
 </script>
 ```
 
-
-
 ## location.hash
 
-- 路径后面的hash值可以用来通信
+* 路径后面的hash值可以用来通信
 
-```
+```text
 //a,b页面同域， c页面不同域
 //a.html
 <iframe src="http://localhost:4000/c.html#pageA"></iframe>
@@ -182,11 +162,9 @@ app.listen(4000)
 <script>
 ```
 
-
-
 ## document.domain
 
-```
+```text
 //针对不同的子域名a.zf.cn:3000/a.html和b.zf.cn:4000/b.html
 //a.html
 <iframe src="http://b.zf.cn:4000/b.html" id="framme" onload="load()"></iframe>
@@ -204,21 +182,14 @@ app.listen(4000)
 </script>
 ```
 
-
-
 ## websocket
-
-
 
 ## nginx
 
-```
+```text
 location ~.*\.json{
     root json;
     add_header "Access-Control-Allow-Origin" "*"；
 }
 ```
-
-
-
 

@@ -1,5 +1,6 @@
-```javascript
+# 缓动框架的透明度兼容
 
+```javascript
     <button>运动到400然后回来</button>
     <div></div>
 
@@ -89,5 +90,5 @@
 
 
     </script>
-
 ```
+

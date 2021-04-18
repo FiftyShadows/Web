@@ -1,6 +1,8 @@
-##Todo组件
+# React模仿大众点评
 
-```
+## Todo组件
+
+```text
 submitFn(value){
     const id = this.state.todos.length;
     this.setState({
@@ -22,11 +24,9 @@ deleteFn(id){
 }
 ```
 
+## Input组件
 
-
-##Input组件
-
-```
+```text
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 
@@ -67,11 +67,9 @@ class Input extends React.component {
 export default Input;
 ```
 
+## List组件
 
-
-##List组件
-
-```
+```text
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
 
@@ -97,3 +95,4 @@ class List extends React.component {
 
 export default List;
 ```
+

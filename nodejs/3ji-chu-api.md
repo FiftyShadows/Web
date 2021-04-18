@@ -1,8 +1,10 @@
-##path
+# 3.基础API
 
-- normalize()    标准化地址
+## path
 
-```
+* normalize\(\)    标准化地址
+
+```text
 const {normalize} = require('path');
 
 console.log(normalize('C:\Users\LY\Desktop\node'));
@@ -10,29 +12,28 @@ console.log(normalize('C:\Users\LY\..\node'));
 console.log(normalize('/usr//local/bin//main.js'));
 ```
 
-- join()    拼接路径，并标准化（normalize）
+* join\(\)    拼接路径，并标准化（normalize）
 
-```
+```text
 const {join} = require('path');
 
 console.log(join('/usr', 'local', 'bin/'));
 console.log(join('/usr', '../local', 'bin/'));
 ```
 
-- resolve() 相对路径解析成绝对路径
+* resolve\(\) 相对路径解析成绝对路径
 
-```
+```text
 const {resolve} = require('path');
 
 console.log(resolve('./'));
 ```
 
-
-- basename、dirname、extname
+* basename、dirname、extname
 
 文件名、路径、扩展名
 
-```
+```text
 const { basename, dirname, extname } = require('path');
 
 const filePath = 'C:/Users/LY/Desktop/datepicker/data.js';
@@ -44,11 +45,11 @@ console.log(dirname(filePath));
 console.log(extname(filePath));
 ```
 
-- parse、format
+* parse、format
 
-把一个文件名解析成上面的几部分，format反操作，会从一个对象返回一个路径字符串(可用于修改文件名)
+把一个文件名解析成上面的几部分，format反操作，会从一个对象返回一个路径字符串\(可用于修改文件名\)
 
-```
+```text
 const {parse, format} = require('path');
 
 const filePath = '/usr/local/node_modules/n/package.json';
@@ -60,9 +61,9 @@ console.log(ret);
 console.log(format(ret));
 ```
 
-- sep、delimiter、win32、posix
+* sep、delimiter、win32、posix
 
-```
+```text
 const {sep,delimiter,win32,posix} = require('path');
 
 console.log('sep:', sep);
@@ -79,34 +80,27 @@ console.log('posix delimiter:', posix.delimiter);
 // Files\Git\cmd; C: \Program Files\nodejs\; C: \Users\LY\AppData\Local\Microsoft\WindowsApps;; C: \Program Files\Microsoft VS Code\bin; C: \Users\LY\AppData\Roaming\npm
 // delimiter: ;
 // posix delimiter: :
-
 ```
- 
-- __dirname、process.cwd()、path.resolve('./')区别
+
+* \_\_dirname、process.cwd\(\)、path.resolve\('./'\)区别
 
 `__dirname、__filename`总是返回文件的绝对路径
 
-process.cwd()总是返回执行node命令所在的文件夹
+process.cwd\(\)总是返回执行node命令所在的文件夹
 
 `./`在resolve方法中总是相对当前文件所在文件夹
 
-在其他地方和process.cwd()一样，相对node启动文件夹
+在其他地方和process.cwd\(\)一样，相对node启动文件夹
 
+## Buffer
 
+* Buffer用于处理二进制数据流
+* 实例类似整数数组，大小固定
+* C++代码在V8堆外分配物理内存
 
+### 创建Buffer
 
-##Buffer
-
-- Buffer用于处理二进制数据流
-
-- 实例类似整数数组，大小固定
-
-- C++代码在V8堆外分配物理内存
-
-
-####创建Buffer
-
-```
+```text
 console.log(Buffer.alloc(10));
 console.log(Buffer.alloc(20));
 console.log(Buffer.alloc(5, 1));
@@ -115,12 +109,11 @@ console.log(Buffer.allocUnsafe(10));
 console.log(Buffer.from([1, 2, 3]));
 console.log(Buffer.from('test'));
 console.log(Buffer.from('test', 'base64'));
-
 ```
 
-- Buffer类的常用方法
+* Buffer类的常用方法
 
-```
+```text
 /*
 Buffer.byteLength
 Buffer.isBuffer()
@@ -142,9 +135,9 @@ const buf = Buffer.concat([buf1, buf2, buf3, buf4, buf5]);
 console.log(buf.toString());
 ```
 
-- 实例的常用方法
+* 实例的常用方法
 
-```
+```text
 /*
 buf.length
 buf.toString()
@@ -176,7 +169,5 @@ console.log(buf5.indexOf('es'));
 console.log(buf5.indexOf('esa'));
 ```
 
-
-- 中文乱码问题
-
+* 中文乱码问题
 

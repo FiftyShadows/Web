@@ -1,3 +1,5 @@
+# 滑动焦点图
+
 ```javascript
 <!doctype html>
 <html lang="en">
@@ -86,7 +88,7 @@
                     animate(ul,-this.index*imgWidth);
                 }
             }
-            
+
             //5.添加定时器
             var timer = setInterval(autoPlay,1000);
 
@@ -189,5 +191,5 @@
 </div>
 </body>
 </html>
-
 ```
+

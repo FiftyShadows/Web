@@ -1,6 +1,6 @@
-#  自适应布局
+# 移动端开发
 
-```
+```text
 (function(c, d) {
   var e = document.documentElement || document.body,
     a = "orientationchange" in window ? "orientationchange" : "resize",
@@ -12,3 +12,4 @@
   c.addEventListener(a, b, false);
 })(window);
 ```
+

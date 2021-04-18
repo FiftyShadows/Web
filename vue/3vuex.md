@@ -1,3 +1,4 @@
-##  vuex mutations方法里不可以改变原始对象
+# 3.vuex
 
-- state = { ...state, ...payload.data}    不生效
+* state = { ...state, ...payload.data}    不生效
+

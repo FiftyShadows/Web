@@ -1,17 +1,15 @@
+# 方法
+
 ## 控制台copy函数
 
-- 复制内容到粘贴板
-
-- https://developer.mozilla.org/zh-CN/docs/Web/API/Document/execCommand
-
-
-
+* 复制内容到粘贴板
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Document/execCommand](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/execCommand)
 
 ## 连续赋值操作
 
-- 从右至左永远只取等号右边的表达式结果赋值到等号左侧
+* 从右至左永远只取等号右边的表达式结果赋值到等号左侧
 
-```
+```text
 var a = {n:1};
 var b = a;
 a.x = a = {n:2};
@@ -31,40 +29,28 @@ console.log(b.x);
 6、所以就有了文章开头的运行结果，再执行a.x，自然就是undefined了
 ```
 
-
-
 ## 通过debounce控制表单onChange的出发频率
 
-```
+```text
 import debounce from 'lodash.debounce';
 this.handleDebounceChange = debounce(this.handleDebounceChange.bind(this), 500);
 ```
 
-
-
 ## 鼠标选中文字
 
-- window.getSelection()
-
-- ::selection
-
-
+* window.getSelection\(\)
+* ::selection
 
 ## 字符串的增删改查
 
-- 增concat()  用于字符串的拼接，返回连接后的字符串，而原字符串不受影
-
-- 删substr()  第二个参数是裁剪长度，只要为负，裁剪结果必定是空字符串，不影响原字符串   trimLeft()和trimRight()
-
-- 改replace()  split()
-
-- 查charAt()  indexOf()
-
-
+* 增concat\(\) 用于字符串的拼接，返回连接后的字符串，而原字符串不受影
+* 删substr\(\) 第二个参数是裁剪长度，只要为负，裁剪结果必定是空字符串，不影响原字符串 trimLeft\(\)和trimRight\(\)
+* 改replace\(\) split\(\)
+* 查charAt\(\) indexOf\(\)
 
 ## 闰年
 
-```
+```text
 isLeapYear(){
   const year = new Date().getFullYear();
   if(year % 400 === 0){
@@ -79,11 +65,9 @@ isLeapYear(){
 }
 ```
 
-
-
 ## 计算今年过去了多少天
 
-```
+```text
 days() {
     let start = new Date();
     start.setMonth(0);
@@ -93,87 +77,55 @@ days() {
 }
 ```
 
+## innerHTML、innerText、textCentent区别
 
+* innerHTML能够解析标签，其他不能会把标签显示在页面上
 
-
-
-##innerHTML、innerText、textCentent区别
-
-- innerHTML能够解析标签，其他不能会把标签显示在页面上
-
-
-
-
-##随机获取5位字符串
+## 随机获取5位字符串
 
 `Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5)`
 
-
-
-##in关键字的用法
+## in关键字的用法
 
 1. 最常用的是在for in 循环中遍历对象的键
 
+## window.innerWidth
 
-
-##window.innerWidth
-
-
-
-
-##this本身表示函数运行时自动生成的内部对象，只能在函数内部使用，随着函数使用场合的不同，this的值会发生变化。总的原则：this指得是调用函数的对象。
+## this本身表示函数运行时自动生成的内部对象，只能在函数内部使用，随着函数使用场合的不同，this的值会发生变化。总的原则：this指得是调用函数的对象。
 
 1. 当其出现在setTimeout的函数参数中时，函数参数是一个纯粹的函数调用，并不隶属于哪个对象，属于全局调用，这种情况下this指的是全局对象global。
-
 2. 当this出现在对象的函数中时，this指的是对象。
-
 3. 在构造函数中，指的是new生成的空对象。
-
 4. apply,call,bind方法中的第一个参数。
 
+## try catch finally
 
+* catch子句包含try块中抛出异常时要执行的语句。也就是，你想让try语句中的内容成功， 如果没成功，你想控制接下来发生的事情，这时你可以在catch语句中实现。 如果有在try块中有任何一个语句（或者从try块中调用的函数）抛出异常，控制立即转向catch子句。如果在try块中没有异常抛出，会跳过catch子句。
+* finally子句在try块和catch块之后执行但是在下一个try声明之前执行。无论是否有异常抛出或着是否被捕获它总是执行。
 
+## encodeURIComponent
 
-##try catch finally
+* encodeURIComponent 转义除了字母、数字、\(、\)、.、!、~、\*、'、-和\_之外的所有字符。
+* 为了避免服务器收到不可预知的请求，对任何用户输入的作为URI部分的内容你都需要用encodeURIComponent进行转义。比如，一个用户可能会输入"Thyme &time=again"作为comment变量的一部分。如果不使用encodeURIComponent对此内容进行转义，服务器得到的将是comment=Thyme%20&time=again。请注意，"&"符号和"="符号产生了一个新的键值对，所以服务器得到两个键值对（一个键值对是comment=Thyme，另一个则是time=again），而不是一个键值对。
 
-- catch子句包含try块中抛出异常时要执行的语句。也就是，你想让try语句中的内容成功， 如果没成功，你想控制接下来发生的事情，这时你可以在catch语句中实现。 如果有在try块中有任何一个语句（或者从try块中调用的函数）抛出异常，控制立即转向catch子句。如果在try块中没有异常抛出，会跳过catch子句。
+## ele.getBoundingClientRect\(\)
 
-- finally子句在try块和catch块之后执行但是在下一个try声明之前执行。无论是否有异常抛出或着是否被捕获它总是执行。
+* 返回值是一个DOMRect对象，DOMRect 对象包含了一组用于描述边框的只读属性——left、top、right和bottom，单位为像素。除了 width 和 height 外的属性都是相对于视口的左上角位置而言的。
+* 跟window.scroll.height组成加载更多组件，`window.scroll.height> ele.getBoundingClientRect().top`
 
+![](../.gitbook/assets/rect.png)
 
+## Object.create\(proto\[, propertiesObject\]\)
 
+* Object.create\(\) 方法会使用指定的原型对象及其属性去创建一个新的对象。
 
-##encodeURIComponent
-
-- encodeURIComponent 转义除了字母、数字、(、)、.、!、~、*、'、-和_之外的所有字符。
-
-- 为了避免服务器收到不可预知的请求，对任何用户输入的作为URI部分的内容你都需要用encodeURIComponent进行转义。比如，一个用户可能会输入"Thyme &time=again"作为comment变量的一部分。如果不使用encodeURIComponent对此内容进行转义，服务器得到的将是comment=Thyme%20&time=again。请注意，"&"符号和"="符号产生了一个新的键值对，所以服务器得到两个键值对（一个键值对是comment=Thyme，另一个则是time=again），而不是一个键值对。
-
-
-
-
-##ele.getBoundingClientRect()
-
-- 返回值是一个DOMRect对象，DOMRect 对象包含了一组用于描述边框的只读属性——left、top、right和bottom，单位为像素。除了 width 和 height 外的属性都是相对于视口的左上角位置而言的。
-
-- 跟window.scroll.height组成加载更多组件，`window.scroll.height> ele.getBoundingClientRect().top`
-
-![](/assets/rect.png)
-
-
-
-
-##Object.create(proto[, propertiesObject])
-
-- Object.create() 方法会使用指定的原型对象及其属性去创建一个新的对象。
-
-```js
+```javascript
 var p = {x: 1, y: 2};
 var tmp = Object.create(p);
 console.log('tmp.__proto__ === p ?', tmp.__proto__ === p);  //true
 ```
 
-```js
+```javascript
 // Shape - 父类(superclass)
 function Shape() {
   this.x = 0;
@@ -209,13 +161,11 @@ console.log('Is rect an instance of Shape?',
 rect.move(1, 1); // Outputs, 'Shape moved.'
 ```
 
+## instanceof
 
+* instanceof 运算符用来测试一个对象在其原型链中是否存在一个构造函数的 prototype 属性。换言之也就是判断一个实体是不是某个构造函数的实体
 
-##instanceof
-
-- instanceof 运算符用来测试一个对象在其原型链中是否存在一个构造函数的 prototype 属性。换言之也就是判断一个实体是不是某个构造函数的实体
-
-```
+```text
 function People(){
   this.name = 'sun';
   this.id = 1;
@@ -232,19 +182,14 @@ console.log(tmp instanceof Object);  //true
 console.log(tmp instanceof Object);  //false
 ```
 
+## Object.assign\(\)
 
+* Object.assign\(\) 方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象。
+* 深浅拷贝问题：针对深拷贝，需要使用其他方法，因为 Object.assign\(\)拷贝的是属性值。假如源对象的属性值是一个指向对象的引用，它也只拷贝那个引用值。
+* 继承属性和不可枚举属性是不能拷贝的
+* 原始类型会被包装为对象
 
-##Object.assign()
-
-- Object.assign() 方法用于将所有可枚举属性的值从一个或多个源对象复制到目标对象。它将返回目标对象。
-
-- 深浅拷贝问题：针对深拷贝，需要使用其他方法，因为 Object.assign()拷贝的是属性值。假如源对象的属性值是一个指向对象的引用，它也只拷贝那个引用值。
-
-- 继承属性和不可枚举属性是不能拷贝的
-
-- 原始类型会被包装为对象
-
-```js
+```javascript
 //Deep Clone
 obj1 = { a: 0 , b: { c: 0}};
 let obj3 = JSON.parse(JSON.stringify(obj1));
@@ -253,24 +198,17 @@ obj1.b.c = 4;
 console.log(JSON.stringify(obj3));  // { a: 0, b: { c: 0}};
 ```
 
+## Location.replace
 
+Location.replace\(\)方法以给定的URL来替换当前的资源。 与assign\(\) 方法 不同的是调用replace\(\)方法后，当前页面不会保存到会话历史中（session History），这样用户点击回退按钮将不会再跳转到该页面。
 
-##Location.replace
-
-Location.replace()方法以给定的URL来替换当前的资源。 与assign() 方法 不同的是调用replace()方法后，当前页面不会保存到会话历史中（session History），这样用户点击回退按钮将不会再跳转到该页面。
-
-
-
-
-##window.onresize
+## window.onresize
 
 onresize属性可以用来获取或设置当前窗口的resize事件的事件处理函数。
 
+## 回到顶部
 
-
-##回到顶部
-
-```js
+```javascript
   var topBtn = document.querySelector('.float-nav .top');
   topBtn.addEventListener(
     'click',
@@ -281,12 +219,9 @@ onresize属性可以用来获取或设置当前窗口的resize事件的事件处
   );
 ```
 
+## 判断页面大小并重定向
 
-
-
-##判断页面大小并重定向
-
-```
+```text
 (function() {
   // mobile redirect
   function detectmob() {
@@ -307,26 +242,13 @@ onresize属性可以用来获取或设置当前窗口的resize事件的事件处
 )()
 ```
 
+## Array.prototype.push\(\)方法将一个或多个元素添加到数组的末尾，并返回新数组的长度
 
+## for in遍历的是数组的索引（即键名），而for of遍历的是数组元素值。
 
+## 数字保留小数位数
 
-##Array.prototype.push()方法将一个或多个元素添加到数组的末尾，并返回新数组的长度
-
-
-
-##for in遍历的是数组的索引（即键名），而for of遍历的是数组元素值。
-
-
-
-##数字保留小数位数
-
-- num.toFixed(2)保留两位小数
-
-- Math.floor(15.7784514000 * 100) / 100 
-
-- Number(15.7784514000.toString().match(/^\d+(?:\.\d{0,2})?/)) 
-
-
-
-
+* num.toFixed\(2\)保留两位小数
+* Math.floor\(15.7784514000 \* 100\) / 100
+* Number\(15.7784514000.toString\(\).match\(/^\d+\(?:.\d{0,2}\)?/\)\)
 

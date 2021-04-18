@@ -1,17 +1,14 @@
-##sublime安装 SublimeLinter
+# SublimeLinter
 
+## sublime安装 SublimeLinter
 
-##js语法检查
+## js语法检查
 
 1. sublime安装 SublimeLinter-jshint
-
 2. npm安装 jshint
 
-##css
+## css
 
 1. sublime安装 SublimeLinter-csslint
-
-2. npm安装 csslint 
-
-
+2. npm安装 csslint
 

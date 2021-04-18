@@ -1,86 +1,71 @@
-23中设计模式，5个设计原则(开放封闭原则)
+# Introduction
+
+23中设计模式，5个设计原则\(开放封闭原则\)
 
 curl -X POST --data "name=Jack" 127.0.0.1:3000
 
+### 你总是这样轻言放弃的话，无论过多久都只会原地踏步。
 
-##你总是这样轻言放弃的话，无论过多久都只会原地踏步。
+### 纵使秋风起,人生不言弃。
 
-##纵使秋风起,人生不言弃。
+### 黑客与画家
 
-##黑客与画家
+### 1、不管知识新、项目难，来了就得上。2、借助外力。3、积极要求进步当三八红旗手。
 
-##1、不管知识新、项目难，来了就得上。2、借助外力。3、积极要求进步当三八红旗手。
+### 罐头是1810发明出来的，可是开罐器呢，却在1858年才发明出来。有时就是这样，重要的东西可能迟来一步，但却一定会到。生活和爱情，都是如此。程序，当然也不例外。
 
-##罐头是1810发明出来的，可是开罐器呢，却在1858年才发明出来。有时就是这样，重要的东西可能迟来一步，但却一定会到。生活和爱情，都是如此。程序，当然也不例外。
+### 单词
 
-##单词
+* slice vt.切成片; 切下; 划分
+* splice vt. 胶接; 粘接
+* split vt.分裂; 分开;
 
-- slice    vt.切成片; 切下; 划分
+### VSCode添加后缀名扩展
 
-- splice    vt. 胶接; 粘接
+* C:\Program Files\Microsoft VS Code\resources\app\extensions\css
 
-- split    vt.分裂; 分开;
+## 顶级标题
 
+### 次级标题
 
-##VSCode添加后缀名扩展
+#### 次次级标题
 
-- C:\Program Files\Microsoft VS Code\resources\app\extensions\css
-
-
-#顶级标题
-
-##次级标题
-
-###次次级标题
-
-
-
-- 列表项1
-- 列表项1
-- 列表项1
-- 列表项1
-
+* 列表项1
+* 列表项1
+* 列表项1
+* 列表项1
 * 第一个
 * 第二个
 * 第三个
-    * 次级
-        * 次次级
-        
-        
-1. first
-1. second
-1. third
+  * 次级
+    * 次次级
 
->引用的一段名言
+1. first
+2. second
+3. third
+
+> 引用的一段名言
 
 [百度](http://www.baidu.com)
 
-![这是一张图片](https://www.baidu.com/img/bd_logo1.png)
+![&#x8FD9;&#x662F;&#x4E00;&#x5F20;&#x56FE;&#x7247;](https://www.baidu.com/img/bd_logo1.png)
 
-国务院总理 *李克强8月30日主持召开* 国务院常务会议，决定推广一批具备复制条件的 **支持创新改革举措** ，为创新发展营造更好环境；确定促进健康服务业发展的措施， ***满足群众需求*** 、提高健康水平。
+国务院总理 _李克强8月30日主持召开_ 国务院常务会议，决定推广一批具备复制条件的 **支持创新改革举措** ，为创新发展营造更好环境；确定促进健康服务业发展的措施， _**满足群众需求**_ 、提高健康水平。
 
+## 表格
 
-
-# 表格
-
-|表格1|表格2表格2表格2表格2|表格3表格3表格3表格3|
-|---|:---:|---:|
+| 表格1 | 表格2表格2表格2表格2 | 表格3表格3表格3表格3 |
+| :--- | :---: | ---: |
 | aaa | 123 | 654 |
 | bbb | 456 | 789 |
 
-
-
-
-
-***
 * 单行代码
-这是一行代码`hello everybody!`哟
 
+  这是一行代码`hello everybody!`哟
 
 * 多行代码
 
 ```javascript
-
     function animate(ele,target){
         //清除定时器
         clearInterval(ele.timer);
@@ -100,27 +85,16 @@ curl -X POST --data "name=Jack" 127.0.0.1:3000
             }
         },30);
     }
-
 ```
 
+你好
 
-<i>你好</i>
+1. nihao nihao
+2. nihao
 
-
-1. nihao
-nihao
-
-1. nihao
-
-
-
-GitBook本地保存位置
-C:\Users\Administrator\GitBook\Library\Import\qian_duan
-
+GitBook本地保存位置 C:\Users\Administrator\GitBook\Library\Import\qian\_duan
 
 EPLLY
-
-
 
 javascript框架设计第二版
 
@@ -128,22 +102,17 @@ iview
 
 数据结构与算法
 
-程序世界    松本行弘
+程序世界 松本行弘
 
-css世界    css揭秘
+css世界 css揭秘
 
 深入React技术栈
 
+## mac
 
+1、装一个 iTerm2 + oh my zsh 了解一下快捷键和常用功能，爽的飞起
 
-
-# mac
-
-1、装一个 iTerm2 + oh my zsh  了解一下快捷键和常用功能，爽的飞起
-
-2、brew$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2、brew$ /usr/bin/ruby -e "$\(curl -fsSL [https://raw.githubusercontent.com/Homebrew/install/master/install](https://raw.githubusercontent.com/Homebrew/install/master/install)\)"
 
 3、好玩的话，装一个the fuck吧，不要想多了，纠错用的哈哈哈哈
-
-
 

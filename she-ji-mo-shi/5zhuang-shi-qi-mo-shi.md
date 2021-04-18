@@ -1,14 +1,13 @@
+# 5.装饰器模式
+
 ## 介绍
 
-- 为对象添加新功能
+* 为对象添加新功能
+* 不改变其原有的结构和功能
 
-- 不改变其原有的结构和功能
+![](../.gitbook/assets/微信截图_20181007153546.png)
 
-
-![](/assets/微信截图_20181007153546.png)
-
-
-```js
+```javascript
 class Circle{
     draw(){
         console.info('画一个圆形')
@@ -36,16 +35,12 @@ let dec = new Decorator(circle)
 dec.draw()
 ```
 
-
-
 ## 场景
 
-- ES7装饰器
+* ES7装饰器
+* core-decorators
 
-- core-decorators
-
-
-```js
+```javascript
 class Math{
     @log
     add(a, b){
@@ -67,25 +62,8 @@ const result = math.add(2, 4)
 console.log('result', result)
 ```
 
-
-
 ## 设计原则验证
 
-- 将现有对象和装饰器进行分离，两者独立存在
-
-- 符合开放封闭原则
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* 将现有对象和装饰器进行分离，两者独立存在
+* 符合开放封闭原则
 

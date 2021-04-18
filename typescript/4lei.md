@@ -1,28 +1,18 @@
-##类
+# 4.类
 
+### 类
 
+### 继承
 
-
-##继承
-
-
-
-
-##readonly修饰符
+### readonly修饰符
 
 可以使用 readonly关键字将属性设置为只读的。 只读属性必须在声明时或构造函数里被初始化。
 
-
-
-
-##参数属性
+### 参数属性
 
 参数属性可以方便地让我们在一个地方定义并初始化一个成员。
 
-
-
-
-##存取器
+### 存取器
 
 TypeScript支持通过getters/setters来截取对对象成员的访问。 它能帮助你有效的控制对对象成员的访问。
 
@@ -55,15 +45,11 @@ if (employee.fullName) {
 
 **首先，存取器要求你将编译器设置为输出ECMAScript 5或更高。 不支持降级到ECMAScript 3。 其次，只带有 get不带有 set的存取器自动被推断为 readonly。 这在从代码生成 .d.ts文件时是有帮助的，因为利用这个属性的用户会看到不允许够改变它的值。**
 
-
-
-
-
-##静态属性
+### 静态属性
 
 在这个例子里，我们使用 static定义 origin，因为它是所有网格都会用到的属性。 每个实例想要访问这个属性的时候，都要在 origin前面加上类名。 如同在实例属性上使用 this.前缀来访问属性一样，这里我们使用 Grid.来访问静态属性。
 
-```
+```text
 class Grid {
     static origin = {x: 0, y: 0};
     calculateDistanceFromOrigin(point: {x: number; y: number;}) {
@@ -81,14 +67,11 @@ console.log(grid1.calculateDistanceFromOrigin({x: 10, y: 10}));
 console.log(grid2.calculateDistanceFromOrigin({x: 10, y: 10}));
 ```
 
-
-
-
-##抽象类
+### 抽象类
 
 抽象类做为其它派生类的基类使用。 它们一般不会直接被实例化。 不同于接口，抽象类可以包含成员的实现细节。 abstract关键字是用于定义抽象类和在抽象类内部定义抽象方法。
 
-```
+```text
 abstract class Animal {
     abstract makeSound(): void;
     move(): void {
@@ -135,16 +118,13 @@ department.printMeeting();
 department.generateReports(); // 错误: 方法在声明的抽象类中不存在
 ```
 
+## 高级技巧
 
-
-
-#高级技巧
-
-##构造函数
+### 构造函数
 
 构造函数也包含了类的所有静态属性。 换个角度说，我们可以认为类具有 实例部分与 静态部分这两个部分。
 
-```
+```text
 class Greeter {
     static standardGreeting = "Hello, there";
     greeting: string;
@@ -170,12 +150,11 @@ let greeter2: Greeter = new greeterMaker();
 console.log(greeter2.greet());
 ```
 
-
-##把类当做接口使用
+### 把类当做接口使用
 
 如上一节里所讲的，类定义会创建两个东西：类的实例类型和一个构造函数。 因为类可以创建出类型，所以你能够在允许使用接口的地方使用类。
 
-```
+```text
 class Point {
     x: number;
     y: number;
@@ -187,60 +166,4 @@ interface Point3d extends Point {
 
 let point3d: Point3d = {x: 1, y: 2, z: 3};
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

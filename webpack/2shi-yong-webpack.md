@@ -1,51 +1,35 @@
-##打包JS
+# 2.使用Webpack
 
-- webpack entry <entry> output
+## 打包JS
 
-- webpack --config webpack.conf.js
+* webpack entry  output
+* webpack --config webpack.conf.js
 
+## 编译ES6/7
 
-##编译ES6/7
+* Babel
+* Babel-presets
+* Babel-plugin
 
-- Babel
+## Babel
 
-- Babel-presets
+* Babel-loader
+* babeljs.io
+* npm i babel-loader@8.0.0-beta.0 @babel/core
+* npm i babel-loader babel-core -D
 
-- Babel-plugin
+## Babel Presets    针对语法
 
+* es2015
+* es2016
+* es2017
+* env
+* babel-preset-react
+* babel-preset-stage 0 - 3
+* npm i @babel/preset-env -D
+* npm i babel-preset-env -D
 
-
-##Babel
-
-- Babel-loader
-
-- babeljs.io
-
-- npm i babel-loader@8.0.0-beta.0 @babel/core
-
-- npm i babel-loader babel-core -D
-
-
-
-##Babel Presets    针对语法
-
-- es2015
-
-- es2016
-
-- es2017
-
-- env
-
-- babel-preset-react
-
-- babel-preset-stage 0 - 3
-
-- npm i @babel/preset-env -D
-
-- npm i babel-preset-env -D
-
-```
+```text
 module: {
         rules: [
             {
@@ -68,124 +52,73 @@ module: {
     }
 ```
 
+## 针对函数和方法
 
-##针对函数和方法
+* Generator
+* Set
+* Map
+* Array.from
+* Array.prototype.includes
 
-- Generator
+## Babel Polyfill
 
-- Set
+* 全局垫片
+* 为应用准备
+* npm i babel-polyfill -S
+* import "babel-polyfill"
 
-- Map
+## Babel Runtime Transform
 
-- Array.from
+* 局部垫片
+* 为开发框架准备
+* npm i babel-plugin-transform-runtime -D
+* npm i babel-runtime -S
+* .babelrc
 
-- Array.prototype.includes
+![](../.gitbook/assets/360截图20180208213230459.jpg)
 
+## typescript-loader
 
-##Babel Polyfill
+* 安装
+  * npm i typescript ts-loader -D
+  * npm i typescript awesome-typescript-loader -D
+* 配置
+  * tsconfig.json
+  * webpack.config.js
 
-- 全局垫片
+## tsconfig
 
-- 为应用准备
+* 配置选项
+  * 官网/docs/handbook/compiler-options.html
+* 常用选项
+  * compilerOptions
+  * include
+  * exclude
 
-- npm i babel-polyfill -S
+## 声明文件
 
-- import "babel-polyfill"
+* npm i @types/lodash -D
+* npm i @types/vue -D
 
+## Typings
 
+* npm i typings -g
+* typings i lodash -D
 
-##Babel Runtime Transform
+![](../.gitbook/assets/360截图20180208212552725.jpg)
 
-- 局部垫片
+## 提取公用代码
 
-- 为开发框架准备
+* 减少代码冗余
+* 提高用户加载速度
 
-- npm i babel-plugin-transform-runtime -D
+## CommonsChunkPlugin
 
-- npm i babel-runtime -S
+* webpack.optimize.CommonsChunkPlugin
 
-- .babelrc
+## 配置
 
-![](/assets/360截图20180208213230459.jpg)
-
-
-
-
-
-
-
-
-##typescript-loader
-
-- 安装
-
-    - npm i typescript ts-loader -D
-    
-    - npm i typescript awesome-typescript-loader -D
-    
-- 配置
-
-    - tsconfig.json
-    
-    - webpack.config.js
-    
-
-##tsconfig
-
-- 配置选项
-
-    - 官网/docs/handbook/compiler-options.html
-    
-- 常用选项
-
-    - compilerOptions
-    
-    - include
-    
-    - exclude
-    
-
-##声明文件
-
-- npm i @types/lodash -D
-
-- npm i @types/vue -D
-
-
-##Typings
-
-- npm i typings -g
-
-- typings i lodash -D
-
-![](/assets/360截图20180208212552725.jpg)
-
-
-
-
-
-
-
-
-
-
-
-
-##提取公用代码
-
-- 减少代码冗余
-
-- 提高用户加载速度
-
-
-##CommonsChunkPlugin
-
-- webpack.optimize.CommonsChunkPlugin
-
-
-##配置
-
-```
+```text
 {
     plugins: [
         new webpack.optimize.CommonsChunkPlugin(option)
@@ -193,24 +126,15 @@ module: {
 }
 ```
 
-- options.name or options.names
+* options.name or options.names
+* options.filename
+* options.minChunks
+* options.chunks
+* options.children
+* options.deepChildren
+* options.async
+* 场景
+  * 单页应用
+  * 单页应用 + 第三方依赖
+  * 多页应用 + 第三方依赖 + webpack生成代码
 
-- options.filename
-
-- options.minChunks
-
-- options.chunks
-
-- options.children
-
-- options.deepChildren
-
-- options.async
-
-- 场景
-
-    - 单页应用
-    
-    - 单页应用 + 第三方依赖
-    
-    - 多页应用 + 第三方依赖 + webpack生成代码

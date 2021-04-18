@@ -1,14 +1,13 @@
+# 6.代理模式
+
 ## 介绍
 
-- 使用者无权访问目标对象
+* 使用者无权访问目标对象
+* 中间加代理，通过代理做授权和控制
 
-- 中间加代理，通过代理做授权和控制
+![](../.gitbook/assets/微信截图_20181007184934.png)
 
-
-![](/assets/微信截图_20181007184934.png)
-
-
-```js
+```javascript
 class RealImg{
     constructor(fileName){
         this.fileName = fileName
@@ -36,11 +35,9 @@ let prixyImg = new ProxyImg('1.png')
 proxyImg.display()
 ```
 
-
-
 ## $.proxy
 
-```js
+```javascript
 $('#div1').click(function (){
     setTimeout($.proxy(function (){
         $(this).css('background-color', 'yellow')
@@ -48,9 +45,7 @@ $('#div1').click(function (){
 })
 ```
 
-
-
-```
+```text
 //明星
 let star = {
     name: 'xxx',
@@ -89,29 +84,20 @@ console.log(agent.price)
 agent.customPrice = 150000
 ```
 
-
-
 ## 设计原则验证
 
-- 代理类和目标类分离，隔离开目标类和使用者
-
-- 符合开放封闭原则
-
+* 代理类和目标类分离，隔离开目标类和使用者
+* 符合开放封闭原则
 
 ## 代理模式vs适配器模式
 
-- 适配器模式： 提供一个不同的接口（如不同版本的插头）
-
-    - 不能使用
-
-- 代理模式： 提供一模一样的接口
-
-    - 无权使用
-    
-
+* 适配器模式： 提供一个不同的接口（如不同版本的插头）
+  * 不能使用
+* 代理模式： 提供一模一样的接口
+  * 无权使用
 
 ## 代理模式vs装饰器模式
 
-- 装饰器模式： 扩展功能，原有功能不变且可直接使用
+* 装饰器模式： 扩展功能，原有功能不变且可直接使用
+* 代理模式： 显示原有功能，但是经过限制或者阉割之后的
 
-- 代理模式： 显示原有功能，但是经过限制或者阉割之后的

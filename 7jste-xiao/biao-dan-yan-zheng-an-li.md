@@ -1,4 +1,6 @@
-```html
+# 表单验证案例
+
+```markup
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,7 +36,7 @@
     .wrong {
         color: red;
         background: url(images/error.png) no-repeat;
-        
+
     }
 
     .right {
@@ -202,5 +204,5 @@
     </div>
 </body>
 </html>
-
 ```
+

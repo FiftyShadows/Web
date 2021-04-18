@@ -1,38 +1,40 @@
-china-division    中国省市区
+# Node包
 
-g2    g2-react    数据可视化
+china-division 中国省市区
 
-Immutable    数据不可变
+g2 g2-react 数据可视化
 
-JSZip    js压缩
+Immutable 数据不可变
 
-lie    promise垫片
+JSZip js压缩
 
-moment    日期处理类库
+lie promise垫片
 
-prop-types    对组件的props中的变量进行类型检测;http://www.css88.com/react/docs/typechecking-with-proptypes.html
+moment 日期处理类库
 
-qrcode.react    二维码生成
+prop-types 对组件的props中的变量进行类型检测;[http://www.css88.com/react/docs/typechecking-with-proptypes.html](http://www.css88.com/react/docs/typechecking-with-proptypes.html)
 
-qs    字符串转对象和对象转字符串
+qrcode.react 二维码生成
 
-React DnD    react高阶组件，拖拽
+qs 字符串转对象和对象转字符串
 
-react-color    选取颜色
+React DnD react高阶组件，拖拽
 
-react-draggable    元素可拖拽
+react-color 选取颜色
 
-react-media    css媒体查询组件
+react-draggable 元素可拖拽
 
-react-responsive    响应式设计的媒体查询模块
+react-media css媒体查询组件
 
-react-virtualized    有效的渲染大的列表和表格数据
+react-responsive 响应式设计的媒体查询模块
 
-recharts    图表库
+react-virtualized 有效的渲染大的列表和表格数据
 
-reqwest    发送请求
+recharts 图表库
 
-rc-animate    动画
+reqwest 发送请求
+
+rc-animate 动画
 
 rc-banner-anim
 
@@ -44,20 +46,14 @@ rc-scroll-anim
 
 rc-tween-one
 
-pm2    一个带有负载均衡功能的Node应用的进程管理器
+pm2 一个带有负载均衡功能的Node应用的进程管理器
 
-    - pm2 start server.js
-    
-    - pm2 list
-    
-    - pm2 show server
-    
-    - pm2 stop server
-    
-    - pm2 logs
-    
-    - pm2 restart server
-
+* pm2 start server.js
+* pm2 list
+* pm2 show server
+* pm2 stop server
+* pm2 logs
+* pm2 restart server
 
 curl
 
@@ -67,31 +63,19 @@ react.qrcode
 
 moment
 
-live-server    修改文件浏览器自动刷新
+live-server 修改文件浏览器自动刷新
 
-json-server    数据mock
+json-server 数据mock
 
 http-server
 
-cross-env    能跨平台地设置及使用环境变量
+cross-env 能跨平台地设置及使用环境变量
 
 react-sticky 组件实现吸顶效果
 
-react-beautiful-dnd    拖拽效果
+react-beautiful-dnd 拖拽效果
 
-react-image-lightbox    图片滑动和缩放
+react-image-lightbox 图片滑动和缩放
 
-jQuery.print    局部打印
-
-
-
-
-
-
-
-
-
-
-
-
+jQuery.print 局部打印
 

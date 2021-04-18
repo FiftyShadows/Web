@@ -1,8 +1,6 @@
-## Another difference is that you cannot return false to prevent default behavior in React. You must call preventDefault explicitly.
+# 各种鼠标事件的屏蔽
 
-
-
-```
+```text
 //屏蔽右键菜单  
 document.oncontextmenu = function (event){  
     if(window.event){  
@@ -102,5 +100,6 @@ document.addEventListener("touchmove", preventBehavior, false);
 //在IOS 上会有问题的，这个时候你会发现input 框无法正在输入了内容
 input {      
     -webkit-user-select:auto; /*webkit浏览器*/     
-}  
+}
 ```
+

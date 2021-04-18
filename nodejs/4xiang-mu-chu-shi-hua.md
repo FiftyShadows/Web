@@ -1,26 +1,20 @@
-##.gitignore
+# 4.项目初始化
 
-- 匹配模式前/    代表项目根目录
+## .gitignore
 
-- 匹配模式最后加/    代表是目录
+* 匹配模式前/ 代表项目根目录
+* 匹配模式最后加/ 代表是目录
+* 匹配模式前加! 代表取反
+* \*代表任意个字符
+* ?匹配任意一个字符
+* \*\*匹配多级目录
 
-- 匹配模式前加!    代表取反
+## .editorconfig代码规约
 
-- *代表任意个字符
+* 安装editorconfig插件
+* 配置editorconfig
 
-- ?匹配任意一个字符
-
-- **匹配多级目录
-
-
-
-##.editorconfig代码规约
-
-- 安装editorconfig插件
-
-- 配置editorconfig
-
-```
+```text
 # EditorConfig is awesome: http://EditorConfig.org
 
 # top-most EditorConfig file
@@ -40,28 +34,18 @@ trim_trailing_whitespace = true
 
 [*.json]
 indent_size = 4
-
 ```
 
+## .eslintrc.js
 
-##.eslintrc.js
+* eslint --init
+* npm i -D eslint babel-eslint
+* package.json下scripts配置:'lint':'eslint .','fix': 'eslint --fix .'
+* git钩子，commit之前跑的命令；pre-commit
 
-- eslint --init
+### 各系统关于行尾符（End-of-Line）的规定
 
-- npm i -D eslint babel-eslint
-
-- package.json下scripts配置:'lint':'eslint .','fix': 'eslint --fix .'
-
-- git钩子，commit之前跑的命令；pre-commit
-
-
-
-
-####各系统关于行尾符（End-of-Line）的规定
-
-- Unix每行结尾为"\n",
-
-- Windows系统每行结尾是“\r\n”， 
-
-- Mac OS在 OS X以前每行结尾是"\r"， 现在每行结尾是 "\n".
+* Unix每行结尾为"\n",
+* Windows系统每行结尾是“\r\n”，
+* Mac OS在 OS X以前每行结尾是"\r"， 现在每行结尾是 "\n".
 
